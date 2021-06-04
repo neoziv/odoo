@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from collections import defaultdict
-from odoo import fields, models, _, api
-from odoo.exceptions import UserError
-from odoo.tools.float_utils import float_compare, float_is_zero
+from neoziv import fields, models, _, api
+from neoziv.exceptions import UserError
+from neoziv.tools.float_utils import float_compare, float_is_zero
 
 
 class MrpProduction(models.Model):

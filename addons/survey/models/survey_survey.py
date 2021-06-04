@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import json
 import random
 import uuid
 import werkzeug
 
-from odoo import api, exceptions, fields, models, _
-from odoo.exceptions import AccessError
-from odoo.osv import expression
-from odoo.tools import is_html_empty
+from neoziv import api, exceptions, fields, models, _
+from neoziv.exceptions import AccessError
+from neoziv.osv import expression
+from neoziv.tools import is_html_empty
 
 
 class Survey(models.Model):

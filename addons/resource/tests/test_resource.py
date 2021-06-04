@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from datetime import date, datetime
 from pytz import timezone, utc
 
-from odoo import fields
-from odoo.exceptions import ValidationError
-from odoo.addons.resource.models.resource import Intervals
-from odoo.addons.resource.tests.common import TestResourceCommon
-from odoo.tests.common import TransactionCase
+from neoziv import fields
+from neoziv.exceptions import ValidationError
+from neoziv.addons.resource.models.resource import Intervals
+from neoziv.addons.resource.tests.common import TestResourceCommon
+from neoziv.tests.common import TransactionCase
 
 
 def datetime_tz(year, month, day, hour=0, minute=0, second=0, microsecond=0, tzinfo=None):

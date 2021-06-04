@@ -1,4 +1,4 @@
-odoo.define('point_of_sale.OfflineErrorPopup', function(require) {
+neoziv.define('point_of_sale.OfflineErrorPopup', function(require) {
     'use strict';
 
     const ErrorPopup = require('point_of_sale.ErrorPopup');

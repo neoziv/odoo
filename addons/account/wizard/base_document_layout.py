@@ -1,4 +1,4 @@
-from odoo import models
+from neoziv import models
 
 
 class BaseDocumentLayout(models.TransientModel):

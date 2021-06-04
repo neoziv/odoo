@@ -4,7 +4,7 @@
  * when the user clicks the link "Share this page" on top of the page.
  */
 
-odoo.define('website_links.website_links_menu', function (require) {
+neoziv.define('website_links.website_links_menu', function (require) {
 'use strict';
 
 var publicWidget = require('web.public.widget');

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 import logging
 from lxml import etree
 import os
@@ -13,14 +13,14 @@ import werkzeug.utils
 
 from functools import partial
 
-import odoo
-from odoo import api, models
-from odoo import registry, SUPERUSER_ID
-from odoo.http import request
-from odoo.tools.safe_eval import safe_eval
-from odoo.osv.expression import FALSE_DOMAIN
-from odoo.addons.http_routing.models.ir_http import ModelConverter, _guess_mimetype
-from odoo.addons.portal.controllers.portal import _build_url_w_params
+import neoziv
+from neoziv import api, models
+from neoziv import registry, SUPERUSER_ID
+from neoziv.http import request
+from neoziv.tools.safe_eval import safe_eval
+from neoziv.osv.expression import FALSE_DOMAIN
+from neoziv.addons.http_routing.models.ir_http import ModelConverter, _guess_mimetype
+from neoziv.addons.portal.controllers.portal import _build_url_w_params
 
 logger = logging.getLogger(__name__)
 
@@ -50,7 +50,7 @@ def get_request_website():
 
     Don't import directly the method or it won't be mocked during tests, do:
     ```
-    from odoo.addons.website.models import ir_http
+    from neoziv.addons.website.models import ir_http
     my_var = ir_http.get_request_website()
     ```
     """
@@ -78,7 +78,7 @@ class Http(models.AbstractModel):
         qs = request.httprequest.query_string.decode('utf-8')
         try:
             return adapter.build(endpoint, kw) + (qs and '?%s' % qs or '')
-        except odoo.exceptions.MissingError:
+        except neoziv.exceptions.MissingError:
             raise werkzeug.exceptions.NotFound()
 
     @classmethod
@@ -162,7 +162,7 @@ class Http(models.AbstractModel):
     @classmethod
     def _dispatch(cls):
         """
-        In case of rerouting for translate (e.g. when visiting odoo.com/fr_BE/),
+        In case of rerouting for translate (e.g. when visiting neoziv.com/fr_BE/),
         _dispatch calls reroute() that returns _dispatch with altered request properties.
         The second _dispatch will continue until end of process. When second _dispatch is finished, the first _dispatch
         call receive the new altered request and continue.
@@ -241,7 +241,7 @@ class Http(models.AbstractModel):
     @classmethod
     def _get_translation_frontend_modules_name(cls):
         mods = super(Http, cls)._get_translation_frontend_modules_name()
-        installed = request.registry._init_modules | set(odoo.conf.server_wide_modules)
+        installed = request.registry._init_modules | set(neoziv.conf.server_wide_modules)
         return mods + [mod for mod in installed if mod.startswith('website')]
 
     @classmethod

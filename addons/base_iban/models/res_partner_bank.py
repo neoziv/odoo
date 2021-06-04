@@ -2,8 +2,8 @@
 
 import re
 
-from odoo import api, fields, models, _
-from odoo.exceptions import UserError, ValidationError
+from neoziv import api, fields, models, _
+from neoziv.exceptions import UserError, ValidationError
 
 
 def normalize_iban(iban):

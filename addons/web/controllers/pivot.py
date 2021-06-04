@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from collections import deque
 import io
 import json
 
-from odoo import http
-from odoo.http import request
-from odoo.tools import ustr
-from odoo.tools.misc import xlsxwriter
+from neoziv import http
+from neoziv.http import request
+from neoziv.tools import ustr
+from neoziv.tools.misc import xlsxwriter
 
 
 class TableExporter(http.Controller):

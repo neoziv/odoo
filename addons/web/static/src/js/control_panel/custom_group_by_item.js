@@ -1,4 +1,4 @@
-odoo.define('web.CustomGroupByItem', function (require) {
+neoziv.define('web.CustomGroupByItem', function (require) {
     "use strict";
 
     const DropdownMenuItem = require('web.DropdownMenuItem');

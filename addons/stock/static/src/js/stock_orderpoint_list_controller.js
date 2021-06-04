@@ -1,4 +1,4 @@
-odoo.define('stock.StockOrderpointListController', function (require) {
+neoziv.define('stock.StockOrderpointListController', function (require) {
 "use strict";
 
 var core = require('web.core');

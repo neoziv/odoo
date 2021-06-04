@@ -1,4 +1,4 @@
-odoo.define('website.s_countdown', function (require) {
+neoziv.define('website.s_countdown', function (require) {
 'use strict';
 
 const {ColorpickerWidget} = require('web.Colorpicker');

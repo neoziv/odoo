@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* mass_mailing
 # 
@@ -10,12 +10,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:29+0000\n"
 "PO-Revision-Date: 2020-09-07 08:14+0000\n"
 "Last-Translator: Foldi Robert <foldirobert@nexterp.ro>, 2021\n"
-"Language-Team: Romanian (https://www.transifex.com/odoo/teams/41243/ro/)\n"
+"Language-Team: Romanian (https://www.transifex.com/neoziv/teams/41243/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1955,8 +1955,8 @@ msgstr "DESCHIS"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.layout
-msgid "Odoo"
-msgstr "Odoo"
+msgid "neoziv"
+msgstr "neoziv"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_image_text
@@ -2556,9 +2556,9 @@ msgstr "Vă mulțumim pentru abonare!"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
-msgid "That way, Odoo evolves much faster than any other solution."
+msgid "That way, neoziv evolves much faster than any other solution."
 msgstr ""
-"În acest fel, Odoo evoluează mult mai repede decât orice altă soluție."
+"În acest fel, neoziv evoluează mult mai repede decât orice altă soluție."
 
 #. module: mass_mailing
 #: model:ir.model.fields,help:mass_mailing.field_mailing_contact_subscription__opt_out
@@ -2578,20 +2578,20 @@ msgstr ""
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
 msgid ""
-"The open source model of Odoo has allowed us to leverage thousands of developers and\n"
+"The open source model of neoziv has allowed us to leverage thousands of developers and\n"
 "                                business experts to build hundreds of apps in just a few years."
 msgstr ""
-"Modelul open source al Odoo ne-a permis să folosim mii de dezvoltatori și\n"
+"Modelul open source al neoziv ne-a permis să folosim mii de dezvoltatori și\n"
 "                                experți în afaceri să construiască sute de aplicații în doar câțiva ani."
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_text_image
 msgid ""
-"The open source model of Odoo has allowed us to leverage thousands of "
+"The open source model of neoziv has allowed us to leverage thousands of "
 "developers and business experts to build hundreds of apps in just a few "
 "years."
 msgstr ""
-"Modelul open source al Odoo ne-a permis să folosim mii de dezvoltatori și "
+"Modelul open source al neoziv ne-a permis să folosim mii de dezvoltatori și "
 "experți în afaceri pentru a construi sute de aplicații în doar câțiva ani."
 
 #. module: mass_mailing
@@ -2776,10 +2776,10 @@ msgstr "Actualizați tema"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
 msgid ""
-"Usability improvements made on Odoo will automatically apply to all\n"
+"Usability improvements made on neoziv will automatically apply to all\n"
 "                                of our fully integrated apps."
 msgstr ""
-"Îmbunătățirile de utilizare făcute pe Odoo se vor aplica automat la toate\n"
+"Îmbunătățirile de utilizare făcute pe neoziv se vor aplica automat la toate\n"
 " aplicațiile noastre complet integrate."
 
 #. module: mass_mailing
@@ -2797,11 +2797,11 @@ msgstr "Utilizați un server dedicat pentru mailings"
 #: model:ir.model.fields,help:mass_mailing.field_res_config_settings__mass_mailing_outgoing_mail_server
 #: model_terms:ir.ui.view,arch_db:mass_mailing.res_config_settings_view_form
 msgid ""
-"Use a specific mail server in priority. Otherwise Odoo relies on the first "
+"Use a specific mail server in priority. Otherwise neoziv relies on the first "
 "outgoing mail server available (based on their sequencing) as it does for "
 "normal mails."
 msgstr ""
-"Utilizați un server de e-mail specific cu prioritate. În caz contrar, Odoo "
+"Utilizați un server de e-mail specific cu prioritate. În caz contrar, neoziv "
 "se bazează pe primul server de poștă de ieșire disponibil (bazat pe "
 "secvențierea lor), așa cum se întâmplă pentru e-mailurile normale."
 
@@ -2900,19 +2900,19 @@ msgstr "Când doriți să trimiteți corespondența?"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
 msgid ""
-"With strong technical foundations, Odoo's framework is unique.\n"
+"With strong technical foundations, neoziv's framework is unique.\n"
 "                                It provides top notch usability that scales across all apps."
 msgstr ""
-"Cu fundații tehnice puternice, cadrul Odoo este unic.\n"
+"Cu fundații tehnice puternice, cadrul neoziv este unic.\n"
 "Oferă o utilizare ușoară care se întinde pe toate aplicațiile."
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_image
 msgid ""
-"With strong technical foundations, Odoo's framework is unique. It provides "
+"With strong technical foundations, neoziv's framework is unique. It provides "
 "<strong>top notch usability that scales across all apps</strong>."
 msgstr ""
-"Cu fundații tehnice puternice, cadrul Odoo este unic. Oferă <strong>o "
+"Cu fundații tehnice puternice, cadrul neoziv este unic. Oferă <strong>o "
 "utilizare ușoară care se întinde pe toate aplicațiile</strong>."
 
 #. module: mass_mailing
@@ -2947,19 +2947,19 @@ msgstr "Nu sunteți abonat la niciuna din lista noastră de corespondență."
 #: model_terms:ir.actions.act_window,help:mass_mailing.mailing_mailing_action_mail
 msgid ""
 "You don't need to import your mailing lists, you can easily\n"
-"                send emails<br> to any contact saved in other Odoo apps."
+"                send emails<br> to any contact saved in other neoziv apps."
 msgstr ""
 "Nu este nevoie să importați listele dvs. de e-mail, puteți cu ușurință să\n"
-"trimiteți e-mailuri <br> către orice contact salvat în alte aplicații Odoo."
+"trimiteți e-mailuri <br> către orice contact salvat în alte aplicații neoziv."
 
 #. module: mass_mailing
 #: model_terms:ir.actions.act_window,help:mass_mailing.action_view_mass_mailing_lists
 msgid ""
 "You don't need to import your mailing lists, you can easily\n"
-"            send emails<br> to any contact saved in other Odoo apps."
+"            send emails<br> to any contact saved in other neoziv apps."
 msgstr ""
 "Nu este nevoie să importați listele dvs. de e-mail, puteți cu ușurință să\n"
-"trimiteți e-mailuri <br> către orice contact salvat în alte aplicații Odoo."
+"trimiteți e-mailuri <br> către orice contact salvat în alte aplicații neoziv."
 
 #. module: mass_mailing
 #. openerp-web

@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import datetime
 
-from odoo import _, api, fields, models
-from odoo.exceptions import UserError
-from odoo.tools.misc import clean_context
+from neoziv import _, api, fields, models
+from neoziv.exceptions import UserError
+from neoziv.tools.misc import clean_context
 
 
 class ProductReplenish(models.TransientModel):

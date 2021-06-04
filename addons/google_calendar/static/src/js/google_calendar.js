@@ -1,4 +1,4 @@
-odoo.define('google_calendar.CalendarView', function (require) {
+neoziv.define('google_calendar.CalendarView', function (require) {
 "use strict";
 
 var core = require('web.core');
@@ -109,7 +109,7 @@ const GoogleCalendarController = CalendarController.include({
      * mean of a dialog.
      *
      * @private
-     * @returns {OdooEvent} event
+     * @returns {neozivEvent} event
      */
     _onGoogleSyncCalendar: function (event) {
         var self = this;

@@ -1,4 +1,4 @@
-odoo.define('mail/static/src/models/messaging_notification_handler/messaging_notification_handler.js', function (require) {
+neoziv.define('mail/static/src/models/messaging_notification_handler/messaging_notification_handler.js', function (require) {
 'use strict';
 
 const { registerNewModel } = require('mail/static/src/model/model_core.js');
@@ -233,7 +233,7 @@ function factory(dependencies) {
             }
 
             // Message from mailing channel should not make a notification in
-            // Odoo for users with notification "Handled by Email".
+            // neoziv for users with notification "Handled by Email".
             // Channel has been marked as read server-side in this case, so
             // it should not display a notification by incrementing the
             // unread counter.
@@ -249,16 +249,16 @@ function factory(dependencies) {
             }
             // In all other cases: update counter and notify if necessary
 
-            // Chat from OdooBot is considered disturbing and should only be
+            // Chat from neozivBot is considered disturbing and should only be
             // shown on the menu, but no notification and no thread open.
-            const isChatWithOdooBot = (
+            const isChatWithneozivBot = (
                 channel.correspondent &&
                 channel.correspondent === this.env.messaging.partnerRoot
             );
-            if (!isChatWithOdooBot) {
-                const isOdooFocused = this.env.services['bus_service'].isOdooFocused();
+            if (!isChatWithneozivBot) {
+                const isneozivFocused = this.env.services['bus_service'].isneozivFocused();
                 // Notify if out of focus
-                if (!isOdooFocused && channel.isChatChannel) {
+                if (!isneozivFocused && channel.isChatChannel) {
                     this._notifyNewChannelMessageWhileOutOfFocus({
                         channel,
                         message,

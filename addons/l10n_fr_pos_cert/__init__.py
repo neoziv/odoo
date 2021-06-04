@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from . import models
 from . import report
-from odoo import api, SUPERUSER_ID
+from neoziv import api, SUPERUSER_ID
 
 
 def _setup_inalterability(cr, registry):

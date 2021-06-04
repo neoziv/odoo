@@ -1,4 +1,4 @@
-odoo.define('web.viewUtils', function (require) {
+neoziv.define('web.viewUtils', function (require) {
 "use strict";
 
 var dom = require('web.dom');

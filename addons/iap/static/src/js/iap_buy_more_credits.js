@@ -1,4 +1,4 @@
-odoo.define('iap.buy_more_credits', function (require) {
+neoziv.define('iap.buy_more_credits', function (require) {
 'use strict';
 
 var widgetRegistry = require('web.widget_registry');

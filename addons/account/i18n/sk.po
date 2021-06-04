@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* account
 # 
@@ -24,12 +24,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-25 10:15+0000\n"
 "PO-Revision-Date: 2020-09-07 08:09+0000\n"
 "Last-Translator: Rastislav Brencic <rastislav.brencic@azet.sk>, 2021\n"
-"Language-Team: Slovak (https://www.transifex.com/odoo/teams/41243/sk/)\n"
+"Language-Team: Slovak (https://www.transifex.com/neoziv/teams/41243/sk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -4362,10 +4362,10 @@ msgstr "Režim dátumu"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_financial_year_op__opening_date
 msgid ""
-"Date from which the accounting is managed in Odoo. It is the date of the "
+"Date from which the accounting is managed in neoziv. It is the date of the "
 "opening entry."
 msgstr ""
-"Dátum odkedy je účtovníctvo riadené v Odoo. Je to dátum otváracej položky."
+"Dátum odkedy je účtovníctvo riadené v neoziv. Je to dátum otváracej položky."
 
 #. module: account
 #. openerp-web
@@ -7578,39 +7578,39 @@ msgstr "Manuálne"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__inbound_payment_method_ids
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Odoo.\n"
+"Manual: Get paid by cash, check or any other method outside of neoziv.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in neoziv,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
 msgstr ""
-"Ručne: platba v hotovosti, šekom alebo inou metódou mimo Odoo.\n"
+"Ručne: platba v hotovosti, šekom alebo inou metódou mimo neoziv.\n"
 "Elektronicky: Platba automaticky prostredníctvom príjemcu platby vyžiadaním transakcie na karte predloženej zákazníkom pri nákupe alebo  online (platobný token).\n"
-"Dávkové vklady: Vykryte niekoľko zákazníckych šekov naraz tým, že vytvoríte dávku na vklad, ktorú chcete predložiť banke Pri kódovaní bankového výpisu v Odoo sa odporúča zosúladiť transakciu s dávkovým vkladom. Povoľte túto možnosť v nastavení."
+"Dávkové vklady: Vykryte niekoľko zákazníckych šekov naraz tým, že vytvoríte dávku na vklad, ktorú chcete predložiť banke Pri kódovaní bankového výpisu v neoziv sa odporúča zosúladiť transakciu s dávkovým vkladom. Povoľte túto možnosť v nastavení."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment__payment_method_id
 #: model:ir.model.fields,help:account.field_account_payment_register__payment_method_id
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Odoo.\n"
+"Manual: Get paid by cash, check or any other method outside of neoziv.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Check: Pay bill by check and print it from Odoo.\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo, you are suggested to reconcile the transaction with the batch deposit.To enable batch deposit, module account_batch_payment must be installed.\n"
+"Check: Pay bill by check and print it from neoziv.\n"
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in neoziv, you are suggested to reconcile the transaction with the batch deposit.To enable batch deposit, module account_batch_payment must be installed.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. To enable sepa credit transfer, module account_sepa must be installed "
 msgstr ""
-"Manuálne: Získajte platby v hotovosti, šekom alebo iným spôsobom mimo Odoo.\n"
+"Manuálne: Získajte platby v hotovosti, šekom alebo iným spôsobom mimo neoziv.\n"
 "Elektronické: Získajte platby automaticky prostredníctvom nadobúdateľa platby vyžiadaním transakcie na karte uloženej zákazníkom pri nákupe alebo prihlásení na odber online (platobný token).\n"
-"Šek: Zaplaťte účet šekom a vytlačte si ho z Odoo.\n"
-"Hromadný vklad: Zaplaťte niekoľko šekov zákazníkov naraz vygenerovaním hromadného vkladu na odoslanie do svojej banky. Pri kódovaní bankového výpisu v Odoo sa navrhuje zosúladiť transakciu s dávkovým vkladom. Ak chcete povoliť dávkový vklad, musí byť nainštalovaný modul account_batch_payment.\n"
+"Šek: Zaplaťte účet šekom a vytlačte si ho z neoziv.\n"
+"Hromadný vklad: Zaplaťte niekoľko šekov zákazníkov naraz vygenerovaním hromadného vkladu na odoslanie do svojej banky. Pri kódovaní bankového výpisu v neoziv sa navrhuje zosúladiť transakciu s dávkovým vkladom. Ak chcete povoliť dávkový vklad, musí byť nainštalovaný modul account_batch_payment.\n"
 "Kreditný prevod SEPA: Zaplaťte účet zo súboru SEPA kreditného prevodu, ktorý pošlete svojej banke. Ak chcete povoliť samostatný prevod kreditov, musí byť nainštalovaný modul account_sepa"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__outbound_payment_method_ids
 msgid ""
-"Manual:Pay bill by cash or any other method outside of Odoo.\n"
-"Check:Pay bill by check and print it from Odoo.\n"
+"Manual:Pay bill by cash or any other method outside of neoziv.\n"
+"Check:Pay bill by check and print it from neoziv.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. Enable this option from the settings."
 msgstr ""
-"Ručne: platba v hotovosti, šekom alebo inou metódou mimo Odoo..\n"
-"Šek: platba šekom na základe tlače z Odoo.\n"
+"Ručne: platba v hotovosti, šekom alebo inou metódou mimo neoziv..\n"
+"Šek: platba šekom na základe tlače z neoziv.\n"
 "SEPA bankový prevod: platba prevodným príkazom SEPA doručeným banke. Povoľte túto možnosť v nastavení."
 
 #. module: account
@@ -8273,33 +8273,33 @@ msgid "October"
 msgstr "Október"
 
 #. module: account
-#: model:ir.model.fields.selection,name:account.selection__account_journal__invoice_reference_model__odoo
-msgid "Odoo"
-msgstr "Odoo"
+#: model:ir.model.fields.selection,name:account.selection__account_journal__invoice_reference_model__neoziv
+msgid "neoziv"
+msgstr "neoziv"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_line
 msgid ""
-"Odoo allows you to reconcile a statement line directly with\n"
+"neoziv allows you to reconcile a statement line directly with\n"
 "                the related sale or purchase invoice(s)."
 msgstr ""
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_tree
 msgid ""
-"Odoo allows you to reconcile a statement line directly with\n"
+"neoziv allows you to reconcile a statement line directly with\n"
 "                the related sale or purchase invoices."
 msgstr ""
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_customer
-msgid "Odoo helps you easily track all activities related to a customer."
-msgstr "Odoo pomáha pri sledovaní všetkých aktivít spojených so zákazníkom."
+msgid "neoziv helps you easily track all activities related to a customer."
+msgstr "neoziv pomáha pri sledovaní všetkých aktivít spojených so zákazníkom."
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_supplier
-msgid "Odoo helps you easily track all activities related to a supplier."
-msgstr "Odoo vám pomôže ľahko sledovať všetky činnosti spojené s dodávateľom."
+msgid "neoziv helps you easily track all activities related to a supplier."
+msgstr "neoziv vám pomôže ľahko sledovať všetky činnosti spojené s dodávateľom."
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_account_type__internal_group__off_balance
@@ -10590,7 +10590,7 @@ msgid ""
 "\n"
 "Any file extension will be accepted.\n"
 "\n"
-"Only PDF and XML files will be interpreted by Odoo"
+"Only PDF and XML files will be interpreted by neoziv"
 msgstr ""
 
 #. module: account
@@ -13169,11 +13169,11 @@ msgstr "Tento presun bude zaúčtovaný k účtovnému dňu:%(date)s"
 msgid ""
 "This option permanently removes any track of email after it's been sent, "
 "including from the Technical menu in the Settings, in order to preserve "
-"storage space of your Odoo database."
+"storage space of your neoziv database."
 msgstr ""
 "Táto možnosť natrvalo odstráni všetky stopy e-mailov po ich odoslaní, a to "
 "aj z ponuky technické v ponuke nastavenia, aby sa zachoval úložný priestor "
-"vašej databázy Odoo."
+"vašej databázy neoziv."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_account_template__chart_template_id
@@ -14056,8 +14056,8 @@ msgstr "S menou"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_tour_upload_bill
-msgid "With Odoo, you won't have to records bills manually"
-msgstr "S Odoo nebudete musieť prijaté faktúry evidovať manuálne"
+msgid "With neoziv, you won't have to records bills manually"
+msgstr "S neoziv nebudete musieť prijaté faktúry evidovať manuálne"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_reconcile_model_search
@@ -14104,10 +14104,10 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_journal__invoice_reference_model
 msgid ""
 "You can choose different models for each type of reference. The default one "
-"is the Odoo reference."
+"is the neoziv reference."
 msgstr ""
 "Pre každý typ referencie môžete zvoliť odlišné modely. Predvolený je odkaz "
-"na Odoo."
+"na neoziv."
 
 #. module: account
 #: code:addons/account/models/account_payment_term.py:0

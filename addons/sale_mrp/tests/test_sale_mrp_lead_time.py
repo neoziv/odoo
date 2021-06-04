@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from datetime import timedelta
 
-from odoo import fields
-from odoo.addons.stock.tests.common2 import TestStockCommon
+from neoziv import fields
+from neoziv.addons.stock.tests.common2 import TestStockCommon
 
-from odoo.tests import Form
+from neoziv.tests import Form
 
 
 class TestSaleMrpLeadTime(TestStockCommon):

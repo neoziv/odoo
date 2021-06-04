@@ -1,4 +1,4 @@
-odoo.define('web.UserMenu', function (require) {
+neoziv.define('web.UserMenu', function (require) {
 "use strict";
 
 /**
@@ -70,7 +70,7 @@ var UserMenu = Widget.extend({
                     })
                     .guardedCatch(function (result, ev){
                         ev.preventDefault();
-                        framework.redirect('https://accounts.odoo.com/account');
+                        framework.redirect('https://accounts.neoziv.com/account');
                     });
             },
         });
@@ -79,7 +79,7 @@ var UserMenu = Widget.extend({
      * @private
      */
     _onMenuDocumentation: function () {
-        window.open('https://www.odoo.com/documentation/14.0', '_blank');
+        window.open('https://www.neoziv.com/documentation/14.0', '_blank');
     },
     /**
      * @private
@@ -112,7 +112,7 @@ var UserMenu = Widget.extend({
      * @private
      */
     _onMenuSupport: function () {
-        window.open('https://www.odoo.com/buy', '_blank');
+        window.open('https://www.neoziv.com/buy', '_blank');
     },
     /**
      * @private

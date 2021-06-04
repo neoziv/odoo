@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* analytic
 # 
@@ -10,12 +10,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~12.5\n"
+"Project-Id-Version: neoziv Server saas~12.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-09 12:17+0000\n"
 "PO-Revision-Date: 2020-09-07 08:10+0000\n"
 "Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2021\n"
-"Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
+"Language-Team: Italian (https://www.transifex.com/neoziv/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -358,11 +358,11 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action_entries
 msgid ""
-"In Odoo, sales orders and projects are implemented using\n"
+"In neoziv, sales orders and projects are implemented using\n"
 "                analytic accounts. You can track costs and revenues to analyse\n"
 "                your margins easily."
 msgstr ""
-"In Odoo, gli ordini di vendita e i progetti vengono implementati usando\n"
+"In neoziv, gli ordini di vendita e i progetti vengono implementati usando\n"
 "                i conti analitici. Per analizzare facilmente i margini è possibile\n"
 "                tenere traccia dei costi e dei ricavi."
 

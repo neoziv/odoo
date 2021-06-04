@@ -4,11 +4,11 @@ from datetime import timedelta, datetime, date
 import calendar
 from dateutil.relativedelta import relativedelta
 
-from odoo import fields, models, api, _
-from odoo.exceptions import ValidationError, UserError, RedirectWarning
-from odoo.tools.misc import format_date
-from odoo.tools.float_utils import float_round, float_is_zero
-from odoo.tests.common import Form
+from neoziv import fields, models, api, _
+from neoziv.exceptions import ValidationError, UserError, RedirectWarning
+from neoziv.tools.misc import format_date
+from neoziv.tools.float_utils import float_round, float_is_zero
+from neoziv.tests.common import Form
 
 
 MONTH_SELECTION = [

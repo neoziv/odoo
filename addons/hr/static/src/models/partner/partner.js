@@ -1,4 +1,4 @@
-odoo.define('hr/static/src/models/partner/partner.js', function (require) {
+neoziv.define('hr/static/src/models/partner/partner.js', function (require) {
 'use strict';
 
 const {

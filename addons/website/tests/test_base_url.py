@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from lxml.html import document_fromstring
 
-import odoo.tests
+import neoziv.tests
 
 
-class TestUrlCommon(odoo.tests.HttpCase):
+class TestUrlCommon(neoziv.tests.HttpCase):
     def setUp(self):
         super(TestUrlCommon, self).setUp()
-        self.domain = 'http://' + odoo.tests.HOST
+        self.domain = 'http://' + neoziv.tests.HOST
         self.website = self.env['website'].create({
             'name': 'test base url',
             'domain': self.domain,
@@ -26,7 +26,7 @@ class TestUrlCommon(odoo.tests.HttpCase):
         self.assertEqual(canonical_link[0].attrib["href"], canonical_url)
 
 
-@odoo.tests.tagged('-at_install', 'post_install')
+@neoziv.tests.tagged('-at_install', 'post_install')
 class TestBaseUrl(TestUrlCommon):
     def test_01_base_url(self):
         ICP = self.env['ir.config_parameter']

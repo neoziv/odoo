@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 {
-    'name': 'OdooBot',
+    'name': 'neozivBot',
     'version': '1.2',
     'category': 'Productivity/Discuss',
-    'summary': 'Add OdooBot in discussions',
+    'summary': 'Add neozivBot in discussions',
     'description': "",
-    'website': 'https://www.odoo.com/page/discuss',
+    'website': 'https://www.neoziv.com/page/discuss',
     'depends': ['mail'],
     'auto_install': True,
     'installable': True,

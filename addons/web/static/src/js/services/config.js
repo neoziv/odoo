@@ -1,4 +1,4 @@
-odoo.define('web.config', function (require) {
+neoziv.define('web.config', function (require) {
 "use strict";
 
 const Bus = require('web.Bus');
@@ -72,9 +72,9 @@ var config = {
      */
     isDebug: function (debugMode) {
         if (debugMode) {
-            return odoo.debug && odoo.debug.indexOf(debugMode) !== -1;
+            return neoziv.debug && neoziv.debug.indexOf(debugMode) !== -1;
         }
-        return odoo.debug;
+        return neoziv.debug;
     },
 };
 

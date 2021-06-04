@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo import models, fields, api
+from neoziv import models, fields, api
 
-from odoo.exceptions import ValidationError
+from neoziv.exceptions import ValidationError
 
-from odoo.addons.base_iban.models.res_partner_bank import validate_iban
-from odoo.addons.base.models.res_bank import sanitize_account_number
+from neoziv.addons.base_iban.models.res_partner_bank import validate_iban
+from neoziv.addons.base.models.res_bank import sanitize_account_number
 
 
 class AccountJournal(models.Model):
@@ -16,7 +16,7 @@ class AccountJournal(models.Model):
     l10n_ch_postal = fields.Char('Client Number', related='bank_account_id.l10n_ch_postal', readonly=False)
     invoice_reference_model = fields.Selection(selection_add=[
         ('ch', 'Switzerland')
-    ], ondelete={'ch': lambda recs: recs.write({'invoice_reference_model': 'odoo'})})
+    ], ondelete={'ch': lambda recs: recs.write({'invoice_reference_model': 'neoziv'})})
 
     @api.model
     def create(self, vals):

@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from datetime import datetime
 from pytz import UTC
 
-from odoo import api, fields, models
-from odoo.tools import DEFAULT_SERVER_DATETIME_FORMAT
+from neoziv import api, fields, models
+from neoziv.tools import DEFAULT_SERVER_DATETIME_FORMAT
 
 
 class AdyenTransaction(models.Model):

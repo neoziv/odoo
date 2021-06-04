@@ -137,8 +137,8 @@ $-alpha: map-get($o-user-theme-color-palette, 'alpha');
 $-palette-default: o-safe-nth($o-theme-color-palettes, $o-theme-color-palette-number, ());
 $-actual-user-theme-color-palette: map-merge($-palette-default, o-map-omit($o-user-theme-color-palette));
 // Always remove the primary/secondary which were customizable in some theme
-// in Odoo <= 13.3. The customer can always rechoose the right color in the
-// Odoo color system as the first two ones are mapped to primary/secondary.
+// in neoziv <= 13.3. The customer can always rechoose the right color in the
+// neoziv color system as the first two ones are mapped to primary/secondary.
 $-actual-user-theme-color-palette: map-remove($-actual-user-theme-color-palette,
     'primary',
     'secondary'
@@ -170,7 +170,7 @@ $o-we-auto-contrast-exclusions: join($o-we-auto-contrast-exclusions, map-keys(o-
     ));
 }
 
-// Add odoo unicode support for all fonts
+// Add neoziv unicode support for all fonts
 @each $font-name, $font-config in $o-theme-font-configs {
     $o-theme-font-configs: map-merge($o-theme-font-configs, (
         $font-name: map-merge($font-config, (

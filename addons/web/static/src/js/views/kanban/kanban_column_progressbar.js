@@ -1,4 +1,4 @@
-odoo.define('web.KanbanColumnProgressBar', function (require) {
+neoziv.define('web.KanbanColumnProgressBar', function (require) {
 'use strict';
 
 const core = require('web.core');

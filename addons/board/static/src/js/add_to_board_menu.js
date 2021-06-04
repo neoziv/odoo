@@ -1,4 +1,4 @@
-odoo.define('board.AddToBoardMenu', function (require) {
+neoziv.define('board.AddToBoardMenu', function (require) {
     "use strict";
 
     const Context = require('web.Context');

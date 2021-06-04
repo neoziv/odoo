@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* project
 # 
@@ -19,11 +19,11 @@
 # Karol Rybak <karolrybak85@gmail.com>, 2020
 # Andrzej Donczew <a.donczew@hadron.eu.com>, 2020
 # Piotr Cierkosz <piotr.w.cierkosz@gmail.com>, 2020
-# Paweł Wodyński <pw@myodoo.pl>, 2020
+# Paweł Wodyński <pw@myneoziv.pl>, 2020
 # Maja Stawicka <mjstwck@wp.pl>, 2020
 # Wiktor Kaźmierczak <wik92tor@wp.pl>, 2020
-# Maksym <ms@myodoo.pl>, 2020
-# Natalia Gros <nag@odoo.com>, 2020
+# Maksym <ms@myneoziv.pl>, 2020
+# Natalia Gros <nag@neoziv.com>, 2020
 # Grzegorz Michrowski <grzegorz.michrowski@openglobe.pl>, 2020
 # Martin Trigaux, 2020
 # Grzegorz Grzelak <grzegorz.grzelak@openglobe.pl>, 2020
@@ -33,12 +33,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 11:23+0000\n"
 "PO-Revision-Date: 2020-09-07 08:17+0000\n"
 "Last-Translator: Piotr Strębski <strebski@gmail.com>, 2021\n"
-"Language-Team: Polish (https://www.transifex.com/odoo/teams/41243/pl/)\n"
+"Language-Team: Polish (https://www.transifex.com/neoziv/teams/41243/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1135,7 +1135,7 @@ msgstr ""
 #: code:addons/project/static/src/js/project_task_kanban_examples.js:0
 #, python-format
 msgid ""
-"Customers propose feedbacks by email; Odoo creates tasks automatically, and "
+"Customers propose feedbacks by email; neoziv creates tasks automatically, and "
 "you can communicate on the task directly. Your managers decide which "
 "feedback is accepted %s and which feedback is moved to the %s column. %s"
 msgstr ""
@@ -3553,11 +3553,11 @@ msgstr "Testy"
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (neoziv Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"Model (rodzaj dokumentu Odoo), któremu odpowiada ten alias. Każda "
+"Model (rodzaj dokumentu neoziv), któremu odpowiada ten alias. Każda "
 "przychodząca wiadomość e-mail, która nie odpowiada istniejącemu rekordowi, "
 "spowoduje utworzenie nowego rekordu tego modelu (np. Zadanie projektu)"
 
@@ -3565,10 +3565,10 @@ msgstr ""
 #: model:ir.model.fields,help:project.field_project_project__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.neoziv.com>"
 msgstr ""
 "Nazwa aliasu e-mail, np. \"jobs\", jeśli chcesz przechwytywać wiadomości "
-"e-mail dla <jobs@example.odoo.com>"
+"e-mail dla <jobs@example.neoziv.com>"
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_user_id

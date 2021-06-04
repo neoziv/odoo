@@ -1,4 +1,4 @@
-odoo.define('web.datepicker', function (require) {
+neoziv.define('web.datepicker', function (require) {
 "use strict";
 
 var core = require('web.core');

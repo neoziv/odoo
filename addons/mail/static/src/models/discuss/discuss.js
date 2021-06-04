@@ -1,4 +1,4 @@
-odoo.define('mail/static/src/models/discuss.discuss.js', function (require) {
+neoziv.define('mail/static/src/models/discuss.discuss.js', function (require) {
 'use strict';
 
 const { registerNewModel } = require('mail/static/src/model/model_core.js');
@@ -100,7 +100,7 @@ function factory(dependencies) {
                 });
             });
             // XDU FIXME could use a component but be careful with owl's
-            // renderToString https://github.com/odoo/owl/issues/708
+            // renderToString https://github.com/neoziv/owl/issues/708
             items.push({
                 label: _.str.sprintf(
                     `<strong>${this.env._t('Create %s')}</strong>`,

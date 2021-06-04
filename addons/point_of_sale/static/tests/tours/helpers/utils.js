@@ -1,4 +1,4 @@
-odoo.define('point_of_sale.tour.utils', function (require) {
+neoziv.define('point_of_sale.tour.utils', function (require) {
     'use strict';
 
     const config = require('web.config');

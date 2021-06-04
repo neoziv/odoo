@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* website_event
 # 
@@ -9,30 +9,30 @@
 # Maxime Chambreuil <mchambreuil@ursainfosystems.com>, 2020
 # Frédéric LIETART <stuff@tifred.fr>, 2020
 # Olivier Lenoir <olivier.lenoir@free.fr>, 2020
-# Richard Mathot <rim@odoo.com>, 2020
+# Richard Mathot <rim@neoziv.com>, 2020
 # Xavier Belmere <Info@cartmeleon.com>, 2020
 # Aurélien Pillevesse <aurelienpillevesse@hotmail.fr>, 2020
-# Fred Gilson <fgi@odoo.com>, 2020
-# Eloïse Stilmant <est@odoo.com>, 2020
+# Fred Gilson <fgi@neoziv.com>, 2020
+# Eloïse Stilmant <est@neoziv.com>, 2020
 # LuceEasyPme <luce@easypme.com>, 2020
-# gdp Odoo <gdp@odoo.com>, 2020
-# Inès Gérardy <ige@odoo.com>, 2020
+# gdp neoziv <gdp@neoziv.com>, 2020
+# Inès Gérardy <ige@neoziv.com>, 2020
 # Gilles Mangin <gilles.mangin@phidias.fr>, 2020
-# Priscilla (prs) Odoo <prs@odoo.com>, 2020
-# Pauline Thiry <pth@odoo.com>, 2020
-# Cécile Collart <cco@odoo.com>, 2020
+# Priscilla (prs) neoziv <prs@neoziv.com>, 2020
+# Pauline Thiry <pth@neoziv.com>, 2020
+# Cécile Collart <cco@neoziv.com>, 2020
 # Sébastien BÜHL <buhlsebastien@gmail.com>, 2021
-# Clément Watthez <cwa@odoo.com>, 2021
-# Alexandra Jubert <aju@odoo.com>, 2021
+# Clément Watthez <cwa@neoziv.com>, 2021
+# Alexandra Jubert <aju@neoziv.com>, 2021
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 15:41+0000\n"
 "PO-Revision-Date: 2020-09-07 08:20+0000\n"
-"Last-Translator: Alexandra Jubert <aju@odoo.com>, 2021\n"
-"Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"Last-Translator: Alexandra Jubert <aju@neoziv.com>, 2021\n"
+"Language-Team: French (https://www.transifex.com/neoziv/teams/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -333,12 +333,12 @@ msgid ""
 "At just 13 years old, John DOE was already starting to develop his first "
 "business applications for customers. After mastering civil engineering, he "
 "founded TinyERP. This was the first phase of OpenERP which would later "
-"became Odoo, the most installed open-source business software worldwide."
+"became neoziv, the most installed open-source business software worldwide."
 msgstr ""
 "À seulement 13 ans, John DOE commençait déjà à développer ses premières "
 "applications commerciales pour des clients. Après une maîtrise en génie "
 "civil, il a fondé TinyERP. Ce fut la première phase d'OpenERP qui deviendra "
-"plus tard Odoo, le logiciel d'entreprise open source le plus installé au "
+"plus tard neoziv, le logiciel d'entreprise open source le plus installé au "
 "monde."
 
 #. module: website_event

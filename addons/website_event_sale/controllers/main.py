@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo import http, _
-from odoo.addons.website_event.controllers.main import WebsiteEventController
-from odoo.http import request
+from neoziv import http, _
+from neoziv.addons.website_event.controllers.main import WebsiteEventController
+from neoziv.http import request
 
 
 class WebsiteEventSaleController(WebsiteEventController):

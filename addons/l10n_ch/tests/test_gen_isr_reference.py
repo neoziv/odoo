@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo.addons.account.tests.common import AccountTestInvoicingCommon
-from odoo.tests import common, Form
+from neoziv.addons.account.tests.common import AccountTestInvoicingCommon
+from neoziv.tests import common, Form
 
 QR_IBAN = 'CH21 3080 8001 2345 6782 7'
 ISR_SUBS_NUMBER = "01-162-8"

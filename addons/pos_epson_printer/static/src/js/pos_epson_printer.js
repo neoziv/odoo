@@ -1,4 +1,4 @@
-odoo.define('pos_epson_printer.pos_epson_printer', function (require) {
+neoziv.define('pos_epson_printer.pos_epson_printer', function (require) {
 "use strict";
 
 var models = require('point_of_sale.models');

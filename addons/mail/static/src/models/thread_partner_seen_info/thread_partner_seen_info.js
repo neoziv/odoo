@@ -1,4 +1,4 @@
-odoo.define('mail/static/src/models/thread_partner_seen_info/thread_partner_seen_info.js', function (require) {
+neoziv.define('mail/static/src/models/thread_partner_seen_info/thread_partner_seen_info.js', function (require) {
 'use strict';
 
 const { registerNewModel } = require('mail/static/src/model/model_core.js');

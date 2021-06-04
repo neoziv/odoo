@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo.addons.mail.tests.common import mail_new_test_user
-from odoo.addons.project.tests.test_project_base import TestProjectCommon
-from odoo.exceptions import AccessError, ValidationError
-from odoo.tests.common import users
+from neoziv.addons.mail.tests.common import mail_new_test_user
+from neoziv.addons.project.tests.test_project_base import TestProjectCommon
+from neoziv.exceptions import AccessError, ValidationError
+from neoziv.tests.common import users
 
 
 class TestAccessRights(TestProjectCommon):

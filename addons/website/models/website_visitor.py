@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from datetime import datetime, timedelta
 import uuid
 import pytz
 
-from odoo import fields, models, api, _
-from odoo.addons.base.models.res_partner import _tz_get
-from odoo.exceptions import UserError
-from odoo.tools.misc import _format_time_ago
-from odoo.http import request
-from odoo.osv import expression
+from neoziv import fields, models, api, _
+from neoziv.addons.base.models.res_partner import _tz_get
+from neoziv.exceptions import UserError
+from neoziv.tools.misc import _format_time_ago
+from neoziv.http import request
+from neoziv.osv import expression
 
 
 class WebsiteTrack(models.Model):

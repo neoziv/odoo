@@ -1,4 +1,4 @@
-odoo.define('pos_mercury.PaymentScreenPaymentLines', function (require) {
+neoziv.define('pos_mercury.PaymentScreenPaymentLines', function (require) {
     'use strict';
 
     const PaymentScreenPaymentLines = require('point_of_sale.PaymentScreenPaymentLines');

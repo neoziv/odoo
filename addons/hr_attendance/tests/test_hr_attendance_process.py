@@ -4,9 +4,9 @@ import pytz
 from datetime import datetime
 from unittest.mock import patch
 
-from odoo import fields
-from odoo.tests import new_test_user
-from odoo.tests.common import TransactionCase
+from neoziv import fields
+from neoziv.tests import new_test_user
+from neoziv.tests.common import TransactionCase
 
 
 class TestHrAttendance(TransactionCase):

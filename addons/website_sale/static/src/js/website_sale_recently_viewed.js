@@ -1,4 +1,4 @@
-odoo.define('website_sale.recently_viewed', function (require) {
+neoziv.define('website_sale.recently_viewed', function (require) {
 
 var concurrency = require('web.concurrency');
 var config = require('web.config');

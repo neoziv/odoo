@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* im_livechat_mail_bot
 # 
@@ -8,12 +8,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~13.5\n"
+"Project-Id-Version: neoziv Server saas~13.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-01 07:29+0000\n"
 "PO-Revision-Date: 2020-09-07 08:13+0000\n"
 "Last-Translator: JH CHOI <hwangtog@gmail.com>, 2020\n"
-"Language-Team: Korean (https://www.transifex.com/odoo/teams/41243/ko/)\n"
+"Language-Team: Korean (https://www.transifex.com/neoziv/teams/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -32,9 +32,9 @@ msgstr "이름 표시"
 msgid ""
 "Good, you can customize canned responses in the live chat "
 "application.<br/><br/><b>It's the end of this overview</b>, enjoy "
-"discovering Odoo!"
+"discovering neoziv!"
 msgstr ""
-"좋습니다. 실시간 채팅 응용 프로그램에서 미리 준비된 답변을 맞춤 설정할 수 있습니다. 그것이 이 미리보기의 끝입니다. Odoo를 "
+"좋습니다. 실시간 채팅 응용 프로그램에서 미리 준비된 답변을 맞춤 설정할 수 있습니다. 그것이 이 미리보기의 끝입니다. neoziv를 "
 "발견하고 즐기십시오!"
 
 #. module: im_livechat_mail_bot
@@ -59,17 +59,17 @@ msgstr "메일 봇"
 #, python-format
 msgid ""
 "Not sure what you are doing. Please, type <span "
-"class=\"o_odoobot_command\">:</span> and wait for the propositions. Select "
+"class=\"o_neozivbot_command\">:</span> and wait for the propositions. Select "
 "one of them and press enter."
 msgstr ""
 
 #. module: im_livechat_mail_bot
-#: model:ir.model.fields,field_description:im_livechat_mail_bot.field_res_users__odoobot_state
-msgid "OdooBot Status"
-msgstr "Odoo봇 상태"
+#: model:ir.model.fields,field_description:im_livechat_mail_bot.field_res_users__neozivbot_state
+msgid "neozivBot Status"
+msgstr "neoziv봇 상태"
 
 #. module: im_livechat_mail_bot
-#: model:ir.model.fields.selection,name:im_livechat_mail_bot.selection__res_users__odoobot_state__onboarding_canned
+#: model:ir.model.fields.selection,name:im_livechat_mail_bot.selection__res_users__neozivbot_state__onboarding_canned
 msgid "Onboarding canned"
 msgstr "신입사원 연수 프로그램 사전준비물"
 
@@ -77,7 +77,7 @@ msgstr "신입사원 연수 프로그램 사전준비물"
 #: code:addons/im_livechat_mail_bot/models/mail_bot.py:0
 #, python-format
 msgid ""
-"That's me! 🎉<br/>Try typing <span class=\"o_odoobot_command\">:</span> to "
+"That's me! 🎉<br/>Try typing <span class=\"o_neozivbot_command\">:</span> to "
 "use canned responses."
 msgstr ""
 

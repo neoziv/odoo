@@ -1,4 +1,4 @@
-odoo.define('mail.emojis', function (require) {
+neoziv.define('mail.emojis', function (require) {
 "use strict";
 
 /**

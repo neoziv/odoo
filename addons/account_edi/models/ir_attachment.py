@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-from odoo import models, fields, _
-from odoo.exceptions import UserError
+from neoziv import models, fields, _
+from neoziv.exceptions import UserError
 
 
 class IrAttachment(models.Model):

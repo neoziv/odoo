@@ -1,4 +1,4 @@
-odoo.define('pos_restaurant.tour.ControlButtons', function (require) {
+neoziv.define('pos_restaurant.tour.ControlButtons', function (require) {
     'use strict';
 
     const { TextAreaPopup } = require('pos_restaurant.tour.TextAreaPopupTourMethods');

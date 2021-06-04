@@ -1,4 +1,4 @@
-odoo.define('account.tax_group', function (require) {
+neoziv.define('account.tax_group', function (require) {
     "use strict";
 
     var core = require('web.core');

@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-from odoo import api, fields, models, _
-from odoo.addons.payment.models.payment_acquirer import ValidationError
-from odoo.tools.float_utils import float_compare
+from neoziv import api, fields, models, _
+from neoziv.addons.payment.models.payment_acquirer import ValidationError
+from neoziv.tools.float_utils import float_compare
 
 import logging
 import pprint

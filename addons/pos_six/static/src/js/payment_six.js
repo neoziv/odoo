@@ -1,4 +1,4 @@
-odoo.define('pos_six.payment', function (require) {
+neoziv.define('pos_six.payment', function (require) {
 "use strict";
 
 const { Gui } = require('point_of_sale.Gui');

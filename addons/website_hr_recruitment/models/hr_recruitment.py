@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from werkzeug import urls
 
-from odoo import api, fields, models
-from odoo.tools.translate import html_translate
+from neoziv import api, fields, models
+from neoziv.tools.translate import html_translate
 
 
 class RecruitmentSource(models.Model):

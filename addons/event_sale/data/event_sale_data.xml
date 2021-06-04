@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<odoo>
+<neoziv>
     <data noupdate="1">
         <record id="product_category_events" model="product.category">
             <field name="parent_id" ref="product.product_category_1"/>
@@ -18,7 +18,7 @@
             <field name="type">service</field>
         </record>
     </data>
-</odoo>
+</neoziv>
 
 
 

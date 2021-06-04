@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo import models
-from odoo.osv.expression import OR
+from neoziv import models
+from neoziv.osv.expression import OR
 
 
 class StockPicking(models.Model):

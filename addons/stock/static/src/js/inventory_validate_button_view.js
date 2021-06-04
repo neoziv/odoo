@@ -1,4 +1,4 @@
-odoo.define('stock.InventoryValidationView', function (require) {
+neoziv.define('stock.InventoryValidationView', function (require) {
 "use strict";
 
 var InventoryValidationController = require('stock.InventoryValidationController');

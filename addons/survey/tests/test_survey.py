@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo import _
-from odoo.addons.survey.tests import common
-from odoo.tests.common import users
+from neoziv import _
+from neoziv.addons.survey.tests import common
+from neoziv.tests.common import users
 
 
 class TestSurveyInternals(common.TestSurveyCommon):

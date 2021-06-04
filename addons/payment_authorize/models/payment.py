@@ -7,11 +7,11 @@ import hmac
 import logging
 import time
 
-from odoo import _, api, fields, models
-from odoo.addons.payment.models.payment_acquirer import ValidationError
-from odoo.addons.payment_authorize.controllers.main import AuthorizeController
-from odoo.tools.float_utils import float_compare, float_repr
-from odoo.exceptions import UserError
+from neoziv import _, api, fields, models
+from neoziv.addons.payment.models.payment_acquirer import ValidationError
+from neoziv.addons.payment_authorize.controllers.main import AuthorizeController
+from neoziv.tools.float_utils import float_compare, float_repr
+from neoziv.exceptions import UserError
 
 _logger = logging.getLogger(__name__)
 

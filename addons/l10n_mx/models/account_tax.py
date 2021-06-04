@@ -1,5 +1,5 @@
 # coding: utf-8
-from odoo import models, fields
+from neoziv import models, fields
 
 
 class AccountTaxTemplate(models.Model):

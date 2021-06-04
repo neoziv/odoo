@@ -1,4 +1,4 @@
-odoo.define('web.kanban_benchmarks', function (require) {
+neoziv.define('web.kanban_benchmarks', function (require) {
     "use strict";
 
     const KanbanView = require('web.KanbanView');

@@ -1,4 +1,4 @@
-odoo.define('account.bank_statement', function(require) {
+neoziv.define('account.bank_statement', function(require) {
     "use strict";
 
     var KanbanController = require("web.KanbanController");

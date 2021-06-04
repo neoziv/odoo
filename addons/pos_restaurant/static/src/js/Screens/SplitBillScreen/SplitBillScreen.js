@@ -1,4 +1,4 @@
-odoo.define('pos_restaurant.SplitBillScreen', function(require) {
+neoziv.define('pos_restaurant.SplitBillScreen', function(require) {
     'use strict';
 
     const PosComponent = require('point_of_sale.PosComponent');

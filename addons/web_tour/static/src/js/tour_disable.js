@@ -1,4 +1,4 @@
-odoo.define('web_tour.DisableTour', function (require) {
+neoziv.define('web_tour.DisableTour', function (require) {
 "use strict";
 
 var local_storage = require('web.local_storage');
@@ -9,7 +9,7 @@ var get_debugging_key = utils.get_debugging_key;
 
 TourManager.include({
     /**
-     * Disables tours if Odoo installed with demo data.
+     * Disables tours if neoziv installed with demo data.
      *
      * @override
      */

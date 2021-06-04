@@ -1,4 +1,4 @@
-odoo.define('web_editor.ColorPalette', function (require) {
+neoziv.define('web_editor.ColorPalette', function (require) {
 'use strict';
 
 const ajax = require('web.ajax');

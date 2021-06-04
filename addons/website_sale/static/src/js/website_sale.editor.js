@@ -1,4 +1,4 @@
-odoo.define('website_sale.add_product', function (require) {
+neoziv.define('website_sale.add_product', function (require) {
 'use strict';
 
 var core = require('web.core');
@@ -49,7 +49,7 @@ WebsiteNewMenu.include({
 
 //==============================================================================
 
-odoo.define('website_sale.editor', function (require) {
+neoziv.define('website_sale.editor', function (require) {
 'use strict';
 
 var options = require('web_editor.snippets.options');

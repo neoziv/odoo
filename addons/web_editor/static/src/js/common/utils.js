@@ -1,4 +1,4 @@
-odoo.define('web_editor.utils', function (require) {
+neoziv.define('web_editor.utils', function (require) {
 'use strict';
 
 const {ColorpickerWidget} = require('web.Colorpicker');

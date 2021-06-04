@@ -1,4 +1,4 @@
-odoo.define('bus.Longpolling', function (require) {
+neoziv.define('bus.Longpolling', function (require) {
 "use strict";
 
 var Bus = require('web.Bus');
@@ -23,7 +23,7 @@ var LongpollingBus = Bus.extend(ServicesMixin, {
     // properties
     _isActive: null,
     _lastNotificationID: 0,
-    _isOdooFocused: true,
+    _isneozivFocused: true,
     _pollRetryTimeout: null,
 
     /**
@@ -101,12 +101,12 @@ var LongpollingBus = Bus.extend(ServicesMixin, {
         }
     },
     /**
-     * Tell whether odoo is focused or not
+     * Tell whether neoziv is focused or not
      *
      * @returns {boolean}
      */
-    isOdooFocused: function () {
-        return this._isOdooFocused;
+    isneozivFocused: function () {
+        return this._isneozivFocused;
     },
     /**
      * Start a long polling, i.e. it continually opens a long poll
@@ -220,10 +220,10 @@ var LongpollingBus = Bus.extend(ServicesMixin, {
      * @param {Boolean} params.focus
      */
     _onFocusChange: function (params) {
-        this._isOdooFocused = params.focus;
+        this._isneozivFocused = params.focus;
         if (params.focus) {
             this._lastPresenceTime = new Date().getTime();
-            this.trigger('window_focus', this._isOdooFocused);
+            this.trigger('window_focus', this._isneozivFocused);
         }
     },
     /**

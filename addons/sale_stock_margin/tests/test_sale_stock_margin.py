@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo.tests.common import Form
-from odoo.addons.stock_account.tests.test_stockvaluationlayer import TestStockValuationCommon
+from neoziv.tests.common import Form
+from neoziv.addons.stock_account.tests.test_stockvaluationlayer import TestStockValuationCommon
 
 
 class TestSaleStockMargin(TestStockValuationCommon):

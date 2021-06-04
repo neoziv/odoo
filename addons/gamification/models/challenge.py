@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 import ast
 import itertools
 import logging
@@ -7,8 +7,8 @@ from datetime import date, timedelta
 
 from dateutil.relativedelta import relativedelta, MO
 
-from odoo import api, models, fields, _, exceptions
-from odoo.tools import ustr
+from neoziv import api, models, fields, _, exceptions
+from neoziv.tools import ustr
 
 _logger = logging.getLogger(__name__)
 

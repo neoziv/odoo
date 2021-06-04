@@ -1,4 +1,4 @@
-odoo.define('website.s_rating_options', function (require) {
+neoziv.define('website.s_rating_options', function (require) {
 'use strict';
 
 const weWidgets = require('wysiwyg.widgets');

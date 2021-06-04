@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 
-from odoo.exceptions import AccessError
-from odoo import api, fields, models, _
-from odoo import SUPERUSER_ID
-from odoo.exceptions import UserError, ValidationError
-from odoo.http import request
-from odoo.addons.account.models.account_tax import TYPE_TAX_USE
+from neoziv.exceptions import AccessError
+from neoziv import api, fields, models, _
+from neoziv import SUPERUSER_ID
+from neoziv.exceptions import UserError, ValidationError
+from neoziv.http import request
+from neoziv.addons.account.models.account_tax import TYPE_TAX_USE
 
 import logging
 

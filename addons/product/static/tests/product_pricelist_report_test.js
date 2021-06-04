@@ -1,4 +1,4 @@
-odoo.define('product.pricelist.report.tests', function (require) {
+neoziv.define('product.pricelist.report.tests', function (require) {
 "use strict";
 const core = require('web.core');
 const GeneratePriceList = require('product.generate_pricelist').GeneratePriceList;

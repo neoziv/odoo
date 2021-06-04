@@ -1,4 +1,4 @@
-odoo.define('mail.systray.ActivityMenu', function (require) {
+neoziv.define('mail.systray.ActivityMenu', function (require) {
 "use strict";
 
 var core = require('web.core');

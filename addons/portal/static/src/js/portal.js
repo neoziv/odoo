@@ -1,4 +1,4 @@
-odoo.define('portal.portal', function (require) {
+neoziv.define('portal.portal', function (require) {
 'use strict';
 
 var publicWidget = require('web.public.widget');

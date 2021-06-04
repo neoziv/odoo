@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* project
 # 
@@ -7,8 +7,8 @@
 # lttlsnk <lttlsnk@gmail.com>, 2020
 # e2f_cn c5 <jarvisn@ecinnovations.com>, 2020
 # guohuadeng <guohuadeng@hotmail.com>, 2020
-# Felix Yuen <fyu@odoo.com>, 2020
-# Shane Tsoi <sso@odoo.com>, 2020
+# Felix Yuen <fyu@neoziv.com>, 2020
+# Shane Tsoi <sso@neoziv.com>, 2020
 # mrshelly <mrshelly@hotmail.com>, 2020
 # Maie <m@maie.name>, 2020
 # Jeffery CHEN Fan <jeffery9@gmail.com>, 2020
@@ -37,12 +37,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 11:23+0000\n"
 "PO-Revision-Date: 2020-09-07 08:17+0000\n"
 "Last-Translator: liAnGjiA <liangjia@qq.com>, 2021\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/neoziv/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1216,11 +1216,11 @@ msgstr "客户对任务的评价"
 #: code:addons/project/static/src/js/project_task_kanban_examples.js:0
 #, python-format
 msgid ""
-"Customers propose feedbacks by email; Odoo creates tasks automatically, and "
+"Customers propose feedbacks by email; neoziv creates tasks automatically, and "
 "you can communicate on the task directly. Your managers decide which "
 "feedback is accepted %s and which feedback is moved to the %s column. %s"
 msgstr ""
-"客户通过电子邮件提出反馈意见； Odoo自动创建任务，您可以直接在任务上进行交流。 您的经理决定接受哪些反馈%s，以及将哪些反馈移至%s该列%s。"
+"客户通过电子邮件提出反馈意见； neoziv自动创建任务，您可以直接在任务上进行交流。 您的经理决定接受哪些反馈%s，以及将哪些反馈移至%s该列%s。"
 
 #. module: project
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_0
@@ -3612,18 +3612,18 @@ msgstr "测试"
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (neoziv Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"相应于这个别名对应的模型(Odoo单据种类)。任何一封不属于对某个已存在的记录的到来邮件，将导致此模块中新记录的创建(例如，一个新的项目任务)。"
+"相应于这个别名对应的模型(neoziv单据种类)。任何一封不属于对某个已存在的记录的到来邮件，将导致此模块中新记录的创建(例如，一个新的项目任务)。"
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
-msgstr "邮件别名的名称，例如，如果你要收取 <jobs@example.odoo.com> 的EMail,别名就要设为：\"jobs\""
+"<jobs@example.neoziv.com>"
+msgstr "邮件别名的名称，例如，如果你要收取 <jobs@example.neoziv.com> 的EMail,别名就要设为：\"jobs\""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_user_id

@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import werkzeug
 
-import odoo.http as http
+import neoziv.http as http
 
-from odoo.http import request
-from odoo.tools.misc import get_lang
+from neoziv.http import request
+from neoziv.tools.misc import get_lang
 
 
 class CalendarController(http.Controller):

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo.addons.website_sale.tests.test_website_sale_product_attribute_value_config import TestWebsiteSaleProductAttributeValueConfig
+from neoziv.addons.website_sale.tests.test_website_sale_product_attribute_value_config import TestWebsiteSaleProductAttributeValueConfig
 
 
 class TestWebsiteSaleStockProductWarehouse(TestWebsiteSaleProductAttributeValueConfig):

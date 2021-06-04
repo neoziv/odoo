@@ -1,4 +1,4 @@
-odoo.define('mail/static/src/components/thread_textual_typing_status/thread_textual_typing_status.js', function (require) {
+neoziv.define('mail/static/src/components/thread_textual_typing_status/thread_textual_typing_status.js', function (require) {
 'use strict';
 
 const components = {

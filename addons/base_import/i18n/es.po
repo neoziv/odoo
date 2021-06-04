@@ -1,22 +1,22 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* base_import
 # 
 # Translators:
 # Miguel Orueta <mo@landoo.es>, 2020
-# Jon Perez <jop@odoo.com>, 2020
-# JEK Odoo <jek@odoo.com>, 2020
+# Jon Perez <jop@neoziv.com>, 2020
+# JEK neoziv <jek@neoziv.com>, 2020
 # Martin Trigaux, 2020
 # José Cabrera Lozano <jose.cabrera@edukative.es>, 2021
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-29 13:45+0000\n"
 "PO-Revision-Date: 2020-09-07 08:10+0000\n"
 "Last-Translator: José Cabrera Lozano <jose.cabrera@edukative.es>, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"Language-Team: Spanish (https://www.transifex.com/neoziv/teams/41243/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -439,11 +439,11 @@ msgstr "ID"
 #, python-format
 msgid ""
 "If the file contains\n"
-"                the column names, Odoo can try auto-detecting the\n"
+"                the column names, neoziv can try auto-detecting the\n"
 "                field corresponding to the column. This makes imports\n"
 "                simpler especially when the file has many columns."
 msgstr ""
-"Si el archivo contiene los nombres de columna, Odoo puede intentar auto-"
+"Si el archivo contiene los nombres de columna, neoziv puede intentar auto-"
 "detectar el campo correspondiente a la columna. Esto hace la importación más"
 " simple, especialmente cuando el archivo tiene muchas columnas."
 

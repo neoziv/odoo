@@ -1,4 +1,4 @@
-odoo.define('mail/static/src/components/chatter/chatter_suggested_recipient_tests', function (require) {
+neoziv.define('mail/static/src/components/chatter/chatter_suggested_recipient_tests', function (require) {
 'use strict';
 
 const components = {

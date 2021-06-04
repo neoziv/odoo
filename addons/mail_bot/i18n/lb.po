@@ -1,14 +1,14 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* mail_bot
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~12.5\n"
+"Project-Id-Version: neoziv Server saas~12.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-26 08:16+0000\n"
 "PO-Revision-Date: 2019-08-26 09:11+0000\n"
-"Language-Team: Luxembourgish (https://www.transifex.com/odoo/teams/41243/lb/)\n"
+"Language-Team: Luxembourgish (https://www.transifex.com/neoziv/teams/41243/lb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -29,7 +29,7 @@ msgid "Contact"
 msgstr ""
 
 #. module: mail_bot
-#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__odoobot_state__disabled
+#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__neozivbot_state__disabled
 msgid "Disabled"
 msgstr ""
 
@@ -72,7 +72,7 @@ msgstr ""
 #: code:addons/mail_bot/models/mail_channel.py:0
 #, python-format
 msgid ""
-"Hello,<br/>Odoo's chat helps employees collaborate efficiently. I'm here to "
+"Hello,<br/>neoziv's chat helps employees collaborate efficiently. I'm here to "
 "help you discover its features.<br/><b>Try to send me an emoji :)</b>"
 msgstr ""
 
@@ -93,7 +93,7 @@ msgstr ""
 #, python-format
 msgid ""
 "I'm just a bot... :( You can check <a "
-"href=\"https://www.odoo.com/page/docs\">our documentation</a>) for more "
+"href=\"https://www.neoziv.com/page/docs\">our documentation</a>) for more "
 "information!"
 msgstr ""
 
@@ -110,7 +110,7 @@ msgid "ID"
 msgstr ""
 
 #. module: mail_bot
-#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__odoobot_state__idle
+#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__neozivbot_state__idle
 msgid "Idle"
 msgstr ""
 
@@ -141,7 +141,7 @@ msgid ""
 msgstr ""
 
 #. module: mail_bot
-#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__odoobot_state__not_initialized
+#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__neozivbot_state__not_initialized
 msgid "Not initialized"
 msgstr ""
 
@@ -158,39 +158,39 @@ msgstr ""
 #: code:addons/mail_bot/static/src/js/systray_messaging_menu.js:0
 #, python-format
 msgid ""
-"Odoo will not have the permission to send native notifications on this "
+"neoziv will not have the permission to send native notifications on this "
 "device."
 msgstr ""
 
 #. module: mail_bot
-#: model:ir.model.fields,field_description:mail_bot.field_res_users__odoobot_state
-msgid "OdooBot Status"
+#: model:ir.model.fields,field_description:mail_bot.field_res_users__neozivbot_state
+msgid "neozivBot Status"
 msgstr ""
 
 #. module: mail_bot
 #. openerp-web
 #: code:addons/mail_bot/static/src/js/mailbot_service.js:0
 #, python-format
-msgid "OdooBot has a request"
+msgid "neozivBot has a request"
 msgstr ""
 
 #. module: mail_bot
-#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__odoobot_state__onboarding_attachement
+#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__neozivbot_state__onboarding_attachement
 msgid "Onboarding attachement"
 msgstr ""
 
 #. module: mail_bot
-#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__odoobot_state__onboarding_command
+#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__neozivbot_state__onboarding_command
 msgid "Onboarding command"
 msgstr ""
 
 #. module: mail_bot
-#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__odoobot_state__onboarding_emoji
+#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__neozivbot_state__onboarding_emoji
 msgid "Onboarding emoji"
 msgstr ""
 
 #. module: mail_bot
-#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__odoobot_state__onboarding_ping
+#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__neozivbot_state__onboarding_ping
 msgid "Onboarding ping"
 msgstr ""
 
@@ -220,7 +220,7 @@ msgstr ""
 #, python-format
 msgid ""
 "Sorry, I am not listening. To get someone's attention, <b>ping him</b>. "
-"Write \"@odoobot\" and select me."
+"Write \"@neozivbot\" and select me."
 msgstr ""
 
 #. module: mail_bot
@@ -253,7 +253,7 @@ msgstr ""
 #, python-format
 msgid ""
 "Wow you are a natural!<br/>Ping someone to grab its attention with "
-"@nameoftheuser. <b>Try to ping me using @OdooBot</b> in a sentence."
+"@nameoftheuser. <b>Try to ping me using @neozivBot</b> in a sentence."
 msgstr ""
 
 #. module: mail_bot
@@ -261,13 +261,13 @@ msgstr ""
 #, python-format
 msgid ""
 "Yep, I am here! 🎉 <br/>You finished the tour, you can <b>close this chat "
-"window</b>. Enjoy discovering Odoo."
+"window</b>. Enjoy discovering neoziv."
 msgstr ""
 
 #. module: mail_bot
 #: code:addons/mail_bot/models/mail_bot.py:0
 #, python-format
-msgid "Yep, OdooBot is in the place!"
+msgid "Yep, neozivBot is in the place!"
 msgstr ""
 
 #. module: mail_bot

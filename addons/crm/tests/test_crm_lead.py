@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo.addons.crm.models.crm_lead import PARTNER_FIELDS_TO_SYNC, PARTNER_ADDRESS_FIELDS_TO_SYNC
-from odoo.addons.crm.tests.common import TestCrmCommon, INCOMING_EMAIL
-from odoo.addons.phone_validation.tools.phone_validation import phone_format
-from odoo.tests.common import Form, users
+from neoziv.addons.crm.models.crm_lead import PARTNER_FIELDS_TO_SYNC, PARTNER_ADDRESS_FIELDS_TO_SYNC
+from neoziv.addons.crm.tests.common import TestCrmCommon, INCOMING_EMAIL
+from neoziv.addons.phone_validation.tools.phone_validation import phone_format
+from neoziv.tests.common import Form, users
 
 
 class TestCRMLead(TestCrmCommon):
@@ -121,7 +121,7 @@ class TestCRMLead(TestCrmCommon):
             'street': 'My street',
             'street2': 'My street',
             'city': 'My city',
-            'zip': 'test@odoo.com',
+            'zip': 'test@neoziv.com',
             'state_id': self.env['res.country.state'].create({
                 'name': 'My state',
                 'country_id': self.country_ref.id,

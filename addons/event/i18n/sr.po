@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # * event
 # 
@@ -8,12 +8,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 12.0\n"
+"Project-Id-Version: neoziv Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-08 06:49+0000\n"
 "PO-Revision-Date: 2018-08-24 09:17+0000\n"
 "Last-Translator: Martin Trigaux, 2018\n"
-"Language-Team: Serbian (https://www.transifex.com/odoo/teams/41243/sr/)\n"
+"Language-Team: Serbian (https://www.transifex.com/neoziv/teams/41243/sr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -69,7 +69,7 @@ msgstr ""
 #. module: event
 #: model_terms:event.event,description:event.event_0
 msgid ""
-"<font style=\"color: rgb(255, 255, 255); font-size: 24px;\">to learn <i>Odoo"
+"<font style=\"color: rgb(255, 255, 255); font-size: 24px;\">to learn <i>neoziv"
 " Programming</i></font>"
 msgstr ""
 
@@ -1603,12 +1603,12 @@ msgstr ""
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
-msgid "Odoo Official Website"
+msgid "neoziv Official Website"
 msgstr ""
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
-msgid "Odoo Web Client"
+msgid "neoziv Web Client"
 msgstr ""
 
 #. module: event
@@ -2120,7 +2120,7 @@ msgstr ""
 
 #. module: event
 #: model_terms:event.event,description:event.event_2
-msgid "events@odoo.com"
+msgid "events@neoziv.com"
 msgstr ""
 
 #. module: event

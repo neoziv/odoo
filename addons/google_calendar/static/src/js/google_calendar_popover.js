@@ -1,4 +1,4 @@
-odoo.define('google_calendar.GoogleCalendarPopover', function(require) {
+neoziv.define('google_calendar.GoogleCalendarPopover', function(require) {
     "use strict";
 
     const CalendarPopover = require('web.CalendarPopover');

@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-from odoo import models, api, fields, _
-from odoo.exceptions import UserError
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
+from neoziv import models, api, fields, _
+from neoziv.exceptions import UserError
 from datetime import datetime
-from odoo.fields import Datetime, Date
-from odoo.tools.misc import format_date
+from neoziv.fields import Datetime, Date
+from neoziv.tools.misc import format_date
 import pytz
 
 

@@ -1,4 +1,4 @@
-odoo.define('sale.SalePortalSidebar', function (require) {
+neoziv.define('sale.SalePortalSidebar', function (require) {
 'use strict';
 
 var publicWidget = require('web.public.widget');

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* stock
 # 
@@ -21,9 +21,9 @@
 # brokemeister <work@maltejansen.de>, 2020
 # Max-Milan Stoyanov, 2020
 # Marcel Trotzek <trotzek@rtg-portale.de>, 2020
-# Leon Grill <leg@odoo.com>, 2020
-# Patrick Heuel <patrick.heuel@odoo-bs.com>, 2020
-# Kevin Harrings <kha@odoo.com>, 2020
+# Leon Grill <leg@neoziv.com>, 2020
+# Patrick Heuel <patrick.heuel@neoziv-bs.com>, 2020
+# Kevin Harrings <kha@neoziv.com>, 2020
 # e2f <projects@e2f.com>, 2020
 # Martin Trigaux, 2020
 # Thorsten Vocks <thorsten.vocks@openbig.org>, 2020
@@ -31,13 +31,13 @@
 # Andi, 2020
 # Katharina Moritz <kmo@e2f.com>, 2020
 # Bülent Tiknas <btiknas@googlemail.com>, 2020
-# Johannes Croe <jcr@odoo.com>, 2020
-# JEK Odoo <jek@odoo.com>, 2020
+# Johannes Croe <jcr@neoziv.com>, 2020
+# JEK neoziv <jek@neoziv.com>, 2020
 # philku79 <philip.kuss@gmx.de>, 2020
 # Florian Pose <fp@igh.de>, 2020
 # Tobias Arndt, 2020
 # TomTietze <t.tietze94@web.de>, 2020
-# Gab_Odoo <gab@odoo.com>, 2020
+# Gab_neoziv <gab@neoziv.com>, 2020
 # Niki Waibel, 2021
 # Wolfgang Taferner, 2021
 # Robert Förster <hello@suppliot.eu>, 2021
@@ -45,12 +45,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 11:23+0000\n"
 "PO-Revision-Date: 2020-09-07 08:19+0000\n"
 "Last-Translator: Chris Egal <sodaswed@web.de>, 2021\n"
-"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Language-Team: German (https://www.transifex.com/neoziv/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1826,10 +1826,10 @@ msgstr "Standard Routen im Lager"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_orderpoint
 msgid ""
-"Define a minimum stock rule so that Odoo creates automatically requests for "
+"Define a minimum stock rule so that neoziv creates automatically requests for "
 "quotations or draft manufacturing orders to resupply your stock."
 msgstr ""
-"Definieren Sie eine Mindestbestandsregel, so dass Odoo automatisch "
+"Definieren Sie eine Mindestbestandsregel, so dass neoziv automatisch "
 "Bestellanfragen oder Entwürfe für Fertigungsaufsträge erstellt, um Ihr Lager"
 " wieder zu aufzustocken."
 
@@ -1842,14 +1842,14 @@ msgstr "Neues Lager erstellen"
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
 msgid ""
 "Define your locations to reflect your warehouse structure and\n"
-"            organization. Odoo is able to manage physical locations\n"
+"            organization. neoziv is able to manage physical locations\n"
 "            (warehouses, shelves, bin, etc), partner locations (customers,\n"
 "            vendors) and virtual locations which are the counterpart of\n"
 "            the stock operations like the manufacturing orders\n"
 "            consumptions, inventories, etc."
 msgstr ""
 "Definieren Sie Ihre Standorte, um Ihre Lagerstruktur und\n"
-"-organisation zu reflektieren. Odoo ist in der Lage, physische Standorte \n"
+"-organisation zu reflektieren. neoziv ist in der Lage, physische Standorte \n"
 "(Lagerhallen, Regale, Abfallsysteme usw.), Partnerstandorte (Kunden, \n"
 "Verkäufer) und virtuelle Standorte zu verwalten, die das Gegenstück \n"
 "zu den Vorräten wie der Fertigungsaufträge, Lagerbestände usw. sind."
@@ -2280,7 +2280,7 @@ msgstr "Leeres Lager"
 #. module: stock
 #: model_terms:digest.tip,tip_description:stock.digest_tip_stock_0
 msgid ""
-"Enjoy a quick-paced experience with the Odoo barcode app. It is blazing fast"
+"Enjoy a quick-paced experience with the neoziv barcode app. It is blazing fast"
 " and works even without a stable internet connection. It supports all flows:"
 " inventory adjustments, batch picking, moving lots or pallets, low inventory"
 " checks, etc. Go to the \"Apps\" menu to activate the barcode interface."
@@ -2309,15 +2309,15 @@ msgstr "Fehler"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
 msgid ""
-"Every stock operation in Odoo moves the products from one\n"
+"Every stock operation in neoziv moves the products from one\n"
 "            location to another one.  For instance, if you receive products\n"
-"            from a vendor, Odoo will move products from the Vendor\n"
+"            from a vendor, neoziv will move products from the Vendor\n"
 "            location to the Stock location. Each report can be performed on\n"
 "            physical, partner or virtual locations."
 msgstr ""
-"Jeder Lagerbetrieb in Odoo bewegt die Produkte von einem \n"
+"Jeder Lagerbetrieb in neoziv bewegt die Produkte von einem \n"
 "Ort zum anderen. Zum Beispiel, wenn Sie Produkte von einem \n"
-"Lieferanten erhalten, wird Odoo Produkte aus dem \n"
+"Lieferanten erhalten, wird neoziv Produkte aus dem \n"
 "Vendor-Standort an den Lagerort verschieben. Jeder Bericht kann an physischen, Partner- oder virtuellen Orten durchgeführt werden."
 
 #. module: stock
@@ -2895,11 +2895,11 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_picking__show_reserved
 #: model:ir.model.fields,help:stock.field_stock_picking_type__show_reserved
 msgid ""
-"If this checkbox is ticked, Odoo will automatically pre-fill the detailed "
+"If this checkbox is ticked, neoziv will automatically pre-fill the detailed "
 "operations with the corresponding products, locations and lot/serial "
 "numbers."
 msgstr ""
-"Wenn dieses Kontrollkästchen angekreuzt ist, wird Odoo die detaillierten "
+"Wenn dieses Kontrollkästchen angekreuzt ist, wird neoziv die detaillierten "
 "Bestandsvorgänge automatisch mit den entsprechenden Produkt-, Lagerort- und "
 "Chargen-/Seriennummerinformationen befüllen."
 
@@ -7739,19 +7739,19 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_min_qty
 msgid ""
 "When the virtual stock equals to or goes below the Min Quantity specified "
-"for this field, Odoo generates a procurement to bring the forecasted "
+"for this field, neoziv generates a procurement to bring the forecasted "
 "quantity to the Max Quantity."
 msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_max_qty
 msgid ""
-"When the virtual stock goes below the Min Quantity, Odoo generates a "
+"When the virtual stock goes below the Min Quantity, neoziv generates a "
 "procurement to bring the forecasted quantity to the Quantity specified as "
 "Max Quantity."
 msgstr ""
 "Wenn der verfügbare Bestand geringer ist als der hier definierte "
-"Mindestbestand, erstellt Odoo einen Beschaffungsvorschlag zur "
+"Mindestbestand, erstellt neoziv einen Beschaffungsvorschlag zur "
 "Wiederauffüllung des Lagers."
 
 #. module: stock
@@ -8058,7 +8058,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock.view_immediate_transfer
 msgid ""
 "You have not recorded <i>done</i> quantities yet, by clicking on "
-"<i>apply</i> Odoo will process all the quantities."
+"<i>apply</i> neoziv will process all the quantities."
 msgstr ""
 
 #. module: stock

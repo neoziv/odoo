@@ -1,4 +1,4 @@
-odoo.define('website.theme_preview_kanban', function (require) {
+neoziv.define('website.theme_preview_kanban', function (require) {
 "use strict";
 
 var KanbanController = require('web.KanbanController');

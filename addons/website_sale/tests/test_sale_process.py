@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-import odoo.tests
+import neoziv.tests
 
-from odoo import api
-from odoo.addons.base.tests.common import HttpCaseWithUserDemo, TransactionCaseWithUserDemo
-from odoo.addons.website_sale.controllers.main import WebsiteSale
-from odoo.addons.website.tools import MockRequest
+from neoziv import api
+from neoziv.addons.base.tests.common import HttpCaseWithUserDemo, TransactionCaseWithUserDemo
+from neoziv.addons.website_sale.controllers.main import WebsiteSale
+from neoziv.addons.website.tools import MockRequest
 
 
-@odoo.tests.tagged('post_install', '-at_install')
+@neoziv.tests.tagged('post_install', '-at_install')
 class TestUi(HttpCaseWithUserDemo):
 
     def setUp(self):
@@ -101,7 +101,7 @@ class TestUi(HttpCaseWithUserDemo):
         self.start_tour("/", 'website_sale_tour')
 
 
-@odoo.tests.tagged('post_install', '-at_install')
+@neoziv.tests.tagged('post_install', '-at_install')
 class TestWebsiteSaleCheckoutAddress(TransactionCaseWithUserDemo):
     ''' The goal of this method class is to test the address management on
         the checkout (new/edit billing/shipping, company_id, website_id..).

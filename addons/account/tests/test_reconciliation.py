@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import time
 import unittest
 from datetime import timedelta
 
-from odoo import api, fields
-from odoo.addons.account.tests.common import TestAccountReconciliationCommon
-from odoo.tests import Form, tagged
+from neoziv import api, fields
+from neoziv.addons.account.tests.common import TestAccountReconciliationCommon
+from neoziv.tests import Form, tagged
 
 
 @tagged('post_install', '-at_install')

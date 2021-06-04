@@ -1,4 +1,4 @@
-odoo.define('web.ribbon', function (require) {
+neoziv.define('web.ribbon', function (require) {
     'use strict';
 
     /**

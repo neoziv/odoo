@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* analytic
 # 
@@ -7,16 +7,16 @@
 # JH CHOI <hwangtog@gmail.com>, 2020
 # Link Up링크업 <linkup.way@gmail.com>, 2020
 # Linkup <link-up@naver.com>, 2020
-# Mark Lee <odoos@soti.33mail.com>, 2020
+# Mark Lee <neozivs@soti.33mail.com>, 2020
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~12.5\n"
+"Project-Id-Version: neoziv Server saas~12.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-09 12:17+0000\n"
 "PO-Revision-Date: 2020-09-07 08:10+0000\n"
-"Last-Translator: Mark Lee <odoos@soti.33mail.com>, 2020\n"
-"Language-Team: Korean (https://www.transifex.com/odoo/teams/41243/ko/)\n"
+"Last-Translator: Mark Lee <neozivs@soti.33mail.com>, 2020\n"
+"Language-Team: Korean (https://www.transifex.com/neoziv/teams/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -352,11 +352,11 @@ msgstr "활성 필드를 거짓으로 설정하면 제거하지 않고도 그 �
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action_entries
 msgid ""
-"In Odoo, sales orders and projects are implemented using\n"
+"In neoziv, sales orders and projects are implemented using\n"
 "                analytic accounts. You can track costs and revenues to analyse\n"
 "                your margins easily."
 msgstr ""
-"Odoo에서 판매 주문 및 프로젝트는 분석 회계를 사용하여 구현됩니다. 쉽게 이윤을 분석하기 위해 비용/수익을 추적할 수 있습니다."
+"neoziv에서 판매 주문 및 프로젝트는 분석 회계를 사용하여 구현됩니다. 쉽게 이윤을 분석하기 위해 비용/수익을 추적할 수 있습니다."
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__message_is_follower

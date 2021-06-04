@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Italy - E-invoicing',
@@ -9,12 +9,12 @@
         'fetchmail',
         'account_edi'
     ],
-    'author': 'Odoo',
+    'author': 'neoziv',
     'description': """
 E-invoice implementation
     """,
     'category': 'Accounting/Localizations/EDI',
-    'website': 'http://www.odoo.com/',
+    'website': 'http://www.neoziv.com/',
     'data': [
         'security/ir.model.access.csv',
         'data/account_edi_data.xml',

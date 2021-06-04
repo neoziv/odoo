@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<odoo>
+<neoziv>
 
 
     <record id="rrif_pdv_25" model="account.tax.template">
@@ -1222,4 +1222,4 @@
         ]"/>
     </record>
 
-</odoo>
+</neoziv>

@@ -1,9 +1,9 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 from datetime import timedelta
 
-from odoo import fields
-from odoo.tests import HttpCase, tagged, TransactionCase
-from odoo.addons.sale.tests.test_sale_product_attribute_value_config import TestSaleProductAttributeValueCommon
+from neoziv import fields
+from neoziv.tests import HttpCase, tagged, TransactionCase
+from neoziv.addons.sale.tests.test_sale_product_attribute_value_config import TestSaleProductAttributeValueCommon
 
 
 @tagged('post_install', '-at_install')

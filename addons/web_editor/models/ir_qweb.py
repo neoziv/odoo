@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 """
 Web_editor-context rendering needs to add some metadata to rendered and allow to edit fields,
 as well as render a few fields differently.
 
-Also, adds methods to convert values back to Odoo models.
+Also, adds methods to convert values back to neoziv models.
 """
 
 import ast
@@ -27,13 +27,13 @@ from lxml import etree, html
 from PIL import Image as I
 from werkzeug import urls
 
-import odoo.modules
+import neoziv.modules
 
-from odoo import api, models, fields
-from odoo.tools import ustr, posix_to_ldml, pycompat
-from odoo.tools import html_escape as escape
-from odoo.tools.misc import get_lang, babel_locale_parse
-from odoo.addons.base.models import ir_qweb
+from neoziv import api, models, fields
+from neoziv.tools import ustr, posix_to_ldml, pycompat
+from neoziv.tools import html_escape as escape
+from neoziv.tools.misc import get_lang, babel_locale_parse
+from neoziv.addons.base.models import ir_qweb
 
 REMOTE_CONNECTION_TIMEOUT = 2.5
 
@@ -423,7 +423,7 @@ class Image(models.AbstractModel):
             if sep and sep != '/':
                 rest.replace(sep, '/')
 
-        path = odoo.modules.get_module_resource(
+        path = neoziv.modules.get_module_resource(
             match.group('module'), 'static', *(rest.split('/')))
 
         if not path:

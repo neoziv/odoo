@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo.addons.test_mail.tests.common import TestMailCommon
-from odoo.tools import mute_logger
+from neoziv.addons.test_mail.tests.common import TestMailCommon
+from neoziv.tools import mute_logger
 
 
 class TestInvite(TestMailCommon):
 
-    @mute_logger('odoo.addons.mail.models.mail_mail')
+    @mute_logger('neoziv.addons.mail.models.mail_mail')
     def test_invite_email(self):
         test_record = self.env['mail.test.simple'].with_context(self._test_context).create({'name': 'Test', 'email_from': 'ignasse@example.com'})
         test_partner = self.env['res.partner'].with_context(self._test_context).create({

@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
-from odoo.addons.stock.tests.common2 import TestStockCommon
-from odoo.tests import Form
-from odoo.exceptions import AccessError
-from odoo.tools import mute_logger
+from neoziv.addons.stock.tests.common2 import TestStockCommon
+from neoziv.tests import Form
+from neoziv.exceptions import AccessError
+from neoziv.tools import mute_logger
 
 
 class TestWarehouse(TestStockCommon):

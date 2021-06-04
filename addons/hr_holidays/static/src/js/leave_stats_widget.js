@@ -1,4 +1,4 @@
-odoo.define('hr_holidays.LeaveStatsWidget', function (require) {
+neoziv.define('hr_holidays.LeaveStatsWidget', function (require) {
     "use strict";
 
     var time = require('web.time');

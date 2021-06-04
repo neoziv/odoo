@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* base_import
 # 
@@ -6,7 +6,7 @@
 # Martin Trigaux, 2020
 # jonas jensen <j.jensen@tcomp.dk>, 2020
 # Morten Schou <ms@msteknik.dk>, 2020
-# Jesper Carstensen <jc@danodoo.dk>, 2020
+# Jesper Carstensen <jc@danneoziv.dk>, 2020
 # Pernille Kristensen <pernillekristensen1994@gmail.com>, 2020
 # Sanne Kristensen <sanne@vkdata.dk>, 2020
 # lhmflexerp <lhm@flexerp.dk>, 2020
@@ -15,12 +15,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-29 13:45+0000\n"
 "PO-Revision-Date: 2020-09-07 08:10+0000\n"
 "Last-Translator: Mads Søndergaard <mads@vkdata.dk>, 2020\n"
-"Language-Team: Danish (https://www.transifex.com/odoo/teams/41243/da/)\n"
+"Language-Team: Danish (https://www.transifex.com/neoziv/teams/41243/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -439,12 +439,12 @@ msgstr "ID"
 #, python-format
 msgid ""
 "If the file contains\n"
-"                the column names, Odoo can try auto-detecting the\n"
+"                the column names, neoziv can try auto-detecting the\n"
 "                field corresponding to the column. This makes imports\n"
 "                simpler especially when the file has many columns."
 msgstr ""
 "Hvis filen indeholder\n"
-"                 kolonne navne, kan Odoo prøve på automatisk at finde de\n"
+"                 kolonne navne, kan neoziv prøve på automatisk at finde de\n"
 "                 tilsvarende felter til kolonnen. Dette gør importen\n"
 "                 enklere, specielt hvis filen har mange kolonner."
 

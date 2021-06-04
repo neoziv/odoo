@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo.addons.google_calendar.utils.google_calendar import GoogleEvent
+from neoziv.addons.google_calendar.utils.google_calendar import GoogleEvent
 import pytz
 from datetime import datetime, date
 from dateutil.relativedelta import relativedelta
-from odoo.tests.common import new_test_user
-from odoo.addons.google_calendar.tests.test_sync_common import TestSyncGoogle, patch_api
+from neoziv.tests.common import new_test_user
+from neoziv.addons.google_calendar.tests.test_sync_common import TestSyncGoogle, patch_api
 
 
-class TestSyncGoogle2Odoo(TestSyncGoogle):
+class TestSyncGoogle2neoziv(TestSyncGoogle):
 
     @property
     def now(self):
@@ -18,15 +18,15 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
     def sync(self, events):
         events.clear_type_ambiguity(self.env)
         google_recurrence = events.filter(GoogleEvent.is_recurrence)
-        self.env['calendar.recurrence']._sync_google2odoo(google_recurrence)
-        self.env['calendar.event']._sync_google2odoo(events - google_recurrence)
+        self.env['calendar.recurrence']._sync_google2neoziv(google_recurrence)
+        self.env['calendar.event']._sync_google2neoziv(events - google_recurrence)
 
     @patch_api
     def test_new_google_event(self):
         values = {
             'id': 'oj44nep1ldf8a3ll02uip0c9aa',
             'description': 'Small mini desc',
-            'organizer': {'email': 'odoocalendarref@gmail.com', 'self': True},
+            'organizer': {'email': 'neozivcalendarref@gmail.com', 'self': True},
             'summary': 'Pricing new update',
             'visibility': 'public',
             'attendees': [{
@@ -44,7 +44,7 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
                 'timeZone': 'Europe/Brussels'
             },
         }
-        self.env['calendar.event']._sync_google2odoo(GoogleEvent([values]))
+        self.env['calendar.event']._sync_google2neoziv(GoogleEvent([values]))
         event = self.env['calendar.event'].search([('google_id', '=', values.get('id'))])
         self.assertTrue(event, "It should have created an event")
         self.assertEqual(event.name, values.get('summary'))
@@ -64,7 +64,7 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
         values = {
             'id': 'oj44nep1ldf8a3ll02uip0c9aa',
             'description': 'Small mini desc',
-            'organizer': {'email': 'odoocalendarref@gmail.com', 'self': True},
+            'organizer': {'email': 'neozivcalendarref@gmail.com', 'self': True},
             'summary': 'Pricing new update',
             'visibility': 'public',
             'attendees': [],
@@ -81,7 +81,7 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
                 'timeZone': 'Europe/Brussels'
             },
         }
-        self.env['calendar.event']._sync_google2odoo(GoogleEvent([values]))
+        self.env['calendar.event']._sync_google2neoziv(GoogleEvent([values]))
         event = self.env['calendar.event'].search([('google_id', '=', values.get('id'))])
         self.assertEqual(event.user_id, self.env.user)
         self.assertGoogleAPINotCalled()
@@ -92,7 +92,7 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
         values = {
             'id': 'oj44nep1ldf8a3ll02uip0c9aa',
             'description': 'Small mini desc',
-            'organizer': {'email': 'odoocalendarref@gmail.com', 'self': True},
+            'organizer': {'email': 'neozivcalendarref@gmail.com', 'self': True},
             'summary': 'Pricing new update',
             'visibility': 'public',
             'attendees': [],
@@ -109,7 +109,7 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
                 'timeZone': 'Europe/Brussels'
             },
         }
-        self.env['calendar.event']._sync_google2odoo(GoogleEvent([values]))
+        self.env['calendar.event']._sync_google2neoziv(GoogleEvent([values]))
         event = self.env['calendar.event'].search([('google_id', '=', values.get('id'))])
         self.assertEqual(event.user_id, user)
         self.assertGoogleAPINotCalled()
@@ -162,8 +162,8 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
             'id': event.google_id,
             'start': {'date': str(event.start_date)},
             'end': {'date': str(event.stop_date + relativedelta(days=1))},
-            'attendees': [{'email': 'odoobot@example.com', 'responseStatus': 'declined'}],
-            'extendedProperties': {'private': {'%s_odoo_id' % self.env.cr.dbname: event.id}},
+            'attendees': [{'email': 'neozivbot@example.com', 'responseStatus': 'declined'}],
+            'extendedProperties': {'private': {'%s_neoziv_id' % self.env.cr.dbname: event.id}},
             'reminders': {'overrides': [], 'useDefault': False},
         })
 
@@ -184,7 +184,7 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
             'id': google_id,
             'description': 'Small mini desc',
             "updated": self.now,
-            'organizer': {'email': 'odoocalendarref@gmail.com', 'self': True},
+            'organizer': {'email': 'neozivcalendarref@gmail.com', 'self': True},
             'summary': 'Pricing new update',
             'visibility': 'public',
             'attendees': [],  # <= attendee removed in Google
@@ -212,7 +212,7 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
         values = {
             'id': recurrence_id,
             'description': 'Small mini desc',
-            'organizer': {'email': 'odoocalendarref@gmail.com', 'self': True},
+            'organizer': {'email': 'neozivcalendarref@gmail.com', 'self': True},
             'summary': 'Pricing new update',
             'visibility': 'public',
             'recurrence': ['RRULE:FREQ=WEEKLY;WKST=SU;COUNT=3;BYDAY=MO'],
@@ -220,7 +220,7 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
             'start': {'date': '2020-01-6'},
             'end': {'date': '2020-01-7'},
         }
-        self.env['calendar.recurrence']._sync_google2odoo(GoogleEvent([values]))
+        self.env['calendar.recurrence']._sync_google2neoziv(GoogleEvent([values]))
         recurrence = self.env['calendar.recurrence'].search([('google_id', '=', values.get('id'))])
         self.assertTrue(recurrence, "it should have created a recurrence")
         events = recurrence.calendar_event_ids.sorted('start')
@@ -243,7 +243,7 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
         values = {
             'id': recurrence_id,
             'description': 'Small mini desc',
-            'organizer': {'email': 'odoocalendarref@gmail.com', 'self': True},
+            'organizer': {'email': 'neozivcalendarref@gmail.com', 'self': True},
             'summary': 'Pricing new update',
             'visibility': 'public',
             'recurrence': ['RRULE:FREQ=WEEKLY;WKST=SU;COUNT=3;BYDAY=MO'],
@@ -251,7 +251,7 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
             'start': {'dateTime': '2020-01-06T18:00:00+01:00'},
             'end': {'dateTime': '2020-01-06T19:00:00+01:00'},
         }
-        self.env['calendar.recurrence']._sync_google2odoo(GoogleEvent([values]))
+        self.env['calendar.recurrence']._sync_google2neoziv(GoogleEvent([values]))
         recurrence = self.env['calendar.recurrence'].search([('google_id', '=', values.get('id'))])
         self.assertTrue(recurrence, "it should have created a recurrence")
         events = recurrence.calendar_event_ids.sorted('start')
@@ -379,7 +379,7 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
             'reminders': {'useDefault': True},
             'updated': self.now,
         }]
-        self.env['calendar.event']._sync_google2odoo(GoogleEvent(values))
+        self.env['calendar.event']._sync_google2neoziv(GoogleEvent(values))
         recurrence = self.env['calendar.recurrence'].search([('google_id', '=', recurrence_id)])
         events = recurrence.calendar_event_ids.sorted('start')
         self.assertEqual(len(events), 3, "it should have created a recurrence with 3 events")
@@ -446,7 +446,7 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
             'reminders': {'useDefault': True},
             'updated': self.now,
         }
-        self.env['calendar.recurrence']._sync_google2odoo(GoogleEvent([values]))
+        self.env['calendar.recurrence']._sync_google2neoziv(GoogleEvent([values]))
         events = recurrence.calendar_event_ids.sorted('start')
         self.assertEqual(len(events), 2)
         self.assertEqual(recurrence.rrule, 'FREQ=WEEKLY;COUNT=2;BYDAY=WE')
@@ -484,7 +484,7 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
             'reminders': {'useDefault': True},
             'updated': self.now,
         }
-        self.env['calendar.recurrence']._sync_google2odoo(GoogleEvent([values]))
+        self.env['calendar.recurrence']._sync_google2neoziv(GoogleEvent([values]))
         events = recurrence.calendar_event_ids.sorted('start')
         self.assertEqual(len(events), 2)
         self.assertEqual(recurrence.rrule, 'FREQ=WEEKLY;COUNT=2;BYDAY=MO')
@@ -532,7 +532,7 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
             'reminders': {'useDefault': True},
             'updated': self.now,
         }
-        self.env['calendar.recurrence']._sync_google2odoo(GoogleEvent([values]))
+        self.env['calendar.recurrence']._sync_google2neoziv(GoogleEvent([values]))
         events = recurrence.calendar_event_ids.sorted('start')
         self.assertEqual(len(events), 3)
         self.assertEqual(recurrence.rrule, 'FREQ=WEEKLY;COUNT=3;BYDAY=MO')
@@ -578,7 +578,7 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
             'updated': self.now,
         }
 
-        self.env['calendar.recurrence']._sync_google2odoo(GoogleEvent([values]))
+        self.env['calendar.recurrence']._sync_google2neoziv(GoogleEvent([values]))
         events = recurrence.calendar_event_ids.sorted('start')
         self.assertEqual(events[0].start, datetime(2021, 2, 15, 11, 0, 0))
         self.assertEqual(events[1].start, datetime(2021, 2, 22, 11, 0, 0))
@@ -623,7 +623,7 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
         values = {
             'id': recurrence_id,
             'description': '',
-            'organizer': {'email': 'odoocalendarref@gmail.com', 'self': True},
+            'organizer': {'email': 'neozivcalendarref@gmail.com', 'self': True},
             'summary': 'Event with ',
             'visibility': 'public',
             'recurrence': ['RRULE:FREQ=WEEKLY;WKST=SU;COUNT=3;BYDAY=MO'],
@@ -631,7 +631,7 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
             'start': {'dateTime': '2020-01-06T18:00:00+01:00', 'timeZone': 'Pacific/Auckland'},
             'end': {'dateTime': '2020-01-06T19:00:00+01:00', 'timeZone': 'Pacific/Auckland'},
         }
-        self.env['calendar.recurrence']._sync_google2odoo(GoogleEvent([values]))
+        self.env['calendar.recurrence']._sync_google2neoziv(GoogleEvent([values]))
         recurrence = self.env['calendar.recurrence'].search([('google_id', '=', values.get('id'))])
         self.assertEqual(recurrence.event_tz, 'Pacific/Auckland', "The Google event Timezone should be saved on the recurrency")
         self.assertGoogleAPINotCalled()
@@ -643,7 +643,7 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
         values = {
             'id': google_id,
             'description': 'Small mini desc',
-            'organizer': {'email': 'odoocalendarref@gmail.com', 'self': True},
+            'organizer': {'email': 'neozivcalendarref@gmail.com', 'self': True},
             'summary': 'Pricing new update',
             'visibility': 'public',
             'attendees': [{
@@ -661,12 +661,12 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
                 'timeZone': 'Europe/Brussels'
             },
         }
-        self.env['calendar.event']._sync_google2odoo(GoogleEvent([values]))
+        self.env['calendar.event']._sync_google2neoziv(GoogleEvent([values]))
         # The event is transformed into a recurrency on google
         values = {
             'id': google_id,
             'description': '',
-            'organizer': {'email': 'odoocalendarref@gmail.com', 'self': True},
+            'organizer': {'email': 'neozivcalendarref@gmail.com', 'self': True},
             'summary': 'Event with ',
             'visibility': 'public',
             'recurrence': ['RRULE:FREQ=WEEKLY;WKST=SU;COUNT=3;BYDAY=MO'],
@@ -674,7 +674,7 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
             'start': {'dateTime': '2020-01-06T18:00:00+01:00', 'timeZone': 'Europe/Brussels'},
             'end': {'dateTime': '2020-01-06T19:00:00+01:00', 'timeZone': 'Europe/Brussels'},
         }
-        recurrence = self.env['calendar.recurrence']._sync_google2odoo(GoogleEvent([values]))
+        recurrence = self.env['calendar.recurrence']._sync_google2neoziv(GoogleEvent([values]))
         events = recurrence.calendar_event_ids.sorted('start')
         self.assertEqual(len(events), 3, "it should have created a recurrence with 3 events")
         event = self.env['calendar.event'].search([('google_id', '=', values.get('id'))])

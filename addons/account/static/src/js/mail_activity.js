@@ -1,4 +1,4 @@
-odoo.define('account.activity', function (require) {
+neoziv.define('account.activity', function (require) {
 "use strict";
 
 var AbstractField = require('web.AbstractField');

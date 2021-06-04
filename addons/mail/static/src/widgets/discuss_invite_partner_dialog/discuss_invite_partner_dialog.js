@@ -1,4 +1,4 @@
-odoo.define('mail/static/src/widgets/discuss_invite_partner_dialog/discuss_invite_partner_dialog.js', function (require) {
+neoziv.define('mail/static/src/widgets/discuss_invite_partner_dialog/discuss_invite_partner_dialog.js', function (require) {
 'use strict';
 
 const core = require('web.core');
@@ -54,7 +54,7 @@ const PartnerInviteDialog = Dialog.extend({
             formatResult: item => {
                 let status;
                 // TODO FIXME fix this, why do we even have an old widget here
-                if (item.id === 'odoobot') {
+                if (item.id === 'neozivbot') {
                     status = 'bot';
                 } else {
                     const partner = this.env.models['mail.partner'].findFromIdentifyingData({

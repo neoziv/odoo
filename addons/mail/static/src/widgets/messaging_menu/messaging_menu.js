@@ -1,4 +1,4 @@
-odoo.define('mail/static/src/widgets/messaging_menu/messaging_menu.js', function (require) {
+neoziv.define('mail/static/src/widgets/messaging_menu/messaging_menu.js', function (require) {
 'use strict';
 
 const components = {
@@ -9,7 +9,7 @@ const SystrayMenu = require('web.SystrayMenu');
 const Widget = require('web.Widget');
 
 /**
- * Odoo Widget, necessary to instantiate component.
+ * neoziv Widget, necessary to instantiate component.
  */
 const MessagingMenu = Widget.extend({
     template: 'mail.widgets.MessagingMenu',

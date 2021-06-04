@@ -1,6 +1,6 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-from odoo import models, fields, api, _
-from odoo.exceptions import UserError, RedirectWarning, ValidationError
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
+from neoziv import models, fields, api, _
+from neoziv.exceptions import UserError, RedirectWarning, ValidationError
 from dateutil.relativedelta import relativedelta
 from lxml import etree
 import logging

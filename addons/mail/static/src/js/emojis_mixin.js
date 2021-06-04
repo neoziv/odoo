@@ -1,4 +1,4 @@
-odoo.define('mail.emoji_mixin', function (require) {
+neoziv.define('mail.emoji_mixin', function (require) {
 "use strict";
 
 var emojis = require('mail.emojis');

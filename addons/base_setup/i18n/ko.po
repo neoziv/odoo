@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* base_setup
 # 
@@ -7,17 +7,17 @@
 # Goh Gangtai <gangtai.goh@gmail.com>, 2020
 # Linkup <link-up@naver.com>, 2020
 # Seongseok Shin <shinss61@hotmail.com>, 2020
-# Mark Lee <odoos@soti.33mail.com>, 2020
+# Mark Lee <neozivs@soti.33mail.com>, 2020
 # JH CHOI <hwangtog@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:12+0000\n"
 "PO-Revision-Date: 2020-09-07 08:11+0000\n"
 "Last-Translator: JH CHOI <hwangtog@gmail.com>, 2021\n"
-"Language-Team: Korean (https://www.transifex.com/odoo/teams/41243/ko/)\n"
+"Language-Team: Korean (https://www.transifex.com/neoziv/teams/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -371,8 +371,8 @@ msgstr "외부 이메일 서버"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Extract and analyze Odoo data from Google Spreadsheet"
-msgstr "Google 스프레드시트에서 Odoo 데이터 추출 및 분석"
+msgid "Extract and analyze neoziv data from Google Spreadsheet"
+msgstr "Google 스프레드시트에서 neoziv 데이터 추출 및 분석"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -569,15 +569,15 @@ msgstr "OAuth 인증"
 #. openerp-web
 #: code:addons/base_setup/static/src/xml/res_config_edition.xml:0
 #, python-format
-msgid "Odoo"
-msgstr "Odoo"
+msgid "neoziv"
+msgstr "neoziv"
 
 #. module: base_setup
 #. openerp-web
 #: code:addons/base_setup/static/src/xml/res_config_edition.xml:0
 #, python-format
-msgid "Odoo S.A."
-msgstr "Odoo S.A."
+msgid "neoziv S.A."
+msgstr "neoziv S.A."
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -698,8 +698,8 @@ msgstr "외부 인증 공급자 (OAuth) 사용"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Use external pads in Odoo Notes"
-msgstr "Odoo Notes에서 외부 문서편집도구 사용"
+msgid "Use external pads in neoziv Notes"
+msgstr "neoziv Notes에서 외부 문서편집도구 사용"
 
 #. module: base_setup
 #. openerp-web
@@ -713,7 +713,7 @@ msgstr "사용자"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
-"When populating your address book, Odoo provides a list of matching "
+"When populating your address book, neoziv provides a list of matching "
 "companies. When selecting one item, the company data and logo are auto-"
 "filled."
 msgstr "주소록을 게시하면 시스템이 일치하는 회사 목록을 제공합니다. 하나를 선택하면 회사 데이터와 로고가 자동으로 채워집니다."

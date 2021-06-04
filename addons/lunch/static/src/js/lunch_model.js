@@ -1,4 +1,4 @@
-odoo.define('lunch.LunchModel', function (require) {
+neoziv.define('lunch.LunchModel', function (require) {
 "use strict";
 
 /**

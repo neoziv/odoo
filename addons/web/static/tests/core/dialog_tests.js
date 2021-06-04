@@ -1,4 +1,4 @@
-odoo.define('web.dialog_tests', function (require) {
+neoziv.define('web.dialog_tests', function (require) {
 "use strict";
 
 var Dialog = require('web.Dialog');

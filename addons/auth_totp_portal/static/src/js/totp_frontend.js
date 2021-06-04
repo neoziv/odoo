@@ -1,4 +1,4 @@
-odoo.define('auth_totp_portal.button', function (require) {
+neoziv.define('auth_totp_portal.button', function (require) {
 'use strict';
 
 const {_t} = require('web.core');

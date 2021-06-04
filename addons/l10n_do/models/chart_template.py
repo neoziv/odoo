@@ -1,7 +1,7 @@
 # coding: utf-8
 # Copyright 2016 iterativo (https://www.iterativo.do) <info@iterativo.do>
 
-from odoo import models, api, _
+from neoziv import models, api, _
 
 
 class AccountChartTemplate(models.Model):

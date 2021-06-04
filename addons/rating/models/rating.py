@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 import base64
 import uuid
 
-from odoo import api, fields, models
+from neoziv import api, fields, models
 
-from odoo.modules.module import get_resource_path
+from neoziv.modules.module import get_resource_path
 
 RATING_LIMIT_SATISFIED = 5
 RATING_LIMIT_OK = 3

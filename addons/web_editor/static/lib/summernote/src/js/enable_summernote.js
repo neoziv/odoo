@@ -1,1 +1,1 @@
-odoo.__enable_summernote__ = true;
+neoziv.__enable_summernote__ = true;

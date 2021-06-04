@@ -1,4 +1,4 @@
-odoo.define('point_of_sale.ClientListScreen', function(require) {
+neoziv.define('point_of_sale.ClientListScreen', function(require) {
     'use strict';
 
     const { debounce } = owl.utils;

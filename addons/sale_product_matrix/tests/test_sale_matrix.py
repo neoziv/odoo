@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-import odoo.tests
-from odoo.addons.product_matrix.tests import common
+import neoziv.tests
+from neoziv.addons.product_matrix.tests import common
 
 
-@odoo.tests.tagged('post_install', '-at_install')
+@neoziv.tests.tagged('post_install', '-at_install')
 class TestSaleMatrixUi(common.TestMatrixCommon):
 
     """

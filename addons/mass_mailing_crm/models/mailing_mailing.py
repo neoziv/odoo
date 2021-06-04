@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 
-from odoo import api, fields, models, _, tools
-from odoo.osv import expression
+from neoziv import api, fields, models, _, tools
+from neoziv.osv import expression
 
 
 class MassMailing(models.Model):

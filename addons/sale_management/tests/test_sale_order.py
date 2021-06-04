@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo.addons.sale.tests.common import TestSaleCommon
-from odoo.tests import tagged
+from neoziv.addons.sale.tests.common import TestSaleCommon
+from neoziv.tests import tagged
 
 
 @tagged('-at_install', 'post_install')

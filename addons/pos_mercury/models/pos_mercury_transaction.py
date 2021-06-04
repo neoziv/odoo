@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from datetime import date, timedelta
 
 import requests
 import werkzeug
 
-from odoo import models, api, service
-from odoo.tools.translate import _
-from odoo.exceptions import UserError
-from odoo.tools import DEFAULT_SERVER_DATETIME_FORMAT, misc
+from neoziv import models, api, service
+from neoziv.tools.translate import _
+from neoziv.exceptions import UserError
+from neoziv.tools import DEFAULT_SERVER_DATETIME_FORMAT, misc
 
 
 class MercuryTransaction(models.Model):
@@ -43,7 +43,7 @@ class MercuryTransaction(models.Model):
         data['operator_id'] = pos_session.user_id.login
         data['merchant_id'] = pos_mercury_config.sudo().merchant_id
         data['merchant_pwd'] = pos_mercury_config.sudo().merchant_pwd
-        data['memo'] = "Odoo " + service.common.exp_version()['server_version']
+        data['memo'] = "neoziv " + service.common.exp_version()['server_version']
 
     def _do_request(self, template, data):
         xml_transaction = self.env.ref(template)._render(data).decode()

@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-from odoo.addons.website_sale.controllers.main import WebsiteSale
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
+from neoziv.addons.website_sale.controllers.main import WebsiteSale
 
-from odoo import http,_
-from odoo.http import request
-from odoo.exceptions import ValidationError
+from neoziv import http,_
+from neoziv.http import request
+from neoziv.exceptions import ValidationError
 
 
 class WebsiteSaleStock(WebsiteSale):

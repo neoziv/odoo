@@ -1,4 +1,4 @@
-odoo.define('stock.PopoverStockPicking', function (require) {
+neoziv.define('stock.PopoverStockPicking', function (require) {
 "use strict";
 
 var core = require('web.core');

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<odoo>
+<neoziv>
 
     <template id="enrich_company">
         <p t-esc="flavor_text" />
@@ -109,4 +109,4 @@
             </div>
         </div>
     </template>
-</odoo>
+</neoziv>

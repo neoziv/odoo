@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import re
 
-from odoo import api, fields, models
-from odoo.tools import remove_accents
+from neoziv import api, fields, models
+from neoziv.tools import remove_accents
 
 class ChatRoomMixin(models.AbstractModel):
     """Add the chat room configuration (`chat.room`) on the needed models.

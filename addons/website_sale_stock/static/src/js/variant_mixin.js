@@ -1,4 +1,4 @@
-odoo.define('website_sale_stock.VariantMixin', function (require) {
+neoziv.define('website_sale_stock.VariantMixin', function (require) {
 'use strict';
 
 var VariantMixin = require('sale.VariantMixin');

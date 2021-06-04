@@ -1,9 +1,9 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* website
 # 
 # Translators:
-# Jesper Carstensen <jc@danodoo.dk>, 2020
+# Jesper Carstensen <jc@danneoziv.dk>, 2020
 # Preben Lisby <preben.lisby@gmail.com>, 2020
 # Jarnhold Nattestad <nattestads@gmail.com>, 2020
 # peso <peer.sommerlund@gmail.com>, 2020
@@ -25,12 +25,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-04 15:13+0000\n"
 "PO-Revision-Date: 2020-09-07 08:20+0000\n"
 "Last-Translator: Martin Trigaux, 2021\n"
-"Language-Team: Danish (https://www.transifex.com/odoo/teams/41243/da/)\n"
+"Language-Team: Danish (https://www.transifex.com/neoziv/teams/41243/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -336,8 +336,8 @@ msgstr "50%"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.template_footer_call_to_action
-msgid "50,000+ companies run Odoo to grow their businesses."
-msgstr "50.000+ virksomheder bruger Odoo til at vokse deres virksomhed."
+msgid "50,000+ companies run neoziv to grow their businesses."
+msgstr "50.000+ virksomheder bruger neoziv til at vokse deres virksomhed."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_hr_options
@@ -354,9 +354,9 @@ msgstr "80% Udvikling"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_call_to_action
-msgid "<b>50,000+ companies</b> run Odoo to grow their businesses."
+msgid "<b>50,000+ companies</b> run neoziv to grow their businesses."
 msgstr ""
-"<b>50.000+ virksomheder</b> bruger Odoo til at udvide deres forretning."
+"<b>50.000+ virksomheder</b> bruger neoziv til at udvide deres forretning."
 
 #. module: website
 #. openerp-web
@@ -1967,10 +1967,10 @@ msgstr "Skift ikoner"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_table_of_content
 msgid ""
-"Change theme in a few clicks, and browse through Odoo's catalog of\n"
+"Change theme in a few clicks, and browse through neoziv's catalog of\n"
 "                            ready-to-use themes available in our app store."
 msgstr ""
-"Ændr temaet i et par klik, og gennemgå Odoos katalog af\n"
+"Ændr temaet i et par klik, og gennemgå neozivs katalog af\n"
 "                             temaer som er klar til brug i vores app butik."
 
 #. module: website
@@ -3169,10 +3169,10 @@ msgstr "Dynamisk Indhold"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_table_of_content
 msgid ""
-"Easily design your own Odoo templates thanks to clean HTML\n"
+"Easily design your own neoziv templates thanks to clean HTML\n"
 "                            structure and bootstrap CSS."
 msgstr ""
-"Design nemt dine egne Odoo skabeloner, takket være ren HTML\n"
+"Design nemt dine egne neoziv skabeloner, takket være ren HTML\n"
 "                              struktur og bootstrap CSS."
 
 #. module: website
@@ -3612,8 +3612,8 @@ msgstr "Følg os"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "Follow your website traffic in Odoo."
-msgstr "Følg trafikken for din hjemmeside i Odoo."
+msgid "Follow your website traffic in neoziv."
+msgstr "Følg trafikken for din hjemmeside i neoziv."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
@@ -4029,8 +4029,8 @@ msgstr "Burger menu"
 #. openerp-web
 #: code:addons/website/static/src/snippets/s_countdown/000.xml:0
 #, python-format
-msgid "Happy Odoo Anniversary!"
-msgstr "Glædelig Odoo Jubilæum!"
+msgid "Happy neoziv Anniversary!"
+msgstr "Glædelig neoziv Jubilæum!"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website__has_social_default_image
@@ -4637,12 +4637,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 msgid ""
 "It appears your website is still using the old color system of\n"
-"            Odoo 13.0 in some places. We made sure it is still working but\n"
+"            neoziv 13.0 in some places. We made sure it is still working but\n"
 "            we recommend you to try to use the new color system, which is\n"
 "            still customizable."
 msgstr ""
 "Det ser ud til at din hjemmeside stadig anvender det gamle farve system fra\n"
-"             Odoo 13,0 visse steder. Vi har forsikret at det stadig virker, men\n"
+"             neoziv 13,0 visse steder. Vi har forsikret at det stadig virker, men\n"
 "             vi forslår, at du prøver det nye farve system, som stadig kan\n"
 "             tilpasses."
 
@@ -4659,10 +4659,10 @@ msgstr "Det ser ud til at din fil bliver kaldet af"
 #, python-format
 msgid ""
 "It might be possible to edit the relevant items or fix the issue in <a "
-"href=\"%s\">the classic Odoo interface</a>"
+"href=\"%s\">the classic neoziv interface</a>"
 msgstr ""
 "Det kan være muligt at redigere relevante genstande, eller at løse "
-"problemet, i <a href=\"%s\">det klassiske Odoo interface</a>"
+"problemet, i <a href=\"%s\">det klassiske neoziv interface</a>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.bs_debug_view
@@ -5319,12 +5319,12 @@ msgstr "Overvåg Google Søgning resultats data"
 #. module: website
 #: model_terms:digest.tip,tip_description:website.digest_tip_website_0
 msgid ""
-"Monitor your visitors while they are browsing your website with the Odoo "
+"Monitor your visitors while they are browsing your website with the neoziv "
 "Social app. Engage with them in just a click using a live chat request or a "
 "push notification. If they have completed one of your forms, you can send "
 "them an SMS, or call them right away while they are browsing your website."
 msgstr ""
-"Overvåg dine besøgende imens de gennemser din hjemmeside med Odoo Social "
+"Overvåg dine besøgende imens de gennemser din hjemmeside med neoziv Social "
 "app'en. Interager med dem ved blot et enkelt klik via en live chat anmodning"
 " eller push notifikation. Hvis de har udfyldt en af dine formularer, kan du "
 "sende dem en SMS, eller ringe til dem med det samme, imens de gennemser din "
@@ -5599,8 +5599,8 @@ msgstr "Antal besøg"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "Odoo Version"
-msgstr "Odoo version"
+msgid "neoziv Version"
+msgstr "neoziv version"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
@@ -6561,12 +6561,12 @@ msgstr "Søg besøgende"
 #: model_terms:digest.tip,tip_description:website.digest_tip_website_1
 msgid ""
 "Search in the media dialogue when you need photos to illustrate your "
-"website. Odoo's integration with Unsplash, featuring millions of royalty "
+"website. neoziv's integration with Unsplash, featuring millions of royalty "
 "free and high quality photos, makes it possible for you to get the perfect "
 "picture, in just a few clicks."
 msgstr ""
 "Søg i medie dialogen når du skal bruge fotografier til at illustrere din "
-"hjemmeside. Odoos integration med Unsplash, som har millioner af gratis "
+"hjemmeside. neozivs integration med Unsplash, som har millioner af gratis "
 "billeder af høj kvalitet, hjælper dig med at finde det perfekte billede med "
 "blot et par klik."
 
@@ -6813,11 +6813,11 @@ msgstr "Logget ind"
 msgid ""
 "Sitemap.xml: Help search engine crawlers to find out what pages are present "
 "and which have recently changed, and to crawl your site accordingly. This "
-"file is automatically generated by Odoo."
+"file is automatically generated by neoziv."
 msgstr ""
 "Sitemap.xml: Hjælp søgemaskiner crawlers med at finde ud af hvilke siger er "
 "tilstede, og hvilke der er blevet ændret for nyligt, og til at crawle din "
-"side derudfra. Denne fil genereres automatisk af Odoo."
+"side derudfra. Denne fil genereres automatisk af neoziv."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_alert_options
@@ -7632,13 +7632,13 @@ msgstr ""
 #: model_terms:digest.tip,tip_description:website.digest_tip_website_2
 msgid ""
 "To get more visitors, you should target keywords that are often searched in "
-"Google. With the built-in SEO tool, once you define a few keywords, Odoo "
+"Google. With the built-in SEO tool, once you define a few keywords, neoziv "
 "will recommend you the best keywords to target. Then adapt your title and "
 "description accordingly to boost your traffic."
 msgstr ""
 "For at få flere besøgende bør du sigte efter nøgleord der ofte søges efter i"
 " Google. Med det indbyggede SEO værktøj - når du har defineret et par "
-"nøgleord - vil Odoo foreslå dig de nøgleord der er bedst at bruge. Tilpas "
+"nøgleord - vil neoziv foreslå dig de nøgleord der er bedst at bruge. Tilpas "
 "derefter din titel og beskrivelse derudfra, for at forøge din trafik."
 
 #. module: website
@@ -9107,8 +9107,8 @@ msgstr "gratis hjemmeside"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
-msgid "frontend_lang (Odoo)"
-msgstr "frontend_lang (Odoo)"
+msgid "frontend_lang (neoziv)"
+msgstr "frontend_lang (neoziv)"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
@@ -9146,15 +9146,15 @@ msgstr "https://fonts.google.com/specimen/Roboto"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
 msgid ""
-"im_livechat_previous_operator_pid (Odoo)<br/>\n"
-"                                            utm_campaign (Odoo)<br/>\n"
-"                                            utm_source (Odoo)<br/>\n"
-"                                            utm_medium (Odoo)"
+"im_livechat_previous_operator_pid (neoziv)<br/>\n"
+"                                            utm_campaign (neoziv)<br/>\n"
+"                                            utm_source (neoziv)<br/>\n"
+"                                            utm_medium (neoziv)"
 msgstr ""
-"im_livechat_previous_operator_pid (Odoo)<br/>\n"
-"                                            utm_campaign (Odoo)<br/>\n"
-"                                            utm_source (Odoo)<br/>\n"
-"                                            utm_medium (Odoo)"
+"im_livechat_previous_operator_pid (neoziv)<br/>\n"
+"                                            utm_campaign (neoziv)<br/>\n"
+"                                            utm_source (neoziv)<br/>\n"
+"                                            utm_medium (neoziv)"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
@@ -9186,8 +9186,8 @@ msgstr "info@dinvirksomhed.eksempel.dk"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "instance of Odoo, the"
-msgstr "Odoo instansen"
+msgid "instance of neoziv, the"
+msgstr "neoziv instansen"
 
 #. module: website
 #: model:ir.model.fields.selection,name:website.selection__theme_ir_ui_view__inherit_id__ir_ui_view
@@ -9294,11 +9294,11 @@ msgstr "separator, opdeler"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
 msgid ""
-"session_id (Odoo)<br/>\n"
-"                                            fileToken (Odoo)"
+"session_id (neoziv)<br/>\n"
+"                                            fileToken (neoziv)"
 msgstr ""
-"session_id (Odoo)<br/>\n"
-"                                            fileToken (Odoo)"
+"session_id (neoziv)<br/>\n"
+"                                            fileToken (neoziv)"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
@@ -9347,8 +9347,8 @@ msgstr "Hjemmeside"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "www.odoo.com"
-msgstr "www.odoo.com"
+msgid "www.neoziv.com"
+msgstr "www.neoziv.com"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.qweb_500

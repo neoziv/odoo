@@ -1,4 +1,4 @@
-odoo.define("web.ComparisonMenu", function (require) {
+neoziv.define("web.ComparisonMenu", function (require) {
     "use strict";
 
     const DropdownMenu = require("web.DropdownMenu");

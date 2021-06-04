@@ -1,4 +1,4 @@
-odoo.define('mail/static/src/components/thread_preview/thread_preview_tests.js', function (require) {
+neoziv.define('mail/static/src/components/thread_preview/thread_preview_tests.js', function (require) {
 'use strict';
 
 const components = {

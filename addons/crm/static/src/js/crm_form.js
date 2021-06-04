@@ -1,4 +1,4 @@
-odoo.define("crm.crm_form", function (require) {
+neoziv.define("crm.crm_form", function (require) {
     "use strict";
 
     /**
@@ -41,7 +41,7 @@ odoo.define("crm.crm_form", function (require) {
          *
          * @param {string} dataPointID
          * @param {Object} changes
-         * @param {OdooEvent} event
+         * @param {neozivEvent} event
          * @override
          * @private
          */

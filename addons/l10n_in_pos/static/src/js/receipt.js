@@ -1,4 +1,4 @@
-odoo.define('l10n_in_pos.receipt', function (require) {
+neoziv.define('l10n_in_pos.receipt', function (require) {
 "use strict";
 
 var models = require('point_of_sale.models');

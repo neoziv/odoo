@@ -1,4 +1,4 @@
-odoo.define('mrp.MrpDocumentViewer', function (require) {
+neoziv.define('mrp.MrpDocumentViewer', function (require) {
 "use strict";
 
 const DocumentViewer = require('mail.DocumentViewer');

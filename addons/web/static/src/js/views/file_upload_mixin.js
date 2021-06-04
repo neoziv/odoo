@@ -1,4 +1,4 @@
-odoo.define('web.fileUploadMixin', function (require) {
+neoziv.define('web.fileUploadMixin', function (require) {
 'use strict';
 
 /**
@@ -200,7 +200,7 @@ const ProgressBarMixin = {
     },
     /**
      * @private
-     * @param {OdooEvent} ev
+     * @param {neozivEvent} ev
      * @param {integer} ev.data.fileUploadId
      */
     _onProgressBarAbort(ev) {

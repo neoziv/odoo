@@ -1,4 +1,4 @@
-odoo.define('project.ProjectCalendarView', function (require) {
+neoziv.define('project.ProjectCalendarView', function (require) {
 "use strict";
 
 const CalendarController = require('web.CalendarController');

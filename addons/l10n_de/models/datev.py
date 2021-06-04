@@ -1,6 +1,6 @@
-from odoo import api, fields, models
-from odoo.exceptions import UserError
-from odoo.tools.translate import _
+from neoziv import api, fields, models
+from neoziv.exceptions import UserError
+from neoziv.tools.translate import _
 
 class AccountTaxTemplate(models.Model):
     _inherit = 'account.tax.template'

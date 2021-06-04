@@ -1,4 +1,4 @@
-odoo.define('mail/static/tests/tours/mail_full_composer_test_tour.js', function (require) {
+neoziv.define('mail/static/tests/tours/mail_full_composer_test_tour.js', function (require) {
 "use strict";
 
 const {

@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import uuid
 from collections import defaultdict
 
 from dateutil.relativedelta import relativedelta
 
-from odoo import api, fields, models, tools, _
-from odoo.addons.http_routing.models.ir_http import slug
-from odoo.exceptions import AccessError
-from odoo.osv import expression
+from neoziv import api, fields, models, tools, _
+from neoziv.addons.http_routing.models.ir_http import slug
+from neoziv.exceptions import AccessError
+from neoziv.osv import expression
 
 
 class ChannelUsersRelation(models.Model):
@@ -391,7 +391,7 @@ class Channel(models.Model):
 
     @api.model
     def create(self, vals):
-        # Ensure creator is member of its channel it is easier for him to manage it (unless it is odoobot)
+        # Ensure creator is member of its channel it is easier for him to manage it (unless it is neozivbot)
         if not vals.get('channel_partner_ids') and not self.env.is_superuser():
             vals['channel_partner_ids'] = [(0, 0, {
                 'partner_id': self.env.user.partner_id.id

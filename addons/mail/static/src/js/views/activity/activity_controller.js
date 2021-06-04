@@ -1,4 +1,4 @@
-odoo.define('mail.ActivityController', function (require) {
+neoziv.define('mail.ActivityController', function (require) {
 "use strict";
 
 require('mail.Activity');
@@ -73,7 +73,7 @@ var ActivityController = BasicController.extend({
     },
     /**
      * @private
-     * @param {OdooEvent} ev
+     * @param {neozivEvent} ev
      */
     _onEmptyCell: function (ev) {
         var state = this.model.get(this.handle);

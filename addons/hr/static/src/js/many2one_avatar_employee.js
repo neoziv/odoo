@@ -1,4 +1,4 @@
-odoo.define('hr.Many2OneAvatarEmployee', function (require) {
+neoziv.define('hr.Many2OneAvatarEmployee', function (require) {
     "use strict";
 
     // This module defines a variant of the Many2OneAvatarUser field widget,

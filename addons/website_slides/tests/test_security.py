@@ -1,17 +1,17 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo.addons.website_slides.tests import common
-from odoo.exceptions import AccessError, UserError
-from odoo.tests import tagged
-from odoo.tests.common import users
-from odoo.tools import mute_logger
+from neoziv.addons.website_slides.tests import common
+from neoziv.exceptions import AccessError, UserError
+from neoziv.tests import tagged
+from neoziv.tests.common import users
+from neoziv.tools import mute_logger
 
 
 @tagged('security')
 class TestAccess(common.SlidesCase):
 
-    @mute_logger('odoo.models', 'odoo.addons.base.models.ir_rule')
+    @mute_logger('neoziv.models', 'neoziv.addons.base.models.ir_rule')
     def test_access_channel_invite(self):
         """ Invite channels don't give enroll if not member """
         self.channel.write({'enroll': 'invite'})
@@ -46,7 +46,7 @@ class TestAccess(common.SlidesCase):
         with self.assertRaises(AccessError):
             self.slide.with_user(self.user_emp).read(['name'])
 
-    @mute_logger('odoo.models', 'odoo.addons.base.models.ir_rule')
+    @mute_logger('neoziv.models', 'neoziv.addons.base.models.ir_rule')
     def test_access_channel_public(self):
         """ Public channels don't give enroll if not member """
         self.channel.write({'enroll': 'public'})
@@ -67,7 +67,7 @@ class TestAccess(common.SlidesCase):
         with self.assertRaises(AccessError):
             self.slide.with_user(self.user_public).read(['name'])
 
-    @mute_logger('odoo.models', 'odoo.addons.base.models.ir_rule')
+    @mute_logger('neoziv.models', 'neoziv.addons.base.models.ir_rule')
     def test_access_channel_publish(self):
         """ Unpublished channels and their content are visible only to eLearning people """
         self.channel.write({'is_published': False, 'enroll': 'public'})
@@ -138,7 +138,7 @@ class TestAccess(common.SlidesCase):
             self.slide.invalidate_cache(['name'])
             self.slide.with_user(self.user_public).read(['name'])
 
-    @mute_logger('odoo.models', 'odoo.addons.base.models.ir_rule')
+    @mute_logger('neoziv.models', 'neoziv.addons.base.models.ir_rule')
     def test_access_slide_preview(self):
         """ Slides with preview flag are always visible even to non members if published """
         self.channel.write({'enroll': 'invite'})
@@ -189,7 +189,7 @@ class TestRemoveMembership(common.SlidesCase):
 @tagged('functional')
 class TestAccessFeatures(common.SlidesCase):
 
-    @mute_logger('odoo.models', 'odoo.addons.base.models.ir_rule')
+    @mute_logger('neoziv.models', 'neoziv.addons.base.models.ir_rule')
     def test_channel_auto_subscription(self):
         user_employees = self.env['res.users'].search([('groups_id', 'in', self.ref('base.group_user'))])
 
@@ -232,7 +232,7 @@ class TestAccessFeatures(common.SlidesCase):
         channel.invalidate_cache()
         self.assertEqual(channel.partner_ids, user_employees.mapped('partner_id') | new_user.partner_id | new_user_2.partner_id | new_user_3.partner_id)
 
-    @mute_logger('odoo.models', 'odoo.addons.base.models.ir_rule')
+    @mute_logger('neoziv.models', 'neoziv.addons.base.models.ir_rule')
     def test_channel_access_fields_employee(self):
         channel_manager = self.channel.with_user(self.user_manager)
         channel_emp = self.channel.with_user(self.user_emp)
@@ -249,7 +249,7 @@ class TestAccessFeatures(common.SlidesCase):
         self.assertFalse(channel_portal.can_upload)
         self.assertFalse(channel_portal.can_publish)
 
-    @mute_logger('odoo.models', 'odoo.addons.base.models.ir_rule')
+    @mute_logger('neoziv.models', 'neoziv.addons.base.models.ir_rule')
     def test_channel_access_fields_officer(self):
         self.assertEqual(self.channel.user_id, self.user_officer)
 
@@ -271,7 +271,7 @@ class TestAccessFeatures(common.SlidesCase):
         self.assertTrue(channel_manager.can_upload)
         self.assertTrue(channel_manager.can_publish)
 
-    @mute_logger('odoo.models', 'odoo.addons.base.models.ir_rule')
+    @mute_logger('neoziv.models', 'neoziv.addons.base.models.ir_rule')
     def test_channel_access_fields_manager(self):
         channel_manager = self.channel.with_user(self.user_manager)
         self.assertTrue(channel_manager.can_upload)

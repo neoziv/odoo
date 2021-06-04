@@ -1,4 +1,4 @@
-odoo.define('barcodes.BarcodeEvents', function(require) {
+neoziv.define('barcodes.BarcodeEvents', function(require) {
 "use strict";
 
 var config = require('web.config');

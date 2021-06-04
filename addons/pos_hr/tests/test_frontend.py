@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo import tools
-from odoo.api import Environment
-from odoo.tools import DEFAULT_SERVER_DATE_FORMAT
+from neoziv import tools
+from neoziv.api import Environment
+from neoziv.tools import DEFAULT_SERVER_DATE_FORMAT
 from datetime import date, timedelta
 
-from odoo.tests import Form, tagged, new_test_user
-from odoo.addons.point_of_sale.tests.test_frontend import TestPointOfSaleHttpCommon
+from neoziv.tests import Form, tagged, new_test_user
+from neoziv.addons.point_of_sale.tests.test_frontend import TestPointOfSaleHttpCommon
 
 
 class TestPosHrHttpCommon(TestPointOfSaleHttpCommon):

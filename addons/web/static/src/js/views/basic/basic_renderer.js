@@ -1,4 +1,4 @@
-odoo.define('web.BasicRenderer', function (require) {
+neoziv.define('web.BasicRenderer', function (require) {
 "use strict";
 
 /**
@@ -152,7 +152,7 @@ var BasicRenderer = AbstractRenderer.extend(WidgetAdapterMixin, {
      * @param {Object} state
      * @param {string} id
      * @param {string[]} fields
-     * @param {OdooEvent} ev
+     * @param {neozivEvent} ev
      * @returns {Promise<AbstractField[]>} resolved with the list of widgets
      *                                      that have been reset
      */
@@ -912,11 +912,11 @@ var BasicRenderer = AbstractRenderer.extend(WidgetAdapterMixin, {
     /**
      * When someone presses the TAB/UP/DOWN/... key in a widget, it is nice to
      * be able to navigate in the view (default browser behaviors are disabled
-     * by Odoo).
+     * by neoziv).
      *
      * @abstract
      * @private
-     * @param {OdooEvent} ev
+     * @param {neozivEvent} ev
      */
     _onNavigationMove: function (ev) {},
 });

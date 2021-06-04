@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 
-from odoo import registry, SUPERUSER_ID
-from odoo.api import Environment
-from odoo.addons.bus.controllers.main import BusController
-from odoo.fields import Datetime
-from odoo.http import Controller, request, route
+from neoziv import registry, SUPERUSER_ID
+from neoziv.api import Environment
+from neoziv.addons.bus.controllers.main import BusController
+from neoziv.fields import Datetime
+from neoziv.http import Controller, request, route
 
 
 class BusController(BusController):

@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 import logging
 import requests
 
-from odoo import api, models, _
-from odoo.http import request
-from odoo.exceptions import UserError, ValidationError
+from neoziv import api, models, _
+from neoziv.http import request
+from neoziv.exceptions import UserError, ValidationError
 
 logger = logging.getLogger(__name__)
 

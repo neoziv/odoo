@@ -2,10 +2,10 @@
 
 from ast import literal_eval
 from collections import OrderedDict
-from odoo import models, fields, api, _
-from odoo.exceptions import ValidationError, MissingError
-from odoo.osv import expression
-from odoo.tools import html_escape as escape
+from neoziv import models, fields, api, _
+from neoziv.exceptions import ValidationError, MissingError
+from neoziv.osv import expression
+from neoziv.tools import html_escape as escape
 from lxml import etree as ET
 import logging
 

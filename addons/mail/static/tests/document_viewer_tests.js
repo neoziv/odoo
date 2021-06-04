@@ -1,4 +1,4 @@
-odoo.define('mail.document_viewer_tests', function (require) {
+neoziv.define('mail.document_viewer_tests', function (require) {
 "use strict";
 
 var DocumentViewer = require('mail.DocumentViewer');

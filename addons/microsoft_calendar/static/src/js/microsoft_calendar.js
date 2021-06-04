@@ -1,4 +1,4 @@
-odoo.define('microsoft_calendar.CalendarView', function (require) {
+neoziv.define('microsoft_calendar.CalendarView', function (require) {
 "use strict";
 
 var core = require('web.core');
@@ -105,7 +105,7 @@ const MicrosoftCalendarController = CalendarController.include({
      * mean of a dialog.
      *
      * @private
-     * @returns {OdooEvent} event
+     * @returns {neozivEvent} event
      */
     _onSyncMicrosoftCalendar: function (event) {
         var self = this;

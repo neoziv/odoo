@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo import models, fields, api
-from odoo.addons.account_edi_extended.models.account_edi_document import DEFAULT_BLOCKING_LEVEL
+from neoziv import models, fields, api
+from neoziv.addons.account_edi_extended.models.account_edi_document import DEFAULT_BLOCKING_LEVEL
 from psycopg2 import OperationalError
 import logging
 

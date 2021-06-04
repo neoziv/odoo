@@ -1,4 +1,4 @@
-odoo.define('website_livechat.tour_common', function(require) {
+neoziv.define('website_livechat.tour_common', function(require) {
 'use strict';
 
 var session = require('web.session');

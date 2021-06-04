@@ -1,4 +1,4 @@
-odoo.define('website.iframe_widget', function (require) {
+neoziv.define('website.iframe_widget', function (require) {
 "use strict";
 
 

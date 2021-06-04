@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-from odoo import api, fields, models, _
-from odoo.exceptions import ValidationError
+from neoziv import api, fields, models, _
+from neoziv.exceptions import ValidationError
 
 
 class AccountTaxReport(models.Model):

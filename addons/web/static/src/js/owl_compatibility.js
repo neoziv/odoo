@@ -1,8 +1,8 @@
-odoo.define('web.OwlCompatibility', function () {
+neoziv.define('web.OwlCompatibility', function () {
     "use strict";
 
     /**
-     * This file defines the necessary tools for the transition phase where Odoo
+     * This file defines the necessary tools for the transition phase where neoziv
      * legacy widgets and Owl components will coexist. There are two possible
      * scenarios:
      *  1) An Owl component has to instantiate legacy widgets
@@ -13,7 +13,7 @@ odoo.define('web.OwlCompatibility', function () {
     const { useRef, useSubEnv } = hooks;
     const { xml } = tags;
 
-    const widgetSymbol = odoo.widgetSymbol;
+    const widgetSymbol = neoziv.widgetSymbol;
     const children = new WeakMap(); // associates legacy widgets with their Owl children
 
     /**
@@ -21,8 +21,8 @@ odoo.define('web.OwlCompatibility', function () {
      * ----------------------------------------------------------
      *
      * The ComponentAdapter is an Owl component meant to be used as universal
-     * adapter for Owl components that embed Odoo legacy widgets (or dynamically
-     * both Owl components and Odoo legacy widgets), e.g.:
+     * adapter for Owl components that embed neoziv legacy widgets (or dynamically
+     * both Owl components and neoziv legacy widgets), e.g.:
      *
      *                           Owl Component
      *                                 |
@@ -224,10 +224,10 @@ odoo.define('web.OwlCompatibility', function () {
         }
 
         /**
-         * Mocks _trigger_up to redirect Odoo legacy events to OWL events.
+         * Mocks _trigger_up to redirect neoziv legacy events to OWL events.
          *
          * @private
-         * @param {OdooEvent} ev
+         * @param {neozivEvent} ev
          */
         _trigger_up(ev) {
             const evType = ev.name;
@@ -271,7 +271,7 @@ odoo.define('web.OwlCompatibility', function () {
      * ---------------------------------------------------------
      *
      * The WidgetAdapterMixin and the ComponentWrapper are meant to be used
-     * together when an Odoo legacy widget needs to instantiate Owl components.
+     * together when an neoziv legacy widget needs to instantiate Owl components.
      * In this case, the widgets/components hierarchy would look like:
      *
      *             Legacy Widget + WidgetAdapterMixin
@@ -472,7 +472,7 @@ odoo.define('web.OwlCompatibility', function () {
 
         /**
          * Adds an event handler that will redirect the given Owl event to an
-         * Odoo legacy event. This function is called just before the event is
+         * neoziv legacy event. This function is called just before the event is
          * actually triggered.
          *
          * @private

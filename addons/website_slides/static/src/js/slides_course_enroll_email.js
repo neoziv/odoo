@@ -1,4 +1,4 @@
-odoo.define('website_slides.course.enroll', function (require) {
+neoziv.define('website_slides.course.enroll', function (require) {
 'use strict';
 
 var core = require('web.core');

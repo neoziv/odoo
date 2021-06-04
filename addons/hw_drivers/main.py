@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from dbus.mainloop.glib import DBusGMainLoop
 import json
@@ -9,7 +9,7 @@ from threading import Thread
 import time
 import urllib3
 
-from odoo.addons.hw_drivers.tools import helpers
+from neoziv.addons.hw_drivers.tools import helpers
 
 _logger = logging.getLogger(__name__)
 
@@ -21,11 +21,11 @@ iot_devices = {}
 class Manager(Thread):
     def send_alldevices(self):
         """
-        This method send IoT Box and devices informations to Odoo database
+        This method send IoT Box and devices informations to neoziv database
         """
-        server = helpers.get_odoo_server_url()
+        server = helpers.get_neoziv_server_url()
         if server:
-            subject = helpers.read_file_first_line('odoo-subject.conf')
+            subject = helpers.read_file_first_line('neoziv-subject.conf')
             if subject:
                 domain = helpers.get_ip().replace('.', '-') + subject.strip('*')
             else:
@@ -64,11 +64,11 @@ class Manager(Thread):
                 _logger.error('Could not reach configured server')
                 _logger.error('A error encountered : %s ' % e)
         else:
-            _logger.warning('Odoo server not set')
+            _logger.warning('neoziv server not set')
 
     def run(self):
         """
-        Thread that will load interfaces and drivers and contact the odoo server with the updates
+        Thread that will load interfaces and drivers and contact the neoziv server with the updates
         """
 
         helpers.check_git_branch()

@@ -1,4 +1,4 @@
-odoo.define('crm.crm_kanban', function (require) {
+neoziv.define('crm.crm_kanban', function (require) {
     "use strict";
 
     /**

@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 from datetime import date, datetime
 
-from odoo.tests.common import Form
+from neoziv.tests.common import Form
 
-from odoo.addons.hr_holidays.tests.common import TestHrHolidaysCommon
-from odoo.exceptions import ValidationError
+from neoziv.addons.hr_holidays.tests.common import TestHrHolidaysCommon
+from neoziv.exceptions import ValidationError
 
 
 class TestAutomaticLeaveDates(TestHrHolidaysCommon):

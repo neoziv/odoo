@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-from odoo import models, fields
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
+from neoziv import models, fields
 
 
 class L10nLatamDocumentType(models.Model):

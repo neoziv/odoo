@@ -1,4 +1,4 @@
-odoo.define('website.editor.snippets.options', function (require) {
+neoziv.define('website.editor.snippets.options', function (require) {
 'use strict';
 
 const {ColorpickerWidget} = require('web.Colorpicker');
@@ -58,7 +58,7 @@ const UrlPickerUserValueWidget = InputUserValueWidget.extend({
      * Called when the autocomplete change the input value.
      *
      * @private
-     * @param {OdooEvent} ev
+     * @param {neozivEvent} ev
      */
     _onWebsiteURLChosen: function (ev) {
         this._value = this.inputEl.value;
@@ -639,7 +639,7 @@ options.Class.include({
 
     /**
      * @private
-     * @param {OdooEvent} ev
+     * @param {neozivEvent} ev
      */
     _onGoogleFontsCustoRequest: function (ev) {
         const values = ev.data.values ? _.clone(ev.data.values) : {};

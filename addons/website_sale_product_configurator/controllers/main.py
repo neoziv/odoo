@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 import json
-from odoo import http
-from odoo.http import request
+from neoziv import http
+from neoziv.http import request
 
-from odoo.addons.sale_product_configurator.controllers.main import ProductConfiguratorController
-from odoo.addons.website_sale.controllers.main import WebsiteSale
+from neoziv.addons.sale_product_configurator.controllers.main import ProductConfiguratorController
+from neoziv.addons.website_sale.controllers.main import WebsiteSale
 
 class WebsiteSaleProductConfiguratorController(ProductConfiguratorController):
     @http.route(['/sale_product_configurator/show_optional_products_website'], type='json', auth="public", methods=['POST'], website=True)

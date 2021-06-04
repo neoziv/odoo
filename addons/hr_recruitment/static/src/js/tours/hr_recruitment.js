@@ -1,4 +1,4 @@
-odoo.define('hr_recruitment.tour', function(require) {
+neoziv.define('hr_recruitment.tour', function(require) {
 "use strict";
 
 var core = require('web.core');

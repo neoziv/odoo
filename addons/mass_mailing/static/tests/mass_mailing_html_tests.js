@@ -1,4 +1,4 @@
-odoo.define('mass_mailing.field_html_tests', function (require) {
+neoziv.define('mass_mailing.field_html_tests', function (require) {
 "use strict";
 
 var ajax = require('web.ajax');

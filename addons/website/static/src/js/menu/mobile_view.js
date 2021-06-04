@@ -1,4 +1,4 @@
-odoo.define('website.mobile', function (require) {
+neoziv.define('website.mobile', function (require) {
 'use strict';
 
 var core = require('web.core');

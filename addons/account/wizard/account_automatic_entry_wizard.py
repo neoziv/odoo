@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-from odoo import api, fields, models, _
-from odoo.exceptions import UserError
-from odoo.tools.misc import format_date, formatLang
+from neoziv import api, fields, models, _
+from neoziv.exceptions import UserError
+from neoziv.tools.misc import format_date, formatLang
 
 from collections import defaultdict
 from itertools import groupby

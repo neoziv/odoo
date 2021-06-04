@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-from odoo.addons.sale_coupon.tests.common import TestSaleCouponCommon
-from odoo.exceptions import UserError
-from odoo.tests import tagged
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
+from neoziv.addons.sale_coupon.tests.common import TestSaleCouponCommon
+from neoziv.exceptions import UserError
+from neoziv.tests import tagged
 
 
 @tagged('post_install', '-at_install')

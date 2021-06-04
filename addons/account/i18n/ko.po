@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* account
 # 
@@ -8,17 +8,17 @@
 # Martin Trigaux, 2020
 # Seongseok Shin <shinss61@hotmail.com>, 2020
 # Linkup <link-up@naver.com>, 2021
-# Mark Lee <odoos@soti.33mail.com>, 2021
+# Mark Lee <neozivs@soti.33mail.com>, 2021
 # JH CHOI <hwangtog@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-25 10:15+0000\n"
 "PO-Revision-Date: 2020-09-07 08:09+0000\n"
 "Last-Translator: JH CHOI <hwangtog@gmail.com>, 2021\n"
-"Language-Team: Korean (https://www.transifex.com/odoo/teams/41243/ko/)\n"
+"Language-Team: Korean (https://www.transifex.com/neoziv/teams/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -4262,9 +4262,9 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_financial_year_op__opening_date
 msgid ""
-"Date from which the accounting is managed in Odoo. It is the date of the "
+"Date from which the accounting is managed in neoziv. It is the date of the "
 "opening entry."
-msgstr "Odoo에서 회계를 관리하기 시작한 날짜입니다. 개시된 항목의 날짜입니다."
+msgstr "neoziv에서 회계를 관리하기 시작한 날짜입니다. 개시된 항목의 날짜입니다."
 
 #. module: account
 #. openerp-web
@@ -7376,39 +7376,39 @@ msgstr "수동"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__inbound_payment_method_ids
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Odoo.\n"
+"Manual: Get paid by cash, check or any other method outside of neoziv.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in neoziv,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
 msgstr ""
-"수동: Odoo 외에서 현금, 수표 또는 기타 다른 방식으로 지급받습니다.\n"
+"수동: neoziv 외에서 현금, 수표 또는 기타 다른 방식으로 지급받습니다.\n"
 "자동: 온라인에서 매입/구독할 때 고객이 저장한 카드에 대해 거래를 요청한 후 결제를 통해 자동으로 지급받습니다(결제 토큰).\n"
-"일괄 예금: 은행에 예치할 일괄 예금을 생성하여 여러 고객의 전표를 한 번에 묶습니다. Odoo에서 예금거래 명세서를 인코딩할 때는 일괄 예금으로 거래를 조정하는 것이 좋습니다. 이 옵션은 설정에서 활성화합니다."
+"일괄 예금: 은행에 예치할 일괄 예금을 생성하여 여러 고객의 전표를 한 번에 묶습니다. neoziv에서 예금거래 명세서를 인코딩할 때는 일괄 예금으로 거래를 조정하는 것이 좋습니다. 이 옵션은 설정에서 활성화합니다."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment__payment_method_id
 #: model:ir.model.fields,help:account.field_account_payment_register__payment_method_id
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Odoo.\n"
+"Manual: Get paid by cash, check or any other method outside of neoziv.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Check: Pay bill by check and print it from Odoo.\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo, you are suggested to reconcile the transaction with the batch deposit.To enable batch deposit, module account_batch_payment must be installed.\n"
+"Check: Pay bill by check and print it from neoziv.\n"
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in neoziv, you are suggested to reconcile the transaction with the batch deposit.To enable batch deposit, module account_batch_payment must be installed.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. To enable sepa credit transfer, module account_sepa must be installed "
 msgstr ""
-"수동 : Odoo 외에서 현금, 수표 또는 기타 다른 방식으로 지급받습니다.\n"
+"수동 : neoziv 외에서 현금, 수표 또는 기타 다른 방식으로 지급받습니다.\n"
 "자동 : 온라인에서 매입/구독할 때 고객이 저장한 카드에 대해 거래를 요청한 후 결제를 통해 자동으로 지급받습니다(결제 토큰).\n"
-"전표 : 전표로 청구 대금을 지불하고 Odoo에서 인쇄합니다.\n"
-"일괄 예금 : 은행에 예치할 일괄 예금을 생성하여 여러 고객의 전표를 한 번에 묶습니다. Odoo에서 예금거래 명세서를 인코딩할 때는 일괄 예금으로 거래를 조정하는 것이 좋습니다. 일괄 예금을 활성화하려면 account_batch_deposit 모듈을 설치해야 합니다.\n"
+"전표 : 전표로 청구 대금을 지불하고 neoziv에서 인쇄합니다.\n"
+"일괄 예금 : 은행에 예치할 일괄 예금을 생성하여 여러 고객의 전표를 한 번에 묶습니다. neoziv에서 예금거래 명세서를 인코딩할 때는 일괄 예금으로 거래를 조정하는 것이 좋습니다. 일괄 예금을 활성화하려면 account_batch_deposit 모듈을 설치해야 합니다.\n"
 "SEPA 계좌 이체 : 은행에 제출한 SEPA 계좌 이체 파일에서 청구 금액을 지불합니다. SEPA 계좌 이체를 활성화하려면 account_sepa 모듈을 설치해야 합니다."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__outbound_payment_method_ids
 msgid ""
-"Manual:Pay bill by cash or any other method outside of Odoo.\n"
-"Check:Pay bill by check and print it from Odoo.\n"
+"Manual:Pay bill by cash or any other method outside of neoziv.\n"
+"Check:Pay bill by check and print it from neoziv.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. Enable this option from the settings."
 msgstr ""
-"수동: Odoo 외에 현금이나 다른 방법으로 청구 금액을 지불합니다.\n"
-"전표: 전표로 청구 금액을 지불하고 Odoo에서 인쇄합니다.\n"
+"수동: neoziv 외에 현금이나 다른 방법으로 청구 금액을 지불합니다.\n"
+"전표: 전표로 청구 금액을 지불하고 neoziv에서 인쇄합니다.\n"
 "SEPA 신용 이전: 은행에 제출한 SEPA 신용 이전 파일에서 청구 금액을 지불합니다. 이 옵션은 설정에서 활성화합니다."
 
 #. module: account
@@ -8054,33 +8054,33 @@ msgid "October"
 msgstr "10월"
 
 #. module: account
-#: model:ir.model.fields.selection,name:account.selection__account_journal__invoice_reference_model__odoo
-msgid "Odoo"
-msgstr "Odoo"
+#: model:ir.model.fields.selection,name:account.selection__account_journal__invoice_reference_model__neoziv
+msgid "neoziv"
+msgstr "neoziv"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_line
 msgid ""
-"Odoo allows you to reconcile a statement line directly with\n"
+"neoziv allows you to reconcile a statement line directly with\n"
 "                the related sale or purchase invoice(s)."
 msgstr ""
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_tree
 msgid ""
-"Odoo allows you to reconcile a statement line directly with\n"
+"neoziv allows you to reconcile a statement line directly with\n"
 "                the related sale or purchase invoices."
 msgstr ""
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_customer
-msgid "Odoo helps you easily track all activities related to a customer."
-msgstr "Odoo는 고객과 관련된 모든 활동을 쉽게 추적하도록 도와줍니다."
+msgid "neoziv helps you easily track all activities related to a customer."
+msgstr "neoziv는 고객과 관련된 모든 활동을 쉽게 추적하도록 도와줍니다."
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_supplier
-msgid "Odoo helps you easily track all activities related to a supplier."
-msgstr "Odoo는 공급업체와 관련된 모든 활동을 쉽게 추적할 수 있도록 도와줍니다."
+msgid "neoziv helps you easily track all activities related to a supplier."
+msgstr "neoziv는 공급업체와 관련된 모든 활동을 쉽게 추적할 수 있도록 도와줍니다."
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_account_type__internal_group__off_balance
@@ -8130,7 +8130,7 @@ msgid ""
 "Once installed, set 'Bank Feeds' to 'File Import' in bank account "
 "settings.This adds a button to import from the Accounting dashboard."
 msgstr ""
-"Odoo를 설치하면 은행 계좌 설정에서 ‘은행 피드’를 ‘파일 가져오기’로 설정합니다. 회계 현황판에서 가져오는 버튼이 추가됩니다."
+"neoziv를 설치하면 은행 계좌 설정에서 ‘은행 피드’를 ‘파일 가져오기’로 설정합니다. 회계 현황판에서 가져오는 버튼이 추가됩니다."
 
 #. module: account
 #. openerp-web
@@ -10315,7 +10315,7 @@ msgid ""
 "\n"
 "Any file extension will be accepted.\n"
 "\n"
-"Only PDF and XML files will be interpreted by Odoo"
+"Only PDF and XML files will be interpreted by neoziv"
 msgstr ""
 
 #. module: account
@@ -12693,7 +12693,7 @@ msgstr ""
 msgid ""
 "This option permanently removes any track of email after it's been sent, "
 "including from the Technical menu in the Settings, in order to preserve "
-"storage space of your Odoo database."
+"storage space of your neoziv database."
 msgstr ""
 
 #. module: account
@@ -13540,7 +13540,7 @@ msgstr "통화 포함"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_tour_upload_bill
-msgid "With Odoo, you won't have to records bills manually"
+msgid "With neoziv, you won't have to records bills manually"
 msgstr ""
 
 #. module: account
@@ -13584,8 +13584,8 @@ msgstr "이 상자에 표시하면 이 분개 항목을 관련 협력사와의 �
 #: model:ir.model.fields,help:account.field_account_journal__invoice_reference_model
 msgid ""
 "You can choose different models for each type of reference. The default one "
-"is the Odoo reference."
-msgstr "참조 유형마다 다른 모델을 선택할 수 있습니다. 기본 설정은 Odoo 참조입니다."
+"is the neoziv reference."
+msgstr "참조 유형마다 다른 모델을 선택할 수 있습니다. 기본 설정은 neoziv 참조입니다."
 
 #. module: account
 #: code:addons/account/models/account_payment_term.py:0

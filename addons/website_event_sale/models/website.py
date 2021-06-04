@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from odoo import models
+from neoziv import models
 
 
 class Website(models.Model):

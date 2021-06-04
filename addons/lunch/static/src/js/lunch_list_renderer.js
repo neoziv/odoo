@@ -1,4 +1,4 @@
-odoo.define('lunch.LunchListRenderer', function (require) {
+neoziv.define('lunch.LunchListRenderer', function (require) {
 "use strict";
 
 /**

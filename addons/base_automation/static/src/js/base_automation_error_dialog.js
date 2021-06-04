@@ -1,4 +1,4 @@
-odoo.define('base_automation.BaseAutomatioErrorDialog', function (require) {
+neoziv.define('base_automation.BaseAutomatioErrorDialog', function (require) {
     "use strict";
 
     const CrashManager = require('web.CrashManager');

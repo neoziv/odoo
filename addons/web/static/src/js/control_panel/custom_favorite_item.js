@@ -1,4 +1,4 @@
-odoo.define('web.CustomFavoriteItem', function (require) {
+neoziv.define('web.CustomFavoriteItem', function (require) {
     "use strict";
 
     const DropdownMenuItem = require('web.DropdownMenuItem');

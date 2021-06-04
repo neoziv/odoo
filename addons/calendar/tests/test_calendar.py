@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 import datetime
 
 from datetime import datetime, timedelta, time
 
-from odoo import fields
-from odoo.addons.base.tests.common import SavepointCaseWithUserDemo
+from neoziv import fields
+from neoziv.addons.base.tests.common import SavepointCaseWithUserDemo
 import pytz
 import re
 
@@ -21,9 +21,9 @@ class TestCalendar(SavepointCaseWithUserDemo):
             'privacy': 'private',
             'start': '2011-04-30 16:00:00',
             'stop': '2011-04-30 18:30:00',
-            'description': 'The Technical Presentation will cover following topics:\n* Creating Odoo class\n* Views\n* Wizards\n* Workflows',
+            'description': 'The Technical Presentation will cover following topics:\n* Creating neoziv class\n* Views\n* Wizards\n* Workflows',
             'duration': 2.5,
-            'location': 'Odoo S.A.',
+            'location': 'neoziv S.A.',
             'name': 'Technical Presentation'
         })
 

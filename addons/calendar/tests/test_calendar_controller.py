@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 from datetime import datetime
 
-from odoo.tests.common import HttpCase, new_test_user, tagged
+from neoziv.tests.common import HttpCase, new_test_user, tagged
 
 
 @tagged("post_install", "-at_install")

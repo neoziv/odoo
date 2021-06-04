@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import pytz
 from dateutil.parser import parse
 from dateutil.relativedelta import relativedelta
 
-from odoo import api, fields, models, tools, _
+from neoziv import api, fields, models, tools, _
 
 
 class Meeting(models.Model):
@@ -53,12 +53,12 @@ class Meeting(models.Model):
         return [('partner_ids.user_ids', 'in', self.env.user.id)]
 
     @api.model
-    def _odoo_values(self, google_event, default_reminders=()):
+    def _neoziv_values(self, google_event, default_reminders=()):
         if google_event.is_cancelled():
             return {'active': False}
 
-        alarm_commands = self._odoo_reminders_commands(google_event.reminders.get('overrides') or default_reminders)
-        attendee_commands, partner_commands = self._odoo_attendee_commands(google_event)
+        alarm_commands = self._neoziv_reminders_commands(google_event.reminders.get('overrides') or default_reminders)
+        attendee_commands, partner_commands = self._neoziv_attendee_commands(google_event)
         values = {
             'name': google_event.summary or _("(No title)"),
             'description': google_event.description,
@@ -87,7 +87,7 @@ class Meeting(models.Model):
         return values
 
     @api.model
-    def _odoo_attendee_commands(self, google_event):
+    def _neoziv_attendee_commands(self, google_event):
         attendee_commands = []
         partner_commands = []
         google_attendees = google_event.attendees or []
@@ -100,7 +100,7 @@ class Meeting(models.Model):
         emails = [a.get('email') for a in google_attendees]
         existing_attendees = self.env['calendar.attendee']
         if google_event.exists(self.env):
-            existing_attendees = self.browse(google_event.odoo_id(self.env)).attendee_ids
+            existing_attendees = self.browse(google_event.neoziv_id(self.env)).attendee_ids
         attendees_by_emails = {tools.email_normalize(a.email): a for a in existing_attendees}
         for attendee in google_attendees:
             email = attendee.get('email')
@@ -115,15 +115,15 @@ class Meeting(models.Model):
                 partner_commands += [(4, partner.id)]
                 if attendee.get('displayName') and not partner.name:
                     partner.name = attendee.get('displayName')
-        for odoo_attendee in attendees_by_emails.values():
+        for neoziv_attendee in attendees_by_emails.values():
             # Remove old attendees
-            if tools.email_normalize(odoo_attendee.email) not in emails:
-                attendee_commands += [(2, odoo_attendee.id)]
-                partner_commands += [(3, odoo_attendee.partner_id.id)]
+            if tools.email_normalize(neoziv_attendee.email) not in emails:
+                attendee_commands += [(2, neoziv_attendee.id)]
+                partner_commands += [(3, neoziv_attendee.partner_id.id)]
         return attendee_commands, partner_commands
 
     @api.model
-    def _odoo_reminders_commands(self, reminders=()):
+    def _neoziv_reminders_commands(self, reminders=()):
         commands = []
         for reminder in reminders:
             alarm_type = 'email' if reminder.get('method') == 'email' else 'notification'
@@ -189,7 +189,7 @@ class Meeting(models.Model):
             'attendees': [{'email': attendee.email, 'responseStatus': attendee.state} for attendee in self.attendee_ids],
             'extendedProperties': {
                 'shared': {
-                    '%s_odoo_id' % self.env.cr.dbname: self.id,
+                    '%s_neoziv_id' % self.env.cr.dbname: self.id,
                 },
             },
             'reminders': {
@@ -206,15 +206,15 @@ class Meeting(models.Model):
         elif not self.user_id:
             # We don't store the real owner identity (mail)
             # We can't store on the shared properties in that case without getting a 403
-            # If several odoo users are attendees but the owner is not in odoo, the event will be duplicated on odoo database
+            # If several neoziv users are attendees but the owner is not in neoziv, the event will be duplicated on neoziv database
             # if we are not the owner, we should change the post values to avoid errors because we don't have enough rights
             # See https://developers.google.com/calendar/concepts/sharing
             keep_keys = ['id', 'attendees', 'start', 'end', 'reminders']
             values = {key: val for key, val in values.items() if key in keep_keys}
-            # values['extendedProperties']['private] should be used if the owner is not an odoo user
+            # values['extendedProperties']['private] should be used if the owner is not an neoziv user
             values['extendedProperties'] = {
                 'private': {
-                    '%s_odoo_id' % self.env.cr.dbname: self.id,
+                    '%s_neoziv_id' % self.env.cr.dbname: self.id,
                 },
             }
         return values

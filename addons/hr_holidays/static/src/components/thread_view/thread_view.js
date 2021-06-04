@@ -1,4 +1,4 @@
-odoo.define('hr_holidays/static/src/components/thread_view/thread_view.js', function (require) {
+neoziv.define('hr_holidays/static/src/components/thread_view/thread_view.js', function (require) {
 'use strict';
 
 const components = {

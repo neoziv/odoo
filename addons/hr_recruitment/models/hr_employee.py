@@ -1,7 +1,7 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, fields, models
-from odoo.tools.translate import _
+from neoziv import api, fields, models
+from neoziv.tools.translate import _
 from datetime import timedelta
 
 

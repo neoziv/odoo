@@ -1,4 +1,4 @@
-odoo.define('website_slides.channel_tag.add', function (require) {
+neoziv.define('website_slides.channel_tag.add', function (require) {
 'use strict';
 
 var core = require('web.core');

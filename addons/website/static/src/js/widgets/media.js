@@ -1,4 +1,4 @@
-odoo.define('website.widgets.media', function (require) {
+neoziv.define('website.widgets.media', function (require) {
 'use strict';
 
 const {ImageWidget} = require('wysiwyg.widgets.media');

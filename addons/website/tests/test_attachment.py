@@ -1,10 +1,10 @@
-import odoo.tests
-from odoo.tests.common import HOST
-from odoo.tools import config
+import neoziv.tests
+from neoziv.tests.common import HOST
+from neoziv.tools import config
 
 
-@odoo.tests.common.tagged('post_install', '-at_install')
-class TestWebsiteAttachment(odoo.tests.HttpCase):
+@neoziv.tests.common.tagged('post_install', '-at_install')
+class TestWebsiteAttachment(neoziv.tests.HttpCase):
 
     def test_01_type_url_301_image(self):
         IMD = self.env['ir.model.data']

@@ -1,4 +1,4 @@
-odoo.define('sms/static/src/models/notification_group/notification_group.js', function (require) {
+neoziv.define('sms/static/src/models/notification_group/notification_group.js', function (require) {
 'use strict';
 
 const {

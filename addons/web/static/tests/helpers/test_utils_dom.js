@@ -1,4 +1,4 @@
-odoo.define('web.test_utils_dom', function (require) {
+neoziv.define('web.test_utils_dom', function (require) {
     "use strict";
 
     const concurrency = require('web.concurrency');

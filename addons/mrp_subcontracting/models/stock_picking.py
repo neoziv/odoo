@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from datetime import timedelta
 
-from odoo import api, fields, models
-from odoo.tools.float_utils import float_compare, float_is_zero
+from neoziv import api, fields, models
+from neoziv.tools.float_utils import float_compare, float_is_zero
 
 
 class StockPicking(models.Model):

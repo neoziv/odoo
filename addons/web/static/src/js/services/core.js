@@ -1,4 +1,4 @@
-odoo.define('web.core', function (require) {
+neoziv.define('web.core', function (require) {
 "use strict";
 
 var Bus = require('web.Bus');
@@ -43,7 +43,7 @@ return {
     /**
      * @type {String}
      */
-    csrf_token: odoo.csrf_token,
+    csrf_token: neoziv.csrf_token,
 };
 
 });

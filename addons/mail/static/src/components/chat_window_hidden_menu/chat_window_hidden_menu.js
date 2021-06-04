@@ -1,4 +1,4 @@
-odoo.define('mail/static/src/components/chat_window_hidden_menu/chat_window_hidden_menu.js', function (require) {
+neoziv.define('mail/static/src/components/chat_window_hidden_menu/chat_window_hidden_menu.js', function (require) {
 'use strict';
 
 const components = {

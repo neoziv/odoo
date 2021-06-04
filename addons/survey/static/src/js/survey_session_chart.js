@@ -1,4 +1,4 @@
-odoo.define('survey.session_chart', function (require) {
+neoziv.define('survey.session_chart', function (require) {
 'use strict';
 
 var publicWidget = require('web.public.widget');

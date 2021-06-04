@@ -1,4 +1,4 @@
-odoo.define('lunch.LunchKanbanController', function (require) {
+neoziv.define('lunch.LunchKanbanController', function (require) {
 "use strict";
 
 /**

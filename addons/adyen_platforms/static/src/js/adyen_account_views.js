@@ -1,4 +1,4 @@
-odoo.define('adyen_platforms.account_views', function (require) {
+neoziv.define('adyen_platforms.account_views', function (require) {
 "use strict";
 
 var core = require('web.core');

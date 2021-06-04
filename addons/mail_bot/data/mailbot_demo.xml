@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<odoo>
+<neoziv>
     <data>
-        <!-- Disable odoobot on admin so that devs don't hate him -->
+        <!-- Disable neozivbot on admin so that devs don't hate him -->
         <record id="base.user_admin" model="res.users">
-            <field name="odoobot_state">disabled</field>
+            <field name="neozivbot_state">disabled</field>
         </record>
     </data>
-</odoo>
+</neoziv>

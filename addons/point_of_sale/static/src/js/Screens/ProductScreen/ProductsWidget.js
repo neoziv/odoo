@@ -1,4 +1,4 @@
-odoo.define('point_of_sale.ProductsWidget', function(require) {
+neoziv.define('point_of_sale.ProductsWidget', function(require) {
     'use strict';
 
     const { useState } = owl.hooks;

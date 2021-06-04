@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo.addons.mail.tests import common
-from odoo.tests import tagged, users
+from neoziv.addons.mail.tests import common
+from neoziv.tests import tagged, users
 
 
 @tagged('mail_render')

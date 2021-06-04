@@ -1,4 +1,4 @@
-odoo.define('pos_restaurant.tour.SplitBillScreen', function (require) {
+neoziv.define('pos_restaurant.tour.SplitBillScreen', function (require) {
     'use strict';
 
     const { PaymentScreen } = require('point_of_sale.tour.PaymentScreenTourMethods');

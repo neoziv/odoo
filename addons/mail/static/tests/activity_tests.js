@@ -1,4 +1,4 @@
-odoo.define('mail.activity_view_tests', function (require) {
+neoziv.define('mail.activity_view_tests', function (require) {
 'use strict';
 
 var ActivityView = require('mail.ActivityView');

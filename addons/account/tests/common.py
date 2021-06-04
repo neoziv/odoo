@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-from odoo import fields
-from odoo.tests.common import SavepointCase, HttpSavepointCase, tagged, Form
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
+from neoziv import fields
+from neoziv.tests.common import SavepointCase, HttpSavepointCase, tagged, Form
 
 import time
 import base64

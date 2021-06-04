@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-from odoo import http
-from odoo.addons.website_sale.controllers.main import WebsiteSale
-from odoo.http import request
+from neoziv import http
+from neoziv.addons.website_sale.controllers.main import WebsiteSale
+from neoziv.http import request
 
 
 class WebsiteSale(WebsiteSale):

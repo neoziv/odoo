@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, fields, models, tools, SUPERUSER_ID
+from neoziv import api, fields, models, tools, SUPERUSER_ID
 
-from odoo.addons.base.models.res_partner import _tz_get
+from neoziv.addons.base.models.res_partner import _tz_get
 
 
 class LeaveReportCalendar(models.Model):

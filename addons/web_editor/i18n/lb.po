@@ -1,14 +1,14 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* web_editor
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~12.5\n"
+"Project-Id-Version: neoziv Server saas~12.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-13 11:28+0000\n"
 "PO-Revision-Date: 2019-08-26 09:15+0000\n"
-"Language-Team: Luxembourgish (https://www.transifex.com/odoo/teams/41243/lb/)\n"
+"Language-Team: Luxembourgish (https://www.transifex.com/neoziv/teams/41243/lb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -767,7 +767,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/ace.xml:0
 #, python-format
 msgid ""
-"If you edit and save this file, you will never receive updates from Odoo "
+"If you edit and save this file, you will never receive updates from neoziv "
 "anymore unless you reset your customizations."
 msgstr ""
 
@@ -786,7 +786,7 @@ msgstr ""
 #, python-format
 msgid ""
 "If you want to crop it, please first download it from the original source "
-"and upload it in Odoo."
+"and upload it in neoziv."
 msgstr ""
 
 #. module: web_editor
@@ -1993,14 +1993,14 @@ msgstr ""
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
-msgid "https://www.odoo.com/logo.png"
+msgid "https://www.neoziv.com/logo.png"
 msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
-msgid "https://www.odoo.com/mydocument"
+msgid "https://www.neoziv.com/mydocument"
 msgstr ""
 
 #. module: web_editor

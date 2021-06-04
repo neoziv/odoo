@@ -16,10 +16,10 @@ __pycache__/
 # hg stuff
 *.orig
 status
-# odoo filestore
-odoo/filestore
+# neoziv filestore
+neoziv/filestore
 # maintenance migration scripts
-odoo/addons/base/maintenance
+neoziv/addons/base/maintenance
 
 # generated for windows installer?
 install/win32/*.bat

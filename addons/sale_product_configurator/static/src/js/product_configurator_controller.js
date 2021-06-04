@@ -1,4 +1,4 @@
-odoo.define('sale_product_configurator.ProductConfiguratorFormController', function (require) {
+neoziv.define('sale_product_configurator.ProductConfiguratorFormController', function (require) {
 "use strict";
 
 var core = require('web.core');

@@ -1,4 +1,4 @@
-odoo.define('mail/static/src/utils/utils.js', function (require) {
+neoziv.define('mail/static/src/utils/utils.js', function (require) {
 'use strict';
 
 const { delay } = require('web.concurrency');

@@ -1,4 +1,4 @@
-odoo.define('survey.session_leaderboard', function (require) {
+neoziv.define('survey.session_leaderboard', function (require) {
 'use strict';
 
 var publicWidget = require('web.public.widget');

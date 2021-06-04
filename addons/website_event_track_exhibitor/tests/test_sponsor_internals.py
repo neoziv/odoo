@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from datetime import datetime
 from unittest.mock import patch
 
-from odoo.addons.website_event_track.tests.common import TestEventTrackOnlineCommon
-from odoo.fields import Datetime as FieldsDatetime
-from odoo.tests.common import users
+from neoziv.addons.website_event_track.tests.common import TestEventTrackOnlineCommon
+from neoziv.fields import Datetime as FieldsDatetime
+from neoziv.tests.common import users
 
 
 class TestSponsorData(TestEventTrackOnlineCommon):
@@ -21,7 +21,7 @@ class TestSponsorData(TestEventTrackOnlineCommon):
         })
 
         cls.wevent_exhib_dt = patch(
-            'odoo.addons.website_event_track_exhibitor.models.event_sponsor.fields.Datetime',
+            'neoziv.addons.website_event_track_exhibitor.models.event_sponsor.fields.Datetime',
             wraps=FieldsDatetime
         )
         cls.mock_wevent_exhib_dt = cls.wevent_exhib_dt.start()

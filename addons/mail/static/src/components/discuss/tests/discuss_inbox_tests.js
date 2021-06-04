@@ -1,4 +1,4 @@
-odoo.define('mail/static/src/components/discuss/tests/discuss_inbox_tests.js', function (require) {
+neoziv.define('mail/static/src/components/discuss/tests/discuss_inbox_tests.js', function (require) {
 'use strict';
 
 const {
@@ -38,7 +38,7 @@ QUnit.test('reply: discard on pressing escape', async function (assert) {
 
     // partner expected to be found by mention
     this.data['res.partner'].records.push({
-        email: "testpartnert@odoo.com",
+        email: "testpartnert@neoziv.com",
         id: 11,
         name: "TestPartner",
     });

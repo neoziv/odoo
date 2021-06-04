@@ -1,4 +1,4 @@
-odoo.define("website_sale.tour_shop_backend", function (require) {
+neoziv.define("website_sale.tour_shop_backend", function (require) {
 "use strict";
 
 var tour = require("web_tour.tour");

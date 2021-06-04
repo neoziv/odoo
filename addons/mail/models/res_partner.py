@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import logging
 
-from odoo import _, api, fields, models, tools
-from odoo.addons.bus.models.bus_presence import AWAY_TIMER
-from odoo.addons.bus.models.bus_presence import DISCONNECTION_TIMER
-from odoo.exceptions import AccessError
-from odoo.osv import expression
+from neoziv import _, api, fields, models, tools
+from neoziv.addons.bus.models.bus_presence import AWAY_TIMER
+from neoziv.addons.bus.models.bus_presence import DISCONNECTION_TIMER
+from neoziv.exceptions import AccessError
+from neoziv.osv import expression
 
 _logger = logging.getLogger(__name__)
 
@@ -28,10 +28,10 @@ class Partner(models.Model):
 
     def _compute_im_status(self):
         super()._compute_im_status()
-        odoobot_id = self.env['ir.model.data'].xmlid_to_res_id('base.partner_root')
-        odoobot = self.env['res.partner'].browse(odoobot_id)
-        if odoobot in self:
-            odoobot.im_status = 'bot'
+        neozivbot_id = self.env['ir.model.data'].xmlid_to_res_id('base.partner_root')
+        neozivbot = self.env['res.partner'].browse(neozivbot_id)
+        if neozivbot in self:
+            neozivbot.im_status = 'bot'
 
     def _message_get_suggested_recipients(self):
         recipients = super(Partner, self)._message_get_suggested_recipients()

@@ -1,4 +1,4 @@
-odoo.define('pos_mercury.PaymentTransactionPopup', function(require) {
+neoziv.define('pos_mercury.PaymentTransactionPopup', function(require) {
     'use strict';
 
     const { useState } = owl.hooks;

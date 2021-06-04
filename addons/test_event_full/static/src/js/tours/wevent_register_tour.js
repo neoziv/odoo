@@ -1,4 +1,4 @@
-odoo.define('test_event_full.tour.register', function (require) {
+neoziv.define('test_event_full.tour.register', function (require) {
 "use strict";
 
 var tour = require('web_tour.tour');

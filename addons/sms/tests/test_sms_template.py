@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo.tests.common import SavepointCase, users
-from odoo.addons.mail.tests.common import mail_new_test_user
-from odoo.exceptions import AccessError
-from odoo.tests import tagged
-from odoo.tools import mute_logger
+from neoziv.tests.common import SavepointCase, users
+from neoziv.addons.mail.tests.common import mail_new_test_user
+from neoziv.exceptions import AccessError
+from neoziv.tests import tagged
+from neoziv.tools import mute_logger
 
 
 @tagged('post_install')
@@ -27,7 +27,7 @@ class TestSmsTemplateAccessRights(SavepointCase):
         cls.sms_templates = cls.env['sms.template'].create(vals)
 
     @users('user_employee')
-    @mute_logger('odoo.models.unlink')
+    @mute_logger('neoziv.models.unlink')
     def test_access_rights_user(self):
         # Check if a member of group_user can only read on sms.template
         for sms_template in self.env['sms.template'].browse(self.sms_templates.ids):
@@ -44,7 +44,7 @@ class TestSmsTemplateAccessRights(SavepointCase):
                 sms_template.unlink()
 
     @users('user_system')
-    @mute_logger('odoo.models.unlink', 'odoo.addons.base.models.ir_model')
+    @mute_logger('neoziv.models.unlink', 'neoziv.addons.base.models.ir_model')
     def test_access_rights_system(self):
         admin = self.env.ref('base.user_admin')
         for sms_template in self.env['sms.template'].browse(self.sms_templates.ids):

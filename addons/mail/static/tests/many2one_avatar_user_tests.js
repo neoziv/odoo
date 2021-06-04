@@ -1,4 +1,4 @@
-odoo.define('mail.Many2OneAvatarUserTests', function (require) {
+neoziv.define('mail.Many2OneAvatarUserTests', function (require) {
 "use strict";
 
 const { afterEach, beforeEach, start } = require('mail/static/src/utils/test_utils.js');

@@ -1,4 +1,4 @@
-odoo.define('point_of_sale.ScaleScreen', function(require) {
+neoziv.define('point_of_sale.ScaleScreen', function(require) {
     'use strict';
 
     const { useState, useExternalListener } = owl.hooks;

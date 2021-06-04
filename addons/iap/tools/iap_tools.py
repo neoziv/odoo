@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import contextlib
 import logging
@@ -8,13 +8,13 @@ import requests
 import uuid
 from unittest.mock import patch
 
-from odoo import exceptions, _
-from odoo.tests.common import BaseCase
-from odoo.tools import pycompat
+from neoziv import exceptions, _
+from neoziv.tests.common import BaseCase
+from neoziv.tools import pycompat
 
 _logger = logging.getLogger(__name__)
 
-DEFAULT_ENDPOINT = 'https://iap.odoo.com'
+DEFAULT_ENDPOINT = 'https://iap.neoziv.com'
 
 
 # We need to mock iap_jsonrpc during tests as we don't want to perform real calls to RPC endpoints
@@ -22,7 +22,7 @@ def iap_jsonrpc_mocked(*args, **kwargs):
     raise exceptions.AccessError("Unavailable during tests.")
 
 
-iap_patch = patch('odoo.addons.iap.tools.iap_tools.iap_jsonrpc', iap_jsonrpc_mocked)
+iap_patch = patch('neoziv.addons.iap.tools.iap_tools.iap_jsonrpc', iap_jsonrpc_mocked)
 
 
 def setUp(self):

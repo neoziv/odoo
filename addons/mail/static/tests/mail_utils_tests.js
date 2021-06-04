@@ -1,4 +1,4 @@
-odoo.define('mail.mail_utils_tests', function (require) {
+neoziv.define('mail.mail_utils_tests', function (require) {
 "use strict";
 
 var utils = require('mail.utils');
@@ -18,8 +18,8 @@ QUnit.test('add_link utility function', function (assert) {
         'www.127.0.0.5': false,
         'should.notmatch': false,
         'fhttps://test.example.com/test': false,
-        "https://www.transifex.com/odoo/odoo-11/translate/#fr/lunch?q=text%3A'La+Tartiflette'": true,
-        'https://www.transifex.com/odoo/odoo-11/translate/#fr/$/119303430?q=text%3ATartiflette': true,
+        "https://www.transifex.com/neoziv/neoziv-11/translate/#fr/lunch?q=text%3A'La+Tartiflette'": true,
+        'https://www.transifex.com/neoziv/neoziv-11/translate/#fr/$/119303430?q=text%3ATartiflette': true,
         'https://tenor.com/view/chỗgiặt-dog-smile-gif-13860250': true,
         'http://www.boîtenoire.be': true,
     };

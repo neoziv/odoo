@@ -1,4 +1,4 @@
-odoo.define('web_tour.tour_manager_tests', async function (require) {
+neoziv.define('web_tour.tour_manager_tests', async function (require) {
     "use strict";
 
     const KanbanView = require('web.KanbanView');

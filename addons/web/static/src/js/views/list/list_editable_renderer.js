@@ -1,4 +1,4 @@
-odoo.define('web.EditableListRenderer', function (require) {
+neoziv.define('web.EditableListRenderer', function (require) {
 "use strict";
 
 /**
@@ -8,7 +8,7 @@ odoo.define('web.EditableListRenderer', function (require) {
  * file simply 'includes' the basic ListRenderer to add all the necessary
  * behaviors to enable editing records.
  *
- * Unlike Odoo v10 and before, this list renderer is independant from the form
+ * Unlike neoziv v10 and before, this list renderer is independant from the form
  * view. It uses the same widgets, but the code is totally stand alone.
  */
 var core = require('web.core');
@@ -215,7 +215,7 @@ ListRenderer.include({
      * @param {Object} state
      * @param {string} id
      * @param {string[]} fields
-     * @param {OdooEvent} ev
+     * @param {neozivEvent} ev
      * @returns {Promise<AbstractField[]>} resolved with the list of widgets
      *                                      that have been reset
      */
@@ -1560,7 +1560,7 @@ ListRenderer.include({
      * above if on the first line automatically creates a new line.
      *
      * @private
-     * @param {OdooEvent} ev
+     * @param {neozivEvent} ev
      */
     _onNavigationMove: function (ev) {
         var self = this;

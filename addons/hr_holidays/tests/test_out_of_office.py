@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
 
-from odoo.addons.base.tests.common import TransactionCaseWithUserDemo
-from odoo.tests.common import tagged, users, warmup
-from odoo.addons.hr_holidays.tests.common import TestHrHolidaysCommon
+from neoziv.addons.base.tests.common import TransactionCaseWithUserDemo
+from neoziv.tests.common import tagged, users, warmup
+from neoziv.addons.hr_holidays.tests.common import TestHrHolidaysCommon
 
 
 @tagged('out_of_office')

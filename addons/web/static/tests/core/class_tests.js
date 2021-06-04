@@ -1,4 +1,4 @@
-odoo.define('web.class_tests', function (require) {
+neoziv.define('web.class_tests', function (require) {
 "use strict";
 
 var Class = require('web.Class');

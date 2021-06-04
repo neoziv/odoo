@@ -1,4 +1,4 @@
-odoo.define('website_event.website_event', function (require) {
+neoziv.define('website_event.website_event', function (require) {
 
 var ajax = require('web.ajax');
 var core = require('web.core');

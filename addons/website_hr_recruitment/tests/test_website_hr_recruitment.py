@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo.api import Environment
-import odoo.tests
+from neoziv.api import Environment
+import neoziv.tests
 
-@odoo.tests.tagged('post_install', '-at_install')
-class TestWebsiteHrRecruitmentForm(odoo.tests.HttpCase):
+@neoziv.tests.tagged('post_install', '-at_install')
+class TestWebsiteHrRecruitmentForm(neoziv.tests.HttpCase):
     def test_tour(self):
         job = self.env['hr.job'].create({
             'name': 'A Test Job',

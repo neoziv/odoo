@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from datetime import datetime, timedelta, time
 
-from odoo.addons.base.tests.common import HttpCaseWithUserDemo, HttpCaseWithUserPortal
-from odoo.addons.event_crm.tests.common import TestEventCrmCommon
-from odoo.addons.sales_team.tests.common import TestSalesCommon
-from odoo.addons.website.tests.test_website_visitor import MockVisitor
-from odoo.addons.website_event.tests.common import EventDtPatcher
+from neoziv.addons.base.tests.common import HttpCaseWithUserDemo, HttpCaseWithUserPortal
+from neoziv.addons.event_crm.tests.common import TestEventCrmCommon
+from neoziv.addons.sales_team.tests.common import TestSalesCommon
+from neoziv.addons.website.tests.test_website_visitor import MockVisitor
+from neoziv.addons.website_event.tests.common import EventDtPatcher
 
 
 class TestEventFullCommon(TestEventCrmCommon, TestSalesCommon, EventDtPatcher, MockVisitor):

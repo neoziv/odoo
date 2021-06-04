@@ -1,4 +1,4 @@
-odoo.define('hr_attendance.my_attendances', function (require) {
+neoziv.define('hr_attendance.my_attendances', function (require) {
 "use strict";
 
 var AbstractAction = require('web.AbstractAction');

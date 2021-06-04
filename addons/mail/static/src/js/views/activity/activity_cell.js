@@ -1,4 +1,4 @@
-odoo.define("mail.ActivityCell", function (require) {
+neoziv.define("mail.ActivityCell", function (require) {
     "use strict";
 
     require("mail.Activity");

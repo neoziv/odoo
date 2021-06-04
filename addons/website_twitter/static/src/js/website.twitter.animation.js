@@ -1,4 +1,4 @@
-odoo.define('website_twitter.animation', function (require) {
+neoziv.define('website_twitter.animation', function (require) {
 'use strict';
 
 var core = require('web.core');

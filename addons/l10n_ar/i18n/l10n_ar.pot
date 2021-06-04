@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* l10n_ar
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.3alpha1+e\n"
+"Project-Id-Version: neoziv Server 13.3alpha1+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-30 18:36+0000\n"
 "PO-Revision-Date: 2020-03-30 18:36+0000\n"
@@ -304,7 +304,7 @@ msgstr ""
 #. module: l10n_ar
 #: model:product.product,name:l10n_ar.product_product_exento
 #: model:product.template,name:l10n_ar.product_product_exento_product_template
-msgid "Book \"Development in Odoo\" (VAT Exempt)"
+msgid "Book \"Development in neoziv\" (VAT Exempt)"
 msgstr ""
 
 #. module: l10n_ar
@@ -458,7 +458,7 @@ msgstr ""
 #, python-format
 msgid ""
 "Can not change the POS number, you can only change the first number for "
-"document type that you are creating in odoo"
+"document type that you are creating in neoziv"
 msgstr ""
 
 #. module: l10n_ar

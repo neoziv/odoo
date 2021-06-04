@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from datetime import date, datetime
 
-from odoo.tests import tagged
-from odoo.tests.common import SavepointCase
+from neoziv.tests import tagged
+from neoziv.tests.common import SavepointCase
 
 
 @tagged('company_leave')

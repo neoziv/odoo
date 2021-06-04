@@ -1,4 +1,4 @@
-odoo.define('portal.rating.composer', function (require) {
+neoziv.define('portal.rating.composer', function (require) {
 'use strict';
 
 var publicWidget = require('web.public.widget');
@@ -33,7 +33,7 @@ var RatingPopupComposer = publicWidget.Widget.extend({
             'pid': 0,
             'display_composer': options['disable_composer'] ? false : !session.is_website_user,
             'display_rating': true,
-            'csrf_token': odoo.csrf_token,
+            'csrf_token': neoziv.csrf_token,
             'user_id': session.user_id,
         });
     },

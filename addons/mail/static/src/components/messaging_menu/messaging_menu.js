@@ -1,4 +1,4 @@
-odoo.define('mail/static/src/components/messaging_menu/messaging_menu.js', function (require) {
+neoziv.define('mail/static/src/components/messaging_menu/messaging_menu.js', function (require) {
 'use strict';
 
 const components = {

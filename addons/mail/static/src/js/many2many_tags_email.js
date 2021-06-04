@@ -1,4 +1,4 @@
-odoo.define('mail.many2manytags', function (require) {
+neoziv.define('mail.many2manytags', function (require) {
 "use strict";
 
 var BasicModel = require('web.BasicModel');

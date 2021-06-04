@@ -1,4 +1,4 @@
-odoo.define('mail/static/src/model/model_core.js', function (require) {
+neoziv.define('mail/static/src/model/model_core.js', function (require) {
 'use strict';
 
 /**

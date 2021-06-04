@@ -1,17 +1,17 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import base64
 from collections import OrderedDict
 from datetime import datetime
 
-from odoo import http
-from odoo.exceptions import AccessError, MissingError
-from odoo.http import request, Response
-from odoo.tools import image_process
-from odoo.tools.translate import _
-from odoo.addons.portal.controllers.portal import pager as portal_pager, CustomerPortal
-from odoo.addons.web.controllers.main import Binary
+from neoziv import http
+from neoziv.exceptions import AccessError, MissingError
+from neoziv.http import request, Response
+from neoziv.tools import image_process
+from neoziv.tools.translate import _
+from neoziv.addons.portal.controllers.portal import pager as portal_pager, CustomerPortal
+from neoziv.addons.web.controllers.main import Binary
 
 
 class CustomerPortal(CustomerPortal):

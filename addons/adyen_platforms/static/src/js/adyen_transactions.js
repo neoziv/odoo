@@ -1,4 +1,4 @@
-odoo.define('adyen_platforms.transactions', function (require) {
+neoziv.define('adyen_platforms.transactions', function (require) {
 "use strict";
 
 var ListController = require('web.ListController');

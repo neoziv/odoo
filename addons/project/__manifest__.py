@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Project',
     'version': '1.1',
-    'website': 'https://www.odoo.com/page/project-management',
+    'website': 'https://www.neoziv.com/page/project-management',
     'category': 'Services/Project',
     'sequence': 45,
     'summary': 'Organize and plan your projects',

@@ -1,4 +1,4 @@
-odoo.define('web.BrowserDetection', function (require) {
+neoziv.define('web.BrowserDetection', function (require) {
     "use strict";
     var Class = require('web.Class');
 

@@ -1,4 +1,4 @@
-odoo.define('website_sale_wishlist.tour', function (require) {
+neoziv.define('website_sale_wishlist.tour', function (require) {
 'use strict';
 
 var rpc = require('web.rpc');

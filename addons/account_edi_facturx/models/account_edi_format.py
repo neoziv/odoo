@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
-from odoo import api, models, fields, tools, _
-from odoo.tools import DEFAULT_SERVER_DATE_FORMAT, float_repr
-from odoo.tests.common import Form
-from odoo.exceptions import UserError
+from neoziv import api, models, fields, tools, _
+from neoziv.tools import DEFAULT_SERVER_DATE_FORMAT, float_repr
+from neoziv.tests.common import Form
+from neoziv.exceptions import UserError
 
 from datetime import datetime
 from lxml import etree

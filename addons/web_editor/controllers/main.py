@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 import io
 import logging
 import re
@@ -10,17 +10,17 @@ from PIL import Image, ImageFont, ImageDraw
 from lxml import etree
 from base64 import b64decode, b64encode
 
-from odoo.http import request
-from odoo import http, tools, _, SUPERUSER_ID
-from odoo.addons.http_routing.models.ir_http import slug
-from odoo.exceptions import UserError
-from odoo.modules.module import get_module_path, get_resource_path
-from odoo.tools.misc import file_open
+from neoziv.http import request
+from neoziv import http, tools, _, SUPERUSER_ID
+from neoziv.addons.http_routing.models.ir_http import slug
+from neoziv.exceptions import UserError
+from neoziv.modules.module import get_module_path, get_resource_path
+from neoziv.tools.misc import file_open
 
 from ..models.ir_attachment import SUPPORTED_IMAGE_MIMETYPES
 
 logger = logging.getLogger(__name__)
-DEFAULT_LIBRARY_ENDPOINT = 'https://media-api.odoo.com'
+DEFAULT_LIBRARY_ENDPOINT = 'https://media-api.neoziv.com'
 
 class Web_Editor(http.Controller):
     #------------------------------------------------------

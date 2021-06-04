@@ -1,4 +1,4 @@
-odoo.define('l10n_fr_pos_cert.NumpadWidget', function(require) {
+neoziv.define('l10n_fr_pos_cert.NumpadWidget', function(require) {
     'use strict';
 
     const NumpadWidget = require('point_of_sale.NumpadWidget');

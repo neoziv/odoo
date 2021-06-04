@@ -1,4 +1,4 @@
-odoo.define('sale.VariantMixin', function (require) {
+neoziv.define('sale.VariantMixin', function (require) {
 'use strict';
 
 var concurrency = require('web.concurrency');

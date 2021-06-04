@@ -1,4 +1,4 @@
-odoo.define('snailmail/static/src/components/message/message.js', function (require) {
+neoziv.define('snailmail/static/src/components/message/message.js', function (require) {
 'use strict';
 
 const components = {

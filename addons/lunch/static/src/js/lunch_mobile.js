@@ -1,4 +1,4 @@
-odoo.define('lunch.LunchMobile', function (require) {
+neoziv.define('lunch.LunchMobile', function (require) {
 "use strict";
 
 var config = require('web.config');

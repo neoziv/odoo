@@ -1,7 +1,7 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo import models
-from odoo.http import request
+from neoziv import models
+from neoziv.http import request
 
 
 class AccountChartTemplate(models.Model):

@@ -1,4 +1,4 @@
-odoo.define('base_iban.iban_widget_tests', function (require) {
+neoziv.define('base_iban.iban_widget_tests', function (require) {
 "use strict";
 
 var FormView = require('web.FormView');

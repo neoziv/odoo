@@ -1,4 +1,4 @@
-odoo.define('web.Apps', function (require) {
+neoziv.define('web.Apps', function (require) {
 "use strict";
 
 var AbstractAction = require('web.AbstractAction');
@@ -113,7 +113,7 @@ var Apps = AbstractAction.extend({
 
                 var qs = {db: client.dbname};
                 if (config.isDebug()) {
-                    qs.debug = odoo.debug;
+                    qs.debug = neoziv.debug;
                 }
                 var u = $.param.querystring(client.origin + "/apps/embed/client", qs);
                 var css = {width: '100%', height: '750px'};
@@ -147,7 +147,7 @@ var Apps = AbstractAction.extend({
 
                 resolve();
             }, function() {
-                self.do_warn(_t('Odoo Apps will be available soon'), _t('Showing locally available modules'), true);
+                self.do_warn(_t('neoziv Apps will be available soon'), _t('Showing locally available modules'), true);
                 return self._rpc({
                     route: '/web/action/load',
                     params: {action_id: self.failback_action_id},

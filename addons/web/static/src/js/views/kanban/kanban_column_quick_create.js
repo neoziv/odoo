@@ -1,4 +1,4 @@
-odoo.define('web.kanban_column_quick_create', function (require) {
+neoziv.define('web.kanban_column_quick_create', function (require) {
 "use strict";
 
 /**

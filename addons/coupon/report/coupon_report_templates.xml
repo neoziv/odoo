@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<odoo>
+<neoziv>
     <template id="report_coupon">
                     <t t-call="web.internal_layout">
                     <div class="card">
@@ -98,4 +98,4 @@
             </t>
         </t>
     </template>
-</odoo>
+</neoziv>

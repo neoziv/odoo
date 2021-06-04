@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-from odoo import api, fields, models, _, tools
-from odoo.osv import expression
-from odoo.exceptions import UserError, ValidationError
+from neoziv import api, fields, models, _, tools
+from neoziv.osv import expression
+from neoziv.exceptions import UserError, ValidationError
 
 
 class AccountAccountType(models.Model):

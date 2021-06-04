@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* project
 # 
@@ -11,12 +11,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 11:23+0000\n"
 "PO-Revision-Date: 2020-09-07 08:17+0000\n"
 "Last-Translator: Foldi Robert <foldirobert@nexterp.ro>, 2021\n"
-"Language-Team: Romanian (https://www.transifex.com/odoo/teams/41243/ro/)\n"
+"Language-Team: Romanian (https://www.transifex.com/neoziv/teams/41243/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1137,11 +1137,11 @@ msgstr "Evaluările clienților pe sarcină"
 #: code:addons/project/static/src/js/project_task_kanban_examples.js:0
 #, python-format
 msgid ""
-"Customers propose feedbacks by email; Odoo creates tasks automatically, and "
+"Customers propose feedbacks by email; neoziv creates tasks automatically, and "
 "you can communicate on the task directly. Your managers decide which "
 "feedback is accepted %s and which feedback is moved to the %s column. %s"
 msgstr ""
-"Clienții propun feedback-uri prin e-mail; Odoo creează automat sarcini și "
+"Clienții propun feedback-uri prin e-mail; neoziv creează automat sarcini și "
 "puteți comunica direct asupra sarcinii. Managerii dvs. decid ce feedback "
 "este acceptat%s și ce feedback este mutat în%s coloană. %s"
 
@@ -3586,11 +3586,11 @@ msgstr "Teste"
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (neoziv Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"Modelul (tipul de document Odoo) căruia îi corespunde acest alias. Orice "
+"Modelul (tipul de document neoziv) căruia îi corespunde acest alias. Orice "
 "e-mail care nu răspunde la o înregistrare existentă va determina crearea "
 "unei noi înregistrări a acestui model (de exemplu, o sarcină de proiect)"
 
@@ -3598,10 +3598,10 @@ msgstr ""
 #: model:ir.model.fields,help:project.field_project_project__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.neoziv.com>"
 msgstr ""
 "Numele aliasului de e-mail, de ex. „locuri de muncă” dacă doriți să primiți "
-"e-mailuri pentru <jobs@example.odoo.com>"
+"e-mailuri pentru <jobs@example.neoziv.com>"
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_user_id

@@ -1,4 +1,4 @@
-odoo.define('partner.autocomplete.Mixin', function (require) {
+neoziv.define('partner.autocomplete.Mixin', function (require) {
 'use strict';
 
 var concurrency = require('web.concurrency');
@@ -12,7 +12,7 @@ var _t = core._t;
  * This mixin only works with classes having EventDispatcherMixin in 'web.mixins'
  */
 var PartnerAutocompleteMixin = {
-    _dropPreviousOdoo: new concurrency.DropPrevious(),
+    _dropPreviousneoziv: new concurrency.DropPrevious(),
     _dropPreviousClearbit: new concurrency.DropPrevious(),
     _timeout : 1000, // Timeout for Clearbit autocomplete in ms
 
@@ -31,11 +31,11 @@ var PartnerAutocompleteMixin = {
         var self = this;
         value = value.trim();
         var isVAT = this._isVAT(value);
-        var odooSuggestions = [];
+        var neozivSuggestions = [];
         var clearbitSuggestions = [];
         return new Promise(function (resolve, reject) {
-            var odooPromise = self._getOdooSuggestions(value, isVAT).then(function (suggestions){
-                odooSuggestions = suggestions;
+            var neozivPromise = self._getneozivSuggestions(value, isVAT).then(function (suggestions){
+                neozivSuggestions = suggestions;
             });
 
             // Only get Clearbit suggestions if not a VAT number
@@ -44,29 +44,29 @@ var PartnerAutocompleteMixin = {
             });
 
             var concatResults = function () {
-                // Add Clearbit result with Odoo result (with unique domain)
+                // Add Clearbit result with neoziv result (with unique domain)
                 if (clearbitSuggestions && clearbitSuggestions.length) {
-                    var websites = odooSuggestions.map(function (suggestion) {
+                    var websites = neozivSuggestions.map(function (suggestion) {
                         return suggestion.website;
                     });
                     clearbitSuggestions.forEach(function (suggestion) {
                         if (websites.indexOf(suggestion.domain) < 0) {
                             websites.push(suggestion.domain);
-                            odooSuggestions.push(suggestion);
+                            neozivSuggestions.push(suggestion);
                         }
                     });
                 }
 
-                odooSuggestions = _.filter(odooSuggestions, function (suggestion) {
+                neozivSuggestions = _.filter(neozivSuggestions, function (suggestion) {
                     return !suggestion.ignored;
                 });
-                _.each(odooSuggestions, function(suggestion){
+                _.each(neozivSuggestions, function(suggestion){
                 delete suggestion.ignored;
                 });
-                return resolve(odooSuggestions);
+                return resolve(neozivSuggestions);
             };
 
-            self._whenAll([odooPromise, clearbitPromise]).then(concatResults, concatResults);
+            self._whenAll([neozivPromise, clearbitPromise]).then(concatResults, concatResults);
         });
 
     },
@@ -248,14 +248,14 @@ var PartnerAutocompleteMixin = {
     },
 
     /**
-     * Use Odoo Autocomplete API to return suggestions
+     * Use neoziv Autocomplete API to return suggestions
      *
      * @param {string} value
      * @param {boolean} isVAT
      * @returns {Promise}
      * @private
      */
-    _getOdooSuggestions: function (value, isVAT) {
+    _getneozivSuggestions: function (value, isVAT) {
         var method = isVAT ? 'read_by_vat' : 'autocomplete';
 
         var def = this._rpc({
@@ -281,7 +281,7 @@ var PartnerAutocompleteMixin = {
             return suggestions;
         });
 
-        return this._dropPreviousOdoo.add(def);
+        return this._dropPreviousneoziv.add(def);
     },
     /**
      * Check if searched value is possibly a VAT : 2 first chars = alpha + min 5 numbers

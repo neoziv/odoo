@@ -1,4 +1,4 @@
-odoo.define('mail/static/src/components/attachment_box/attachment_box_tests.js', function (require) {
+neoziv.define('mail/static/src/components/attachment_box/attachment_box_tests.js', function (require) {
 "use strict";
 
 const components = {

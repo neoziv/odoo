@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* project
 # 
@@ -18,8 +18,8 @@
 # grazziano <gra.negocia@gmail.com>, 2020
 # André Augusto Firmino Cordeiro <a.cordeito@gmail.com>, 2020
 # Marcelo Costa <marcelo@comdesk.com.br>, 2020
-# Fernanda Marques <fem@odoo.com>, 2020
-# Kevin Harrings <kha@odoo.com>, 2020
+# Fernanda Marques <fem@neoziv.com>, 2020
+# Kevin Harrings <kha@neoziv.com>, 2020
 # Luiz Fernando <lfpsgs@outlook.com>, 2020
 # Maurício Liell <mauricio@liell.com.br>, 2020
 # André Carvalho <and2carvalho@gmail.com>, 2020
@@ -35,12 +35,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 11:23+0000\n"
 "PO-Revision-Date: 2020-09-07 08:17+0000\n"
 "Last-Translator: Éder Brito <britoederr@gmail.com>, 2021\n"
-"Language-Team: Portuguese (Brazil) (https://www.transifex.com/odoo/teams/41243/pt_BR/)\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/neoziv/teams/41243/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1236,11 +1236,11 @@ msgstr "Tarefas em Avaliações pelo Cliente"
 #: code:addons/project/static/src/js/project_task_kanban_examples.js:0
 #, python-format
 msgid ""
-"Customers propose feedbacks by email; Odoo creates tasks automatically, and "
+"Customers propose feedbacks by email; neoziv creates tasks automatically, and "
 "you can communicate on the task directly. Your managers decide which "
 "feedback is accepted %s and which feedback is moved to the %s column. %s"
 msgstr ""
-"Os clientes propõem feedbacks por e-mail; O Odoo cria tarefas "
+"Os clientes propõem feedbacks por e-mail; O neoziv cria tarefas "
 "automaticamente e você pode se comunicar diretamente na tarefa. Seus "
 "gerentes decidem qual feedback é aceito %s e qual feedback é movido para a "
 "%s coluna. %s"
@@ -3703,11 +3703,11 @@ msgstr "Testes"
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (neoziv Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"O modelo (Odoo Documento Tipo), ao qual este apelido corresponde. Qualquer "
+"O modelo (neoziv Documento Tipo), ao qual este apelido corresponde. Qualquer "
 "e-mails recebidos que não responde a um registro existente fará com que a "
 "criação de um novo registro desse modelo (e.g. a Project Task)"
 
@@ -3715,7 +3715,7 @@ msgstr ""
 #: model:ir.model.fields,help:project.field_project_project__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.neoziv.com>"
 msgstr ""
 "O nome do alias de e-mail, por exemplo, 'empregos' se você quer pegar "
 "e-mails para <empregos@suaempresa.com.br>"

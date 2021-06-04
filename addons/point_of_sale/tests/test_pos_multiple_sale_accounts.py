@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-import odoo
+import neoziv
 
-from odoo import tools
-from odoo.addons.point_of_sale.tests.common import TestPoSCommon
+from neoziv import tools
+from neoziv.addons.point_of_sale.tests.common import TestPoSCommon
 
-@odoo.tests.tagged('post_install', '-at_install')
+@neoziv.tests.tagged('post_install', '-at_install')
 class TestPoSMultipleSaleAccounts(TestPoSCommon):
     """ Test to orders containing products with different sale accounts
 

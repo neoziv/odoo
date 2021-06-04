@@ -1,11 +1,11 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* product
 # 
 # Translators:
 # fanha99 <fanha99@hotmail.com>, 2020
 # Trinh Tran Thi Phuong <trinhttp@trobz.com>, 2020
-# Phuc Tran Thanh <phuctran.odoo@gmail.com>, 2020
+# Phuc Tran Thanh <phuctran.neoziv@gmail.com>, 2020
 # Manh Vu <vuducmanh96vp@gmail.com>, 2020
 # Martin Trigaux, 2020
 # Duy BQ <duybq86@gmail.com>, 2020
@@ -15,12 +15,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:12+0000\n"
 "PO-Revision-Date: 2020-09-07 08:16+0000\n"
 "Last-Translator: Roy Le <royle0710@gmail.com>, 2021\n"
-"Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
+"Language-Team: Vietnamese (https://www.transifex.com/neoziv/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -3021,8 +3021,8 @@ msgstr "vd: Đèn"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_variant_easy_edit_view
-msgid "e.g. Odoo Enterprise Subscription"
-msgstr "ví dụ: Đăng ký Odoo bản doanh nghiệp"
+msgid "e.g. neoziv Enterprise Subscription"
+msgstr "ví dụ: Đăng ký neoziv bản doanh nghiệp"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_view

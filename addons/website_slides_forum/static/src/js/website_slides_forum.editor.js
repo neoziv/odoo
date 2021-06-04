@@ -1,4 +1,4 @@
-odoo.define('website_slides_forum.editor', function (require) {
+neoziv.define('website_slides_forum.editor', function (require) {
 "use strict";
 
 var core = require('web.core');

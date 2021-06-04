@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* purchase
 # 
@@ -9,12 +9,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 13:50+0000\n"
 "PO-Revision-Date: 2020-09-07 08:17+0000\n"
 "Last-Translator: Pedro M. Baeza <pedro.baeza@gmail.com>, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"Language-Team: Spanish (https://www.transifex.com/neoziv/teams/41243/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -2948,12 +2948,12 @@ msgid ""
 "Vendors bills can be pre-generated based on purchase\n"
 "                    orders or receipts. This allows you to control bills\n"
 "                    you receive from your vendor according to the draft\n"
-"                    document in Odoo."
+"                    document in neoziv."
 msgstr ""
 "Las facturas de proveedor pueden ser pre-generadas basadas en el pedido de\n"
 "compra o recepciones. Esto le permite controlar las facturas\n"
 "que recibe de su proveedor de acuerdo con el documento\n"
-"borrador en Odoo."
+"borrador en neoziv."
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__volume
@@ -3024,14 +3024,14 @@ msgid ""
 "When creating a purchase order, have a look at the vendor's <i>On Time "
 "Delivery</i> rate: the percentage of products shipped on time. If it is too "
 "low, activate the <i>automated reminders</i>. A few days before the due "
-"shipment, Odoo will send the vendor an email to ask confirmation of shipment"
+"shipment, neoziv will send the vendor an email to ask confirmation of shipment"
 " dates and keep you informed in case of any delays. To get the vendor's "
 "performance statistics, click on the OTD rate."
 msgstr ""
 "Al crear un pedido de compra, observe la tasa de <i>entrega a tiempo</i> del"
 " proveedor: el porcentaje de productos enviados a tiempo. Si es demasiado "
 "bajo, active los <i>recordatorios automáticos</i> . Unos días antes del "
-"vencimiento del envío, Odoo enviará al proveedor un correo electrónico para "
+"vencimiento del envío, neoziv enviará al proveedor un correo electrónico para "
 "solicitar la confirmación de las fechas de envío y mantenerlo informado en "
 "caso de retrasos. Para obtener las estadísticas de rendimiento del "
 "proveedor, haga clic en la tasa de OTD."
@@ -3039,12 +3039,12 @@ msgstr ""
 #. module: purchase
 #: model_terms:digest.tip,tip_description:purchase.digest_tip_purchase_1
 msgid ""
-"When sending a purchase order by email, Odoo asks the vendor to acknowledge "
+"When sending a purchase order by email, neoziv asks the vendor to acknowledge "
 "the reception of the order. When the vendor acknowledges the order by "
 "clicking on a button in the email, the information is added on the purchase "
 "order. Use filters to track orders that have not been acknowledged."
 msgstr ""
-"Al enviar un pedido de compra por correo electrónico, Odoo le pide al "
+"Al enviar un pedido de compra por correo electrónico, neoziv le pide al "
 "proveedor que reconozca la recepción del mismo. Cuando el proveedor reconoce"
 " el pedido haciendo clic en un botón en el correo electrónico, la "
 "información se agrega en el pedido de compra. Utilice filtros para realizar "

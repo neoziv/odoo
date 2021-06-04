@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, fields, models, _
-from odoo.addons.base_iban.models.res_partner_bank import normalize_iban, pretty_iban, validate_iban
-from odoo.addons.base.models.res_bank import sanitize_account_number
-from odoo.exceptions import ValidationError
+from neoziv import api, fields, models, _
+from neoziv.addons.base_iban.models.res_partner_bank import normalize_iban, pretty_iban, validate_iban
+from neoziv.addons.base.models.res_bank import sanitize_account_number
+from neoziv.exceptions import ValidationError
 
 class ResPartnerBank(models.Model):
     _inherit = 'res.partner.bank'

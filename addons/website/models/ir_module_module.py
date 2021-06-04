@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import logging
 import os
 from collections import OrderedDict
 
-from odoo import api, fields, models
-from odoo.addons.base.models.ir_model import MODULE_UNINSTALL_FLAG
-from odoo.exceptions import MissingError
-from odoo.http import request
+from neoziv import api, fields, models
+from neoziv.addons.base.models.ir_model import MODULE_UNINSTALL_FLAG
+from neoziv.exceptions import MissingError
+from neoziv.http import request
 
 _logger = logging.getLogger(__name__)
 

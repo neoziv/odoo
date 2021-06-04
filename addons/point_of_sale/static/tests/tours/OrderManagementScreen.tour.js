@@ -1,4 +1,4 @@
-odoo.define('point_of_sale.tour.OrderManagementScreen', function (require) {
+neoziv.define('point_of_sale.tour.OrderManagementScreen', function (require) {
     'use strict';
 
     const { OrderManagementScreen } = require('point_of_sale.tour.OrderManagementScreenTourMethods');

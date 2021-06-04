@@ -1,4 +1,4 @@
-odoo.define('lunch.lunchListTests', function (require) {
+neoziv.define('lunch.lunchListTests', function (require) {
 "use strict";
 
 const LunchListView = require('lunch.LunchListView');

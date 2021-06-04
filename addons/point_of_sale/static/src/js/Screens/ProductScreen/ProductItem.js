@@ -1,4 +1,4 @@
-odoo.define('point_of_sale.ProductItem', function(require) {
+neoziv.define('point_of_sale.ProductItem', function(require) {
     'use strict';
 
     const PosComponent = require('point_of_sale.PosComponent');

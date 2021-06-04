@@ -1,4 +1,4 @@
-odoo.define('web.qunit_asserts', function (require) {
+neoziv.define('web.qunit_asserts', function (require) {
     "use strict";
 
     /**

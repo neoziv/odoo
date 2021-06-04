@@ -1,4 +1,4 @@
-odoo.define('purchase_stock.purchase_steps', function (require) {
+neoziv.define('purchase_stock.purchase_steps', function (require) {
 "use strict";
 
 var core = require('web.core');

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 #
 # Please note that these reports are not multi-currency !!!
@@ -7,9 +7,9 @@
 
 import re
 
-from odoo import api, fields, models, tools
-from odoo.exceptions import UserError
-from odoo.osv.expression import AND, expression
+from neoziv import api, fields, models, tools
+from neoziv.exceptions import UserError
+from neoziv.osv.expression import AND, expression
 
 
 class PurchaseReport(models.Model):

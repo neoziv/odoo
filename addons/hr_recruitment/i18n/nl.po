@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* hr_recruitment
 # 
@@ -6,20 +6,20 @@
 # Thijs van Oers <thijsvanoers@yahoo.com>, 2020
 # Martin Trigaux, 2020
 # Gunther Clauwaert <gclauwae@hotmail.com>, 2020
-# Alice Van Goethem <vga@odoo.com>, 2020
+# Alice Van Goethem <vga@neoziv.com>, 2020
 # Yenthe Van Ginneken <yenthespam@gmail.com>, 2020
-# Cécile Collart <cco@odoo.com>, 2020
-# Odoo Experts Consultants <consultants@odooexperts.nl>, 2020
-# Erwin van der Ploeg (Odoo Experts) <erwin@odooexperts.nl>, 2021
+# Cécile Collart <cco@neoziv.com>, 2020
+# neoziv Experts Consultants <consultants@neozivexperts.nl>, 2020
+# Erwin van der Ploeg (neoziv Experts) <erwin@neozivexperts.nl>, 2021
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-29 13:45+0000\n"
 "PO-Revision-Date: 2020-09-07 08:13+0000\n"
-"Last-Translator: Erwin van der Ploeg (Odoo Experts) <erwin@odooexperts.nl>, 2021\n"
-"Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
+"Last-Translator: Erwin van der Ploeg (neoziv Experts) <erwin@neozivexperts.nl>, 2021\n"
+"Language-Team: Dutch (https://www.transifex.com/neoziv/teams/41243/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1971,19 +1971,19 @@ msgstr "Aantal ongelezen berichten"
 #. module: hr_recruitment
 #: model_terms:ir.actions.act_window,help:hr_recruitment.action_hr_job_applications
 msgid ""
-"Odoo helps you track applicants in the recruitment\n"
+"neoziv helps you track applicants in the recruitment\n"
 "                process and follow up all operations: meetings, interviews, etc."
 msgstr ""
-"Odoo helpt u bij het werven van sollicitanten en volgt\n"
+"neoziv helpt u bij het werven van sollicitanten en volgt\n"
 "alle handelingen op: vergaderingen, interviews, enz."
 
 #. module: hr_recruitment
 #: model_terms:ir.actions.act_window,help:hr_recruitment.crm_case_categ0_act_job
 msgid ""
-"Odoo helps you track applicants in the recruitment\n"
+"neoziv helps you track applicants in the recruitment\n"
 "            process and follow up all operations: meetings, interviews, etc."
 msgstr ""
-"Odoo helpt u bij het werven van sollicitanten en volgt\n"
+"neoziv helpt u bij het werven van sollicitanten en volgt\n"
 "alle handelingen op: vergaderingen, interviews, enz."
 
 #. module: hr_recruitment
@@ -2482,7 +2482,7 @@ msgstr ""
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job__alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (neoziv Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
@@ -2499,7 +2499,7 @@ msgstr "De naam van de mate van werving moet uniek zijn!"
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.neoziv.com>"
 msgstr ""
 "De naam van de e-mail alias, bijvoorbeeld: 'vacature' indien u alle e-mails "
 "van vacature@uwbedrijf.nl wilt afvangen."

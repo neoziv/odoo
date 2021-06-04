@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import logging
 
 import requests
 
-from odoo import api, fields, models, _, _lt
-from odoo.exceptions import UserError
+from neoziv import api, fields, models, _, _lt
+from neoziv.exceptions import UserError
 
 _logger = logging.getLogger(__name__)
 
@@ -79,6 +79,6 @@ class ResConfigSettings(models.TransientModel):
         res = super(ResConfigSettings, self).get_values()
         Params = self.env['ir.config_parameter'].sudo()
         res.update({
-            'twitter_server_uri': '%s/' % Params.get_param('web.base.url', default='http://yourcompany.odoo.com'),
+            'twitter_server_uri': '%s/' % Params.get_param('web.base.url', default='http://yourcompany.neoziv.com'),
         })
         return res

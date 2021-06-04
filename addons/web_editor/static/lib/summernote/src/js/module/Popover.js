@@ -12,7 +12,7 @@ define([
   var Popover = function () {
     var button = new Button();
 
-    this.button = button; // ODOO: allow access for override
+    this.button = button; // neoziv: allow access for override
 
     /**
      * returns position from placeholder

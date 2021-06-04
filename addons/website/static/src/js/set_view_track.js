@@ -1,4 +1,4 @@
-odoo.define('website.set_view_track', function (require) {
+neoziv.define('website.set_view_track', function (require) {
 "use strict";
 
 var CustomizeMenu = require('website.customizeMenu');

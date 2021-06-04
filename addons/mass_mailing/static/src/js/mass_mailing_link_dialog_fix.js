@@ -1,5 +1,5 @@
 
-odoo.define('mass_mailing.fix.LinkDialog', function (require) {
+neoziv.define('mass_mailing.fix.LinkDialog', function (require) {
 'use strict';
 
 const LinkDialog = require('wysiwyg.widgets.LinkDialog');

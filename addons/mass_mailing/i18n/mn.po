@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* mass_mailing
 # 
@@ -17,12 +17,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:29+0000\n"
 "PO-Revision-Date: 2020-09-07 08:14+0000\n"
 "Last-Translator: tserendavaa tsogtoo <tseegii011929@gmail.com>, 2020\n"
-"Language-Team: Mongolian (https://www.transifex.com/odoo/teams/41243/mn/)\n"
+"Language-Team: Mongolian (https://www.transifex.com/neoziv/teams/41243/mn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1900,8 +1900,8 @@ msgstr ""
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.layout
-msgid "Odoo"
-msgstr "Odoo"
+msgid "neoziv"
+msgstr "neoziv"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_image_text
@@ -2497,8 +2497,8 @@ msgstr ""
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
-msgid "That way, Odoo evolves much faster than any other solution."
-msgstr "Ингэснээр Odoo бусад аль ч шийдлээс хамаагүй хурдан хөгжинө."
+msgid "That way, neoziv evolves much faster than any other solution."
+msgstr "Ингэснээр neoziv бусад аль ч шийдлээс хамаагүй хурдан хөгжинө."
 
 #. module: mass_mailing
 #: model:ir.model.fields,help:mass_mailing.field_mailing_contact_subscription__opt_out
@@ -2516,20 +2516,20 @@ msgstr ""
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
 msgid ""
-"The open source model of Odoo has allowed us to leverage thousands of developers and\n"
+"The open source model of neoziv has allowed us to leverage thousands of developers and\n"
 "                                business experts to build hundreds of apps in just a few years."
 msgstr ""
-"Odoo - н нээлттэй эхийн загвар нь мянга мянган хөгжүүлэгч, бизнес мэргэжилтнүүдийг\n"
+"neoziv - н нээлттэй эхийн загвар нь мянга мянган хөгжүүлэгч, бизнес мэргэжилтнүүдийг\n"
 " хэдхэн жилийн дотор зуу зуун апп хийх хөшүүрэг болсон."
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_text_image
 msgid ""
-"The open source model of Odoo has allowed us to leverage thousands of "
+"The open source model of neoziv has allowed us to leverage thousands of "
 "developers and business experts to build hundreds of apps in just a few "
 "years."
 msgstr ""
-"Odoo - н нээлттэй эхийн загвар нь мянга мянган хөгжүүлэгч, бизнес "
+"neoziv - н нээлттэй эхийн загвар нь мянга мянган хөгжүүлэгч, бизнес "
 "мэргэжилтнүүдийг хэдхэн жилийн дотор зуу зуун апп хийх хөшүүрэг болсон."
 
 #. module: mass_mailing
@@ -2709,10 +2709,10 @@ msgstr "Загварыг шинэчлэх"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
 msgid ""
-"Usability improvements made on Odoo will automatically apply to all\n"
+"Usability improvements made on neoziv will automatically apply to all\n"
 "                                of our fully integrated apps."
 msgstr ""
-"Odoo дээр хийгдсэн ашиглалтын сайжруулалтууд нь манай бүх бүрэн\n"
+"neoziv дээр хийгдсэн ашиглалтын сайжруулалтууд нь манай бүх бүрэн\n"
 " холбогдсон апп-уудад автоматаар нэмэгдэх болно."
 
 #. module: mass_mailing
@@ -2730,7 +2730,7 @@ msgstr ""
 #: model:ir.model.fields,help:mass_mailing.field_res_config_settings__mass_mailing_outgoing_mail_server
 #: model_terms:ir.ui.view,arch_db:mass_mailing.res_config_settings_view_form
 msgid ""
-"Use a specific mail server in priority. Otherwise Odoo relies on the first "
+"Use a specific mail server in priority. Otherwise neoziv relies on the first "
 "outgoing mail server available (based on their sequencing) as it does for "
 "normal mails."
 msgstr ""
@@ -2826,19 +2826,19 @@ msgstr "Та шуудангаа хэзээ илгээхийг хүсч байн�
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
 msgid ""
-"With strong technical foundations, Odoo's framework is unique.\n"
+"With strong technical foundations, neoziv's framework is unique.\n"
 "                                It provides top notch usability that scales across all apps."
 msgstr ""
-"Бат бөх техник суурьтай Odoo - н ерөнхий бүтэц нь онцгой. \n"
+"Бат бөх техник суурьтай neoziv - н ерөнхий бүтэц нь онцгой. \n"
 "Энэ нь бүх апп-уудыг дээд зэргийн чанараар хангадаг."
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_image
 msgid ""
-"With strong technical foundations, Odoo's framework is unique. It provides "
+"With strong technical foundations, neoziv's framework is unique. It provides "
 "<strong>top notch usability that scales across all apps</strong>."
 msgstr ""
-"Бат бөх техник суурьтай Odoo - н ерөнхий бүтэц нь онцгой. Энэ нь <strong>бүх"
+"Бат бөх техник суурьтай neoziv - н ерөнхий бүтэц нь онцгой. Энэ нь <strong>бүх"
 " апп-уудыг дээд зэргийн чанараар</strong> хангадаг."
 
 #. module: mass_mailing
@@ -2873,14 +2873,14 @@ msgstr "Та манай аль ч мэйл жагсаалтад бүртгүүл
 #: model_terms:ir.actions.act_window,help:mass_mailing.mailing_mailing_action_mail
 msgid ""
 "You don't need to import your mailing lists, you can easily\n"
-"                send emails<br> to any contact saved in other Odoo apps."
+"                send emails<br> to any contact saved in other neoziv apps."
 msgstr ""
 
 #. module: mass_mailing
 #: model_terms:ir.actions.act_window,help:mass_mailing.action_view_mass_mailing_lists
 msgid ""
 "You don't need to import your mailing lists, you can easily\n"
-"            send emails<br> to any contact saved in other Odoo apps."
+"            send emails<br> to any contact saved in other neoziv apps."
 msgstr ""
 
 #. module: mass_mailing

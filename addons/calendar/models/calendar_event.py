@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from datetime import timedelta
 import math
@@ -7,15 +7,15 @@ import babel.dates
 import logging
 import pytz
 
-from odoo import api, fields, models
-from odoo import tools
-from odoo.addons.base.models.res_partner import _tz_get
-from odoo.addons.calendar.models.calendar_attendee import Attendee
-from odoo.addons.calendar.models.calendar_recurrence import weekday_to_field, RRULE_TYPE_SELECTION, END_TYPE_SELECTION, MONTH_BY_SELECTION, WEEKDAY_SELECTION, BYDAY_SELECTION
-from odoo.tools.translate import _
-from odoo.tools.misc import get_lang
-from odoo.tools import pycompat
-from odoo.exceptions import UserError, ValidationError, AccessError
+from neoziv import api, fields, models
+from neoziv import tools
+from neoziv.addons.base.models.res_partner import _tz_get
+from neoziv.addons.calendar.models.calendar_attendee import Attendee
+from neoziv.addons.calendar.models.calendar_recurrence import weekday_to_field, RRULE_TYPE_SELECTION, END_TYPE_SELECTION, MONTH_BY_SELECTION, WEEKDAY_SELECTION, BYDAY_SELECTION
+from neoziv.tools.translate import _
+from neoziv.tools.misc import get_lang
+from neoziv.tools import pycompat
+from neoziv.exceptions import UserError, ValidationError, AccessError
 
 _logger = logging.getLogger(__name__)
 
@@ -452,7 +452,7 @@ class Meeting(models.Model):
                     elif interval == 'minutes':
                         delta = timedelta(minutes=duration)
                     trigger.value = delta
-                    valarm.add('DESCRIPTION').value = alarm.name or u'Odoo'
+                    valarm.add('DESCRIPTION').value = alarm.name or u'neoziv'
             for attendee in meeting.attendee_ids:
                 attendee_add = event.add('attendee')
                 attendee_add.value = u'MAILTO:' + (attendee.email or u'')

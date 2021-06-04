@@ -1,4 +1,4 @@
-odoo.define('mass_mailing.unsubscribe', function (require) {
+neoziv.define('mass_mailing.unsubscribe', function (require) {
     'use strict';
 
     var session = require('web.session');

@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 from unittest.mock import patch
 
-from odoo.addons.base.tests.common import TransactionCaseWithUserDemo, HttpCaseWithUserPortal
-from odoo.tests import tagged
-from odoo.tests.common import HttpCase, TransactionCase
-from odoo.tools import DotDict
+from neoziv.addons.base.tests.common import TransactionCaseWithUserDemo, HttpCaseWithUserPortal
+from neoziv.tests import tagged
+from neoziv.tests.common import HttpCase, TransactionCase
+from neoziv.tools import DotDict
 
 ''' /!\/!\
 Calling `get_pricelist_available` after setting `property_product_pricelist` on
@@ -105,7 +105,7 @@ class TestWebsitePriceList(TransactionCase):
             'show': False,
             'current_pl': False,
         }
-        patcher = patch('odoo.addons.website_sale.models.website.Website.get_pricelist_available', wraps=self._get_pricelist_available)
+        patcher = patch('neoziv.addons.website_sale.models.website.Website.get_pricelist_available', wraps=self._get_pricelist_available)
         patcher.start()
         self.addCleanup(patcher.stop)
 
@@ -195,7 +195,7 @@ def simulate_frontend_context(self, website_id=1):
     # Mock this method will be enough to simulate frontend context in most methods
     def get_request_website():
         return self.env['website'].browse(website_id)
-    patcher = patch('odoo.addons.website.models.ir_http.get_request_website', wraps=get_request_website)
+    patcher = patch('neoziv.addons.website.models.ir_http.get_request_website', wraps=get_request_website)
     patcher.start()
     self.addCleanup(patcher.stop)
 

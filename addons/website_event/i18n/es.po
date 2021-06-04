@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* website_event
 # 
@@ -14,9 +14,9 @@
 # gabriumaa <gabriel.umana@delfixcr.com>, 2020
 # Inigo Zuluaga <inigo_zuluaga@yahoo.es>, 2020
 # Nicolás Broggi <rnbroggi@gmail.com>, 2020
-# Jon Perez <jop@odoo.com>, 2020
-# Juan Pablo Mora <jpm@odoo.com>, 2020
-# Jesse Garza <jga@odoo.com>, 2020
+# Jon Perez <jop@neoziv.com>, 2020
+# Juan Pablo Mora <jpm@neoziv.com>, 2020
+# Jesse Garza <jga@neoziv.com>, 2020
 # Nelson Ramírez Sánchez <info@konos.cl>, 2020
 # Osiris Román <osiris.roman@yachaytech.edu.ec>, 2020
 # Paulina Rodriguez <pauli.rodriguez.c@gmail.com>, 2020
@@ -24,12 +24,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 15:41+0000\n"
 "PO-Revision-Date: 2020-09-07 08:20+0000\n"
 "Last-Translator: José Cabrera Lozano <jose.cabrera@edukative.es>, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"Language-Team: Spanish (https://www.transifex.com/neoziv/teams/41243/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -338,12 +338,12 @@ msgid ""
 "At just 13 years old, John DOE was already starting to develop his first "
 "business applications for customers. After mastering civil engineering, he "
 "founded TinyERP. This was the first phase of OpenERP which would later "
-"became Odoo, the most installed open-source business software worldwide."
+"became neoziv, the most installed open-source business software worldwide."
 msgstr ""
 "Con solo 13 años, John DOE ya estaba comenzando a desarrollar sus primeras "
 "aplicaciones comerciales para clientes. Después de dominar la ingeniería "
 "civil, fundó TinyERP. Esta fue la primera fase de OpenERP que más tarde se "
-"convertiría en Odoo, el software empresarial de código abierto más instalado"
+"convertiría en neoziv, el software empresarial de código abierto más instalado"
 " en todo el mundo."
 
 #. module: website_event

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo.tests.common import HttpCase
+from neoziv.tests.common import HttpCase
 
 EXTRA_REQUEST = 5
 """ During tests, the query on 'base_registry_signaling, base_cache_signaling'

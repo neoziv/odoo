@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<odoo>
+<neoziv>
 
     <record id="ST0" model="account.tax.template">
         <field name="description">ST0</field>
@@ -385,4 +385,4 @@
         ]"/>
     </record>
 
-</odoo>
+</neoziv>

@@ -1,4 +1,4 @@
-odoo.define('website_sale.tracking', function (require) {
+neoziv.define('website_sale.tracking', function (require) {
 
 var publicWidget = require('web.public.widget');
 

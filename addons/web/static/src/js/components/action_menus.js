@@ -1,4 +1,4 @@
-odoo.define('web.ActionMenus', function (require) {
+neoziv.define('web.ActionMenus', function (require) {
     "use strict";
 
     const Context = require('web.Context');

@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
 
-from odoo.tests.common import SavepointCase, Form
-from odoo.exceptions import ValidationError
-from odoo import fields
+from neoziv.tests.common import SavepointCase, Form
+from neoziv.exceptions import ValidationError
+from neoziv import fields
 
 from datetime import date, datetime
 from dateutil.rrule import MO, TU, WE, TH, FR, SA, SU

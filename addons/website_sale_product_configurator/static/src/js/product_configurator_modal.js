@@ -1,4 +1,4 @@
-odoo.define('website_sale_product_configurator.OptionalProductsModal', function (require) {
+neoziv.define('website_sale_product_configurator.OptionalProductsModal', function (require) {
     "use strict";
 
 var OptionalProductsModal = require('sale_product_configurator.OptionalProductsModal');

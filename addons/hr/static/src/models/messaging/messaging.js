@@ -1,4 +1,4 @@
-odoo.define('hr/static/src/models/messaging/messaging.js', function (require) {
+neoziv.define('hr/static/src/models/messaging/messaging.js', function (require) {
 'use strict';
 
 const {

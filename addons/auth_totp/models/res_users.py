@@ -11,10 +11,10 @@ import time
 
 import werkzeug.urls
 
-from odoo import _, api, fields, models
-from odoo.addons.base.models.res_users import check_identity
-from odoo.exceptions import AccessDenied, UserError
-from odoo.http import request, db_list
+from neoziv import _, api, fields, models
+from neoziv.addons.base.models.res_users import check_identity
+from neoziv.exceptions import AccessDenied, UserError
+from neoziv.http import request, db_list
 
 _logger = logging.getLogger(__name__)
 

@@ -3,10 +3,10 @@ from xmlrpc.client import Fault
 
 from passlib.totp import TOTP
 
-from odoo import http
-from odoo.exceptions import AccessDenied
-from odoo.service import common as auth, model
-from odoo.tests import tagged, HttpCase, get_db_name
+from neoziv import http
+from neoziv.exceptions import AccessDenied
+from neoziv.service import common as auth, model
+from neoziv.tests import tagged, HttpCase, get_db_name
 
 from ..controllers.home import Home
 

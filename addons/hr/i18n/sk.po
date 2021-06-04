@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* hr
 # 
@@ -18,12 +18,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-17 10:35+0000\n"
 "PO-Revision-Date: 2020-09-07 08:12+0000\n"
 "Last-Translator: Rastislav Brencic <rastislav.brencic@azet.sk>, 2021\n"
-"Language-Team: Slovak (https://www.transifex.com/odoo/teams/41243/sk/)\n"
+"Language-Team: Slovak (https://www.transifex.com/neoziv/teams/41243/sk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1802,22 +1802,22 @@ msgstr "Počet neprečítaných správ"
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.hr_department_tree_action
 msgid ""
-"Odoo's department structure is used to manage all documents\n"
+"neoziv's department structure is used to manage all documents\n"
 "                    related to employees by departments: expenses, timesheets,\n"
 "                    leaves, recruitments, etc."
 msgstr ""
-"Odoo štruktúra oddelení slúži na správu všetkých dokumentov\n"
+"neoziv štruktúra oddelení slúži na správu všetkých dokumentov\n"
 "vzťahujúcich sa na zamestnancov oddelenia: náklady, časové výkazy,\n"
 "pracovné voľno, nábory, atď."
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.hr_department_kanban_action
 msgid ""
-"Odoo's department structure is used to manage all documents\n"
+"neoziv's department structure is used to manage all documents\n"
 "                related to employees by departments: expenses, timesheets,\n"
 "                time off, recruitments, etc."
 msgstr ""
-"Odoo štruktúra oddelení slúži na správu všetkých dokumentov\n"
+"neoziv štruktúra oddelení slúži na správu všetkých dokumentov\n"
 "vzťahujúcich sa na zamestnancov oddelenia: náklady, časové výkazy,\n"
 "pracovné voľno, nábory, atď."
 
@@ -2614,22 +2614,22 @@ msgstr "Vdovec"
 #: model_terms:ir.actions.act_window,help:hr.act_employee_from_department
 #: model_terms:ir.actions.act_window,help:hr.hr_employee_public_action
 msgid ""
-"With just a quick glance on the Odoo employee screen, you\n"
+"With just a quick glance on the neoziv employee screen, you\n"
 "                can easily find all the information you need for each person;\n"
 "                contact data, job position, availability, etc."
 msgstr ""
-"Pri letmom pohľade na prehľad zamestnancov Odoo,\n"
+"Pri letmom pohľade na prehľad zamestnancov neoziv,\n"
 "môžete ľahko nájsť všetky informácie, ktoré potrebujete pre každú osobu;\n"
 "kontaktné údaje, pracovná pozícia, dostupnosť, atď."
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.open_view_employee_list_my
 msgid ""
-"With just a quick glance on the Odoo employee screen, you\n"
+"With just a quick glance on the neoziv employee screen, you\n"
 "               can easily find all the information you need for each person;\n"
 "               contact data, job position, availability, etc."
 msgstr ""
-"Pri letmom pohľade na Odoo zamestnanckú obrazovku, vy\n"
+"Pri letmom pohľade na neoziv zamestnanckú obrazovku, vy\n"
 "môžet ľahko nájsť všetky informácie, ktoré potrebujete pre každú osobu;\n"
 "kontaktné údaje, pracovná pozícia, dostupnosť, atď."
 

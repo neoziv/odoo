@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-import odoo.tests
+import neoziv.tests
 
-@odoo.tests.tagged('post_install', '-at_install')
-class TestFrontend(odoo.tests.HttpCase):
+@neoziv.tests.tagged('post_install', '-at_install')
+class TestFrontend(neoziv.tests.HttpCase):
     def setUp(self):
         super().setUp()
         self.env = self.env(user=self.env.ref('base.user_admin'))

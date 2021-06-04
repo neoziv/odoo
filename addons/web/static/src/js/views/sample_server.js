@@ -1,4 +1,4 @@
-odoo.define('web.SampleServer', function (require) {
+neoziv.define('web.SampleServer', function (require) {
     "use strict";
 
     const session = require('web.session');

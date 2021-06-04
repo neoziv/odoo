@@ -1,4 +1,4 @@
-odoo.define('website.s_countdown_options', function (require) {
+neoziv.define('website.s_countdown_options', function (require) {
 'use strict';
 
 const core = require('web.core');

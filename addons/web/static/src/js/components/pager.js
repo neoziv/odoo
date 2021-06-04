@@ -1,4 +1,4 @@
-odoo.define('web.Pager', function (require) {
+neoziv.define('web.Pager', function (require) {
     "use strict";
 
     const { useAutofocus } = require('web.custom_hooks');

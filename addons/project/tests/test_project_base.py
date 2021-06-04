@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-from odoo.tests.common import SavepointCase
-from odoo.exceptions import UserError
+from neoziv.tests.common import SavepointCase
+from neoziv.exceptions import UserError
 
 class TestProjectCommon(SavepointCase):
 

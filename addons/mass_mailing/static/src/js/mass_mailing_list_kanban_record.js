@@ -1,4 +1,4 @@
-odoo.define('mass_mailing.ListKanbanRecord', function (require) {
+neoziv.define('mass_mailing.ListKanbanRecord', function (require) {
 "use strict";
 
 var KanbanRecord = require('web.KanbanRecord');

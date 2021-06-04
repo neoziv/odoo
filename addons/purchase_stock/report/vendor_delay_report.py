@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, fields, models, tools
-from odoo.exceptions import UserError
-from odoo.osv.expression import expression
+from neoziv import api, fields, models, tools
+from neoziv.exceptions import UserError
+from neoziv.osv.expression import expression
 
 
 class VendorDelayReport(models.Model):

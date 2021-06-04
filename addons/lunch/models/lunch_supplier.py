@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import math
 import pytz
 
 from datetime import datetime, time
 
-from odoo import api, fields, models
-from odoo.osv import expression
-from odoo.tools import float_round
+from neoziv import api, fields, models
+from neoziv.osv import expression
+from neoziv.tools import float_round
 
-from odoo.addons.base.models.res_partner import _tz_get
+from neoziv.addons.base.models.res_partner import _tz_get
 
 
 WEEKDAY_TO_NAME = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']

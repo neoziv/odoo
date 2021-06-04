@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import datetime
 
-from odoo.addons.test_mass_mailing.tests import common
-from odoo.tests.common import users
+from neoziv.addons.test_mass_mailing.tests import common
+from neoziv.tests.common import users
 
 
 class TestAutoBlacklist(common.TestMassMailCommon):

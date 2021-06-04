@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-from odoo.tests import common, Form
-from odoo.tools import float_compare
+from neoziv.tests import common, Form
+from neoziv.tools import float_compare
 
 
 @common.tagged('post_install', '-at_install')

@@ -1,4 +1,4 @@
-odoo.define('website_mail_channel.s_channel_options', function (require) {
+neoziv.define('website_mail_channel.s_channel_options', function (require) {
 'use strict';
 
 var core = require('web.core');

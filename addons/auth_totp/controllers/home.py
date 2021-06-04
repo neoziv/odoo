@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 import re
 
-import odoo.addons.web.controllers.main
-from odoo import http, _
-from odoo.exceptions import AccessDenied
-from odoo.http import request
+import neoziv.addons.web.controllers.main
+from neoziv import http, _
+from neoziv.exceptions import AccessDenied
+from neoziv.http import request
 
 
-class Home(odoo.addons.web.controllers.main.Home):
+class Home(neoziv.addons.web.controllers.main.Home):
     @http.route(
         '/web/login/totp',
         type='http', auth='public', methods=['GET', 'POST'], sitemap=False,

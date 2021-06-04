@@ -1,4 +1,4 @@
-odoo.define('web_editor.wysiwyg.multizone.translate', function (require) {
+neoziv.define('web_editor.wysiwyg.multizone.translate', function (require) {
 'use strict';
 
 var core = require('web.core');

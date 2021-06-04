@@ -1,4 +1,4 @@
-odoo.define('web.OwlCompatibilityTests', function (require) {
+neoziv.define('web.OwlCompatibilityTests', function (require) {
     "use strict";
 
     const { ComponentAdapter, ComponentWrapper, WidgetAdapterMixin } = require('web.OwlCompatibility');

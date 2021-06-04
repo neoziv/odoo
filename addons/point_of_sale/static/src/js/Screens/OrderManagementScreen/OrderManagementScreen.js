@@ -1,4 +1,4 @@
-odoo.define('point_of_sale.OrderManagementScreen', function (require) {
+neoziv.define('point_of_sale.OrderManagementScreen', function (require) {
     'use strict';
 
     const { useContext } = owl.hooks;

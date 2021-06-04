@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, models, tools, _
-from odoo.addons.http_routing.models.ir_http import slug
+from neoziv import api, models, tools, _
+from neoziv.addons.http_routing.models.ir_http import slug
 
 
 class MailMail(models.Model):

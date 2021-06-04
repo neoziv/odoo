@@ -1,4 +1,4 @@
-odoo.define('base_import.import', function (require) {
+neoziv.define('base_import.import', function (require) {
 "use strict";
 
 var AbstractAction = require('web.AbstractAction');

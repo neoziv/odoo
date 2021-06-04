@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from collections import defaultdict
 
-from odoo import api, models
-from odoo.tools import float_is_zero, format_datetime, format_date, float_round
+from neoziv import api, models
+from neoziv.tools import float_is_zero, format_datetime, format_date, float_round
 
 
 class ReplenishmentReport(models.AbstractModel):

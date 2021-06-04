@@ -1,4 +1,4 @@
-odoo.define('website.contentMenu', function (require) {
+neoziv.define('website.contentMenu', function (require) {
 'use strict';
 
 var Class = require('web.Class');
@@ -335,11 +335,11 @@ var PagePropertiesDialog = weWidgets.Dialog.extend({
     /**
      * Converts a string representing the browser datetime
      * (exemple: Albanian: '2018-Qer-22 15.12.35.')
-     * to a string representing UTC in Odoo's datetime string format
+     * to a string representing UTC in neoziv's datetime string format
      * (exemple: '2018-04-22 13:12:35').
      *
      * The time zone of the datetime string is assumed to be the one of the
-     * browser and it will be converted to UTC (standard for Odoo).
+     * browser and it will be converted to UTC (standard for neoziv).
      *
      * @private
      * @param {String} value A string representing a datetime.

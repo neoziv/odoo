@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from odoo import api, fields, models, _
+from neoziv import api, fields, models, _
 
 
 class AccountFullReconcile(models.Model):

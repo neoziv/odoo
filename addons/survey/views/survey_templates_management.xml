@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<odoo><data>
+<neoziv><data>
 
     <!-- ============================================================ -->
     <!--                Errors / Corner case management               -->
@@ -146,4 +146,4 @@
     </template>
 
 </data>
-</odoo>
+</neoziv>

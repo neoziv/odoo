@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 from datetime import date, timedelta
 
-from odoo.fields import Date
-from odoo.tools import float_is_zero
-from odoo.exceptions import UserError
-from odoo.addons.sale_timesheet.tests.common import TestCommonSaleTimesheet
-from odoo.tests import tagged
+from neoziv.fields import Date
+from neoziv.tools import float_is_zero
+from neoziv.exceptions import UserError
+from neoziv.addons.sale_timesheet.tests.common import TestCommonSaleTimesheet
+from neoziv.tests import tagged
 
 
 @tagged('-at_install', 'post_install')

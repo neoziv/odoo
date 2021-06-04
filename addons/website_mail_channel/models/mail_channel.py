@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import hashlib
 import hmac
 
 from werkzeug import urls
 
-from odoo import models
-from odoo.addons.http_routing.models.ir_http import slug
+from neoziv import models
+from neoziv.addons.http_routing.models.ir_http import slug
 
 
 class MailGroup(models.Model):

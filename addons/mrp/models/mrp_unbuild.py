@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, fields, models, _
-from odoo.exceptions import AccessError, UserError
-from odoo.tools import float_compare
-from odoo.osv import expression
+from neoziv import api, fields, models, _
+from neoziv.exceptions import AccessError, UserError
+from neoziv.tools import float_compare
+from neoziv.osv import expression
 
 
 class MrpUnbuild(models.Model):

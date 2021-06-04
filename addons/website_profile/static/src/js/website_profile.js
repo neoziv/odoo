@@ -1,4 +1,4 @@
-odoo.define('website_profile.website_profile', function (require) {
+neoziv.define('website_profile.website_profile', function (require) {
 'use strict';
 
 var publicWidget = require('web.public.widget');

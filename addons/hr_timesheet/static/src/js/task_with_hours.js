@@ -1,4 +1,4 @@
-odoo.define('hr_timesheet.task_with_hours', function (require) {
+neoziv.define('hr_timesheet.task_with_hours', function (require) {
 "use strict";
 
 var field_registry = require('web.field_registry');

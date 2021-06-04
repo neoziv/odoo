@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo.addons.mail.tests.common import MailCommon
-from odoo.tests.common import SavepointCase
+from neoziv.addons.mail.tests.common import MailCommon
+from neoziv.tests.common import SavepointCase
 
 
 class TestMailCommon(MailCommon):

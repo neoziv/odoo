@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import base64
 import logging
@@ -9,10 +9,10 @@ import werkzeug.wrappers
 
 from werkzeug.urls import url_encode
 
-from odoo import api, http, registry, SUPERUSER_ID, _
-from odoo.exceptions import AccessError
-from odoo.http import request
-from odoo.tools import consteq
+from neoziv import api, http, registry, SUPERUSER_ID, _
+from neoziv.exceptions import AccessError
+from neoziv.http import request
+from neoziv.tools import consteq
 
 _logger = logging.getLogger(__name__)
 

@@ -1,4 +1,4 @@
-odoo.define('calendar.CalendarModel', function (require) {
+neoziv.define('calendar.CalendarModel', function (require) {
     "use strict";
 
     const Model = require('web.CalendarModel');
@@ -7,7 +7,7 @@ odoo.define('calendar.CalendarModel', function (require) {
 
         /**
          * @override
-         * Transform fullcalendar event object to odoo Data object
+         * Transform fullcalendar event object to neoziv Data object
          */
         calendarEventToRecord(event) {
             const data = this._super(event);

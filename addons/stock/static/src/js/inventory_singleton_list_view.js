@@ -1,4 +1,4 @@
-odoo.define('stock.SingletonListView', function (require) {
+neoziv.define('stock.SingletonListView', function (require) {
 'use strict';
 
 var InventoryReportListView = require('stock.InventoryReportListView');

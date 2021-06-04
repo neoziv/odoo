@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* point_of_sale
 # 
@@ -21,12 +21,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-26 09:03+0000\n"
 "PO-Revision-Date: 2020-09-07 08:16+0000\n"
 "Last-Translator: Yoshi Tashiro <tashiro@roomsfor.hk>, 2021\n"
-"Language-Team: Japanese (https://www.transifex.com/odoo/teams/41243/ja/)\n"
+"Language-Team: Japanese (https://www.transifex.com/neoziv/teams/41243/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -2068,8 +2068,8 @@ msgstr "ID"
 #. openerp-web
 #: code:addons/point_of_sale/static/src/js/Popups/ErrorTracebackPopup.js:0
 #, python-format
-msgid "IMPORTANT: Bug Report From Odoo Point Of Sale"
-msgstr "重要:OdooPOSからのバグレポート"
+msgid "IMPORTANT: Bug Report From neoziv Point Of Sale"
+msgstr "重要:neozivPOSからのバグレポート"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__proxy_ip
@@ -2777,8 +2777,8 @@ msgstr "未読メッセージ件数"
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.customer_facing_display_html
 #: model_terms:pos.config,customer_facing_display_html:point_of_sale.pos_config_main
-msgid "Odoo Logo"
-msgstr "Odooロゴ"
+msgid "neoziv Logo"
+msgstr "neozivロゴ"
 
 #. module: point_of_sale
 #. openerp-web
@@ -5056,16 +5056,16 @@ msgstr "この製品は、顧客の領収書の参照として使用されます
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_line_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by neoziv but you can change it to "
 "customize the reference numbers of your orders lines."
-msgstr "このシーケンスはOdooによって自動的に作成されますが、注文明細の参照番号をカスタマイズするために変更できます。"
+msgstr "このシーケンスはneozivによって自動的に作成されますが、注文明細の参照番号をカスタマイズするために変更できます。"
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by neoziv but you can change it to "
 "customize the reference numbers of your orders."
-msgstr "このシーケンスはOdooによって自動的に作成されますが、注文の参照番号をカスタマイズするために変更できます。"
+msgstr "このシーケンスはneozivによって自動的に作成されますが、注文の参照番号をカスタマイズするために変更できます。"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/models/pos_session.py:0

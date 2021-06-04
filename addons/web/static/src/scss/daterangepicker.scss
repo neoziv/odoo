@@ -5,7 +5,7 @@
             thead {
                 tr:first-child {
                     color: #FFFFFF;
-                    background-color: $o-brand-odoo;
+                    background-color: $o-brand-neoziv;
                     th {
                         &.prev, &.next {
                             span {
@@ -13,7 +13,7 @@
                                 border-color: #FFFFFF;
                             }
                             &:hover {
-                                background-color: darken($o-brand-odoo, 10%);
+                                background-color: darken($o-brand-neoziv, 10%);
                             }
                         }
                     }

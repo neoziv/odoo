@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from lxml import etree
 import re
 
-from odoo import api, fields, models, _
-from odoo.exceptions import UserError, AccessError
-from odoo.osv import expression
+from neoziv import api, fields, models, _
+from neoziv.exceptions import UserError, AccessError
+from neoziv.osv import expression
 
 class AccountAnalyticLine(models.Model):
     _inherit = 'account.analytic.line'

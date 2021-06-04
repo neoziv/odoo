@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* account
 # 
@@ -8,18 +8,18 @@
 # 李振維, 2021
 # Martin Trigaux, 2021
 # 226408 台北 <226408@so8d.com>, 2021
-# Mandy Choy <mnc@odoo.com>, 2021
+# Mandy Choy <mnc@neoziv.com>, 2021
 # Jimmy Li <olga200340@hotmail.com>, 2021
 # 敬雲 林 <chingyun@yuanchih-consult.com>, 2021
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-25 10:15+0000\n"
 "PO-Revision-Date: 2020-09-07 08:09+0000\n"
 "Last-Translator: 敬雲 林 <chingyun@yuanchih-consult.com>, 2021\n"
-"Language-Team: Chinese (Taiwan) (https://www.transifex.com/odoo/teams/41243/zh_TW/)\n"
+"Language-Team: Chinese (Taiwan) (https://www.transifex.com/neoziv/teams/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -4230,9 +4230,9 @@ msgstr "日期模式"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_financial_year_op__opening_date
 msgid ""
-"Date from which the accounting is managed in Odoo. It is the date of the "
+"Date from which the accounting is managed in neoziv. It is the date of the "
 "opening entry."
-msgstr "會計在Odoo中管理的日期。這是開戶憑證的日期。"
+msgstr "會計在neoziv中管理的日期。這是開戶憑證的日期。"
 
 #. module: account
 #. openerp-web
@@ -7328,35 +7328,35 @@ msgstr "手動"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__inbound_payment_method_ids
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Odoo.\n"
+"Manual: Get paid by cash, check or any other method outside of neoziv.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in neoziv,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
 msgstr ""
-"手動：通過現金、支票或除 Odoo 以外的任何其他方法獲取報酬。\n"
+"手動：通過現金、支票或除 neoziv 以外的任何其他方法獲取報酬。\n"
 "電子方式：線上購買或訂閱時（支付指示物），通過請求客戶保存的卡上的交易，通過付款受讓人自動獲得付款。\n"
-"批量存款：通過生成批量存款立即兌現幾個客戶的支票，以便提交給銀行。在 Odoo 中編碼銀行對帳單時，建議您將交易與批量存款進行核對。從設定中啟用此選項。 "
+"批量存款：通過生成批量存款立即兌現幾個客戶的支票，以便提交給銀行。在 neoziv 中編碼銀行對帳單時，建議您將交易與批量存款進行核對。從設定中啟用此選項。 "
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment__payment_method_id
 #: model:ir.model.fields,help:account.field_account_payment_register__payment_method_id
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Odoo.\n"
+"Manual: Get paid by cash, check or any other method outside of neoziv.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Check: Pay bill by check and print it from Odoo.\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo, you are suggested to reconcile the transaction with the batch deposit.To enable batch deposit, module account_batch_payment must be installed.\n"
+"Check: Pay bill by check and print it from neoziv.\n"
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in neoziv, you are suggested to reconcile the transaction with the batch deposit.To enable batch deposit, module account_batch_payment must be installed.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. To enable sepa credit transfer, module account_sepa must be installed "
 msgstr ""
-"手動：通過現金，支票或Odoo以外的任何其他方式付款。\n"
+"手動：通過現金，支票或neoziv以外的任何其他方式付款。\n"
 "電子：通過線上購買或訂購時支付客戶保存的卡上的交易（支付指示物），通過支付收單方自動獲得支付。\n"
-"支票：通過支票支付帳單並從Odoo列印。\n"
-"批量存款：通過生成批量存款提交給您的銀行，包含多個客戶支票。 在Odoo中編製銀行對帳單時，建議您將交易與批量存款進行對帳。要啟用批量存款，必須安裝模組account_batch_payment。\n"
+"支票：通過支票支付帳單並從neoziv列印。\n"
+"批量存款：通過生成批量存款提交給您的銀行，包含多個客戶支票。 在neoziv中編製銀行對帳單時，建議您將交易與批量存款進行對帳。要啟用批量存款，必須安裝模組account_batch_payment。\n"
 "SEPA信用轉帳：從您提交給銀行的SEPA信用轉帳文件中支付帳單。 要啟用spea信用轉帳，必須安裝模組account_sepa"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__outbound_payment_method_ids
 msgid ""
-"Manual:Pay bill by cash or any other method outside of Odoo.\n"
-"Check:Pay bill by check and print it from Odoo.\n"
+"Manual:Pay bill by cash or any other method outside of neoziv.\n"
+"Check:Pay bill by check and print it from neoziv.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. Enable this option from the settings."
 msgstr ""
 "手動：現金支付或使用系統外的方式支付。\n"
@@ -8006,33 +8006,33 @@ msgid "October"
 msgstr "十月"
 
 #. module: account
-#: model:ir.model.fields.selection,name:account.selection__account_journal__invoice_reference_model__odoo
-msgid "Odoo"
-msgstr "Odoo"
+#: model:ir.model.fields.selection,name:account.selection__account_journal__invoice_reference_model__neoziv
+msgid "neoziv"
+msgstr "neoziv"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_line
 msgid ""
-"Odoo allows you to reconcile a statement line directly with\n"
+"neoziv allows you to reconcile a statement line directly with\n"
 "                the related sale or purchase invoice(s)."
 msgstr ""
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_tree
 msgid ""
-"Odoo allows you to reconcile a statement line directly with\n"
+"neoziv allows you to reconcile a statement line directly with\n"
 "                the related sale or purchase invoices."
 msgstr ""
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_customer
-msgid "Odoo helps you easily track all activities related to a customer."
-msgstr "Odoo 幫助您輕鬆跟進與客戶相關的所有活動。"
+msgid "neoziv helps you easily track all activities related to a customer."
+msgstr "neoziv 幫助您輕鬆跟進與客戶相關的所有活動。"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_supplier
-msgid "Odoo helps you easily track all activities related to a supplier."
-msgstr "Odoo幫助您輕鬆追蹤與供應商相關的所有活動。"
+msgid "neoziv helps you easily track all activities related to a supplier."
+msgstr "neoziv幫助您輕鬆追蹤與供應商相關的所有活動。"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_account_type__internal_group__off_balance
@@ -10252,7 +10252,7 @@ msgid ""
 "\n"
 "Any file extension will be accepted.\n"
 "\n"
-"Only PDF and XML files will be interpreted by Odoo"
+"Only PDF and XML files will be interpreted by neoziv"
 msgstr ""
 
 #. module: account
@@ -12610,7 +12610,7 @@ msgstr "此分錄將於以下日期自動過帳: %(date)s"
 msgid ""
 "This option permanently removes any track of email after it's been sent, "
 "including from the Technical menu in the Settings, in order to preserve "
-"storage space of your Odoo database."
+"storage space of your neoziv database."
 msgstr ""
 
 #. module: account
@@ -13448,7 +13448,7 @@ msgstr "使用貨幣"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_tour_upload_bill
-msgid "With Odoo, you won't have to records bills manually"
+msgid "With neoziv, you won't have to records bills manually"
 msgstr ""
 
 #. module: account
@@ -13492,8 +13492,8 @@ msgstr "您可以勾選此，標記日記帳項目正與相關業務夥伴在爭
 #: model:ir.model.fields,help:account.field_account_journal__invoice_reference_model
 msgid ""
 "You can choose different models for each type of reference. The default one "
-"is the Odoo reference."
-msgstr "您可以為每種模型選擇不同的編碼。預設值是 Odoo reference。"
+"is the neoziv reference."
+msgstr "您可以為每種模型選擇不同的編碼。預設值是 neoziv reference。"
 
 #. module: account
 #: code:addons/account/models/account_payment_term.py:0

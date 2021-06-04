@@ -1,4 +1,4 @@
-odoo.define('website_sale.tour_shop_zoom', function (require) {
+neoziv.define('website_sale.tour_shop_zoom', function (require) {
 'use strict';
 
 var tour = require('web_tour.tour');
@@ -24,7 +24,7 @@ tour.register('shop_zoom', {
     },
     {
         content: "check there is no zoom on that small image",
-        trigger: 'body:not(:has(.zoomodoo-flyout img))',
+        trigger: 'body:not(:has(.zoomneoziv-flyout img))',
     },
     {
         content: "change variant",
@@ -42,7 +42,7 @@ tour.register('shop_zoom', {
     },
     {
         content: "check there is a zoom on that big image",
-        trigger: '.zoomodoo-flyout img',
+        trigger: '.zoomneoziv-flyout img',
     },
 ]);
 });

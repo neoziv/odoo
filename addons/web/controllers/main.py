@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import babel.messages.pofile
 import base64
@@ -30,20 +30,20 @@ from lxml import etree
 import unicodedata
 
 
-import odoo
-import odoo.modules.registry
-from odoo.api import call_kw, Environment
-from odoo.modules import get_module_path, get_resource_path
-from odoo.tools import image_process, topological_sort, html_escape, pycompat, ustr, apply_inheritance_specs, lazy_property, float_repr
-from odoo.tools.mimetypes import guess_mimetype
-from odoo.tools.translate import _
-from odoo.tools.misc import str2bool, xlsxwriter, file_open
-from odoo.tools.safe_eval import safe_eval, time
-from odoo import http, tools
-from odoo.http import content_disposition, dispatch_rpc, request, serialize_exception as _serialize_exception, Response
-from odoo.exceptions import AccessError, UserError, AccessDenied
-from odoo.models import check_method_name
-from odoo.service import db, security
+import neoziv
+import neoziv.modules.registry
+from neoziv.api import call_kw, Environment
+from neoziv.modules import get_module_path, get_resource_path
+from neoziv.tools import image_process, topological_sort, html_escape, pycompat, ustr, apply_inheritance_specs, lazy_property, float_repr
+from neoziv.tools.mimetypes import guess_mimetype
+from neoziv.tools.translate import _
+from neoziv.tools.misc import str2bool, xlsxwriter, file_open
+from neoziv.tools.safe_eval import safe_eval, time
+from neoziv import http, tools
+from neoziv.http import content_disposition, dispatch_rpc, request, serialize_exception as _serialize_exception, Response
+from neoziv.exceptions import AccessError, UserError, AccessDenied
+from neoziv.models import check_method_name
+from neoziv.service import db, security
 
 _logger = logging.getLogger(__name__)
 
@@ -52,7 +52,7 @@ if hasattr(sys, 'frozen'):
     path = os.path.realpath(os.path.join(os.path.dirname(__file__), '..', 'views'))
     loader = jinja2.FileSystemLoader(path)
 else:
-    loader = jinja2.PackageLoader('odoo.addons.web', "views")
+    loader = jinja2.PackageLoader('neoziv.addons.web', "views")
 
 env = jinja2.Environment(loader=loader, autoescape=True)
 env.filters["json"] = json.dumps
@@ -95,7 +95,7 @@ OPERATOR_MAPPING = {
 }
 
 #----------------------------------------------------------
-# Odoo Web helpers
+# neoziv Web helpers
 #----------------------------------------------------------
 
 db_list = http.db_list
@@ -113,7 +113,7 @@ def serialize_exception(f):
             se = _serialize_exception(e)
             error = {
                 'code': 200,
-                'message': "Odoo Server Error",
+                'message': "neoziv Server Error",
                 'data': se
             }
             return werkzeug.exceptions.InternalServerError(json.dumps(error))
@@ -201,16 +201,16 @@ def module_installed(environment):
 
 def module_installed_bypass_session(dbname):
     try:
-        registry = odoo.registry(dbname)
+        registry = neoziv.registry(dbname)
         with registry.cursor() as cr:
             return module_installed(
-                environment=Environment(cr, odoo.SUPERUSER_ID, {}))
+                environment=Environment(cr, neoziv.SUPERUSER_ID, {}))
     except Exception:
         pass
     return {}
 
 def module_boot(db=None):
-    server_wide_modules = odoo.conf.server_wide_modules or []
+    server_wide_modules = neoziv.conf.server_wide_modules or []
     serverside = ['base', 'web']
     dbside = []
     for i in server_wide_modules:
@@ -256,7 +256,7 @@ def manifest_list(extension, mods=None, db=None, debug=None):
     db: a database name (return all installed modules in that database)
     """
     if debug is not None:
-        _logger.warning("odoo.addons.web.main.manifest_list(): debug parameter is deprecated")
+        _logger.warning("neoziv.addons.web.main.manifest_list(): debug parameter is deprecated")
     mods = mods.split(',')
     files = manifest_glob(extension, addons=mods, db=db, include_remotes=True)
     return [wp for _fp, wp, addon in files]
@@ -389,7 +389,7 @@ def generate_views(action):
     action['views'] = [(view_id, view_modes[0])]
 
 def fix_view_modes(action):
-    """ For historical reasons, Odoo has weird dealings in relation to
+    """ For historical reasons, neoziv has weird dealings in relation to
     view_mode and the view_type attribute (on window actions):
 
     * one of the view modes is ``tree``, which stands for both list views
@@ -878,7 +878,7 @@ class GroupExportXlsxWriter(ExportXlsxWriter):
 
 
 #----------------------------------------------------------
-# Odoo Web web Controllers
+# neoziv Web web Controllers
 #----------------------------------------------------------
 class Home(http.Controller):
 
@@ -932,12 +932,12 @@ class Home(http.Controller):
             return http.redirect_with_hash(redirect)
 
         if not request.uid:
-            request.uid = odoo.SUPERUSER_ID
+            request.uid = neoziv.SUPERUSER_ID
 
         values = request.params.copy()
         try:
             values['databases'] = http.db_list()
-        except odoo.exceptions.AccessDenied:
+        except neoziv.exceptions.AccessDenied:
             values['databases'] = None
 
         if request.httprequest.method == 'POST':
@@ -946,9 +946,9 @@ class Home(http.Controller):
                 uid = request.session.authenticate(request.session.db, request.params['login'], request.params['password'])
                 request.params['login_success'] = True
                 return http.redirect_with_hash(self._login_redirect(uid, redirect=redirect))
-            except odoo.exceptions.AccessDenied as e:
+            except neoziv.exceptions.AccessDenied as e:
                 request.uid = old_uid
-                if e.args == odoo.exceptions.AccessDenied().args:
+                if e.args == neoziv.exceptions.AccessDenied().args:
                     values['error'] = _("Wrong login/password")
                 else:
                     values['error'] = e.args[0]
@@ -959,7 +959,7 @@ class Home(http.Controller):
         if 'login' not in values and request.session.get('auth_login'):
             values['login'] = request.session.get('auth_login')
 
-        if not odoo.tools.config['list_db']:
+        if not neoziv.tools.config['list_db']:
             values['disable_database_manager'] = True
 
         response = request.render('web.login', values)
@@ -970,7 +970,7 @@ class Home(http.Controller):
     def switch_to_admin(self):
         uid = request.env.user.id
         if request.env.user._is_system():
-            uid = request.session.uid = odoo.SUPERUSER_ID
+            uid = request.session.uid = neoziv.SUPERUSER_ID
             # invalidate session token cache as we've changed the uid
             request.env['res.users'].clear_caches()
             request.session.session_token = security.compute_session_token(request.session, request.env)
@@ -1075,7 +1075,7 @@ class WebClient(http.Controller):
 
     @http.route('/web/webclient/version_info', type='json', auth="none")
     def version_info(self):
-        return odoo.service.common.exp_version()
+        return neoziv.service.common.exp_version()
 
     @http.route('/web/tests', type='http', auth="user")
     def test_suite(self, mod=None, **kwargs):
@@ -1111,17 +1111,17 @@ class Database(http.Controller):
 
     def _render_template(self, **d):
         d.setdefault('manage',True)
-        d['insecure'] = odoo.tools.config.verify_admin_password('admin')
-        d['list_db'] = odoo.tools.config['list_db']
-        d['langs'] = odoo.service.db.exp_list_lang()
-        d['countries'] = odoo.service.db.exp_list_countries()
+        d['insecure'] = neoziv.tools.config.verify_admin_password('admin')
+        d['list_db'] = neoziv.tools.config['list_db']
+        d['langs'] = neoziv.service.db.exp_list_lang()
+        d['countries'] = neoziv.service.db.exp_list_countries()
         d['pattern'] = DBNAME_PATTERN
         # databases list
         d['databases'] = []
         try:
             d['databases'] = http.db_list()
-            d['incompatible_databases'] = odoo.service.db.list_db_incompatible(d['databases'])
-        except odoo.exceptions.AccessDenied:
+            d['incompatible_databases'] = neoziv.service.db.list_db_incompatible(d['databases'])
+        except neoziv.exceptions.AccessDenied:
             monodb = db_monodb()
             if monodb:
                 d['databases'] = [monodb]
@@ -1139,7 +1139,7 @@ class Database(http.Controller):
 
     @http.route('/web/database/create', type='http', auth="none", methods=['POST'], csrf=False)
     def create(self, master_pwd, name, lang, password, **post):
-        insecure = odoo.tools.config.verify_admin_password('admin')
+        insecure = neoziv.tools.config.verify_admin_password('admin')
         if insecure and master_pwd:
             dispatch_rpc('db', 'change_admin_password', ["admin", master_pwd])
         try:
@@ -1156,7 +1156,7 @@ class Database(http.Controller):
 
     @http.route('/web/database/duplicate', type='http', auth="none", methods=['POST'], csrf=False)
     def duplicate(self, master_pwd, name, new_name):
-        insecure = odoo.tools.config.verify_admin_password('admin')
+        insecure = neoziv.tools.config.verify_admin_password('admin')
         if insecure and master_pwd:
             dispatch_rpc('db', 'change_admin_password', ["admin", master_pwd])
         try:
@@ -1171,7 +1171,7 @@ class Database(http.Controller):
 
     @http.route('/web/database/drop', type='http', auth="none", methods=['POST'], csrf=False)
     def drop(self, master_pwd, name):
-        insecure = odoo.tools.config.verify_admin_password('admin')
+        insecure = neoziv.tools.config.verify_admin_password('admin')
         if insecure and master_pwd:
             dispatch_rpc('db', 'change_admin_password', ["admin", master_pwd])
         try:
@@ -1184,18 +1184,18 @@ class Database(http.Controller):
 
     @http.route('/web/database/backup', type='http', auth="none", methods=['POST'], csrf=False)
     def backup(self, master_pwd, name, backup_format = 'zip'):
-        insecure = odoo.tools.config.verify_admin_password('admin')
+        insecure = neoziv.tools.config.verify_admin_password('admin')
         if insecure and master_pwd:
             dispatch_rpc('db', 'change_admin_password', ["admin", master_pwd])
         try:
-            odoo.service.db.check_super(master_pwd)
+            neoziv.service.db.check_super(master_pwd)
             ts = datetime.datetime.utcnow().strftime("%Y-%m-%d_%H-%M-%S")
             filename = "%s_%s.%s" % (name, ts, backup_format)
             headers = [
                 ('Content-Type', 'application/octet-stream; charset=binary'),
                 ('Content-Disposition', content_disposition(filename)),
             ]
-            dump_stream = odoo.service.db.dump_db(name, None, backup_format)
+            dump_stream = neoziv.service.db.dump_db(name, None, backup_format)
             response = werkzeug.wrappers.Response(dump_stream, headers=headers, direct_passthrough=True)
             return response
         except Exception as e:
@@ -1205,7 +1205,7 @@ class Database(http.Controller):
 
     @http.route('/web/database/restore', type='http', auth="none", methods=['POST'], csrf=False)
     def restore(self, master_pwd, backup_file, name, copy=False):
-        insecure = odoo.tools.config.verify_admin_password('admin')
+        insecure = neoziv.tools.config.verify_admin_password('admin')
         if insecure and master_pwd:
             dispatch_rpc('db', 'change_admin_password', ["admin", master_pwd])
         try:
@@ -1285,7 +1285,7 @@ class Session(http.Controller):
     @http.route('/web/session/modules', type='json', auth="user")
     def modules(self):
         # return all installed modules. Web client is smart enough to not load a module twice
-        return module_installed(environment=request.env(user=odoo.SUPERUSER_ID))
+        return module_installed(environment=request.env(user=neoziv.SUPERUSER_ID))
 
     @http.route('/web/session/save_session_action', type='json', auth="user")
     def save_session_action(self, the_action):
@@ -1328,7 +1328,7 @@ class Session(http.Controller):
             'state': json.dumps({'d': request.db, 'u': ICP.get_param('web.base.url')}),
             'scope': 'userinfo',
         }
-        return 'https://accounts.odoo.com/oauth2/auth?' + url_encode(params)
+        return 'https://accounts.neoziv.com/oauth2/auth?' + url_encode(params)
 
     @http.route('/web/session/destroy', type='json', auth="user")
     def destroy(self):
@@ -1542,7 +1542,7 @@ class Binary(http.Controller):
             image_base64 = base64.b64encode(placeholder_content)
 
             if not (width or height):
-                width, height = odoo.tools.image_guess_size_from_field_name(field)
+                width, height = neoziv.tools.image_guess_size_from_field_name(field)
 
         try:
             image_base64 = image_process(image_base64, size=(int(width), int(height)), crop=crop, quality=int(quality))
@@ -1636,14 +1636,14 @@ class Binary(http.Controller):
             dbname = db_monodb()
 
         if not uid:
-            uid = odoo.SUPERUSER_ID
+            uid = neoziv.SUPERUSER_ID
 
         if not dbname:
             response = http.send_file(placeholder(imgname + imgext))
         else:
             try:
                 # create an empty registry
-                registry = odoo.modules.registry.Registry(dbname)
+                registry = neoziv.modules.registry.Registry(dbname)
                 with registry.cursor() as cr:
                     company = int(kw['company']) if kw and kw.get('company') else False
                     if company:
@@ -1784,7 +1784,7 @@ class Export(http.Controller):
             fields['id'] = parent_field
 
         fields_sequence = sorted(fields.items(),
-            key=lambda field: odoo.tools.ustr(field[1].get('string', '').lower()))
+            key=lambda field: neoziv.tools.ustr(field[1].get('string', '').lower()))
 
         records = []
         for field_name, field in fields_sequence:
@@ -1903,7 +1903,7 @@ class ExportFormat(object):
         raise NotImplementedError()
 
     def from_data(self, fields, rows):
-        """ Conversion method from Odoo's export data to whatever the
+        """ Conversion method from neoziv's export data to whatever the
         current export class outputs
 
         :params list fields: a list of fields to export
@@ -2145,7 +2145,7 @@ class ReportController(http.Controller):
             se = _serialize_exception(e)
             error = {
                 'code': 200,
-                'message': "Odoo Server Error",
+                'message': "neoziv Server Error",
                 'data': se
             }
             return request.make_response(html_escape(json.dumps(error)))

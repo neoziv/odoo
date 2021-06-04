@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* web
 # 
@@ -28,7 +28,7 @@
 # Mateus Lopes <mateus1@gmail.com>, 2020
 # André Augusto Firmino Cordeiro <a.cordeito@gmail.com>, 2020
 # Silmar <pinheirosilmar@gmail.com>, 2020
-# Kevin Harrings <kha@odoo.com>, 2020
+# Kevin Harrings <kha@neoziv.com>, 2020
 # Luis Malta <luiso.malta@gmail.com>, 2020
 # grazziano <gra.negocia@gmail.com>, 2020
 # Maurício Liell <mauricio@liell.com.br>, 2021
@@ -36,12 +36,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-25 10:30+0000\n"
 "PO-Revision-Date: 2020-09-07 08:19+0000\n"
 "Last-Translator: Éder Brito <britoederr@gmail.com>, 2021\n"
-"Language-Team: Portuguese (Brazil) (https://www.transifex.com/odoo/teams/41243/pt_BR/)\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/neoziv/teams/41243/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -2041,8 +2041,8 @@ msgstr "Fushia"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
-msgid "Get this feature and much more with Odoo Enterprise!"
-msgstr "Obtenha este recurso e muito mais com Odoo Enterprise!"
+msgid "Get this feature and much more with neoziv Enterprise!"
+msgstr "Obtenha este recurso e muito mais com neoziv Enterprise!"
 
 #. module: web
 #. openerp-web
@@ -2638,8 +2638,8 @@ msgstr "Texto multilinha"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
-msgid "My Odoo.com account"
-msgstr "Minha conta Odoo.com"
+msgid "My neoziv.com account"
+msgstr "Minha conta neoziv.com"
 
 #. module: web
 #. openerp-web
@@ -2833,15 +2833,15 @@ msgstr "Objeto:"
 #: code:addons/web/static/src/js/core/dialog.js:0
 #: model_terms:ir.ui.view,arch_db:web.brand_promotion_message
 #, python-format
-msgid "Odoo"
-msgstr "Odoo"
+msgid "neoziv"
+msgstr "neoziv"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/apps.js:0
 #, python-format
-msgid "Odoo Apps will be available soon"
-msgstr "Odoo Apps estará disponível em breve"
+msgid "neoziv Apps will be available soon"
+msgstr "neoziv Apps estará disponível em breve"
 
 #. module: web
 #. openerp-web
@@ -2850,36 +2850,36 @@ msgstr "Odoo Apps estará disponível em breve"
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Odoo Client Error"
-msgstr "Erro de Cliente Odoo"
+msgid "neoziv Client Error"
+msgstr "Erro de Cliente neoziv"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/fields/upgrade_fields.js:0
 #, python-format
-msgid "Odoo Enterprise"
-msgstr "Odoo Enterprise"
+msgid "neoziv Enterprise"
+msgstr "neoziv Enterprise"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Odoo Error"
-msgstr "Erro Odoo"
+msgid "neoziv Error"
+msgstr "Erro neoziv"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Odoo Session Expired"
-msgstr "Sessão do Odoo Expirada"
+msgid "neoziv Session Expired"
+msgstr "Sessão do neoziv Expirada"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Odoo Warning"
-msgstr "Aviso do Odoo"
+msgid "neoziv Warning"
+msgstr "Aviso do neoziv"
 
 #. module: web
 #. openerp-web
@@ -3240,8 +3240,8 @@ msgstr "Distribuído por %s%s"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Odoo</span>"
-msgstr "Distribuído por <span>Odoo</span>"
+msgid "Powered by <span>neoziv</span>"
+msgstr "Distribuído por <span>neoziv</span>"
 
 #. module: web
 #. openerp-web
@@ -4713,10 +4713,10 @@ msgstr ""
 #: code:addons/web/static/src/js/chrome/action_manager_report.js:0
 #, python-format
 msgid ""
-"You need to start Odoo with at least two workers to print a pdf version of "
+"You need to start neoziv with at least two workers to print a pdf version of "
 "the reports."
 msgstr ""
-"Você precisa iniciar o Odoo com pelo menos dois workers para imprimir uma "
+"Você precisa iniciar o neoziv com pelo menos dois workers para imprimir uma "
 "versão em pdf dos relatórios."
 
 #. module: web
@@ -4736,9 +4736,9 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Your Odoo session expired. The current page is about to be refreshed."
+msgid "Your neoziv session expired. The current page is about to be refreshed."
 msgstr ""
-"Sua sessão Odoo expirou. A página atual está prestes a ser atualizada."
+"Sua sessão neoziv expirou. A página atual está prestes a ser atualizada."
 
 #. module: web
 #. openerp-web

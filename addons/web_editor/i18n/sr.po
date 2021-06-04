@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # * web_editor
 # 
@@ -7,12 +7,12 @@
 # Slobodan Simić <slsimic@gmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~11.5\n"
+"Project-Id-Version: neoziv Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-02 10:06+0000\n"
 "PO-Revision-Date: 2018-10-02 10:06+0000\n"
 "Last-Translator: Slobodan Simić <slsimic@gmail.com>, 2018\n"
-"Language-Team: Serbian (https://www.transifex.com/odoo/teams/41243/sr/)\n"
+"Language-Team: Serbian (https://www.transifex.com/neoziv/teams/41243/sr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -713,7 +713,7 @@ msgstr ""
 #, python-format
 msgid ""
 "If you want to crop it, please first download it from the original source "
-"and upload it in Odoo."
+"and upload it in neoziv."
 msgstr ""
 
 #. module: web_editor
@@ -1735,7 +1735,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/editor.xml:110
 #, python-format
-msgid "https://www.odoo.com/logo.png"
+msgid "https://www.neoziv.com/logo.png"
 msgstr ""
 
 #. module: web_editor

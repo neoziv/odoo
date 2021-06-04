@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import logging
 from threading import Thread
 import time
 
-from odoo.addons.hw_drivers.main import drivers, interfaces, iot_devices
+from neoziv.addons.hw_drivers.main import drivers, interfaces, iot_devices
 
 _logger = logging.getLogger(__name__)
 

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<odoo>
+<neoziv>
 
     <record id="22v" model="account.tax.template">
         <field name="description">22v</field>
@@ -1691,4 +1691,4 @@
         ]"/>
     </record>
 
-</odoo>
+</neoziv>

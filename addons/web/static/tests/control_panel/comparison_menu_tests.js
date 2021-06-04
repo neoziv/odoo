@@ -1,4 +1,4 @@
-odoo.define('web.comparison_menu_tests', function (require) {
+neoziv.define('web.comparison_menu_tests', function (require) {
     "use strict";
 
     const {

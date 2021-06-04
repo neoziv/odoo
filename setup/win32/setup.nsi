@@ -1,4 +1,4 @@
-﻿# Part of Odoo. See LICENSE file for full copyright and licensing details.
+﻿# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 # TODO: Avoid to uninstall the database
 # TODO: We can update the server or the clients without to uninstall the all-in-one
@@ -40,7 +40,7 @@ Unicode True
     Exch $R2
 !macroend
 
-!define PUBLISHER 'Odoo S.A.'
+!define PUBLISHER 'neoziv S.A.'
 
 !ifndef MAJOR_VERSION
     !define MAJOR_VERSION '14'
@@ -63,20 +63,20 @@ Unicode True
 !endif
 
 !ifndef SERVICENAME
-	!define SERVICENAME 'odoo-server-${VERSION}'
+	!define SERVICENAME 'neoziv-server-${VERSION}'
 !endif
 
 !ifndef TOOLSDIR
-	!define TOOLSDIR 'c:\odoobuild'
+	!define TOOLSDIR 'c:\neozivbuild'
 !endif
 
-!define PRODUCT_NAME "Odoo"
+!define PRODUCT_NAME "neoziv"
 !define DISPLAY_NAME "${PRODUCT_NAME} ${MAJOR_VERSION}.${MINOR_VERSION}"
 
 !define UNINSTALL_BASE_REGISTRY_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall"
 !define UNINSTALL_REGISTRY_KEY "${UNINSTALL_BASE_REGISTRY_KEY}\${DISPLAY_NAME}"
 
-!define UNINSTALL_REGISTRY_KEY_SERVER "${UNINSTALL_BASE_REGISTRY_KEY}\Odoo Server ${VERSION}"
+!define UNINSTALL_REGISTRY_KEY_SERVER "${UNINSTALL_BASE_REGISTRY_KEY}\neoziv Server ${VERSION}"
 
 !define REGISTRY_KEY "SOFTWARE\${DISPLAY_NAME}"
 
@@ -87,7 +87,7 @@ Unicode True
 
 Name '${DISPLAY_NAME}'
 Caption "${PRODUCT_NAME} ${VERSION} Setup"
-OutFile "odoo_setup_${VERSION}.exe"
+OutFile "neoziv_setup_${VERSION}.exe"
 SetCompressor /FINAL lzma
 ShowInstDetails show
 
@@ -116,12 +116,12 @@ Var HWNDPostgreSQLPassword
 !define PIXMAPS_PATH "${STATIC_PATH}\pixmaps"
 
 !define MUI_ABORTWARNING
-!define MUI_ICON "${PIXMAPS_PATH}\odoo-icon.ico"
+!define MUI_ICON "${PIXMAPS_PATH}\neoziv-icon.ico"
 
-!define MUI_WELCOMEFINISHPAGE_BITMAP "${PIXMAPS_PATH}\odoo-intro.bmp"
-!define MUI_UNWELCOMEFINISHPAGE_BITMAP "${PIXMAPS_PATH}\odoo-intro.bmp"
+!define MUI_WELCOMEFINISHPAGE_BITMAP "${PIXMAPS_PATH}\neoziv-intro.bmp"
+!define MUI_UNWELCOMEFINISHPAGE_BITMAP "${PIXMAPS_PATH}\neoziv-intro.bmp"
 !define MUI_HEADERIMAGE
-!define MUI_HEADERIMAGE_BITMAP "${PIXMAPS_PATH}\odoo-slogan.bmp"
+!define MUI_HEADERIMAGE_BITMAP "${PIXMAPS_PATH}\neoziv-slogan.bmp"
 !define MUI_HEADERIMAGE_BITMAP_NOSTRETCH
 !define MUI_HEADER_TRANSPARENT_TEXT ""
 
@@ -140,7 +140,7 @@ Page Custom ShowPostgreSQL LeavePostgreSQL
 !define MUI_FINISHPAGE_RUN_TEXT "$(DESC_FinishPageText)"
 !define MUI_FINISHPAGE_RUN_FUNCTION "LaunchLink"
 !define MUI_FINISHPAGE_LINK $(DESC_FinishPage_Link)
-!define MUI_FINISHPAGE_LINK_LOCATION "https://www.odoo.com/page/contactus"
+!define MUI_FINISHPAGE_LINK_LOCATION "https://www.neoziv.com/page/contactus"
 !insertmacro MUI_PAGE_FINISH
 
 !insertmacro MUI_UNPAGE_WELCOME
@@ -153,11 +153,11 @@ Page Custom ShowPostgreSQL LeavePostgreSQL
 !insertmacro MUI_RESERVEFILE_LANGDLL
 
 ; English
-LangString DESC_Odoo_Server ${LANG_ENGLISH} "Install the Odoo Server with all the Odoo standard modules."
-LangString DESC_PostgreSQL ${LANG_ENGLISH} "Install the PostgreSQL RDBMS used by Odoo."
-LangString DESC_FinishPage_Link ${LANG_ENGLISH} "Contact Odoo for Partnership and/or Support"
+LangString DESC_neoziv_Server ${LANG_ENGLISH} "Install the neoziv Server with all the neoziv standard modules."
+LangString DESC_PostgreSQL ${LANG_ENGLISH} "Install the PostgreSQL RDBMS used by neoziv."
+LangString DESC_FinishPage_Link ${LANG_ENGLISH} "Contact neoziv for Partnership and/or Support"
 LangString DESC_AtLeastOneComponent ${LANG_ENGLISH} "You have to choose at least one component"
-LangString DESC_CanNotInstallPostgreSQL ${LANG_ENGLISH} "You can not install the PostgreSQL database without the Odoo Server"
+LangString DESC_CanNotInstallPostgreSQL ${LANG_ENGLISH} "You can not install the PostgreSQL database without the neoziv Server"
 LangString WARNING_HostNameIsEmpty ${LANG_ENGLISH} "The hostname for the connection to the PostgreSQL Server is empty"
 LangString WARNING_UserNameIsEmpty ${LANG_ENGLISH} "The username for the connection to the PostgreSQL Server is empty"
 LangString WARNING_PasswordIsEmpty ${LANG_ENGLISH} "The password for the connection to the PostgreSQL Server is empty"
@@ -169,16 +169,16 @@ LangString DESC_PostgreSQL_Username ${LANG_ENGLISH} "Username"
 LangString DESC_PostgreSQL_Password ${LANG_ENGLISH} "Password"
 LangString Profile_AllInOne ${LANG_ENGLISH} "All In One"
 LangString Profile_Server ${LANG_ENGLISH} "Server only"
-LangString TITLE_Odoo_Server ${LANG_ENGLISH} "Odoo Server"
+LangString TITLE_neoziv_Server ${LANG_ENGLISH} "neoziv Server"
 LangString TITLE_PostgreSQL ${LANG_ENGLISH} "PostgreSQL Database"
-LangString DESC_FinishPageText ${LANG_ENGLISH} "Start Odoo"
+LangString DESC_FinishPageText ${LANG_ENGLISH} "Start neoziv"
 
 ; French
-LangString DESC_Odoo_Server ${LANG_FRENCH} "Installation du Serveur Odoo avec tous les modules Odoo standards."
-LangString DESC_PostgreSQL ${LANG_FRENCH} "Installation de la base de données PostgreSQL utilisée par Odoo."
-LangString DESC_FinishPage_Link ${LANG_FRENCH} "Contactez Odoo pour un Partenariat et/ou du Support"
+LangString DESC_neoziv_Server ${LANG_FRENCH} "Installation du Serveur neoziv avec tous les modules neoziv standards."
+LangString DESC_PostgreSQL ${LANG_FRENCH} "Installation de la base de données PostgreSQL utilisée par neoziv."
+LangString DESC_FinishPage_Link ${LANG_FRENCH} "Contactez neoziv pour un Partenariat et/ou du Support"
 LangString DESC_AtLeastOneComponent ${LANG_FRENCH} "Vous devez choisir au moins un composant"
-LangString DESC_CanNotInstallPostgreSQL ${LANG_FRENCH} "Vous ne pouvez pas installer la base de données PostgreSQL sans le serveur Odoo"
+LangString DESC_CanNotInstallPostgreSQL ${LANG_FRENCH} "Vous ne pouvez pas installer la base de données PostgreSQL sans le serveur neoziv"
 LangString WARNING_HostNameIsEmpty ${LANG_FRENCH} "L'adresse pour la connection au serveur PostgreSQL est vide"
 LangString WARNING_UserNameIsEmpty ${LANG_FRENCH} "Le nom d'utilisateur pour la connection au serveur PostgreSQL est vide"
 LangString WARNING_PasswordIsEmpty ${LANG_FRENCH} "Le mot de passe pour la connection au serveur PostgreSQL est vide"
@@ -190,14 +190,14 @@ LangString DESC_PostgreSQL_Username ${LANG_FRENCH} "Utilisateur"
 LangString DESC_PostgreSQL_Password ${LANG_FRENCH} "Mot de passe"
 LangString Profile_AllInOne ${LANG_FRENCH} "All In One"
 LangString Profile_Server ${LANG_FRENCH} "Seulement le serveur"
-LangString TITLE_Odoo_Server ${LANG_FRENCH} "Serveur Odoo"
+LangString TITLE_neoziv_Server ${LANG_FRENCH} "Serveur neoziv"
 LangString TITLE_PostgreSQL ${LANG_FRENCH} "Installation du serveur de base de données PostgreSQL"
-LangString DESC_FinishPageText ${LANG_FRENCH} "Démarrer Odoo"
+LangString DESC_FinishPageText ${LANG_FRENCH} "Démarrer neoziv"
 
 InstType $(Profile_AllInOne)
 InstType $(Profile_Server)
 
-Section $(TITLE_Odoo_Server) SectionOdoo_Server
+Section $(TITLE_neoziv_Server) Sectionneoziv_Server
     SectionIn 1 2
 
     # Installing winpython
@@ -228,28 +228,28 @@ Section $(TITLE_Odoo_Server) SectionOdoo_Server
     SetOutPath "$INSTDIR\thirdparty"
     File /r "${STATIC_PATH}\wkhtmltopdf\*"
 
-    # If there is a previous install of the Odoo Server, keep the login/password from the config file
-    WriteIniStr "$INSTDIR\server\odoo.conf" "options" "db_host" $TextPostgreSQLHostname
-    WriteIniStr "$INSTDIR\server\odoo.conf" "options" "db_user" $TextPostgreSQLUsername
-    WriteIniStr "$INSTDIR\server\odoo.conf" "options" "db_password" $TextPostgreSQLPassword
-    WriteIniStr "$INSTDIR\server\odoo.conf" "options" "db_port" $TextPostgreSQLPort
+    # If there is a previous install of the neoziv Server, keep the login/password from the config file
+    WriteIniStr "$INSTDIR\server\neoziv.conf" "options" "db_host" $TextPostgreSQLHostname
+    WriteIniStr "$INSTDIR\server\neoziv.conf" "options" "db_user" $TextPostgreSQLUsername
+    WriteIniStr "$INSTDIR\server\neoziv.conf" "options" "db_password" $TextPostgreSQLPassword
+    WriteIniStr "$INSTDIR\server\neoziv.conf" "options" "db_port" $TextPostgreSQLPort
     # Fix the addons path
-    WriteIniStr "$INSTDIR\server\odoo.conf" "options" "addons_path" "$INSTDIR\server\odoo\addons"
-    WriteIniStr "$INSTDIR\server\odoo.conf" "options" "bin_path" "$INSTDIR\thirdparty"
+    WriteIniStr "$INSTDIR\server\neoziv.conf" "options" "addons_path" "$INSTDIR\server\neoziv\addons"
+    WriteIniStr "$INSTDIR\server\neoziv.conf" "options" "bin_path" "$INSTDIR\thirdparty"
 
     # if we're going to install postgresql force it's path,
     # otherwise we consider it's always done and/or correctly tune by users
     ${If} $HasPostgreSQL == 0
-        WriteIniStr "$INSTDIR\server\odoo.conf" "options" "pg_path" "$INSTDIR\PostgreSQL\bin"
+        WriteIniStr "$INSTDIR\server\neoziv.conf" "options" "pg_path" "$INSTDIR\PostgreSQL\bin"
     ${EndIf}
 
     DetailPrint "Installing Windows service"
-    nsExec::ExecTOLog '"$INSTDIR\python\python.exe" "$INSTDIR\server\odoo-bin" --stop-after-init --logfile "$INSTDIR\server\odoo.log" -s'
+    nsExec::ExecTOLog '"$INSTDIR\python\python.exe" "$INSTDIR\server\neoziv-bin" --stop-after-init --logfile "$INSTDIR\server\neoziv.log" -s'
     ${If} ${RunningX64}
-      nsExec::ExecToLog '"$INSTDIR\nssm\win64\nssm.exe" install ${SERVICENAME} "$INSTDIR\python\python.exe" "\"$INSTDIR\server\odoo-bin\""'
+      nsExec::ExecToLog '"$INSTDIR\nssm\win64\nssm.exe" install ${SERVICENAME} "$INSTDIR\python\python.exe" "\"$INSTDIR\server\neoziv-bin\""'
       nsExec::ExecToLog '"$INSTDIR\nssm\win64\nssm.exe" set ${SERVICENAME} AppDirectory "$\"$INSTDIR\server$\""'
     ${Else}
-      nsExec::ExecToLog '"$INSTDIR\nssm\win32\nssm.exe" install ${SERVICENAME} "$INSTDIR\python\python.exe" "\"$INSTDIR\server\odoo-bin\""'
+      nsExec::ExecToLog '"$INSTDIR\nssm\win32\nssm.exe" install ${SERVICENAME} "$INSTDIR\python\python.exe" "\"$INSTDIR\server\neoziv-bin\""'
       nsExec::ExecToLog '"$INSTDIR\nssm\win32\nssm.exe" set ${SERVICENAME} AppDirectory "$\"$INSTDIR\server$\""'
     ${EndIf}
 
@@ -290,7 +290,7 @@ Section $(TITLE_PostgreSQL) SectionPostgreSQL
         --mode unattended \
         --prefix "$INSTDIR\PostgreSQL" \
         --datadir "$INSTDIR\PostgreSQL\data" \
-        --servicename "PostgreSQL_For_Odoo" \
+        --servicename "PostgreSQL_For_neoziv" \
         --serviceaccount "openpgsvc" --servicepassword "0p3npgsvcPWD" \
         --superaccount "$TextPostgreSQLUsername" --superpassword "$TextPostgreSQLPassword" \
         --serverport $TextPostgreSQLPort'
@@ -302,17 +302,17 @@ Section -Post
     WriteRegStr HKLM       "${UNINSTALL_REGISTRY_KEY}" "DisplayName" "${DISPLAY_NAME}"
     WriteRegStr HKLM       "${UNINSTALL_REGISTRY_KEY}" "DisplayVersion" "${MAJOR_VERSION}.${MINOR_VERSION}"
     WriteRegStr HKLM       "${UNINSTALL_REGISTRY_KEY}" "Publisher" "${PUBLISHER}"
-    WriteRegStr HKLM       "${UNINSTALL_REGISTRY_KEY}" "HelpLink" "support@odoo.com"
+    WriteRegStr HKLM       "${UNINSTALL_REGISTRY_KEY}" "HelpLink" "support@neoziv.com"
     WriteRegStr HKLM       "${UNINSTALL_REGISTRY_KEY}" "HelpTelephone" "+32.81.81.37.00"
-    WriteRegStr HKLM       "${UNINSTALL_REGISTRY_KEY}" "URLInfoAbout" "https://www.odoo.com"
-    WriteRegStr HKLM       "${UNINSTALL_REGISTRY_KEY}" "Contact" "sales@odoo.com"
+    WriteRegStr HKLM       "${UNINSTALL_REGISTRY_KEY}" "URLInfoAbout" "https://www.neoziv.com"
+    WriteRegStr HKLM       "${UNINSTALL_REGISTRY_KEY}" "Contact" "sales@neoziv.com"
     WriteRegDWORD HKLM     "${UNINSTALL_REGISTRY_KEY}" "NoModify" "1"
     WriteRegDWORD HKLM     "${UNINSTALL_REGISTRY_KEY}" "NoRepair" "1"
     WriteUninstaller "$INSTDIR\Uninstall.exe"
 SectionEnd
 
 !insertmacro MUI_FUNCTION_DESCRIPTION_BEGIN
-    !insertmacro MUI_DESCRIPTION_TEXT ${SectionOdoo_Server} $(DESC_Odoo_Server)
+    !insertmacro MUI_DESCRIPTION_TEXT ${Sectionneoziv_Server} $(DESC_neoziv_Server)
     !insertmacro MUI_DESCRIPTION_TEXT ${SectionPostgreSQL} $(DESC_PostgreSQL)
 !insertmacro MUI_FUNCTION_DESCRIPTION_END
 
@@ -342,9 +342,9 @@ Function .onInit
     ReadRegStr $previous_install_dir HKLM "${REGISTRY_KEY}" "Install_Dir"
     ${If} $previous_install_dir == ""
         ${If} ${RunningX64}
-            StrCpy $INSTDIR "$PROGRAMFILES64\Odoo ${VERSION}"
+            StrCpy $INSTDIR "$PROGRAMFILES64\neoziv ${VERSION}"
         ${Else}
-            StrCpy $INSTDIR "$PROGRAMFILES\Odoo ${VERSION}"
+            StrCpy $INSTDIR "$PROGRAMFILES\neoziv ${VERSION}"
         ${EndIf}
         WriteRegStr HKLM "${REGISTRY_KEY}" "Install_dir" "$INSTDIR"
     ${EndIf}
@@ -399,7 +399,7 @@ Function PostgreSQLOnBack
 FunctionEnd
 
 Function ShowPostgreSQL
-    SectionGetFlags ${SectionOdoo_Server} $0
+    SectionGetFlags ${Sectionneoziv_Server} $0
     IntOp $0 $0 & ${SF_SELECTED}
     IntCmp $0 ${SF_SELECTED} LaunchPostgreSQLConfiguration
     Abort
@@ -470,7 +470,7 @@ Function LeavePostgreSQL
 FunctionEnd
 
 Function ComponentLeave
-    SectionGetFlags ${SectionOdoo_Server} $0
+    SectionGetFlags ${Sectionneoziv_Server} $0
     IntOp $0 $0 & ${SF_SELECTED}
     IntCmp $0 ${SF_SELECTED} Done
 

@@ -1,4 +1,4 @@
-odoo.define('web_editor.loader', function (require) {
+neoziv.define('web_editor.loader', function (require) {
 'use strict';
 
 var Wysiwyg = require('web_editor.wysiwyg.root');

@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-from odoo import api, fields, models
-from odoo.addons.http_routing.models.ir_http import slug
-from odoo.tools.translate import html_translate
+from neoziv import api, fields, models
+from neoziv.addons.http_routing.models.ir_http import slug
+from neoziv.tools.translate import html_translate
 
 
 class WebsiteResPartner(models.Model):

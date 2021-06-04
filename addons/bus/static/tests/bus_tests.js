@@ -1,4 +1,4 @@
-odoo.define('web.bus_tests', function (require) {
+neoziv.define('web.bus_tests', function (require) {
 "use strict";
 
 var BusService = require('bus.BusService');

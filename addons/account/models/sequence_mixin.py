@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-from odoo import api, fields, models, _
-from odoo.exceptions import ValidationError
-from odoo.tools.misc import format_date
+from neoziv import api, fields, models, _
+from neoziv.exceptions import ValidationError
+from neoziv.tools.misc import format_date
 
 import re
 from psycopg2 import sql

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* hr
 # 
@@ -19,21 +19,21 @@
 # Marcin Młynarczyk <mlynarczyk@gmail.com>, 2020
 # Karol Rybak <karolrybak85@gmail.com>, 2020
 # Piotr Cierkosz <piotr.w.cierkosz@gmail.com>, 2020
-# Paweł Wodyński <pw@myodoo.pl>, 2020
+# Paweł Wodyński <pw@myneoziv.pl>, 2020
 # Maja Stawicka <mjstwck@wp.pl>, 2020
 # Wiktor Kaźmierczak <wik92tor@wp.pl>, 2020
-# Maksym <ms@myodoo.pl>, 2020
-# Natalia Gros <nag@odoo.com>, 2020
+# Maksym <ms@myneoziv.pl>, 2020
+# Natalia Gros <nag@neoziv.com>, 2020
 # Piotr Strębski <strebski@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-17 10:35+0000\n"
 "PO-Revision-Date: 2020-09-07 08:12+0000\n"
 "Last-Translator: Piotr Strębski <strebski@gmail.com>, 2021\n"
-"Language-Team: Polish (https://www.transifex.com/odoo/teams/41243/pl/)\n"
+"Language-Team: Polish (https://www.transifex.com/neoziv/teams/41243/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1794,7 +1794,7 @@ msgstr "Liczba nieprzeczytanych wiadomości"
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.hr_department_tree_action
 msgid ""
-"Odoo's department structure is used to manage all documents\n"
+"neoziv's department structure is used to manage all documents\n"
 "                    related to employees by departments: expenses, timesheets,\n"
 "                    leaves, recruitments, etc."
 msgstr ""
@@ -1802,7 +1802,7 @@ msgstr ""
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.hr_department_kanban_action
 msgid ""
-"Odoo's department structure is used to manage all documents\n"
+"neoziv's department structure is used to manage all documents\n"
 "                related to employees by departments: expenses, timesheets,\n"
 "                time off, recruitments, etc."
 msgstr ""
@@ -2601,18 +2601,18 @@ msgstr "Wdowa(iec)"
 #: model_terms:ir.actions.act_window,help:hr.act_employee_from_department
 #: model_terms:ir.actions.act_window,help:hr.hr_employee_public_action
 msgid ""
-"With just a quick glance on the Odoo employee screen, you\n"
+"With just a quick glance on the neoziv employee screen, you\n"
 "                can easily find all the information you need for each person;\n"
 "                contact data, job position, availability, etc."
 msgstr ""
-"Wystarczy rzucić okiem na ekran pracownika Odoo\n"
+"Wystarczy rzucić okiem na ekran pracownika neoziv\n"
 "                 i możesz łatwo znaleźć wszystkie potrzebne informacje dla każdej osoby;\n"
 "                 dane kontaktowe, stanowisko pracy, dostępność itp."
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.open_view_employee_list_my
 msgid ""
-"With just a quick glance on the Odoo employee screen, you\n"
+"With just a quick glance on the neoziv employee screen, you\n"
 "               can easily find all the information you need for each person;\n"
 "               contact data, job position, availability, etc."
 msgstr ""

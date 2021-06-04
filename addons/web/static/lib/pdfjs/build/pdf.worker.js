@@ -28993,7 +28993,7 @@ function (_Annotation2) {
     data.readOnly = _this3.hasFieldFlag(_util.AnnotationFieldFlag.READONLY);
 
     if (data.fieldType === 'Sig') {
-      // Odoo: display digital signature even if verification not implemented https://github.com/mozilla/pdf.js/issues/4743
+      // neoziv: display digital signature even if verification not implemented https://github.com/mozilla/pdf.js/issues/4743
       //data.fieldValue = null;
 
       //_this3.setFlags(_util.AnnotationFlag.HIDDEN);

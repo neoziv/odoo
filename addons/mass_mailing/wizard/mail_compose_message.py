@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, fields, models, tools
-from odoo.tools import email_re
+from neoziv import api, fields, models, tools
+from neoziv.tools import email_re
 
 
 class MailComposeMessage(models.TransientModel):

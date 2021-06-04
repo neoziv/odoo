@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* repair
 # 
@@ -9,22 +9,22 @@
 # Ermin Trevisan <trevi@twanda.com>, 2020
 # Bettina Pfeifer <betzilla@web.de>, 2020
 # kuti, 2020
-# Johannes Croe <jcr@odoo.com>, 2020
+# Johannes Croe <jcr@neoziv.com>, 2020
 # Florian Pose <fp@igh.de>, 2020
 # Max-Milan Stoyanov, 2020
-# Leon Grill <leg@odoo.com>, 2020
+# Leon Grill <leg@neoziv.com>, 2020
 # Tobias Arndt, 2020
 # Wolfgang Taferner, 2021
 # Chris Egal <sodaswed@web.de>, 2021
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-29 13:45+0000\n"
 "PO-Revision-Date: 2020-09-07 08:17+0000\n"
 "Last-Translator: Chris Egal <sodaswed@web.de>, 2021\n"
-"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Language-Team: German (https://www.transifex.com/neoziv/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"

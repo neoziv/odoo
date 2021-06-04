@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from datetime import timedelta
 
-from odoo import fields, tests
-from odoo.tests.common import Form
+from neoziv import fields, tests
+from neoziv.tests.common import Form
 
 
 class TestReportStockQuantity(tests.TransactionCase):

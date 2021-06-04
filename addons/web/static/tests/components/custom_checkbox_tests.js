@@ -1,4 +1,4 @@
-odoo.define('web.custom_checkbox_tests', function (require) {
+neoziv.define('web.custom_checkbox_tests', function (require) {
     "use strict";
 
     const CustomCheckbox = require('web.CustomCheckbox');

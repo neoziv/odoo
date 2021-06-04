@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<odoo>
+<neoziv>
 
     <record id="l10n_co_tax_0" model="account.tax.template">
         <field name="sequence">1</field>
@@ -1872,4 +1872,4 @@
         ]"/>
     </record>
 
-</odoo>
+</neoziv>

@@ -1,4 +1,4 @@
-odoo.define('options.s_google_map_options', function (require) {
+neoziv.define('options.s_google_map_options', function (require) {
 'use strict';
 
 const {_t} = require('web.core');

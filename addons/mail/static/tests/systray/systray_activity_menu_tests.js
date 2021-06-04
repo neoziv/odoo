@@ -1,4 +1,4 @@
-odoo.define('mail.systray.ActivityMenuTests', function (require) {
+neoziv.define('mail.systray.ActivityMenuTests', function (require) {
 "use strict";
 
 const {

@@ -6,7 +6,7 @@
 # to reconnect to a previously chosen network
 function connect () {
 	SERVER="${1}"
-	CURRENT_SERVER_FILE=/home/pi/odoo-remote-server.conf
+	CURRENT_SERVER_FILE=/home/pi/neoziv-remote-server.conf
 	HOSTS=/root_bypass_ramdisks/etc/hosts
 	HOST_FILE=/root_bypass_ramdisks/etc/hostname
 	HOSTNAME="$(hostname)"
@@ -104,14 +104,14 @@ function connect () {
 
 	if [ ${TIMEOUT_RETURN} -eq 124 ] && [ -z "${NO_AP}" ] ; then
 		logger -t posbox_connect_to_wifi "Failed to connect, forcing Posbox AP"
-		sudo /home/pi/odoo/addons/point_of_sale/tools/posbox/configuration/wireless_ap.sh "force" &
+		sudo /home/pi/neoziv/addons/point_of_sale/tools/posbox/configuration/wireless_ap.sh "force" &
 	else
 		if [ ${TIMEOUT_RETURN} -ne 124 ] ; then
 			rm -f "${LOST_WIFI_FILE}"
 		fi
 
 		if [ ! -f "${LOST_WIFI_FILE}" ] ; then
-			logger -t posbox_connect_to_wifi "Restarting odoo"
+			logger -t posbox_connect_to_wifi "Restarting neoziv"
 		fi
 
 		if [ ${WIFI_WAS_LOST} -eq 0 ] ; then
@@ -119,14 +119,14 @@ function connect () {
 		fi
 
 		logger -t posbox_connect_to_wifi "Starting wifi keep alive script"
-		/home/pi/odoo/addons/point_of_sale/tools/posbox/configuration/keep_wifi_alive.sh &
+		/home/pi/neoziv/addons/point_of_sale/tools/posbox/configuration/keep_wifi_alive.sh &
 	fi
 
 	if [ "${IOT_NAME}" != "${HOSTNAME}" ]
 	then
 		sudo reboot
 	else
-		sudo service odoo restart
+		sudo service neoziv restart
 	fi
 }
 

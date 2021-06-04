@@ -1,4 +1,4 @@
-odoo.define('mail/static/src/components/composer_suggestion/composer_suggestion_command_tests.js', function (require) {
+neoziv.define('mail/static/src/components/composer_suggestion/composer_suggestion_command_tests.js', function (require) {
 'use strict';
 
 const components = {

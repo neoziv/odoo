@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from datetime import datetime, timedelta
 
-from odoo import fields
-from odoo.addons.website_event.tests.common import TestWebsiteEventCommon
-from odoo.tests.common import users
+from neoziv import fields
+from neoziv.addons.website_event.tests.common import TestWebsiteEventCommon
+from neoziv.tests.common import users
 
 
 class TestEventWebsiteTrack(TestWebsiteEventCommon):

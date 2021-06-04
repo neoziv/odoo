@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo.exceptions import UserError, ValidationError
+from neoziv.exceptions import UserError, ValidationError
 
-from odoo import api, fields, models, _
-from odoo.osv import expression
+from neoziv import api, fields, models, _
+from neoziv.osv import expression
 
 
 class AccountAnalyticLine(models.Model):

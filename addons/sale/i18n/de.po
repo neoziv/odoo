@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* sale
 # 
@@ -11,8 +11,8 @@
 # Andreas Stauder <andreas.stauder@brain-tec.ch>, 2020
 # Bettina Pfeifer <betzilla@web.de>, 2020
 # e2f FFE <e2f_de_FFE@outlook.com>, 2020
-# Philipp Fürstos <pfu@odoo.com>, 2020
-# JEK Odoo <jek@odoo.com>, 2020
+# Philipp Fürstos <pfu@neoziv.com>, 2020
+# JEK neoziv <jek@neoziv.com>, 2020
 # Christian Mahlich <c.mahlich@gmail.com>, 2020
 # Florian Pose <fp@igh.de>, 2020
 # Max-Milan Stoyanov, 2020
@@ -21,13 +21,13 @@
 # Joerg Hueneburg <melikeymedia@gmail.com>, 2020
 # Katharina Moritz <kmo@e2f.com>, 2020
 # Jan Meyer, 2020
-# Johannes Croe <jcr@odoo.com>, 2020
-# Patrick Heuel <patrick.heuel@odoo-bs.com>, 2020
+# Johannes Croe <jcr@neoziv.com>, 2020
+# Patrick Heuel <patrick.heuel@neoziv-bs.com>, 2020
 # Oliver Roch <oliver.roch@d9t.de>, 2020
 # philku79 <philip.kuss@gmx.de>, 2020
 # Martin Trigaux, 2020
 # Rudolf Schnapka <rs@techno-flex.de>, 2020
-# Leon Grill <leg@odoo.com>, 2020
+# Leon Grill <leg@neoziv.com>, 2020
 # Chris Egal <sodaswed@web.de>, 2020
 # Felix Schubert <felix.schubert@go-erp.com>, 2020
 # Daniel Kraft <daniel.kraft@d9t.de>, 2020
@@ -38,12 +38,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:12+0000\n"
 "PO-Revision-Date: 2020-09-07 08:17+0000\n"
 "Last-Translator: Andreas Schmidt <schmigo@gmail.com>, 2021\n"
-"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Language-Team: German (https://www.transifex.com/neoziv/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1087,10 +1087,10 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.actions.act_window,help:sale.action_orders_upselling
 msgid ""
-"As an example, if you sell pre-paid hours of services, Odoo recommends you\n"
+"As an example, if you sell pre-paid hours of services, neoziv recommends you\n"
 "                to sell extra hours when all ordered hours have been consumed."
 msgstr ""
-"Wenn Sie zum Beispiel im Voraus bezahlte Stunden für Dienstleistungen verkaufen, empfiehlt Odoo Ihnen\n"
+"Wenn Sie zum Beispiel im Voraus bezahlte Stunden für Dienstleistungen verkaufen, empfiehlt neoziv Ihnen\n"
 "                zusätzliche Stunden zu verkaufen, wenn alle bestellten Stunden verbraucht worden sind."
 
 #. module: sale

@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import logging
 import pytz
 
-from odoo import _, api, fields, models
-from odoo.addons.base.models.res_partner import _tz_get
-from odoo.tools import format_datetime
-from odoo.exceptions import ValidationError
-from odoo.tools.translate import html_translate
+from neoziv import _, api, fields, models
+from neoziv.addons.base.models.res_partner import _tz_get
+from neoziv.tools import format_datetime
+from neoziv.exceptions import ValidationError
+from neoziv.tools.translate import html_translate
 
 _logger = logging.getLogger(__name__)
 

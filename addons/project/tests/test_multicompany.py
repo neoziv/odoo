@@ -2,8 +2,8 @@
 
 from contextlib import contextmanager
 
-from odoo.tests.common import SavepointCase, Form
-from odoo.exceptions import AccessError, UserError
+from neoziv.tests.common import SavepointCase, Form
+from neoziv.exceptions import AccessError, UserError
 
 
 class TestMultiCompanyCommon(SavepointCase):

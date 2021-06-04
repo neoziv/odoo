@@ -1,4 +1,4 @@
-odoo.define("web/static/tests/views/search_panel_tests.js", function (require) {
+neoziv.define("web/static/tests/views/search_panel_tests.js", function (require) {
 "use strict";
 
 const FormView = require('web.FormView');

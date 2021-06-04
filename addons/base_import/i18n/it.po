@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* base_import
 # 
@@ -6,19 +6,19 @@
 # Martin Trigaux, 2020
 # SebastianoPistore <SebastianoPistore.info@protonmail.ch>, 2020
 # Paolo Valier, 2020
-# Léonie Bouchat <lbo@odoo.com>, 2020
-# Petra <bop@odoo.com>, 2020
-# Iacopo Simonelli <lsi@odoo.com>, 2020
+# Léonie Bouchat <lbo@neoziv.com>, 2020
+# Petra <bop@neoziv.com>, 2020
+# Iacopo Simonelli <lsi@neoziv.com>, 2020
 # Sergio Zanchetta <primes2h@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-29 13:45+0000\n"
 "PO-Revision-Date: 2020-09-07 08:10+0000\n"
 "Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2020\n"
-"Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
+"Language-Team: Italian (https://www.transifex.com/neoziv/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -440,12 +440,12 @@ msgstr "ID"
 #, python-format
 msgid ""
 "If the file contains\n"
-"                the column names, Odoo can try auto-detecting the\n"
+"                the column names, neoziv can try auto-detecting the\n"
 "                field corresponding to the column. This makes imports\n"
 "                simpler especially when the file has many columns."
 msgstr ""
 "Se il file contiene\n"
-"nomi di colonne, Odoo proverà a fare un riconoscimento\n"
+"nomi di colonne, neoziv proverà a fare un riconoscimento\n"
 "dei campi corrispondenti alle colonne in questione. Questo rende\n"
 "l'importazione più semplice, specialmente se il file ha molte colonne."
 
@@ -932,7 +932,7 @@ msgid ""
 "for the reason."
 msgstr ""
 "Non si possono importare immagini via URL, controlla con il tuo "
-"amministratore o chiedi a Odoo support per le ragioni."
+"amministratore o chiedi a neoziv support per le ragioni."
 
 #. module: base_import
 #. openerp-web

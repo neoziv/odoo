@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* website_sale
 # 
@@ -7,58 +7,58 @@
 # Fabien Pinckaers <fp@openerp.com>, 2020
 # Jean-Marc Dupont <jmd@6it.fr>, 2020
 # Miguel Vidali <mvidali129@gmail.com>, 2020
-# Melanie Bernard <mbe@odoo.com>, 2020
+# Melanie Bernard <mbe@neoziv.com>, 2020
 # Shark McGnark <peculiarcheese@gmail.com>, 2020
 # Olivier ANDRE <frsw194@gmail.com>, 2020
-# Vallen Delobel <edv@odoo.com>, 2020
+# Vallen Delobel <edv@neoziv.com>, 2020
 # Olivier Lenoir <olivier.lenoir@free.fr>, 2020
 # Antoine Lorence <antoine.lorence@gmail.com>, 2020
 # Adriana Ierfino <adriana.ierfino@savoirfairelinux.com>, 2020
 # Florian Hatat, 2020
-# Lucas Deliege <lud@odoo.com>, 2020
-# Laura Piraux <lap@odoo.com>, 2020
+# Lucas Deliege <lud@neoziv.com>, 2020
+# Laura Piraux <lap@neoziv.com>, 2020
 # David Réchatin <david@rechatin.com>, 2020
-# Marie Willemyns <mwi@odoo.com>, 2020
-# thomas quertinmont <tqu@odoo.com>, 2020
-# edc <edc@odoo.com>, 2020
+# Marie Willemyns <mwi@neoziv.com>, 2020
+# thomas quertinmont <tqu@neoziv.com>, 2020
+# edc <edc@neoziv.com>, 2020
 # 6534c450c77b2549e41c52e2051f5839, 2020
 # bb76cd9ac0cb7e20167a14728edb858b, 2020
 # Maxime Chambreuil <mchambreuil@ursainfosystems.com>, 2020
 # Frédéric LIETART <stuff@tifred.fr>, 2020
-# Clo <clo@odoo.com>, 2020
+# Clo <clo@neoziv.com>, 2020
 # Matillon Samantha <smatillon@gmail.com>, 2020
 # Aurélien Pillevesse <aurelienpillevesse@hotmail.fr>, 2020
-# Fred Gilson <fgi@odoo.com>, 2020
+# Fred Gilson <fgi@neoziv.com>, 2020
 # f5f0a0dac17dde787a1d812a6989680e, 2020
 # Maximilien Tantin <maximilien.tantin@horanet.com>, 2020
 # William Olhasque <william.olhasque@scopea.fr>, 2020
-# Cécile Collart <cco@odoo.com>, 2020
+# Cécile Collart <cco@neoziv.com>, 2020
 # Alain van de Werve <avw@openerp.com>, 2020
-# Nathan Grognet <ngr@odoo.com>, 2020
+# Nathan Grognet <ngr@neoziv.com>, 2020
 # Gilles Mangin <gilles.mangin@phidias.fr>, 2020
-# Fernanda Marques <fem@odoo.com>, 2020
-# Priscilla (prs) Odoo <prs@odoo.com>, 2020
+# Fernanda Marques <fem@neoziv.com>, 2020
+# Priscilla (prs) neoziv <prs@neoziv.com>, 2020
 # e2f <projects@e2f.com>, 2020
-# Quentin THEURET <odoo@kerpeo.com>, 2020
+# Quentin THEURET <neoziv@kerpeo.com>, 2020
 # Moka Tourisme <hello@mokatourisme.fr>, 2020
 # Martin Trigaux, 2020
-# Richard Mathot <rim@odoo.com>, 2020
-# omaodoo <oma@odoo.com>, 2020
-# Pauline Thiry <pth@odoo.com>, 2020
-# Eloïse Stilmant <est@odoo.com>, 2020
-# gdp Odoo <gdp@odoo.com>, 2020
+# Richard Mathot <rim@neoziv.com>, 2020
+# omaneoziv <oma@neoziv.com>, 2020
+# Pauline Thiry <pth@neoziv.com>, 2020
+# Eloïse Stilmant <est@neoziv.com>, 2020
+# gdp neoziv <gdp@neoziv.com>, 2020
 # Sébastien BÜHL <buhlsebastien@gmail.com>, 2021
 # Florent de Labarre <florent@iguanayachts.com>, 2021
-# Alexandra Jubert <aju@odoo.com>, 2021
+# Alexandra Jubert <aju@neoziv.com>, 2021
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-16 13:33+0000\n"
 "PO-Revision-Date: 2020-09-07 08:22+0000\n"
-"Last-Translator: Alexandra Jubert <aju@odoo.com>, 2021\n"
-"Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"Last-Translator: Alexandra Jubert <aju@neoziv.com>, 2021\n"
+"Language-Team: French (https://www.transifex.com/neoziv/teams/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -202,7 +202,7 @@ msgid ""
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
-"        Powered by <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=website\" style=\"color: #875A7B;\">Odoo</a>\n"
+"        Powered by <a target=\"_blank\" href=\"https://www.neoziv.com?utm_source=db&amp;utm_medium=website\" style=\"color: #875A7B;\">neoziv</a>\n"
 "      </td></tr>\n"
 "    </table>\n"
 "</td></tr>\n"
@@ -297,7 +297,7 @@ msgstr ""
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
-"        Powered by <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=website\" style=\"color: #875A7B;\">Odoo</a>\n"
+"        Powered by <a target=\"_blank\" href=\"https://www.neoziv.com?utm_source=db&amp;utm_medium=website\" style=\"color: #875A7B;\">neoziv</a>\n"
 "      </td></tr>\n"
 "    </table>\n"
 "</td></tr>\n"

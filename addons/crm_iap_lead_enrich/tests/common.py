@@ -4,10 +4,10 @@ from contextlib import contextmanager
 from functools import partial
 from unittest.mock import patch
 
-from odoo import exceptions
-from odoo.addons.iap.tools import iap_tools
-from odoo.addons.crm_iap_lead_enrich.models.iap_enrich_api import IapEnrichAPI
-from odoo.tests import common
+from neoziv import exceptions
+from neoziv.addons.iap.tools import iap_tools
+from neoziv.addons.crm_iap_lead_enrich.models.iap_enrich_api import IapEnrichAPI
+from neoziv.tests import common
 
 
 class MockIAPEnrich(common.BaseCase):

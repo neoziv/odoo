@@ -1,4 +1,4 @@
-odoo.define('hr_holidays.dashboard.view_custo', function(require) {
+neoziv.define('hr_holidays.dashboard.view_custo', function(require) {
     'use strict';
 
     var core = require('web.core');

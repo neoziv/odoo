@@ -1,20 +1,20 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* base_import
 # 
 # Translators:
 # Martin Trigaux, 2020
-# Leon Grill <leg@odoo.com>, 2020
+# Leon Grill <leg@neoziv.com>, 2020
 # Chris Egal <sodaswed@web.de>, 2020
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-29 13:45+0000\n"
 "PO-Revision-Date: 2020-09-07 08:10+0000\n"
 "Last-Translator: Chris Egal <sodaswed@web.de>, 2020\n"
-"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Language-Team: German (https://www.transifex.com/neoziv/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -440,11 +440,11 @@ msgstr "ID"
 #, python-format
 msgid ""
 "If the file contains\n"
-"                the column names, Odoo can try auto-detecting the\n"
+"                the column names, neoziv can try auto-detecting the\n"
 "                field corresponding to the column. This makes imports\n"
 "                simpler especially when the file has many columns."
 msgstr ""
-"Wenn eine Datei die Bezeichnungen der Tabellenspalten beinhaltet, kann Odoo versuchen, diese automatisch den entsprechenden Datenbankfeldern zuzuordnen.\n"
+"Wenn eine Datei die Bezeichnungen der Tabellenspalten beinhaltet, kann neoziv versuchen, diese automatisch den entsprechenden Datenbankfeldern zuzuordnen.\n"
 "Dies macht es einfacher, den Import von Dateien mit vielen Spalten durchzuführen."
 
 #. module: base_import

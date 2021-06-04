@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-from odoo import api, fields, models, _
-from odoo.osv import expression
-from odoo.tools.float_utils import float_round as round
-from odoo.exceptions import UserError, ValidationError
+from neoziv import api, fields, models, _
+from neoziv.osv import expression
+from neoziv.tools.float_utils import float_round as round
+from neoziv.exceptions import UserError, ValidationError
 
 import math
 import logging

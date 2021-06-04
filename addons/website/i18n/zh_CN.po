@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* website
 # 
@@ -16,7 +16,7 @@
 # niulin lnc. <admin@niulin.net>, 2020
 # lttlsnk <lttlsnk@gmail.com>, 2020
 # ChinaMaker <liuct@chinamaker.net>, 2020
-# Felix Yuen <fyu@odoo.com>, 2020
+# Felix Yuen <fyu@neoziv.com>, 2020
 # Youfu Sheng <wdmsyf@sina.com>, 2020
 # Felix Yang - Elico Corp <felixyangsh@aliyun.com>, 2020
 # e2f <projects@e2f.com>, 2020
@@ -25,7 +25,7 @@
 # e2f_cn c5 <jarvisn@ecinnovations.com>, 2020
 # bf2549c5415a9287249cba2b8a5823c7, 2020
 # guohuadeng <guohuadeng@hotmail.com>, 2020
-# Lisa Zhang <lzh@odoo.com>, 2020
+# Lisa Zhang <lzh@neoziv.com>, 2020
 # inspur qiuguodong <qiuguodong@inspur.com>, 2020
 # Jeanphy <hzh0292@qq.com>, 2020
 # v2exerer <9010446@qq.com>, 2020
@@ -36,21 +36,21 @@
 # diaojiaolou <124412206@qq.com>, 2020
 # Martin Trigaux, 2020
 # 老窦 北京 <2662059195@qq.com>, 2020
-# Manga Tsang <mts@odoo.com>, 2020
+# Manga Tsang <mts@neoziv.com>, 2020
 # 稀饭~~ <wangwhai@qq.com>, 2020
 # Jeffery CHEN Fan <jeffery9@gmail.com>, 2021
 # liAnGjiA <liangjia@qq.com>, 2021
-# JZH-Odoo <jzh@odoo.com>, 2021
-# Mandy Choy <mnc@odoo.com>, 2021
+# JZH-neoziv <jzh@neoziv.com>, 2021
+# Mandy Choy <mnc@neoziv.com>, 2021
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-04 15:13+0000\n"
 "PO-Revision-Date: 2020-09-07 08:20+0000\n"
-"Last-Translator: Mandy Choy <mnc@odoo.com>, 2021\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"Last-Translator: Mandy Choy <mnc@neoziv.com>, 2021\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/neoziv/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -352,8 +352,8 @@ msgstr "50%"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.template_footer_call_to_action
-msgid "50,000+ companies run Odoo to grow their businesses."
-msgstr "超过50,000家公司使用Odoo来发展业务。"
+msgid "50,000+ companies run neoziv to grow their businesses."
+msgstr "超过50,000家公司使用neoziv来发展业务。"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_hr_options
@@ -370,8 +370,8 @@ msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_call_to_action
-msgid "<b>50,000+ companies</b> run Odoo to grow their businesses."
-msgstr "<b>50000+ 公司</b>使用Odoo发展其业务。"
+msgid "<b>50,000+ companies</b> run neoziv to grow their businesses."
+msgstr "<b>50000+ 公司</b>使用neoziv发展其业务。"
 
 #. module: website
 #. openerp-web
@@ -1922,7 +1922,7 @@ msgstr "更改图标"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_table_of_content
 msgid ""
-"Change theme in a few clicks, and browse through Odoo's catalog of\n"
+"Change theme in a few clicks, and browse through neoziv's catalog of\n"
 "                            ready-to-use themes available in our app store."
 msgstr ""
 
@@ -3090,7 +3090,7 @@ msgstr "动态内容"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_table_of_content
 msgid ""
-"Easily design your own Odoo templates thanks to clean HTML\n"
+"Easily design your own neoziv templates thanks to clean HTML\n"
 "                            structure and bootstrap CSS."
 msgstr ""
 
@@ -3520,8 +3520,8 @@ msgstr "跟随我们"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "Follow your website traffic in Odoo."
-msgstr "用 Odoo 跟踪你的网站流量。"
+msgid "Follow your website traffic in neoziv."
+msgstr "用 neoziv 跟踪你的网站流量。"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
@@ -3918,7 +3918,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/website/static/src/snippets/s_countdown/000.xml:0
 #, python-format
-msgid "Happy Odoo Anniversary!"
+msgid "Happy neoziv Anniversary!"
 msgstr ""
 
 #. module: website
@@ -4502,7 +4502,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 msgid ""
 "It appears your website is still using the old color system of\n"
-"            Odoo 13.0 in some places. We made sure it is still working but\n"
+"            neoziv 13.0 in some places. We made sure it is still working but\n"
 "            we recommend you to try to use the new color system, which is\n"
 "            still customizable."
 msgstr ""
@@ -4520,8 +4520,8 @@ msgstr "似乎以下对象调用了您的文件"
 #, python-format
 msgid ""
 "It might be possible to edit the relevant items or fix the issue in <a "
-"href=\"%s\">the classic Odoo interface</a>"
-msgstr "可以编辑相关项目或在<a href=\"%s\">经典的 Odoo 界面</a>"
+"href=\"%s\">the classic neoziv interface</a>"
+msgstr "可以编辑相关项目或在<a href=\"%s\">经典的 neoziv 界面</a>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.bs_debug_view
@@ -5176,7 +5176,7 @@ msgstr "监控Google搜索结果数据"
 #. module: website
 #: model_terms:digest.tip,tip_description:website.digest_tip_website_0
 msgid ""
-"Monitor your visitors while they are browsing your website with the Odoo "
+"Monitor your visitors while they are browsing your website with the neoziv "
 "Social app. Engage with them in just a click using a live chat request or a "
 "push notification. If they have completed one of your forms, you can send "
 "them an SMS, or call them right away while they are browsing your website."
@@ -5448,8 +5448,8 @@ msgstr "访客人数"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "Odoo Version"
-msgstr "Odoo版本"
+msgid "neoziv Version"
+msgstr "neoziv版本"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
@@ -6402,7 +6402,7 @@ msgstr "搜索访客"
 #: model_terms:digest.tip,tip_description:website.digest_tip_website_1
 msgid ""
 "Search in the media dialogue when you need photos to illustrate your "
-"website. Odoo's integration with Unsplash, featuring millions of royalty "
+"website. neoziv's integration with Unsplash, featuring millions of royalty "
 "free and high quality photos, makes it possible for you to get the perfect "
 "picture, in just a few clicks."
 msgstr ""
@@ -6650,8 +6650,8 @@ msgstr "已登录"
 msgid ""
 "Sitemap.xml: Help search engine crawlers to find out what pages are present "
 "and which have recently changed, and to crawl your site accordingly. This "
-"file is automatically generated by Odoo."
-msgstr "Sitemap.xml：帮助搜索引擎爬网程序找出存在哪些页面和最近更改过的页面，并相应地对您的网站进行爬网。此文件由 Odoo 自动生成。"
+"file is automatically generated by neoziv."
+msgstr "Sitemap.xml：帮助搜索引擎爬网程序找出存在哪些页面和最近更改过的页面，并相应地对您的网站进行爬网。此文件由 neoziv 自动生成。"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_alert_options
@@ -7426,7 +7426,7 @@ msgstr "要添加第四列，请使用每个块的右图标减小这三列的大
 #: model_terms:digest.tip,tip_description:website.digest_tip_website_2
 msgid ""
 "To get more visitors, you should target keywords that are often searched in "
-"Google. With the built-in SEO tool, once you define a few keywords, Odoo "
+"Google. With the built-in SEO tool, once you define a few keywords, neoziv "
 "will recommend you the best keywords to target. Then adapt your title and "
 "description accordingly to boost your traffic."
 msgstr ""
@@ -8834,7 +8834,7 @@ msgstr "免费的网站"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
-msgid "frontend_lang (Odoo)"
+msgid "frontend_lang (neoziv)"
 msgstr ""
 
 #. module: website
@@ -8873,15 +8873,15 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
 msgid ""
-"im_livechat_previous_operator_pid (Odoo)<br/>\n"
-"                                            utm_campaign (Odoo)<br/>\n"
-"                                            utm_source (Odoo)<br/>\n"
-"                                            utm_medium (Odoo)"
+"im_livechat_previous_operator_pid (neoziv)<br/>\n"
+"                                            utm_campaign (neoziv)<br/>\n"
+"                                            utm_source (neoziv)<br/>\n"
+"                                            utm_medium (neoziv)"
 msgstr ""
-"im_livechat_previous_operator_pid (Odoo)<br/>\n"
-"                                            utm_campaign (Odoo)<br/>\n"
-"                                            utm_source (Odoo)<br/>\n"
-"                                            utm_medium (Odoo)"
+"im_livechat_previous_operator_pid (neoziv)<br/>\n"
+"                                            utm_campaign (neoziv)<br/>\n"
+"                                            utm_source (neoziv)<br/>\n"
+"                                            utm_medium (neoziv)"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
@@ -8913,8 +8913,8 @@ msgstr "info@yourcompany.example.com"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "instance of Odoo, the"
-msgstr "Odoo实例，"
+msgid "instance of neoziv, the"
+msgstr "neoziv实例，"
 
 #. module: website
 #: model:ir.model.fields.selection,name:website.selection__theme_ir_ui_view__inherit_id__ir_ui_view
@@ -9017,8 +9017,8 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
 msgid ""
-"session_id (Odoo)<br/>\n"
-"                                            fileToken (Odoo)"
+"session_id (neoziv)<br/>\n"
+"                                            fileToken (neoziv)"
 msgstr ""
 
 #. module: website
@@ -9068,8 +9068,8 @@ msgstr "网站"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "www.odoo.com"
-msgstr "www.odoo.com"
+msgid "www.neoziv.com"
+msgstr "www.neoziv.com"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.qweb_500

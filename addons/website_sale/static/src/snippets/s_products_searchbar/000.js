@@ -1,4 +1,4 @@
-odoo.define('website_sale.s_products_searchbar', function (require) {
+neoziv.define('website_sale.s_products_searchbar', function (require) {
 'use strict';
 
 const concurrency = require('web.concurrency');

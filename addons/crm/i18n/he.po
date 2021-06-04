@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* crm
 # 
@@ -22,12 +22,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:12+0000\n"
 "PO-Revision-Date: 2020-09-07 08:11+0000\n"
 "Last-Translator: Lilach Gilliam <lilach.gilliam@gmail.com>, 2021\n"
-"Language-Team: Hebrew (https://www.transifex.com/odoo/teams/41243/he/)\n"
+"Language-Team: Hebrew (https://www.transifex.com/neoziv/teams/41243/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -232,7 +232,7 @@ msgid ""
 "                        <div>\n"
 "                            Hi ${object.partner_id and object.partner_id.name or ''},<br/><br/>\n"
 "                            Welcome to ${object.company_id.name}.\n"
-"                            It's great to meet you! Now that you're on board, you'll discover what ${object.company_id.name} has to offer. My name is ${object.user_id.name} and I'll help you get the most out of Odoo. Could we plan a quick demo soon?<br/>\n"
+"                            It's great to meet you! Now that you're on board, you'll discover what ${object.company_id.name} has to offer. My name is ${object.user_id.name} and I'll help you get the most out of neoziv. Could we plan a quick demo soon?<br/>\n"
 "                            Feel free to reach out at any time!<br/><br/>\n"
 "                            Best,<br/>\n"
 "                            % if object.user_id:\n"
@@ -269,7 +269,7 @@ msgid ""
 "</td></tr>\n"
 "<!-- POWERED BY -->\n"
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
-"    Powered by <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">Odoo</a>\n"
+"    Powered by <a target=\"_blank\" href=\"https://www.neoziv.com?utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">neoziv</a>\n"
 "</td></tr>\n"
 "</table>\n"
 "        "
@@ -996,7 +996,7 @@ msgstr ""
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_4
 msgid ""
 "Did you know you can search a company by name or VAT number to instantly "
-"fill in all its data? Odoo autocompletes everything for you: logo, address, "
+"fill in all its data? neoziv autocompletes everything for you: logo, address, "
 "company size, business information, social media accounts, etc."
 msgstr ""
 "האם ידעת שאתה יכול לחפש חברה לפי שם או מספר מע\"מ כדי למלא באופן מיידי את כל"
@@ -1007,7 +1007,7 @@ msgstr ""
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_5
 msgid ""
 "Did you know you can turn a list of opportunities into a map view, using the"
-" top-right map icon? A lot of screens in Odoo can be turned into a map: "
+" top-right map icon? A lot of screens in neoziv can be turned into a map: "
 "tasks, contacts, delivery orders, etc."
 msgstr ""
 "האם ידעת שאתה יכול להפוך את רשימת ההזדמנויות לתצוגת מפה באמצעות סמל המפה "
@@ -2132,21 +2132,21 @@ msgstr "מספר ההודעות שלא נקראו"
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity
 msgid ""
-"Odoo helps you keep track of your sales pipeline to follow\n"
+"neoziv helps you keep track of your sales pipeline to follow\n"
 "                    up potential sales and better forecast your future revenues."
 msgstr ""
-"Odoo עוזר לך לעקוב אחר צינור פעילות המכירות שלך\n"
+"neoziv עוזר לך לעקוב אחר צינור פעילות המכירות שלך\n"
 "                    ואחר מכירות פוטנציאליות ולחזות טוב יותר את הכנסותיך העתידיות."
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_2
 msgid ""
-"Odoo's artificial intelligence engine predicts the success rate of each "
+"neoziv's artificial intelligence engine predicts the success rate of each "
 "opportunity based on your history. You can always update the success rate "
-"manually, but if you let Odoo do the job the score is updated while the "
+"manually, but if you let neoziv do the job the score is updated while the "
 "opportunity moves forward in your sales cycle."
 msgstr ""
-"מנוע AI של Odoo מנבא את אחוזי ההצלחה של כל הזדמנות בהתבסס על ההיסטוריה שלך. "
+"מנוע AI של neoziv מנבא את אחוזי ההצלחה של כל הזדמנות בהתבסס על ההיסטוריה שלך. "
 "אתה תמיד יכול לעדכן את אחוזי ההצלחה באופן ידני, אך אם אתה נותן לאודו לבצע את"
 " העבודה הציון מתעדכן בזמן שההזדמנות נעה קדימה במחזור המכירות שלך."
 
@@ -2864,21 +2864,21 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (neoziv Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"המודל (סוג מסמך Odoo) שאליו הכינוי הזה תואם. כל דוא\"ל נכנס שלא יענה לרשומה "
+"המודל (סוג מסמך neoziv) שאליו הכינוי הזה תואם. כל דוא\"ל נכנס שלא יענה לרשומה "
 "קיימת יביא ליצירת רשומה חדשה של מודל זה (למשל משימת פרויקט)"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.neoziv.com>"
 msgstr ""
 "שם כינוי הדוא\"ל, למשל 'עבודות' אם ברצונך לקבל הודעות דוא\"ל ל "
-"<jobs@example.odoo.com>"
+"<jobs@example.neoziv.com>"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__partner_name
@@ -2997,7 +2997,7 @@ msgstr "טיפ: המרת מיילים להזדמנויות"
 #. module: crm
 #: model:digest.tip,name:crm.digest_tip_crm_1
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_1
-msgid "Tip: Did you know Odoo has built-in lead mining?"
+msgid "Tip: Did you know neoziv has built-in lead mining?"
 msgstr "טיפ: האם ידעת שהמערכת עוסקת ב Lead-Mining?"
 
 #. module: crm
@@ -3342,8 +3342,8 @@ msgstr "למשל: תמחור מוצרים"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
-msgid "e.g. https://www.odoo.com"
-msgstr "למשל: https://www.odoo.com"
+msgid "e.g. https://www.neoziv.com"
+msgstr "למשל: https://www.neoziv.com"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_stage__team_count

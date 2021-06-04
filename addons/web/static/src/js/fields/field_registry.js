@@ -1,4 +1,4 @@
-odoo.define('web.field_registry', function (require) {
+neoziv.define('web.field_registry', function (require) {
     "use strict";
 
     const Registry = require('web.Registry');
@@ -9,7 +9,7 @@ odoo.define('web.field_registry', function (require) {
     );
 });
 
-odoo.define('web._field_registry', function (require) {
+neoziv.define('web._field_registry', function (require) {
 "use strict";
 
 var AbstractField = require('web.AbstractField');

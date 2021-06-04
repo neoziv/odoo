@@ -1,4 +1,4 @@
-odoo.define('pos_restaurant.EditableTable', function(require) {
+neoziv.define('pos_restaurant.EditableTable', function(require) {
     'use strict';
 
     const { onPatched, onMounted } = owl.hooks;

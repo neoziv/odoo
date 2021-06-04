@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import hashlib
 import hmac
@@ -8,11 +8,11 @@ from unicodedata import normalize
 import psycopg2
 import werkzeug
 
-from odoo import http, _
-from odoo.http import request
-from odoo.osv import expression
-from odoo.tools import DEFAULT_SERVER_DATETIME_FORMAT, consteq, ustr
-from odoo.tools.float_utils import float_repr
+from neoziv import http, _
+from neoziv.http import request
+from neoziv.osv import expression
+from neoziv.tools import DEFAULT_SERVER_DATETIME_FORMAT, consteq, ustr
+from neoziv.tools.float_utils import float_repr
 from datetime import datetime, timedelta
 
 

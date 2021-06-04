@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-from odoo.addons.sale.tests.common import TestSaleCommon
-from odoo.tests import Form, tagged
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
+from neoziv.addons.sale.tests.common import TestSaleCommon
+from neoziv.tests import Form, tagged
 
 
 @tagged('post_install', '-at_install')

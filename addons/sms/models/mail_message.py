@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from collections import defaultdict
 from operator import itemgetter
 
-from odoo import exceptions, fields, models
-from odoo.tools import groupby
+from neoziv import exceptions, fields, models
+from neoziv.tools import groupby
 
 
 class MailMessage(models.Model):

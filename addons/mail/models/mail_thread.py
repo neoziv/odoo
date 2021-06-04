@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import ast
 import base64
@@ -24,12 +24,12 @@ from lxml import etree
 from werkzeug import urls
 from xmlrpc import client as xmlrpclib
 
-from odoo import _, api, exceptions, fields, models, tools, registry, SUPERUSER_ID
-from odoo.exceptions import MissingError
-from odoo.osv import expression
+from neoziv import _, api, exceptions, fields, models, tools, registry, SUPERUSER_ID
+from neoziv.exceptions import MissingError
+from neoziv.osv import expression
 
-from odoo.tools import ustr
-from odoo.tools.misc import clean_context, split_every
+from neoziv.tools import ustr
+from neoziv.tools.misc import clean_context, split_every
 
 _logger = logging.getLogger(__name__)
 
@@ -44,7 +44,7 @@ class MailThread(models.AbstractModel):
         communication history. ``mail.thread`` also manages followers of
         inheriting classes. All features and expected behavior are managed
         by mail.thread. Widgets has been designed for the 7.0 and following
-        versions of Odoo.
+        versions of neoziv.
 
         Inheriting classes are not required to implement any method, as the
         default implementation will work for any model. However it is common
@@ -1075,7 +1075,7 @@ class MailThread(models.AbstractModel):
             if thread._name == 'mail.thread':  # message with parent_id not linked to record
                 new_msg = thread.message_notify(**post_params)
             else:
-                # parsing should find an author independently of user running mail gateway, and ensure it is not odoobot
+                # parsing should find an author independently of user running mail gateway, and ensure it is not neozivbot
                 partner_from_found = message_dict.get('author_id') and message_dict['author_id'] != self.env['ir.model.data'].xmlid_to_res_id('base.partner_root')
                 thread = thread.with_context(mail_create_nosubscribe=not partner_from_found)
                 new_msg = thread.message_post(**post_params)
@@ -1885,7 +1885,7 @@ class MailThread(models.AbstractModel):
         self._message_set_main_attachment_id(values['attachment_ids'])
 
         if values['author_id'] and values['message_type'] != 'notification' and not self._context.get('mail_create_nosubscribe'):
-            if self.env['res.partner'].browse(values['author_id']).active:  # we dont want to add odoobot/inactive as a follower
+            if self.env['res.partner'].browse(values['author_id']).active:  # we dont want to add neozivbot/inactive as a follower
                 self._message_subscribe([values['author_id']])
 
         self._message_post_after_hook(new_message, values)
@@ -1918,7 +1918,7 @@ class MailThread(models.AbstractModel):
         handle ir ui views. """
         values = kwargs.pop('values', None) or dict()
         try:
-            from odoo.addons.http_routing.models.ir_http import slug
+            from neoziv.addons.http_routing.models.ir_http import slug
             values['slug'] = slug
         except ImportError:
             values['slug'] = lambda self: self.id

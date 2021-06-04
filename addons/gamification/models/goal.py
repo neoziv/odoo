@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import ast
 import logging
 from datetime import date, datetime, timedelta
 
-from odoo import api, fields, models, _, exceptions
-from odoo.osv import expression
-from odoo.tools.safe_eval import safe_eval, time
+from neoziv import api, fields, models, _, exceptions
+from neoziv.osv import expression
+from neoziv.tools.safe_eval import safe_eval, time
 
 _logger = logging.getLogger(__name__)
 

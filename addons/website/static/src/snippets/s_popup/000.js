@@ -1,4 +1,4 @@
-odoo.define('website.s_popup', function (require) {
+neoziv.define('website.s_popup', function (require) {
 'use strict';
 
 const config = require('web.config');

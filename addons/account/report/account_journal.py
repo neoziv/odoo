@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
 import time
-from odoo import api, models, _
-from odoo.exceptions import UserError
+from neoziv import api, models, _
+from neoziv.exceptions import UserError
 
 
 class ReportJournal(models.AbstractModel):

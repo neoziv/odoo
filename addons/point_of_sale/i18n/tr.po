@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* point_of_sale
 # 
@@ -30,12 +30,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-26 09:03+0000\n"
 "PO-Revision-Date: 2020-09-07 08:16+0000\n"
 "Last-Translator: Gökhan Erdoğdu <gokhan.erdogdu@mechsoft.com.tr>, 2021\n"
-"Language-Team: Turkish (https://www.transifex.com/odoo/teams/41243/tr/)\n"
+"Language-Team: Turkish (https://www.transifex.com/neoziv/teams/41243/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -2124,8 +2124,8 @@ msgstr "ID"
 #. openerp-web
 #: code:addons/point_of_sale/static/src/js/Popups/ErrorTracebackPopup.js:0
 #, python-format
-msgid "IMPORTANT: Bug Report From Odoo Point Of Sale"
-msgstr "ÖNEMLİ:Odoo Satış Noktasıdan Hata Raporu"
+msgid "IMPORTANT: Bug Report From neoziv Point Of Sale"
+msgstr "ÖNEMLİ:neoziv Satış Noktasıdan Hata Raporu"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__proxy_ip
@@ -2849,8 +2849,8 @@ msgstr "Okunmamış mesaj sayısı"
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.customer_facing_display_html
 #: model_terms:pos.config,customer_facing_display_html:point_of_sale.pos_config_main
-msgid "Odoo Logo"
-msgstr "Odoo Logo"
+msgid "neoziv Logo"
+msgstr "neoziv Logo"
 
 #. module: point_of_sale
 #. openerp-web
@@ -5191,20 +5191,20 @@ msgstr "Bu ürün müşteri makbuzu üzerinde referans olarak kullanılır."
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_line_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by neoziv but you can change it to "
 "customize the reference numbers of your orders lines."
 msgstr ""
-"Bu satır Odoo tarafından otomatik olarak oluşturulur ancak sipariş "
+"Bu satır neoziv tarafından otomatik olarak oluşturulur ancak sipariş "
 "satırlarınızın referans numaralarının özelleştirmek için bunu "
 "değiştirebilirsiniz."
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by neoziv but you can change it to "
 "customize the reference numbers of your orders."
 msgstr ""
-"Sıralama Odoo tarafından otomatik olarak oluşturulmaktadır ancak "
+"Sıralama neoziv tarafından otomatik olarak oluşturulmaktadır ancak "
 "siparişlerinizin referans numaralarını özelleştirmek için "
 "değiştirebilirsiniz."
 

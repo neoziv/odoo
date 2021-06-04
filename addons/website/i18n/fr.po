@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* website
 # 
 # Translators:
 # Stephane DAGUET <stephane@darbtech.net>, 2020
-# Damien Bouvy <dbo@odoo.com>, 2020
+# Damien Bouvy <dbo@neoziv.com>, 2020
 # Daniel & Delphine <dd2013@leschoupinous.net>, 2020
 # Valentin Thirion <valentin@medineo.be>, 2020
 # Mohamed Cherkaoui <chermed@gmail.com>, 2020
@@ -12,22 +12,22 @@
 # Shark McGnark <peculiarcheese@gmail.com>, 2020
 # Lucas Deliege <lud@openerp.com>, 2020
 # Christophe CHAUVET <christophe.chauvet@gmail.com>, 2020
-# Olivier Dony <odo@odoo.com>, 2020
+# Olivier Dony <odo@neoziv.com>, 2020
 # Bertrand LATOUR <divoir@gmail.com>, 2020
-# Jonathan Castillo <jcs@odoo.com>, 2020
-# Julien Goergen <jgo@odoo.com>, 2020
-# Digvijay Singh Gehlot <dih@odoo.com>, 2020
+# Jonathan Castillo <jcs@neoziv.com>, 2020
+# Julien Goergen <jgo@neoziv.com>, 2020
+# Digvijay Singh Gehlot <dih@neoziv.com>, 2020
 # 44fd1b7fd1ad5b321e37d151521961ad, 2020
 # lucasdeliege <deliegelucas@gmail.com>, 2020
-# Laura Piraux <lap@odoo.com>, 2020
-# Mélanie Botty <bom@odoo.com>, 2020
+# Laura Piraux <lap@neoziv.com>, 2020
+# Mélanie Botty <bom@neoziv.com>, 2020
 # Jérémy Kersten <jke@openerp.com>, 2020
-# omaodoo <oma@odoo.com>, 2020
+# omaneoziv <oma@neoziv.com>, 2020
 # Adriana Ierfino <adriana.ierfino@savoirfairelinux.com>, 2020
 # Jean-Marc Dupont <jmd@6it.fr>, 2020
 # Vincent Hammadache <vhammadache@gmail.com>, 2020
-# Clo <clo@odoo.com>, 2020
-# Lucas Deliege <lud@odoo.com>, 2020
+# Clo <clo@neoziv.com>, 2020
+# Lucas Deliege <lud@neoziv.com>, 2020
 # Pandraghon <pandraghon@outlook.com>, 2020
 # Olivier ANDRE <frsw194@gmail.com>, 2020
 # Fabri Yohann <psn@fabri.pw>, 2020
@@ -37,51 +37,51 @@
 # f5f0a0dac17dde787a1d812a6989680e, 2020
 # a270031086f2a0d3514bc0cb507b48f6, 2020
 # Gilles Mangin <gilles.mangin@phidias.fr>, 2020
-# Fernanda Marques <fem@odoo.com>, 2020
-# Pauline Thiry <pth@odoo.com>, 2020
+# Fernanda Marques <fem@neoziv.com>, 2020
+# Pauline Thiry <pth@neoziv.com>, 2020
 # e2f <projects@e2f.com>, 2020
 # bb76cd9ac0cb7e20167a14728edb858b, 2020
 # Maxime Chambreuil <mchambreuil@ursainfosystems.com>, 2020
 # Frédéric LIETART <stuff@tifred.fr>, 2020
 # Olivier Lenoir <olivier.lenoir@free.fr>, 2020
 # Fabien Bourgeois <fabien@yaltik.com>, 2020
-# Melanie Bernard <mbe@odoo.com>, 2020
+# Melanie Bernard <mbe@neoziv.com>, 2020
 # Matillon Samantha <smatillon@gmail.com>, 2020
 # Aurélien Pillevesse <aurelienpillevesse@hotmail.fr>, 2020
-# Fred Gilson <fgi@odoo.com>, 2020
-# gdp Odoo <gdp@odoo.com>, 2020
-# Richard Mathot <rim@odoo.com>, 2020
+# Fred Gilson <fgi@neoziv.com>, 2020
+# gdp neoziv <gdp@neoziv.com>, 2020
+# Richard Mathot <rim@neoziv.com>, 2020
 # Kévin R., 2020
-# Nicolas Roussey <nro@odoo.com>, 2020
+# Nicolas Roussey <nro@neoziv.com>, 2020
 # adrien didenot <adrien.didenot@horanet.com>, 2020
 # William Olhasque <william.olhasque@scopea.fr>, 2020
-# Jonathan Quique <jqu@odoo.com>, 2020
-# Vallen Delobel <edv@odoo.com>, 2020
-# Eloïse Stilmant <est@odoo.com>, 2020
+# Jonathan Quique <jqu@neoziv.com>, 2020
+# Vallen Delobel <edv@neoziv.com>, 2020
+# Eloïse Stilmant <est@neoziv.com>, 2020
 # Nathan Noël <nathan070@me.com>, 2020
-# Priscilla (prs) Odoo <prs@odoo.com>, 2020
+# Priscilla (prs) neoziv <prs@neoziv.com>, 2020
 # Moka Tourisme <hello@mokatourisme.fr>, 2020
-# Cécile Collart <cco@odoo.com>, 2020
+# Cécile Collart <cco@neoziv.com>, 2020
 # Fabien Pinckaers <fp@openerp.com>, 2021
 # Nicolas JEUDY <njeudy@panda-chi.io>, 2021
 # Anthony Chaussin <chaussin.anthony@gmail.com>, 2021
-# Rémy Claes <rcl@odoo.com>, 2021
-# Florian <fll@odoo.com>, 2021
-# Pierre Delacroix <pde@odoo.com>, 2021
+# Rémy Claes <rcl@neoziv.com>, 2021
+# Florian <fll@neoziv.com>, 2021
+# Pierre Delacroix <pde@neoziv.com>, 2021
 # Sébastien BÜHL <buhlsebastien@gmail.com>, 2021
-# Nathan Grognet <ngr@odoo.com>, 2021
-# Clément Watthez <cwa@odoo.com>, 2021
+# Nathan Grognet <ngr@neoziv.com>, 2021
+# Clément Watthez <cwa@neoziv.com>, 2021
 # Martin Trigaux, 2021
-# Alexandra Jubert <aju@odoo.com>, 2021
+# Alexandra Jubert <aju@neoziv.com>, 2021
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-04 15:13+0000\n"
 "PO-Revision-Date: 2020-09-07 08:20+0000\n"
-"Last-Translator: Alexandra Jubert <aju@odoo.com>, 2021\n"
-"Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"Last-Translator: Alexandra Jubert <aju@neoziv.com>, 2021\n"
+"Language-Team: French (https://www.transifex.com/neoziv/teams/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -378,9 +378,9 @@ msgstr "50%"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.template_footer_call_to_action
-msgid "50,000+ companies run Odoo to grow their businesses."
+msgid "50,000+ companies run neoziv to grow their businesses."
 msgstr ""
-"Plus de 50.000 entreprises utilisent Odoo pour développer leurs activités. "
+"Plus de 50.000 entreprises utilisent neoziv pour développer leurs activités. "
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_hr_options
@@ -397,9 +397,9 @@ msgstr "80% Développement"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_call_to_action
-msgid "<b>50,000+ companies</b> run Odoo to grow their businesses."
+msgid "<b>50,000+ companies</b> run neoziv to grow their businesses."
 msgstr ""
-"<b>Plus de 50000 sociétés</b> utilisent Odoo pour faire croître leur "
+"<b>Plus de 50000 sociétés</b> utilisent neoziv pour faire croître leur "
 "business."
 
 #. module: website
@@ -2000,10 +2000,10 @@ msgstr "Modifier les Icônes"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_table_of_content
 msgid ""
-"Change theme in a few clicks, and browse through Odoo's catalog of\n"
+"Change theme in a few clicks, and browse through neoziv's catalog of\n"
 "                            ready-to-use themes available in our app store."
 msgstr ""
-"Changez de thème en quelques clics, et parcourez le catalogue Odoo de\n"
+"Changez de thème en quelques clics, et parcourez le catalogue neoziv de\n"
 "thèmes prêts à l'emploi disponibles dans notre boutique d'applications."
 
 #. module: website
@@ -3196,10 +3196,10 @@ msgstr "Contenu dynamique"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_table_of_content
 msgid ""
-"Easily design your own Odoo templates thanks to clean HTML\n"
+"Easily design your own neoziv templates thanks to clean HTML\n"
 "                            structure and bootstrap CSS."
 msgstr ""
-"Créez facilement vos propres modèles Odoo grâce à un HTML propre\n"
+"Créez facilement vos propres modèles neoziv grâce à un HTML propre\n"
 "structure et bootstrap CSS."
 
 #. module: website
@@ -3632,8 +3632,8 @@ msgstr "Suivez-nous"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "Follow your website traffic in Odoo."
-msgstr "Suivez le trafic de votre site web sur Odoo."
+msgid "Follow your website traffic in neoziv."
+msgstr "Suivez le trafic de votre site web sur neoziv."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
@@ -4038,8 +4038,8 @@ msgstr "Hamburger Menu"
 #. openerp-web
 #: code:addons/website/static/src/snippets/s_countdown/000.xml:0
 #, python-format
-msgid "Happy Odoo Anniversary!"
-msgstr "Joyeux anniversaire Odoo!"
+msgid "Happy neoziv Anniversary!"
+msgstr "Joyeux anniversaire neoziv!"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website__has_social_default_image
@@ -4634,7 +4634,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 msgid ""
 "It appears your website is still using the old color system of\n"
-"            Odoo 13.0 in some places. We made sure it is still working but\n"
+"            neoziv 13.0 in some places. We made sure it is still working but\n"
 "            we recommend you to try to use the new color system, which is\n"
 "            still customizable."
 msgstr ""
@@ -4652,10 +4652,10 @@ msgstr "Il semble que votre fichier a été appelé par"
 #, python-format
 msgid ""
 "It might be possible to edit the relevant items or fix the issue in <a "
-"href=\"%s\">the classic Odoo interface</a>"
+"href=\"%s\">the classic neoziv interface</a>"
 msgstr ""
 "Il est possible de modifier les éléments concernés ou de résoudre le "
-"problème dans l'<a href=\"%s\">interface classique d'Odoo</a>"
+"problème dans l'<a href=\"%s\">interface classique d'neoziv</a>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.bs_debug_view
@@ -5315,13 +5315,13 @@ msgstr "Surveiller les données des résultats de la recherche Google"
 #. module: website
 #: model_terms:digest.tip,tip_description:website.digest_tip_website_0
 msgid ""
-"Monitor your visitors while they are browsing your website with the Odoo "
+"Monitor your visitors while they are browsing your website with the neoziv "
 "Social app. Engage with them in just a click using a live chat request or a "
 "push notification. If they have completed one of your forms, you can send "
 "them an SMS, or call them right away while they are browsing your website."
 msgstr ""
 "Surveillez vos visiteurs lorsqu'ils naviguent sur votre site Web avec "
-"l'application Odoo Social. Interagissez avec eux en un seul clic en "
+"l'application neoziv Social. Interagissez avec eux en un seul clic en "
 "utilisant une demande de chat en direct ou une notification push. S'ils ont "
 "rempli l'un de vos formulaires, vous pouvez leur envoyer un SMS ou les "
 "appeler tout de suite pendant qu'ils naviguent sur votre site Web."
@@ -5595,8 +5595,8 @@ msgstr "Nombre de visites"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "Odoo Version"
-msgstr "Version Odoo"
+msgid "neoziv Version"
+msgstr "Version neoziv"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
@@ -6555,12 +6555,12 @@ msgstr "Search Visitor"
 #: model_terms:digest.tip,tip_description:website.digest_tip_website_1
 msgid ""
 "Search in the media dialogue when you need photos to illustrate your "
-"website. Odoo's integration with Unsplash, featuring millions of royalty "
+"website. neoziv's integration with Unsplash, featuring millions of royalty "
 "free and high quality photos, makes it possible for you to get the perfect "
 "picture, in just a few clicks."
 msgstr ""
 "Recherchez dans la boîte de dialogue multimédia lorsque vous avez besoin de "
-"photos pour illustrer votre site Web. L'intégration d'Odoo à Unsplash, avec "
+"photos pour illustrer votre site Web. L'intégration d'neoziv à Unsplash, avec "
 "des millions de photos libres de droits et de haute qualité, vous permet "
 "d'obtenir l'image parfaite, en quelques clics."
 
@@ -6808,7 +6808,7 @@ msgstr "Connecté"
 msgid ""
 "Sitemap.xml: Help search engine crawlers to find out what pages are present "
 "and which have recently changed, and to crawl your site accordingly. This "
-"file is automatically generated by Odoo."
+"file is automatically generated by neoziv."
 msgstr ""
 
 #. module: website
@@ -7611,7 +7611,7 @@ msgstr ""
 #: model_terms:digest.tip,tip_description:website.digest_tip_website_2
 msgid ""
 "To get more visitors, you should target keywords that are often searched in "
-"Google. With the built-in SEO tool, once you define a few keywords, Odoo "
+"Google. With the built-in SEO tool, once you define a few keywords, neoziv "
 "will recommend you the best keywords to target. Then adapt your title and "
 "description accordingly to boost your traffic."
 msgstr ""
@@ -9048,8 +9048,8 @@ msgstr "Site Web gratuit"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
-msgid "frontend_lang (Odoo)"
-msgstr "frontend_lang (Odoo)"
+msgid "frontend_lang (neoziv)"
+msgstr "frontend_lang (neoziv)"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
@@ -9087,15 +9087,15 @@ msgstr "https://fonts.google.com/specimen/Roboto"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
 msgid ""
-"im_livechat_previous_operator_pid (Odoo)<br/>\n"
-"                                            utm_campaign (Odoo)<br/>\n"
-"                                            utm_source (Odoo)<br/>\n"
-"                                            utm_medium (Odoo)"
+"im_livechat_previous_operator_pid (neoziv)<br/>\n"
+"                                            utm_campaign (neoziv)<br/>\n"
+"                                            utm_source (neoziv)<br/>\n"
+"                                            utm_medium (neoziv)"
 msgstr ""
-"im_livechat_previous_operator_pid (Odoo)<br/>\n"
-"                                            utm_campaign (Odoo)<br/>\n"
-"                                            utm_source (Odoo)<br/>\n"
-"                                            utm_medium (Odoo)"
+"im_livechat_previous_operator_pid (neoziv)<br/>\n"
+"                                            utm_campaign (neoziv)<br/>\n"
+"                                            utm_source (neoziv)<br/>\n"
+"                                            utm_medium (neoziv)"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
@@ -9127,8 +9127,8 @@ msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "instance of Odoo, the"
-msgstr "instance d'Odoo, le"
+msgid "instance of neoziv, the"
+msgstr "instance d'neoziv, le"
 
 #. module: website
 #: model:ir.model.fields.selection,name:website.selection__theme_ir_ui_view__inherit_id__ir_ui_view
@@ -9231,8 +9231,8 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
 msgid ""
-"session_id (Odoo)<br/>\n"
-"                                            fileToken (Odoo)"
+"session_id (neoziv)<br/>\n"
+"                                            fileToken (neoziv)"
 msgstr ""
 
 #. module: website
@@ -9282,8 +9282,8 @@ msgstr "Site web"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "www.odoo.com"
-msgstr "www.odoo.com"
+msgid "www.neoziv.com"
+msgstr "www.neoziv.com"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.qweb_500

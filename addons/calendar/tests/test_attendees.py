@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from datetime import datetime
 
-from odoo.tests.common import SavepointCase, new_test_user
+from neoziv.tests.common import SavepointCase, new_test_user
 
 
 class TestEventNotifications(SavepointCase):

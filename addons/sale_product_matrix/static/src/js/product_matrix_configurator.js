@@ -1,4 +1,4 @@
-odoo.define('sale_product_matrix.product_configurator', function (require) {
+neoziv.define('sale_product_matrix.product_configurator', function (require) {
 var ProductConfiguratorWidget = require('sale_product_configurator.product_configurator');
 
 /**

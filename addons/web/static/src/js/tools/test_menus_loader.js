@@ -1,4 +1,4 @@
-odoo.define('web.clickEverywhere', function (require) {
+neoziv.define('web.clickEverywhere', function (require) {
     "use strict";
     var ajax = require('web.ajax');
     function startClickEverywhere(xmlId, appsMenusOnly) {

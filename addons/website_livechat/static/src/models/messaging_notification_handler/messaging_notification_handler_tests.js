@@ -1,4 +1,4 @@
-odoo.define('website_livechat/static/src/models/messaging_notification_handler/messaging_notification_handler_tests.js', function (require) {
+neoziv.define('website_livechat/static/src/models/messaging_notification_handler/messaging_notification_handler_tests.js', function (require) {
 'use strict';
 
 const {

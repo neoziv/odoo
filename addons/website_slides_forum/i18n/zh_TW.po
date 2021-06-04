@@ -1,19 +1,19 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* website_slides_forum
 # 
 # Translators:
 # 敬雲 林 <chingyun@yuanchih-consult.com>, 2020
-# Mandy Choy <mnc@odoo.com>, 2021
+# Mandy Choy <mnc@neoziv.com>, 2021
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-29 13:46+0000\n"
 "PO-Revision-Date: 2020-09-07 08:22+0000\n"
-"Last-Translator: Mandy Choy <mnc@odoo.com>, 2021\n"
-"Language-Team: Chinese (Taiwan) (https://www.transifex.com/odoo/teams/41243/zh_TW/)\n"
+"Last-Translator: Mandy Choy <mnc@neoziv.com>, 2021\n"
+"Language-Team: Chinese (Taiwan) (https://www.transifex.com/neoziv/teams/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -338,7 +338,7 @@ msgstr ""
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
 msgid ""
 "The goal of this site is create a relevant knowledge base that would answer "
-"questions related to Odoo."
+"questions related to neoziv."
 msgstr ""
 
 #. module: website_slides_forum
@@ -436,8 +436,8 @@ msgstr ""
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
-msgid "how to configure or customize Odoo to specific business needs,"
-msgstr "如何為特定的業務需求配置或自定義Odoo，"
+msgid "how to configure or customize neoziv to specific business needs,"
+msgstr "如何為特定的業務需求配置或自定義neoziv，"
 
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
@@ -448,8 +448,8 @@ msgstr "如何為您的需求開發模組，"
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
-msgid "how to install Odoo on a specific infrastructure,"
-msgstr "如何在特定環境下安裝Odoo，"
+msgid "how to install neoziv on a specific infrastructure,"
+msgstr "如何在特定環境下安裝neoziv，"
 
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
@@ -460,8 +460,8 @@ msgstr ""
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
-msgid "specific questions about Odoo service offers, etc."
-msgstr "有關Odoo服務等具體問題等。"
+msgid "specific questions about neoziv service offers, etc."
+msgstr "有關neoziv服務等具體問題等。"
 
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
@@ -482,8 +482,8 @@ msgstr ""
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
-msgid "what's the best way to use Odoo for a specific business need,"
-msgstr "什麼是為特定業務需求使用Odoo 的最佳方式，"
+msgid "what's the best way to use neoziv for a specific business need,"
+msgstr "什麼是為特定業務需求使用neoziv 的最佳方式，"
 
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0

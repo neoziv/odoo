@@ -28,18 +28,18 @@ create_partition () {
         exit 0
     fi
 
-    PART_ODOO_ROOT=$(fdisk -l | tail -n 1 | awk '{print $1}')
-    START_OF_ODOO_ROOT_PARTITION=$(fdisk -l | tail -n 1 | awk '{print $2}')
-    END_OF_ODOO_ROOT_PARTITION=$((START_OF_ODOO_ROOT_PARTITION + 11714061)) # sectors to have a partition of ~5.6Go
-    START_OF_UPGRADE_ROOT_PARTITION=$((END_OF_ODOO_ROOT_PARTITION + 1)) # sectors to have a partition of ~7.0Go
+    PART_neoziv_ROOT=$(fdisk -l | tail -n 1 | awk '{print $1}')
+    START_OF_neoziv_ROOT_PARTITION=$(fdisk -l | tail -n 1 | awk '{print $2}')
+    END_OF_neoziv_ROOT_PARTITION=$((START_OF_neoziv_ROOT_PARTITION + 11714061)) # sectors to have a partition of ~5.6Go
+    START_OF_UPGRADE_ROOT_PARTITION=$((END_OF_neoziv_ROOT_PARTITION + 1)) # sectors to have a partition of ~7.0Go
     (echo 'p';                                  # print
      echo 'd';                                  # delete partition
      echo '2';                                  #   number 2
      echo 'n';                                  # create new partition
      echo 'p';                                  #   primary
      echo '2';                                  #   number 2
-     echo "${START_OF_ODOO_ROOT_PARTITION}";    #   starting at previous offset
-     echo "${END_OF_ODOO_ROOT_PARTITION}";      #   ending at ~9.9Go
+     echo "${START_OF_neoziv_ROOT_PARTITION}";    #   starting at previous offset
+     echo "${END_OF_neoziv_ROOT_PARTITION}";      #   ending at ~9.9Go
      echo 'n';                                  # create new partition
      echo 'p';                                  #   primary
      echo '3';                                  #   number 3
@@ -54,7 +54,7 @@ create_partition () {
     # Clean partition
     mount -o remount,rw /
     partprobe # apply changes to partitions
-    resize2fs "${PART_ODOO_ROOT}"
+    resize2fs "${PART_neoziv_ROOT}"
     mkfs.ext4 -Fv "${PART_RASPIOS_ROOT}" # change file sytstem
 
     echo "end fdisking"
@@ -90,7 +90,7 @@ copy_raspios () {
 
     # mapper raspios
     PART_RASPIOS_ROOT=$(fdisk -l | tail -n 1 | awk '{print $1}')
-    PART_ODOO_ROOT=$(fdisk -l | tail -n 2 | awk 'NR==1 {print $1}')
+    PART_neoziv_ROOT=$(fdisk -l | tail -n 2 | awk 'NR==1 {print $1}')
     PART_BOOT=$(fdisk -l | tail -n 3 | awk 'NR==1 {print $1}')
     RASPIOS=$(echo *raspios*.img)
     LOOP_RASPIOS=$(kpartx -avs "${RASPIOS}")
@@ -115,13 +115,13 @@ copy_raspios () {
     NBR_LIGNE=$(sed -n -e '$=' raspios/etc/rc.local)
     sed -ie "${NBR_LIGNE}"'i\. /home/pi/upgrade.sh; copy_iot' raspios/etc/rc.local
     cp -v /etc/fstab raspios/etc/fstab
-    sed -ie "s/$(echo ${PART_ODOO_ROOT} | sed -e 's/\//\\\//g')/$(echo ${PART_RASPIOS_ROOT} | sed -e 's/\//\\\//g')/g" raspios/etc/fstab
+    sed -ie "s/$(echo ${PART_neoziv_ROOT} | sed -e 's/\//\\\//g')/$(echo ${PART_RASPIOS_ROOT} | sed -e 's/\//\\\//g')/g" raspios/etc/fstab
     mkdir raspios/home/pi/config
     find /home/pi -maxdepth 1 -type f ! -name ".*" -exec cp {} raspios/home/pi/config/ \;
 
     # download latest IoT Box image and check integrity
-    wget -c 'https://nightly.odoo.com/master/iotbox/iotbox-latest.zip' -O raspios/iotbox-latest.zip
-    wget -c 'https://nightly.odoo.com/master/iotbox/SHA1SUMS.txt' -O raspios/SHA1SUMS.txt
+    wget -c 'https://nightly.neoziv.com/master/iotbox/iotbox-latest.zip' -O raspios/iotbox-latest.zip
+    wget -c 'https://nightly.neoziv.com/master/iotbox/SHA1SUMS.txt' -O raspios/SHA1SUMS.txt
     cd raspios/
     CHECK=$(sha1sum -c --ignore-missing SHA1SUMS.txt)
     cd ..
@@ -190,12 +190,12 @@ copy_iot () {
     sed -i 's| init=/usr/lib/raspi-config/init_resize.sh||' /boot/cmdline.txt
 
     # Modify startup
-    mkdir -v odoo
-    mount -v "${PART_IOTBOX_ROOT}" odoo
-    cp -v /home/pi/upgrade.sh odoo/home/pi/
-    NBR_LIGNE=$(sed -n -e '$=' odoo/etc/rc.local)
-    sed -ie "${NBR_LIGNE}"'i\. /home/pi/upgrade.sh; clean_local' odoo/etc/rc.local
-    find /home/pi/config -maxdepth 1 -type f ! -name ".*" -exec cp {} odoo/home/pi/ \;
+    mkdir -v neoziv
+    mount -v "${PART_IOTBOX_ROOT}" neoziv
+    cp -v /home/pi/upgrade.sh neoziv/home/pi/
+    NBR_LIGNE=$(sed -n -e '$=' neoziv/etc/rc.local)
+    sed -ie "${NBR_LIGNE}"'i\. /home/pi/upgrade.sh; clean_local' neoziv/etc/rc.local
+    find /home/pi/config -maxdepth 1 -type f ! -name ".*" -exec cp {} neoziv/home/pi/ \;
 
     reboot
 }

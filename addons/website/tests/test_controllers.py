@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import json
 
-from odoo import tests
-from odoo.tools import mute_logger
+from neoziv import tests
+from neoziv.tools import mute_logger
 
 
 @tests.tagged('post_install', '-at_install')
 class TestControllers(tests.HttpCase):
 
-    @mute_logger('odoo.addons.http_routing.models.ir_http', 'odoo.http')
+    @mute_logger('neoziv.addons.http_routing.models.ir_http', 'neoziv.http')
     def test_last_created_pages_autocompletion(self):
         self.authenticate("admin", "admin")
         Page = self.env['website.page']

@@ -1,4 +1,4 @@
-odoo.define('account.upload.bill.mixin', function (require) {
+neoziv.define('account.upload.bill.mixin', function (require) {
 "use strict";
 
     var core = require('web.core');
@@ -61,7 +61,7 @@ odoo.define('account.upload.bill.mixin', function (require) {
 });
 
 
-odoo.define('account.bills.tree', function (require) {
+neoziv.define('account.bills.tree', function (require) {
 "use strict";
     var core = require('web.core');
     var ListController = require('web.ListController');
@@ -86,7 +86,7 @@ odoo.define('account.bills.tree', function (require) {
     viewRegistry.add('account_tree', BillsListView);
 });
 
-odoo.define('account.dashboard.kanban', function (require) {
+neoziv.define('account.dashboard.kanban', function (require) {
 "use strict";
     var core = require('web.core');
     var KanbanController = require('web.KanbanController');

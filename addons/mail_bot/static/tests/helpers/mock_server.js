@@ -1,4 +1,4 @@
-odoo.define('mail_bot/static/tests/helpers/mock_server.js', function (require) {
+neoziv.define('mail_bot/static/tests/helpers/mock_server.js', function (require) {
 "use strict";
 
 const MockServer = require('web.MockServer');
@@ -12,8 +12,8 @@ MockServer.include({
      * @override
      */
     async _performRpc(route, args) {
-        if (args.model === 'mail.channel' && args.method === 'init_odoobot') {
-            return this._mockMailChannelInitOdooBot();
+        if (args.model === 'mail.channel' && args.method === 'init_neozivbot') {
+            return this._mockMailChannelInitneozivBot();
         }
         return this._super(...arguments);
     },
@@ -23,13 +23,13 @@ MockServer.include({
     //--------------------------------------------------------------------------
 
     /**
-     * Simulates `init_odoobot` on `mail.channel`.
+     * Simulates `init_neozivbot` on `mail.channel`.
      *
      * @private
      */
-    _mockMailChannelInitOdooBot() {
+    _mockMailChannelInitneozivBot() {
         // TODO implement this mock task-2300480
-        // and improve test "OdooBot initialized after 2 minutes"
+        // and improve test "neozivBot initialized after 2 minutes"
     },
 });
 

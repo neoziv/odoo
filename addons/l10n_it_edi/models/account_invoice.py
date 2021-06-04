@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import base64
 import zipfile
@@ -10,11 +10,11 @@ import re
 from datetime import date, datetime
 from lxml import etree
 
-from odoo import api, fields, models, _
-from odoo.tools import float_repr
-from odoo.exceptions import UserError, ValidationError
-from odoo.addons.base.models.ir_mail_server import MailDeliveryException
-from odoo.tests.common import Form
+from neoziv import api, fields, models, _
+from neoziv.tools import float_repr
+from neoziv.exceptions import UserError, ValidationError
+from neoziv.addons.base.models.ir_mail_server import MailDeliveryException
+from neoziv.tests.common import Form
 
 
 _logger = logging.getLogger(__name__)

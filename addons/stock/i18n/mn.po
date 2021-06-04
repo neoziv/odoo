@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* stock
 # 
@@ -25,12 +25,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 11:23+0000\n"
 "PO-Revision-Date: 2020-09-07 08:19+0000\n"
 "Last-Translator: Батболд <batbold.ts@gmail.com>, 2020\n"
-"Language-Team: Mongolian (https://www.transifex.com/odoo/teams/41243/mn/)\n"
+"Language-Team: Mongolian (https://www.transifex.com/neoziv/teams/41243/mn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1752,10 +1752,10 @@ msgstr "Агуулах доторх хөдөлгөөний үндсэн дамж
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_orderpoint
 msgid ""
-"Define a minimum stock rule so that Odoo creates automatically requests for "
+"Define a minimum stock rule so that neoziv creates automatically requests for "
 "quotations or draft manufacturing orders to resupply your stock."
 msgstr ""
-"Зохистой нөөцийн доод хэмжээг тогтоосноор Odoo системийн таны нөөцийг "
+"Зохистой нөөцийн доод хэмжээг тогтоосноор neoziv системийн таны нөөцийг "
 "зохистой хэмжээнд байлгахын тулд автоматаар худалдан авалтын үнийн санал "
 "эсвэл үйлдвэрлэлийн ноорог захиалга үүсгэнэ."
 
@@ -1768,14 +1768,14 @@ msgstr "Шинэ агуулах тодорхойлох"
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
 msgid ""
 "Define your locations to reflect your warehouse structure and\n"
-"            organization. Odoo is able to manage physical locations\n"
+"            organization. neoziv is able to manage physical locations\n"
 "            (warehouses, shelves, bin, etc), partner locations (customers,\n"
 "            vendors) and virtual locations which are the counterpart of\n"
 "            the stock operations like the manufacturing orders\n"
 "            consumptions, inventories, etc."
 msgstr ""
 "Та агуулахынхаа дотоод бүтэц, зохион байгуулалтанд нийцүүлэн байрлалуудыг\n"
-"            тодорхойл. Odoo дээр бодит байрлалууд\n"
+"            тодорхойл. neoziv дээр бодит байрлалууд\n"
 "            (багуулах, тавиур, сагс, гм) болон үйлдвэрлэл, тооллого, орлого, зарлага зэрэгт бодит байрлалуудтай харьцах хийсвэр (нийлүүлэгчийн байрлал, захиалагчийн байрлал) байрлалуудыг ашигладаг."
 
 #. module: stock
@@ -2206,7 +2206,7 @@ msgstr "Хоосон тооллого"
 #. module: stock
 #: model_terms:digest.tip,tip_description:stock.digest_tip_stock_0
 msgid ""
-"Enjoy a quick-paced experience with the Odoo barcode app. It is blazing fast"
+"Enjoy a quick-paced experience with the neoziv barcode app. It is blazing fast"
 " and works even without a stable internet connection. It supports all flows:"
 " inventory adjustments, batch picking, moving lots or pallets, low inventory"
 " checks, etc. Go to the \"Apps\" menu to activate the barcode interface."
@@ -2233,15 +2233,15 @@ msgstr "Алдаа"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
 msgid ""
-"Every stock operation in Odoo moves the products from one\n"
+"Every stock operation in neoziv moves the products from one\n"
 "            location to another one.  For instance, if you receive products\n"
-"            from a vendor, Odoo will move products from the Vendor\n"
+"            from a vendor, neoziv will move products from the Vendor\n"
 "            location to the Stock location. Each report can be performed on\n"
 "            physical, partner or virtual locations."
 msgstr ""
-"Odoo систем дээрх агуулахын хөдөлгөөн гэдэг бол барааг нэг байрлалаас\n"
+"neoziv систем дээрх агуулахын хөдөлгөөн гэдэг бол барааг нэг байрлалаас\n"
 "            нөгөө байрлал руу шилжүүлж буй ажиллагааг хэлнэ.  Тухайлбал, хэрэв нийлүүлэгчээс\n"
-"            бараа хүлээн авбал, Odoo нь нийлүүлэгчийн байрлалаас\n"
+"            бараа хүлээн авбал, neoziv нь нийлүүлэгчийн байрлалаас\n"
 "            агуулахын байрлал руу чиглэсэн хөдөлгөөн бүртгэнэ. Тайлан нь бодит байрлал,\n"
 "            харилцагчийн буюу хийсвэр байрлал дээр ажиллана."
 
@@ -2819,7 +2819,7 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_picking__show_reserved
 #: model:ir.model.fields,help:stock.field_stock_picking_type__show_reserved
 msgid ""
-"If this checkbox is ticked, Odoo will automatically pre-fill the detailed "
+"If this checkbox is ticked, neoziv will automatically pre-fill the detailed "
 "operations with the corresponding products, locations and lot/serial "
 "numbers."
 msgstr ""
@@ -7656,19 +7656,19 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_min_qty
 msgid ""
 "When the virtual stock equals to or goes below the Min Quantity specified "
-"for this field, Odoo generates a procurement to bring the forecasted "
+"for this field, neoziv generates a procurement to bring the forecasted "
 "quantity to the Max Quantity."
 msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_max_qty
 msgid ""
-"When the virtual stock goes below the Min Quantity, Odoo generates a "
+"When the virtual stock goes below the Min Quantity, neoziv generates a "
 "procurement to bring the forecasted quantity to the Quantity specified as "
 "Max Quantity."
 msgstr ""
 "Барааны ирээдүйн үлдэгдэл нь байх ёстой хамгийн бага тоо хэмжээнээс доош "
-"орвол Odoo систем ирээдүйн үлдэгдлийг зохистой дээд хэмжээнд хүргэх зорилт "
+"орвол neoziv систем ирээдүйн үлдэгдлийг зохистой дээд хэмжээнд хүргэх зорилт "
 "бүхий нөөц хангах захиалга үүсгэдэг."
 
 #. module: stock
@@ -7953,7 +7953,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock.view_immediate_transfer
 msgid ""
 "You have not recorded <i>done</i> quantities yet, by clicking on "
-"<i>apply</i> Odoo will process all the quantities."
+"<i>apply</i> neoziv will process all the quantities."
 msgstr ""
 
 #. module: stock

@@ -1,4 +1,4 @@
-odoo.define('web.test_utils_pivot', function (require) {
+neoziv.define('web.test_utils_pivot', function (require) {
 "use strict";
 
 var testUtilsDom = require('web.test_utils_dom');

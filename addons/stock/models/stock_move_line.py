@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from collections import Counter
 
-from odoo import _, api, fields, tools, models
-from odoo.exceptions import UserError, ValidationError
-from odoo.tools import OrderedSet
-from odoo.tools.float_utils import float_compare, float_is_zero, float_round
+from neoziv import _, api, fields, tools, models
+from neoziv.exceptions import UserError, ValidationError
+from neoziv.tools import OrderedSet
+from neoziv.tools.float_utils import float_compare, float_is_zero, float_round
 
 
 class StockMoveLine(models.Model):

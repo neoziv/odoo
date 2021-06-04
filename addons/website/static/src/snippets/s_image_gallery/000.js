@@ -1,4 +1,4 @@
-odoo.define('website.s_image_gallery', function (require) {
+neoziv.define('website.s_image_gallery', function (require) {
 'use strict';
 
 var core = require('web.core');

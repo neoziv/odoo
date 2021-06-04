@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo.tools import float_is_zero
+from neoziv.tools import float_is_zero
 from .common import TestSaleCommon
-from odoo.tests import Form, tagged
+from neoziv.tests import Form, tagged
 
 
 @tagged('-at_install', 'post_install')

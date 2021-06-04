@@ -1,4 +1,4 @@
-odoo.define('website_forum.website_forum', function (require) {
+neoziv.define('website_forum.website_forum', function (require) {
 'use strict';
 
 const dom = require('web.dom');

@@ -1,21 +1,21 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* account_payment
 # 
 # Translators:
 # Martin Trigaux, 2020
 # Gunther Clauwaert <gclauwae@hotmail.com>, 2020
-# Erwin van der Ploeg (Odoo Experts) <erwin@odooexperts.nl>, 2020
+# Erwin van der Ploeg (neoziv Experts) <erwin@neozivexperts.nl>, 2020
 # Yenthe Van Ginneken <yenthespam@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:12+0000\n"
 "PO-Revision-Date: 2020-09-07 08:10+0000\n"
 "Last-Translator: Yenthe Van Ginneken <yenthespam@gmail.com>, 2020\n"
-"Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
+"Language-Team: Dutch (https://www.transifex.com/neoziv/teams/41243/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"

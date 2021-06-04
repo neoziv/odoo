@@ -3,10 +3,10 @@ import json
 import logging
 import werkzeug.utils
 
-from odoo import http
-from odoo.http import request
-from odoo.osv.expression import AND
-from odoo.tools import convert
+from neoziv import http
+from neoziv.http import request
+from neoziv.osv.expression import AND
+from neoziv.tools import convert
 
 _logger = logging.getLogger(__name__)
 

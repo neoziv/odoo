@@ -1,4 +1,4 @@
-odoo.define('website_hr_recruitment.form', function (require) {
+neoziv.define('website_hr_recruitment.form', function (require) {
 'use strict';
 
 var core = require('web.core');

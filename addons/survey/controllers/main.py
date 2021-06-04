@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import json
 import logging
@@ -8,14 +8,14 @@ import werkzeug
 from datetime import datetime, timedelta
 from dateutil.relativedelta import relativedelta
 
-from odoo import fields, http, _
-from odoo.addons.base.models.ir_ui_view import keep_query
-from odoo.exceptions import UserError
-from odoo.http import request, content_disposition
-from odoo.osv import expression
-from odoo.tools import format_datetime, format_date, is_html_empty
+from neoziv import fields, http, _
+from neoziv.addons.base.models.ir_ui_view import keep_query
+from neoziv.exceptions import UserError
+from neoziv.http import request, content_disposition
+from neoziv.osv import expression
+from neoziv.tools import format_datetime, format_date, is_html_empty
 
-from odoo.addons.web.controllers.main import Binary
+from neoziv.addons.web.controllers.main import Binary
 
 _logger = logging.getLogger(__name__)
 

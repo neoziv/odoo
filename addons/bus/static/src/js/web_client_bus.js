@@ -1,4 +1,4 @@
-odoo.define('bus.WebClient', function (require) {
+neoziv.define('bus.WebClient', function (require) {
     "use strict";
 
     const core = require('web.core');

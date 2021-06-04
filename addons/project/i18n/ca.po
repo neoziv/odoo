@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* project
 # 
@@ -7,7 +7,7 @@
 # Martin Trigaux, 2020
 # Marc Tormo i Bochaca <mtbochaca@gmail.com>, 2020
 # Carles Antoli <carlesantoli@hotmail.com>, 2020
-# RGB Consulting <odoo@rgbconsulting.com>, 2020
+# RGB Consulting <neoziv@rgbconsulting.com>, 2020
 # M Palau <mpalau@tda.ad>, 2020
 # Arnau Ros, 2020
 # Quim - eccit <quim@eccit.com>, 2020
@@ -17,12 +17,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 11:23+0000\n"
 "PO-Revision-Date: 2020-09-07 08:17+0000\n"
 "Last-Translator: Josep Anton Belchi Riera, 2021\n"
-"Language-Team: Catalan (https://www.transifex.com/odoo/teams/41243/ca/)\n"
+"Language-Team: Catalan (https://www.transifex.com/neoziv/teams/41243/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1113,7 +1113,7 @@ msgstr ""
 #: code:addons/project/static/src/js/project_task_kanban_examples.js:0
 #, python-format
 msgid ""
-"Customers propose feedbacks by email; Odoo creates tasks automatically, and "
+"Customers propose feedbacks by email; neoziv creates tasks automatically, and "
 "you can communicate on the task directly. Your managers decide which "
 "feedback is accepted %s and which feedback is moved to the %s column. %s"
 msgstr ""
@@ -3523,11 +3523,11 @@ msgstr "Test"
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (neoziv Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"El model (Tipus de document d'Odoo) al que correspon aquest pseudònim. "
+"El model (Tipus de document d'neoziv) al que correspon aquest pseudònim. "
 "Qualsevol correu electrònic entrant que no sigui resposta a un registre "
 "existent, causarà la creació d'un nou registre d'aquest model (per exemple, "
 "una tasca de projecte)"
@@ -3536,10 +3536,10 @@ msgstr ""
 #: model:ir.model.fields,help:project.field_project_project__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.neoziv.com>"
 msgstr ""
 "El nom d'aquest pseudònim de correu electrònic. Per exemple, \"jobs\", si el"
-" que vol és obtenir els correus per <jobs@example.odoo.com>"
+" que vol és obtenir els correus per <jobs@example.neoziv.com>"
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_user_id

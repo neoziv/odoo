@@ -1,5 +1,5 @@
 
-.zoomodoo {
+.zoomneoziv {
     position: relative;
 
     /* 'Shrink-wrap' the element */
@@ -12,7 +12,7 @@
     }
 }
 
-.zoomodoo-flyout {
+.zoomneoziv-flyout {
     position:absolute;
     z-index: 100;
     overflow: hidden;
@@ -25,10 +25,10 @@
     }
 }
 
-.zoomodoo-hover .zoomodoo-flyout {
+.zoomneoziv-hover .zoomneoziv-flyout {
     left: 0;
 }
 
-.zoomodoo-next .zoomodoo-flyout {
+.zoomneoziv-next .zoomneoziv-flyout {
     left: 100%;
 }

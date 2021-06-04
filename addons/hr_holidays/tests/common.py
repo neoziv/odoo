@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo.addons.mail.tests.common import mail_new_test_user
-from odoo.tests import common
+from neoziv.addons.mail.tests.common import mail_new_test_user
+from neoziv.tests import common
 
 
 class TestHrHolidaysCommon(common.TransactionCase):

@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import time
 
-from odoo.tests.common import TransactionCase
-from odoo.exceptions import AccessError
+from neoziv.tests.common import TransactionCase
+from neoziv.exceptions import AccessError
 
 
 class TestEquipmentMulticompany(TransactionCase):

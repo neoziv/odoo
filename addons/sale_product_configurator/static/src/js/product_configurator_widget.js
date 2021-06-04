@@ -1,4 +1,4 @@
-odoo.define('sale_product_configurator.product_configurator', function (require) {
+neoziv.define('sale_product_configurator.product_configurator', function (require) {
 var ProductConfiguratorWidget = require('sale.product_configurator');
 
 /**
@@ -26,7 +26,7 @@ ProductConfiguratorWidget.include({
      * Saves the optional products in the widget for future application
      * post-line configuration.
      *
-     * {OdooEvent ev}
+     * {neozivEvent ev}
      *    {Array} ev.data.optionalProducts the various selected optional products
      *     with their configuration
      *

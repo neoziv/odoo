@@ -1,4 +1,4 @@
-odoo.define("website.tour.snippet_empty_parent_autoremove", function (require) {
+neoziv.define("website.tour.snippet_empty_parent_autoremove", function (require) {
 "use strict";
 
 const tour = require('web_tour.tour');

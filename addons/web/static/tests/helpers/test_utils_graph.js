@@ -1,4 +1,4 @@
-odoo.define('web.test_utils_graph', function () {
+neoziv.define('web.test_utils_graph', function () {
 "use strict";
 
 /**

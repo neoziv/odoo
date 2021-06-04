@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<odoo>
+<neoziv>
 
 <template id="assets_wysiwyg" inherit_id="website.assets_wysiwyg" name="Blog posts snippet options">
     <xpath expr="." position="inside">
@@ -527,4 +527,4 @@ list of filtered posts (by date or tag).
     </p>
 </template>
 
-</odoo>
+</neoziv>

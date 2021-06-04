@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo.addons.event.tests.common import TestEventCommon
-from odoo.addons.sales_team.tests.common import TestSalesCommon
+from neoziv.addons.event.tests.common import TestEventCommon
+from neoziv.addons.sales_team.tests.common import TestSalesCommon
 
 
 class TestEventSaleCommon(TestEventCommon, TestSalesCommon):

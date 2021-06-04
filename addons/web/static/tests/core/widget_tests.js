@@ -1,4 +1,4 @@
-odoo.define('web.widget_tests', function (require) {
+neoziv.define('web.widget_tests', function (require) {
 "use strict";
 
 var AjaxService = require('web.AjaxService');

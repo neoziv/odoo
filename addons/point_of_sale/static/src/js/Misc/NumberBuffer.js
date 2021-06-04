@@ -1,4 +1,4 @@
-odoo.define('point_of_sale.NumberBuffer', function(require) {
+neoziv.define('point_of_sale.NumberBuffer', function(require) {
     'use strict';
 
     const { Component } = owl;

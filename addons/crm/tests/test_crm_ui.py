@@ -1,10 +1,10 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-import odoo.tests
+import neoziv.tests
 
 
-@odoo.tests.tagged('post_install','-at_install')
-class TestUi(odoo.tests.HttpCase):
+@neoziv.tests.tagged('post_install','-at_install')
+class TestUi(neoziv.tests.HttpCase):
 
     def test_01_crm_tour(self):
         self.start_tour("/web", 'crm_tour', login="admin")

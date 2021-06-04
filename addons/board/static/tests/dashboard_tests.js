@@ -1,4 +1,4 @@
-odoo.define('board.dashboard_tests', function (require) {
+neoziv.define('board.dashboard_tests', function (require) {
 "use strict";
 
 var BoardView = require('board.BoardView');

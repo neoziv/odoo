@@ -1,4 +1,4 @@
-odoo.define('crm_iap_lead.generate_leads_steps', function (require) {
+neoziv.define('crm_iap_lead.generate_leads_steps', function (require) {
 "use strict";
 
 var tour = require('web_tour.tour');

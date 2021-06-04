@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo.addons.test_mass_mailing.tests.common import TestMassMailCommon
-from odoo.tests.common import users
-from odoo.tools import mute_logger
+from neoziv.addons.test_mass_mailing.tests.common import TestMassMailCommon
+from neoziv.tests.common import users
+from neoziv.tools import mute_logger
 
 
 class TestMailingTest(TestMassMailCommon):
 
     @users('user_marketing')
-    @mute_logger('odoo.addons.mail.models.mail_render_mixin')
+    @mute_logger('neoziv.addons.mail.models.mail_render_mixin')
     def test_mailing_test_button(self):
         mailing = self.env['mailing.mailing'].create({
             'name': 'TestButton',

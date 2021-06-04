@@ -1,4 +1,4 @@
-odoo.define('point_of_sale.tour.ErrorPopupTourMethods', function (require) {
+neoziv.define('point_of_sale.tour.ErrorPopupTourMethods', function (require) {
     'use strict';
 
     const { createTourMethods } = require('point_of_sale.tour.utils');

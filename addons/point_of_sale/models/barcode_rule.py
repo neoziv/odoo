@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo import models, fields
-from odoo.tools.translate import _
+from neoziv import models, fields
+from neoziv.tools.translate import _
 
 
 class BarcodeRule(models.Model):

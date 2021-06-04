@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import logging
 
-from odoo import api, fields, models, tools, SUPERUSER_ID, _
+from neoziv import api, fields, models, tools, SUPERUSER_ID, _
 
-from odoo.http import request
-from odoo.addons.website.models import ir_http
-from odoo.addons.http_routing.models.ir_http import url_for
+from neoziv.http import request
+from neoziv.addons.website.models import ir_http
+from neoziv.addons.http_routing.models.ir_http import url_for
 
 _logger = logging.getLogger(__name__)
 
@@ -132,7 +132,7 @@ class Website(models.Model):
             if self.env.context.get('website_id'):
                 website = self.browse(self.env.context['website_id'])
             else:
-                # In the weird case we are coming from the backend (https://github.com/odoo/odoo/issues/20245)
+                # In the weird case we are coming from the backend (https://github.com/neoziv/neoziv/issues/20245)
                 website = len(self) == 1 and self or self.search([], limit=1)
         isocountry = req and req.session.geoip and req.session.geoip.get('country_code') or False
         partner = self.env.user.partner_id

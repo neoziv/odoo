@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* website_hr_recruitment
 # 
@@ -15,7 +15,7 @@
 # keecome <7017511@qq.com>, 2020
 # 李赋 <fu792659@163.com>, 2020
 # Fisher <fisher@kdomi.com>, 2020
-# Lisa Zhang <lzh@odoo.com>, 2020
+# Lisa Zhang <lzh@neoziv.com>, 2020
 # snow wang <147156565@qq.com>, 2020
 # Youfu Sheng <wdmsyf@sina.com>, 2020
 # inspur qiuguodong <qiuguodong@inspur.com>, 2020
@@ -25,16 +25,16 @@
 # 稀饭~~ <wangwhai@qq.com>, 2020
 # liAnGjiA <liangjia@qq.com>, 2021
 # 刘群 <liuqun@22tianbo.com>, 2021
-# Mandy Choy <mnc@odoo.com>, 2021
+# Mandy Choy <mnc@neoziv.com>, 2021
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~13.5\n"
+"Project-Id-Version: neoziv Server saas~13.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-01 07:28+0000\n"
 "PO-Revision-Date: 2020-09-07 08:21+0000\n"
-"Last-Translator: Mandy Choy <mnc@odoo.com>, 2021\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"Last-Translator: Mandy Choy <mnc@neoziv.com>, 2021\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/neoziv/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"

@@ -1,4 +1,4 @@
-odoo.define('hr_attendance.kiosk_mode', function (require) {
+neoziv.define('hr_attendance.kiosk_mode', function (require) {
 "use strict";
 
 var AbstractAction = require('web.AbstractAction');

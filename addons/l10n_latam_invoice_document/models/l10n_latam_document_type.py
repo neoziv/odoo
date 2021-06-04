@@ -1,6 +1,6 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-from odoo import fields, models, api
-from odoo.osv import expression
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
+from neoziv import fields, models, api
+from neoziv.osv import expression
 
 
 class L10nLatamDocumentType(models.Model):
@@ -23,7 +23,7 @@ class L10nLatamDocumentType(models.Model):
     report_name = fields.Char('Name on Reports', help='Name that will be printed in reports, for example "CREDIT NOTE"')
     internal_type = fields.Selection(
         [('invoice', 'Invoices'), ('debit_note', 'Debit Notes'), ('credit_note', 'Credit Notes')], index=True,
-        help='Analog to odoo account.move.move_type but with more options allowing to identify the kind of document we are'
+        help='Analog to neoziv account.move.move_type but with more options allowing to identify the kind of document we are'
         ' working with. (not only related to account.move, could be for documents of other models like stock.picking)')
 
     def _format_document_number(self, document_number):

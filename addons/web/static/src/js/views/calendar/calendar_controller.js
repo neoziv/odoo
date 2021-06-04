@@ -1,4 +1,4 @@
-odoo.define('web.CalendarController', function (require) {
+neoziv.define('web.CalendarController', function (require) {
 "use strict";
 
 /**
@@ -218,7 +218,7 @@ var CalendarController = AbstractController.extend({
 
     /**
      * @private
-     * @param {OdooEvent} event
+     * @param {neozivEvent} event
      */
     _onChangeDate: function (event) {
         var modelData = this.model.get();
@@ -241,7 +241,7 @@ var CalendarController = AbstractController.extend({
     },
     /**
      * @private
-     * @param {OdooEvent} event
+     * @param {neozivEvent} event
      */
     _onChangeFilter: function (event) {
         if (this.model.changeFilter(event.data) && !event.data.no_reload) {
@@ -250,7 +250,7 @@ var CalendarController = AbstractController.extend({
     },
     /**
      * @private
-     * @param {OdooEvent} event
+     * @param {neozivEvent} event
      */
     _onDeleteRecord: function (event) {
         var self = this;
@@ -264,7 +264,7 @@ var CalendarController = AbstractController.extend({
     },
     /**
      * @private
-     * @param {OdooEvent} event
+     * @param {neozivEvent} event
      */
     _onDropRecord: function (event) {
         this._updateRecord(_.extend({}, event.data, {
@@ -273,7 +273,7 @@ var CalendarController = AbstractController.extend({
     },
     /**
      * @private
-     * @param {OdooEvent} event
+     * @param {neozivEvent} event
      */
     _onNext: function (event) {
         event.stopPropagation();
@@ -281,7 +281,7 @@ var CalendarController = AbstractController.extend({
     },
     /**
      * @private
-     * @param {OdooEvent} event
+     * @param {neozivEvent} event
      */
     _onOpenCreate: function (event) {
         var self = this;
@@ -364,7 +364,7 @@ var CalendarController = AbstractController.extend({
     },
     /**
      * @private
-     * @param {OdooEvent} event
+     * @param {neozivEvent} event
      */
     _onOpenEvent: function (event) {
         var self = this;
@@ -410,7 +410,7 @@ var CalendarController = AbstractController.extend({
     },
     /**
      * @private
-     * @param {OdooEvent} event
+     * @param {neozivEvent} event
      */
     _onPrev: function () {
         event.stopPropagation();
@@ -421,7 +421,7 @@ var CalendarController = AbstractController.extend({
      * Handles saving data coming from quick create box
      *
      * @private
-     * @param {OdooEvent} event
+     * @param {neozivEvent} event
      */
     _onQuickCreate: function (event) {
         var self = this;
@@ -449,7 +449,7 @@ var CalendarController = AbstractController.extend({
     },
     /**
      * @private
-     * @param {OdooEvent} event
+     * @param {neozivEvent} event
      */
     _onUpdateRecord: function (event) {
         this._updateRecord(event.data);
@@ -459,7 +459,7 @@ var CalendarController = AbstractController.extend({
      * so update the control panel buttons and breadcrumbs accordingly.
      *
      * @private
-     * @param {OdooEvent} event
+     * @param {neozivEvent} event
      */
     _onViewUpdated: function (event) {
         this.mode = event.data.mode;

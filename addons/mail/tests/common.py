@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import email
 import email.policy
@@ -12,14 +12,14 @@ from lxml import html
 from unittest.mock import patch
 from smtplib import SMTPServerDisconnected
 
-from odoo import exceptions
-from odoo.addons.base.models.ir_mail_server import IrMailServer, MailDeliveryException
-from odoo.addons.bus.models.bus import ImBus, json_dump
-from odoo.addons.mail.models.mail_mail import MailMail
-from odoo.addons.mail.models.mail_message import Message
-from odoo.addons.mail.models.mail_notification import MailNotification
-from odoo.tests import common, new_test_user
-from odoo.tools import formataddr, pycompat
+from neoziv import exceptions
+from neoziv.addons.base.models.ir_mail_server import IrMailServer, MailDeliveryException
+from neoziv.addons.bus.models.bus import ImBus, json_dump
+from neoziv.addons.mail.models.mail_mail import MailMail
+from neoziv.addons.mail.models.mail_message import Message
+from neoziv.addons.mail.models.mail_notification import MailNotification
+from neoziv.tests import common, new_test_user
+from neoziv.tools import formataddr, pycompat
 
 mail_new_test_user = partial(new_test_user, context={'mail_create_nolog': True, 'mail_create_nosubscribe': True, 'mail_notrack': True, 'no_reset_password': True})
 

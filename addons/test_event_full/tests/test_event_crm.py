@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo.addons.test_event_full.tests.common import TestEventFullCommon
-from odoo.tests import users
+from neoziv.addons.test_event_full.tests.common import TestEventFullCommon
+from neoziv.tests import users
 
 
 class TestEventCrm(TestEventFullCommon):

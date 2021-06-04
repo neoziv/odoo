@@ -1,8 +1,8 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo.tests.common import HttpSavepointCase
-from odoo.addons.sale_product_configurator.tests.common import TestProductConfiguratorCommon
-from odoo.tests import tagged
+from neoziv.tests.common import HttpSavepointCase
+from neoziv.addons.sale_product_configurator.tests.common import TestProductConfiguratorCommon
+from neoziv.tests import tagged
 
 
 @tagged('post_install', '-at_install')

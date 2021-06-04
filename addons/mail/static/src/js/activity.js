@@ -1,4 +1,4 @@
-odoo.define('mail.Activity', function (require) {
+neoziv.define('mail.Activity', function (require) {
 "use strict";
 
 var mailUtils = require('mail.utils');

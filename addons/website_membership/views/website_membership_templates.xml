@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<odoo>
+<neoziv>
 
 <template id="index" name="Members">
     <t t-call="website.layout">
@@ -136,4 +136,4 @@
     </t>
 </template>
 
-</odoo>
+</neoziv>

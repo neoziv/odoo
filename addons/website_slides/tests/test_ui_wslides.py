@@ -1,12 +1,12 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import base64
 
 from dateutil.relativedelta import relativedelta
-from odoo import tests
-from odoo.fields import Datetime
-from odoo.modules.module import get_module_resource
-from odoo.addons.base.tests.common import HttpCaseWithUserDemo, HttpCaseWithUserPortal
+from neoziv import tests
+from neoziv.fields import Datetime
+from neoziv.modules.module import get_module_resource
+from neoziv.addons.base.tests.common import HttpCaseWithUserDemo, HttpCaseWithUserPortal
 
 
 class TestUICommon(HttpCaseWithUserDemo, HttpCaseWithUserPortal):
@@ -107,8 +107,8 @@ class TestUi(TestUICommon):
 
         self.browser_js(
             '/slides',
-            'odoo.__DEBUG__.services["web_tour.tour"].run("course_member")',
-            'odoo.__DEBUG__.services["web_tour.tour"].tours.course_member.ready',
+            'neoziv.__DEBUG__.services["web_tour.tour"].run("course_member")',
+            'neoziv.__DEBUG__.services["web_tour.tour"].tours.course_member.ready',
             login=user_demo.login)
 
     def test_course_member_elearning_officer(self):
@@ -120,8 +120,8 @@ class TestUi(TestUICommon):
 
         self.browser_js(
             '/slides',
-            'odoo.__DEBUG__.services["web_tour.tour"].run("course_member")',
-            'odoo.__DEBUG__.services["web_tour.tour"].tours.course_member.ready',
+            'neoziv.__DEBUG__.services["web_tour.tour"].run("course_member")',
+            'neoziv.__DEBUG__.services["web_tour.tour"].tours.course_member.ready',
             login=user_demo.login)
 
     def test_course_member_portal(self):
@@ -130,8 +130,8 @@ class TestUi(TestUICommon):
 
         self.browser_js(
             '/slides',
-            'odoo.__DEBUG__.services["web_tour.tour"].run("course_member")',
-            'odoo.__DEBUG__.services["web_tour.tour"].tours.course_member.ready',
+            'neoziv.__DEBUG__.services["web_tour.tour"].run("course_member")',
+            'neoziv.__DEBUG__.services["web_tour.tour"].tours.course_member.ready',
             login=user_portal.login)
 
     def test_full_screen_edition_website_publisher(self):
@@ -144,8 +144,8 @@ class TestUi(TestUICommon):
 
         self.browser_js(
             '/slides',
-            'odoo.__DEBUG__.services["web_tour.tour"].run("full_screen_web_editor")',
-            'odoo.__DEBUG__.services["web_tour.tour"].tours.full_screen_web_editor.ready',
+            'neoziv.__DEBUG__.services["web_tour.tour"].run("full_screen_web_editor")',
+            'neoziv.__DEBUG__.services["web_tour.tour"].tours.full_screen_web_editor.ready',
             login=user_demo.login)
 
 
@@ -163,8 +163,8 @@ class TestUiYoutube(HttpCaseWithUserDemo):
 
         self.browser_js(
             '/slides',
-            'odoo.__DEBUG__.services["web_tour.tour"].run("course_member_youtube")',
-            'odoo.__DEBUG__.services["web_tour.tour"].tours.course_member_youtube.ready',
+            'neoziv.__DEBUG__.services["web_tour.tour"].run("course_member_youtube")',
+            'neoziv.__DEBUG__.services["web_tour.tour"].tours.course_member_youtube.ready',
             login=user_demo.login)
 
     def test_course_publisher_elearning_manager(self):
@@ -176,6 +176,6 @@ class TestUiYoutube(HttpCaseWithUserDemo):
 
         self.browser_js(
             '/slides',
-            'odoo.__DEBUG__.services["web_tour.tour"].run("course_publisher")',
-            'odoo.__DEBUG__.services["web_tour.tour"].tours.course_publisher.ready',
+            'neoziv.__DEBUG__.services["web_tour.tour"].run("course_publisher")',
+            'neoziv.__DEBUG__.services["web_tour.tour"].tours.course_publisher.ready',
             login=user_demo.login)

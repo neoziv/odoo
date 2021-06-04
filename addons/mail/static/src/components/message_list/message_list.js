@@ -1,4 +1,4 @@
-odoo.define('mail/static/src/components/message_list/message_list.js', function (require) {
+neoziv.define('mail/static/src/components/message_list/message_list.js', function (require) {
 'use strict';
 
 const components = {

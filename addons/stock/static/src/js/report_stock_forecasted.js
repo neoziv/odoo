@@ -1,4 +1,4 @@
-odoo.define('stock.ReplenishReport', function (require) {
+neoziv.define('stock.ReplenishReport', function (require) {
 "use strict";
 
 const clientAction = require('report.client_action');

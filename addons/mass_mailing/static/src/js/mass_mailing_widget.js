@@ -1,4 +1,4 @@
-odoo.define('mass_mailing.FieldHtml', function (require) {
+neoziv.define('mass_mailing.FieldHtml', function (require) {
 'use strict';
 
 var config = require('web.config');
@@ -333,7 +333,7 @@ var MassMailingFieldHtml = FieldHtml.extend({
     },
     /**
      * @private
-     * @param {OdooEvent} ev
+     * @param {neozivEvent} ev
      */
     _onSnippetsLoaded: function (ev) {
         var self = this;

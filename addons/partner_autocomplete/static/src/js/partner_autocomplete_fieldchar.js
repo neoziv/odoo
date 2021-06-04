@@ -1,4 +1,4 @@
-odoo.define('partner.autocomplete.fieldchar', function (require) {
+neoziv.define('partner.autocomplete.fieldchar', function (require) {
 'use strict';
 
 var basic_fields = require('web.basic_fields');

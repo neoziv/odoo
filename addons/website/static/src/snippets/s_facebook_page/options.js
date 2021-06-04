@@ -1,4 +1,4 @@
-odoo.define('website.s_facebook_page_options', function (require) {
+neoziv.define('website.s_facebook_page_options', function (require) {
 'use strict';
 
 const options = require('web_editor.snippets.options');
@@ -137,7 +137,7 @@ options.registry.facebookPage = options.Class.extend({
      * @private
      */
     _checkURL: function () {
-        const defaultURL = 'https://www.facebook.com/Odoo';
+        const defaultURL = 'https://www.facebook.com/neoziv';
         const match = this.fbData.href.match(/^(?:https?:\/\/)?(?:www\.)?(?:fb|facebook)\.com\/(?:([\w.]+)|[^/?#]+-([0-9]{15,16}))(?:$|[/?# ])/);
         if (match) {
             // Check if the page exists on Facebook or not

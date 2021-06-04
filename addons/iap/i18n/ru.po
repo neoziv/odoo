@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* iap
 # 
@@ -11,12 +11,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~13.3\n"
+"Project-Id-Version: neoziv Server saas~13.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-21 10:46+0000\n"
 "PO-Revision-Date: 2020-09-07 08:13+0000\n"
 "Last-Translator: Irina Fedulova <istartlin@gmail.com>, 2020\n"
-"Language-Team: Russian (https://www.transifex.com/odoo/teams/41243/ru/)\n"
+"Language-Team: Russian (https://www.transifex.com/neoziv/teams/41243/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -137,7 +137,7 @@ msgstr "Последнее обновление"
 
 #. module: iap
 #: model_terms:ir.ui.view,arch_db:iap.res_config_settings_view_form
-msgid "Odoo IAP"
+msgid "neoziv IAP"
 msgstr ""
 
 #. module: iap
@@ -154,8 +154,8 @@ msgstr "Название услуги"
 #. openerp-web
 #: code:addons/iap/static/src/js/crash_manager.js:0
 #, python-format
-msgid "Start a Trial at Odoo"
-msgstr "Начать испытания в Odoo"
+msgid "Start a Trial at neoziv"
+msgstr "Начать испытания в neoziv"
 
 #. module: iap
 #: code:addons/iap/models/iap.py:0

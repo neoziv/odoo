@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from datetime import date, datetime, timedelta
 
-from odoo.tests.common import Form, SavepointCase
+from neoziv.tests.common import Form, SavepointCase
 
 
 class TestReportsCommon(SavepointCase):

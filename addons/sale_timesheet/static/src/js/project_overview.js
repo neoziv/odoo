@@ -1,4 +1,4 @@
-odoo.define('sale_timesheet.project_overview', function (require) {
+neoziv.define('sale_timesheet.project_overview', function (require) {
     "use strict";
 
     var qweb = require('web.qweb');

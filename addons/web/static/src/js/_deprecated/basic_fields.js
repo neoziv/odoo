@@ -5,7 +5,7 @@
 // Owl Component.
 ////////////////////////////////////////////////////////////////////////////////
 
-odoo.define('web.basic_fields.deprecated', function (require) {
+neoziv.define('web.basic_fields.deprecated', function (require) {
 "use strict";
 
 /**

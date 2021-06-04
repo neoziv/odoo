@@ -1,4 +1,4 @@
-odoo.define('im_livechat/static/src/components/messaging_menu/messaging_menu_tests.js', function (require) {
+neoziv.define('im_livechat/static/src/components/messaging_menu/messaging_menu_tests.js', function (require) {
 'use strict';
 
 const {

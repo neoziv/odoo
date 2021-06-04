@@ -1,0 +1,14 @@
+[Unit]
+Description=neoziv Open Source ERP and CRM
+After=network.target
+
+[Service]
+Type=simple
+User=neoziv
+Group=neoziv
+ExecStart=/usr/bin/neoziv --config /etc/neoziv/neoziv.conf --logfile /var/log/neoziv/neoziv-server.log
+KillMode=mixed
+
+[Install]
+WantedBy=multi-user.target
+

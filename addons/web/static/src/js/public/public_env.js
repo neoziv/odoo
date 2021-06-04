@@ -1,4 +1,4 @@
-odoo.define("web.public_env", function (require) {
+neoziv.define("web.public_env", function (require) {
     "use strict";
 
     /**

@@ -1,4 +1,4 @@
-odoo.define('web.DataExport', function (require) {
+neoziv.define('web.DataExport', function (require) {
 "use strict";
 
 var config = require('web.config');

@@ -1,4 +1,4 @@
-odoo.define('web.PieChart', function (require) {
+neoziv.define('web.PieChart', function (require) {
 "use strict";
 
 /**

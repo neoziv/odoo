@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from unittest.mock import patch
 
-from odoo.addons.mail.tests.common import MailCase, mail_new_test_user
-from odoo.addons.sales_team.tests.common import TestSalesCommon
-from odoo.fields import Datetime
-from odoo import tools
+from neoziv.addons.mail.tests.common import MailCase, mail_new_test_user
+from neoziv.addons.sales_team.tests.common import TestSalesCommon
+from neoziv.fields import Datetime
+from neoziv import tools
 
 INCOMING_EMAIL = """Return-Path: {return_path}
 X-Original-To: {to}
@@ -304,7 +304,7 @@ class TestLeadConvertCommon(TestCrmCommon):
 
         cls.lead_1.write({'date_open': Datetime.from_string('2020-01-15 11:30:00')})
 
-        cls.crm_lead_dt_patcher = patch('odoo.addons.crm.models.crm_lead.fields.Datetime', wraps=Datetime)
+        cls.crm_lead_dt_patcher = patch('neoziv.addons.crm.models.crm_lead.fields.Datetime', wraps=Datetime)
         cls.crm_lead_dt_mock = cls.crm_lead_dt_patcher.start()
 
     @classmethod

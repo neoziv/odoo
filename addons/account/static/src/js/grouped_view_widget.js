@@ -1,4 +1,4 @@
-odoo.define('account.ShowGroupedList', function (require) {
+neoziv.define('account.ShowGroupedList', function (require) {
 "use strict";
 
 const { Component } = owl;

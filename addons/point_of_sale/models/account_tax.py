@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-from odoo import _, api, models
-from odoo.exceptions import UserError
+from neoziv import _, api, models
+from neoziv.exceptions import UserError
 
 
 class AccountTax(models.Model):

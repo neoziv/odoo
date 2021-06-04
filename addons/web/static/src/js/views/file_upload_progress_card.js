@@ -1,4 +1,4 @@
-odoo.define('web.ProgressCard', function (require) {
+neoziv.define('web.ProgressCard', function (require) {
 'use strict';
 
 const { _t } = require('web.core');

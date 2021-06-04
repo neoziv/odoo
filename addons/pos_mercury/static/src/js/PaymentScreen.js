@@ -1,4 +1,4 @@
-odoo.define('pos_mercury.PaymentScreen', function (require) {
+neoziv.define('pos_mercury.PaymentScreen', function (require) {
     'use strict';
 
     const { _t } = require('web.core');
@@ -101,7 +101,7 @@ odoo.define('pos_mercury.PaymentScreen', function (require) {
                         credit: this.credit_code_action,
                     });
                 }
-                // How long we wait for the odoo server to deliver the response of
+                // How long we wait for the neoziv server to deliver the response of
                 // a Vantiv transaction
                 this.server_timeout_in_ms = 95000;
 
@@ -287,7 +287,7 @@ odoo.define('pos_mercury.PaymentScreen', function (require) {
 
                         if (data === 'internal error') {
                             def.resolve({
-                                message: self.env._t('Odoo error while processing transaction.'),
+                                message: self.env._t('neoziv error while processing transaction.'),
                             });
                             return;
                         }
@@ -489,7 +489,7 @@ odoo.define('pos_mercury.PaymentScreen', function (require) {
 
                         if (data === 'internal error') {
                             def.resolve({
-                                message: self.env._t('Odoo error while processing transaction.'),
+                                message: self.env._t('neoziv error while processing transaction.'),
                             });
                             return;
                         }

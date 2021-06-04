@@ -1,4 +1,4 @@
-odoo.define('website.backend.dashboard', function (require) {
+neoziv.define('website.backend.dashboard', function (require) {
 'use strict';
 
 var AbstractAction = require('web.AbstractAction');

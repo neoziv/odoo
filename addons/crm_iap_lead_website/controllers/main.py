@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 import json
 
-from odoo import http
-from odoo.addons.website_form.controllers.main import WebsiteForm
-from odoo.http import request
+from neoziv import http
+from neoziv.addons.website_form.controllers.main import WebsiteForm
+from neoziv.http import request
 
 
 class ContactController(WebsiteForm):

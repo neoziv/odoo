@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-from odoo.exceptions import ValidationError
-from odoo import api, fields, models, _
+from neoziv.exceptions import ValidationError
+from neoziv import api, fields, models, _
 
 
 class ResPartnerBank(models.Model):

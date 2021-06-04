@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* auth_oauth
 # 
@@ -9,12 +9,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~13.3\n"
+"Project-Id-Version: neoziv Server saas~13.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-21 10:46+0000\n"
 "PO-Revision-Date: 2020-09-07 08:10+0000\n"
 "Last-Translator: Alexandros Kapetanios <alexandros@gnugr.org>, 2021\n"
-"Language-Team: Greek (https://www.transifex.com/odoo/teams/41243/el/)\n"
+"Language-Team: Greek (https://www.transifex.com/neoziv/teams/41243/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -151,7 +151,7 @@ msgstr ""
 
 #. module: auth_oauth
 #: model:auth.oauth.provider,body:auth_oauth.provider_openerp
-msgid "Log in with Odoo.com"
+msgid "Log in with neoziv.com"
 msgstr ""
 
 #. module: auth_oauth

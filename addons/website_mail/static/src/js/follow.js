@@ -1,4 +1,4 @@
-odoo.define('website_mail.follow', function (require) {
+neoziv.define('website_mail.follow', function (require) {
 'use strict';
 
 var publicWidget = require('web.public.widget');

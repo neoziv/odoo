@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo.tests import common
-from odoo.addons.hr.tests.common import TestHrCommon
-from odoo.modules.module import get_module_resource
+from neoziv.tests import common
+from neoziv.addons.hr.tests.common import TestHrCommon
+from neoziv.modules.module import get_module_resource
 
 
 class TestRecruitmentProcess(TestHrCommon):

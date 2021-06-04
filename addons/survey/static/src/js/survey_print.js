@@ -1,4 +1,4 @@
-odoo.define('survey.print', function (require) {
+neoziv.define('survey.print', function (require) {
 'use strict';
 
 var publicWidget = require('web.public.widget');

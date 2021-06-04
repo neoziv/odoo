@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import datetime
 import random
 import re
 import werkzeug
 
-from odoo.addons.link_tracker.tests.common import MockLinkTracker
-from odoo.addons.mail.tests.common import MailCase, MailCommon, mail_new_test_user
-from odoo import tools
+from neoziv.addons.link_tracker.tests.common import MockLinkTracker
+from neoziv.addons.mail.tests.common import MailCase, MailCommon, mail_new_test_user
+from neoziv import tools
 
 class MassMailCase(MailCase, MockLinkTracker):
 

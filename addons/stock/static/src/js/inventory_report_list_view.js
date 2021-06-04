@@ -1,4 +1,4 @@
-odoo.define('stock.InventoryReportListView', function (require) {
+neoziv.define('stock.InventoryReportListView', function (require) {
 "use strict";
 
 var ListView = require('web.ListView');

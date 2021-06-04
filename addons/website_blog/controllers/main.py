@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import werkzeug
 import itertools
@@ -7,15 +7,15 @@ import pytz
 import babel.dates
 from collections import OrderedDict
 
-from odoo import http, fields
-from odoo.addons.http_routing.models.ir_http import slug, unslug
-from odoo.addons.website.controllers.main import QueryURL
-from odoo.addons.portal.controllers.portal import _build_url_w_params
-from odoo.http import request
-from odoo.osv import expression
-from odoo.tools import html2plaintext
-from odoo.tools.misc import get_lang
-from odoo.tools import sql
+from neoziv import http, fields
+from neoziv.addons.http_routing.models.ir_http import slug, unslug
+from neoziv.addons.website.controllers.main import QueryURL
+from neoziv.addons.portal.controllers.portal import _build_url_w_params
+from neoziv.http import request
+from neoziv.osv import expression
+from neoziv.tools import html2plaintext
+from neoziv.tools.misc import get_lang
+from neoziv.tools import sql
 
 
 class WebsiteBlog(http.Controller):

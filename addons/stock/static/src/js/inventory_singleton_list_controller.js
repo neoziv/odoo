@@ -1,4 +1,4 @@
-odoo.define('stock.SingletonListController', function (require) {
+neoziv.define('stock.SingletonListController', function (require) {
 "use strict";
 
 var core = require('web.core');

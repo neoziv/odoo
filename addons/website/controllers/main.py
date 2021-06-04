@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 import base64
 import datetime
 import json
@@ -15,15 +15,15 @@ from itertools import islice
 from werkzeug import urls
 from xml.etree import ElementTree as ET
 
-import odoo
+import neoziv
 
-from odoo import http, models, fields, _
-from odoo.http import request
-from odoo.tools import OrderedSet
-from odoo.addons.http_routing.models.ir_http import slug, slugify, _guess_mimetype
-from odoo.addons.web.controllers.main import Binary
-from odoo.addons.portal.controllers.portal import pager as portal_pager
-from odoo.addons.portal.controllers.web import Home
+from neoziv import http, models, fields, _
+from neoziv.http import request
+from neoziv.tools import OrderedSet
+from neoziv.addons.http_routing.models.ir_http import slug, slugify, _guess_mimetype
+from neoziv.addons.web.controllers.main import Binary
+from neoziv.addons.portal.controllers.portal import pager as portal_pager
+from neoziv.addons.portal.controllers.web import Home
 
 logger = logging.getLogger(__name__)
 
@@ -247,7 +247,7 @@ class Website(Home):
         values = {
             'apps': apps,
             'l10n': l10n,
-            'version': odoo.service.common.exp_version()
+            'version': neoziv.service.common.exp_version()
         }
         return request.render('website.website_info', values)
 

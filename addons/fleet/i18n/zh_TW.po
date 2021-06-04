@@ -1,19 +1,19 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* fleet
 # 
 # Translators:
 # 敬雲 林 <chingyun@yuanchih-consult.com>, 2020
-# Mandy Choy <mnc@odoo.com>, 2021
+# Mandy Choy <mnc@neoziv.com>, 2021
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-29 13:45+0000\n"
 "PO-Revision-Date: 2020-09-07 08:12+0000\n"
-"Last-Translator: Mandy Choy <mnc@odoo.com>, 2021\n"
-"Language-Team: Chinese (Taiwan) (https://www.transifex.com/odoo/teams/41243/zh_TW/)\n"
+"Last-Translator: Mandy Choy <mnc@neoziv.com>, 2021\n"
+"Language-Team: Chinese (Taiwan) (https://www.transifex.com/neoziv/teams/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1192,11 +1192,11 @@ msgstr "品牌"
 #: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_log_contract_action
 msgid ""
 "Manage all your contracts (leasing, insurances, etc.) with\n"
-"            their related services, costs. Odoo will automatically warn\n"
+"            their related services, costs. neoziv will automatically warn\n"
 "            you when some contracts have to be renewed."
 msgstr ""
 "管理所有合約（租賃、保險等）及\n"
-" 其相關服務、費用。當某些合約必須續訂時，Odoo 將自動提醒\n"
+" 其相關服務、費用。當某些合約必須續訂時，neoziv 將自動提醒\n"
 " 您。"
 
 #. module: fleet
@@ -1469,10 +1469,10 @@ msgstr ""
 #. module: fleet
 #: model_terms:ir.actions.act_window,help:fleet.fleet_costs_reporting_action
 msgid ""
-"Odoo helps you managing the costs for your different vehicles\n"
+"neoziv helps you managing the costs for your different vehicles\n"
 "          Costs are generally created from services and contract and appears here."
 msgstr ""
-"Odoo能幫您管理不同車輛\n"
+"neoziv能幫您管理不同車輛\n"
 "的費用。費用從服務，合約中產生並顯示在這裡。"
 
 #. module: fleet
@@ -1853,10 +1853,10 @@ msgstr "條款和條件"
 #. module: fleet
 #: model_terms:ir.actions.act_window,help:fleet.fleet_costs_reporting_action
 msgid ""
-"Thanks to the different filters, Odoo can only print the effective\n"
+"Thanks to the different filters, neoziv can only print the effective\n"
 "          costs, sort them by type and by vehicle."
 msgstr ""
-"感謝有不同的篩選，Odoo 能只列印生效\n"
+"感謝有不同的篩選，neoziv 能只列印生效\n"
 "的費用，並且用類型和車輛尋找它們。"
 
 #. module: fleet

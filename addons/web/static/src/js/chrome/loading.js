@@ -1,4 +1,4 @@
-odoo.define('web.Loading', function (require) {
+neoziv.define('web.Loading', function (require) {
 "use strict";
 
 /**

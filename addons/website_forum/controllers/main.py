@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 import json
 import lxml
 import requests
@@ -10,13 +10,13 @@ import werkzeug.wrappers
 
 from datetime import datetime
 
-from odoo import http, tools, _
-from odoo.addons.http_routing.models.ir_http import slug
-from odoo.addons.website.models.ir_http import sitemap_qs2dom
-from odoo.addons.website_profile.controllers.main import WebsiteProfile
-from odoo.addons.portal.controllers.portal import _build_url_w_params
+from neoziv import http, tools, _
+from neoziv.addons.http_routing.models.ir_http import slug
+from neoziv.addons.website.models.ir_http import sitemap_qs2dom
+from neoziv.addons.website_profile.controllers.main import WebsiteProfile
+from neoziv.addons.portal.controllers.portal import _build_url_w_params
 
-from odoo.http import request
+from neoziv.http import request
 
 _logger = logging.getLogger(__name__)
 

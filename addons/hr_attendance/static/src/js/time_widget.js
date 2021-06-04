@@ -1,4 +1,4 @@
-odoo.define('hr_attendance.widget', function (require) {
+neoziv.define('hr_attendance.widget', function (require) {
     "use strict";
 
     var basic_fields = require('web.basic_fields');

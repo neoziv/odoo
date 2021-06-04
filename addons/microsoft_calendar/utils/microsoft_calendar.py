@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import requests
 import json
@@ -7,9 +7,9 @@ import logging
 
 from werkzeug import urls
 
-from odoo import api, _
-from odoo.addons.microsoft_calendar.utils.microsoft_event import MicrosoftEvent
-from odoo.addons.microsoft_account.models.microsoft_service import TIMEOUT
+from neoziv import api, _
+from neoziv.addons.microsoft_calendar.utils.microsoft_event import MicrosoftEvent
+from neoziv.addons.microsoft_account.models.microsoft_service import TIMEOUT
 
 
 _logger = logging.getLogger(__name__)
@@ -98,7 +98,7 @@ class MicrosoftCalendarService():
     def _get_calendar_scope(self):
         return 'offline_access openid Calendars.ReadWrite'
 
-    def _microsoft_authentication_url(self, from_url='http://www.odoo.com'):
+    def _microsoft_authentication_url(self, from_url='http://www.neoziv.com'):
         return self.microsoft_service._get_authorize_uri(from_url, service='calendar', scope=self._get_calendar_scope())
 
     def _can_authorize_microsoft(self, user):

@@ -1,4 +1,4 @@
-odoo.define('mail.ActivityView', function (require) {
+neoziv.define('mail.ActivityView', function (require) {
 "use strict";
 
 const ActivityController = require('mail.ActivityController');

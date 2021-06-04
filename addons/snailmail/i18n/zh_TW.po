@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* snailmail
 # 
@@ -7,12 +7,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-17 10:35+0000\n"
 "PO-Revision-Date: 2020-09-07 08:19+0000\n"
 "Last-Translator: 敬雲 林 <chingyun@yuanchih-consult.com>, 2020\n"
-"Language-Team: Chinese (Taiwan) (https://www.transifex.com/odoo/teams/41243/zh_TW/)\n"
+"Language-Team: Chinese (Taiwan) (https://www.transifex.com/neoziv/teams/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -731,8 +731,8 @@ msgstr ""
 #, python-format
 msgid ""
 "You don't have an IAP account registered for this service.<br>Please go to "
-"<a href=%s target=\"new\">iap.odoo.com</a> to claim your free credits."
-msgstr "您沒有為此服務註冊的IAP帳戶。<br>請訪問<a href=%s target=\"new\">iap.odoo.com</a>以獲得免費信用。"
+"<a href=%s target=\"new\">iap.neoziv.com</a> to claim your free credits."
+msgstr "您沒有為此服務註冊的IAP帳戶。<br>請訪問<a href=%s target=\"new\">iap.neoziv.com</a>以獲得免費信用。"
 
 #. module: snailmail
 #: code:addons/snailmail/models/snailmail_letter.py:0

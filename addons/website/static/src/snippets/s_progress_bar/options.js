@@ -1,4 +1,4 @@
-odoo.define('website.s_progress_bar_options', function (require) {
+neoziv.define('website.s_progress_bar_options', function (require) {
 'use strict';
 
 const core = require('web.core');

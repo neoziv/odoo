@@ -1,4 +1,4 @@
-odoo.define('pos_restaurant.PaymentInterface', function (require) {
+neoziv.define('pos_restaurant.PaymentInterface', function (require) {
     "use strict";
 
     var PaymentInterface = require('point_of_sale.PaymentInterface');

@@ -1,4 +1,4 @@
-odoo.define('web_editor.wysiwyg.multizone', function (require) {
+neoziv.define('web_editor.wysiwyg.multizone', function (require) {
 'use strict';
 
 var Wysiwyg = require('web_editor.wysiwyg');
@@ -37,7 +37,7 @@ function toggleDropdown($toggles, show) {
 /**
  * HtmlEditor
  * Intended to edit HTML content. This widget uses the Wysiwyg editor
- * improved by odoo.
+ * improved by neoziv.
  *
  * class editable: o_editable
  * class non editable: o_not_editable

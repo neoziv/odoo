@@ -5,9 +5,9 @@ from dateutil.relativedelta import relativedelta
 from unittest.mock import patch
 
 import time
-from odoo.addons.membership.tests.common import TestMembershipCommon
-from odoo.tests import tagged
-from odoo import fields
+from neoziv.addons.membership.tests.common import TestMembershipCommon
+from neoziv.tests import tagged
+from neoziv import fields
 
 
 @tagged('post_install', '-at_install')

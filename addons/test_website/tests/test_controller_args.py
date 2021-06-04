@@ -1,9 +1,9 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-import odoo.tests
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
+import neoziv.tests
 
 
-@odoo.tests.common.tagged('post_install', '-at_install')
-class TestWebsiteControllerArgs(odoo.tests.HttpCase):
+@neoziv.tests.common.tagged('post_install', '-at_install')
+class TestWebsiteControllerArgs(neoziv.tests.HttpCase):
 
     def test_crawl_args(self):
         req = self.url_open('/ignore_args/converter/valueA/?b=valueB&c=valueC')

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import datetime
 import json
@@ -8,9 +8,9 @@ import werkzeug
 from dateutil.relativedelta import relativedelta
 from werkzeug.exceptions import NotFound
 
-from odoo import fields, http
-from odoo.http import request
-from odoo.tools import is_html_empty
+from neoziv import fields, http
+from neoziv.http import request
+from neoziv.tools import is_html_empty
 
 
 class UserInputSession(http.Controller):

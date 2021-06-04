@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
-from odoo import api, fields, models, _
-from odoo.tools import float_compare, float_is_zero
-from odoo.osv.expression import get_unaccent_wrapper
-from odoo.exceptions import UserError, ValidationError
+from neoziv import api, fields, models, _
+from neoziv.tools import float_compare, float_is_zero
+from neoziv.osv.expression import get_unaccent_wrapper
+from neoziv.exceptions import UserError, ValidationError
 import re
 from math import copysign
 import itertools

@@ -1,29 +1,29 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* payment
 # 
 # Translators:
 # dd5cd5bab88c61e9dedf84f5ea59b147, 2020
 # Andreas Perhab <a.perhab@wtioit.at>, 2020
-# Johannes Croe <jcr@odoo.com>, 2020
-# Patrick Heuel <patrick.heuel@odoo-bs.com>, 2020
-# Kevin Harrings <kha@odoo.com>, 2020
+# Johannes Croe <jcr@neoziv.com>, 2020
+# Patrick Heuel <patrick.heuel@neoziv-bs.com>, 2020
+# Kevin Harrings <kha@neoziv.com>, 2020
 # Wolfgang Taferner, 2020
-# Leon Grill <leg@odoo.com>, 2020
+# Leon Grill <leg@neoziv.com>, 2020
 # Chris Egal <sodaswed@web.de>, 2020
-# JEK Odoo <jek@odoo.com>, 2020
+# JEK neoziv <jek@neoziv.com>, 2020
 # Felix Schubert <felix.schubert@go-erp.com>, 2020
 # Martin Trigaux, 2020
 # Andreas Schmidt <schmigo@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:12+0000\n"
 "PO-Revision-Date: 2020-09-07 08:15+0000\n"
 "Last-Translator: Andreas Schmidt <schmigo@gmail.com>, 2021\n"
-"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Language-Team: German (https://www.transifex.com/neoziv/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -464,8 +464,8 @@ msgstr "Transaktion erfassen"
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer__capture_manually
-msgid "Capture the amount from Odoo, when the delivery is completed."
-msgstr "Anzahl von Odoo erfassen, sobald die Lieferung abgeschlossen ist."
+msgid "Capture the amount from neoziv, when the delivery is completed."
+msgstr "Anzahl von neoziv erfassen, sobald die Lieferung abgeschlossen ist."
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_acquirer_onboarding_wizard_form
@@ -634,9 +634,9 @@ msgid "Credit Card (powered by Ingenico)"
 msgstr "Kreditkarte (powered by Ingenico)"
 
 #. module: payment
-#: model:payment.acquirer,display_as:payment.payment_acquirer_odoo_by_adyen
-msgid "Credit Card (powered by Odoo Payments)"
-msgstr "Kreditkarte (powered by Odoo Payments)"
+#: model:payment.acquirer,display_as:payment.payment_acquirer_neoziv_by_adyen
+msgid "Credit Card (powered by neoziv Payments)"
+msgstr "Kreditkarte (powered by neoziv Payments)"
 
 #. module: payment
 #: model:payment.acquirer,display_as:payment.payment_acquirer_payulatam
@@ -1100,13 +1100,13 @@ msgstr "Manuell"
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer__inbound_payment_method_ids
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Odoo.\n"
+"Manual: Get paid by cash, check or any other method outside of neoziv.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in neoziv,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
 msgstr ""
-"Manuell: Lassen Sie sich per Bargeld, Scheck oder über eine andere Methode außerhalb von Odoo bezahlen.\n"
+"Manuell: Lassen Sie sich per Bargeld, Scheck oder über eine andere Methode außerhalb von neoziv bezahlen.\n"
 "Elektronisch: Lassen Sie sich automatisch durch einen Zahlungs-Akquierer bezahlen, indem Sie eine Transaktion auf einer Karte anfordern, die vom Kunden gespeichert wird, wenn dieser online einen Kauf oder ein Abonnement tätigt (Zahlungs-Token).\n"
-"Batch Deposit: Über ein Batch Deposit, das an Ihre Bank gesendet wird, können Sie mehrere Kunden-Schecks auf einmal entgegennehmen. Wenn Sie den Bankauszug auf Odoo kodieren, sollten Sie die Transaktion mit dem Batch Deposit abgleichen. Diese Option aktivieren Sie aus den Einstellungen."
+"Batch Deposit: Über ein Batch Deposit, das an Ihre Bank gesendet wird, können Sie mehrere Kunden-Schecks auf einmal entgegennehmen. Wenn Sie den Bankauszug auf neoziv kodieren, sollten Sie die Transaktion mit dem Batch Deposit abgleichen. Diese Option aktivieren Sie aus den Einstellungen."
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_onboarding_wizard__paypal_seller_account
@@ -1249,13 +1249,13 @@ msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer__module_to_buy
-msgid "Odoo Enterprise Module"
-msgstr "Odoo Enterprise Module"
+msgid "neoziv Enterprise Module"
+msgstr "neoziv Enterprise Module"
 
 #. module: payment
-#: model:payment.acquirer,name:payment.payment_acquirer_odoo_by_adyen
-msgid "Odoo Payments by Adyen"
-msgstr "Odoo-Zahlungen von Adyen"
+#: model:payment.acquirer,name:payment.payment_acquirer_neoziv_by_adyen
+msgid "neoziv Payments by Adyen"
+msgstr "neoziv-Zahlungen von Adyen"
 
 #. module: payment
 #. openerp-web
@@ -1449,8 +1449,8 @@ msgstr "Assistent für die Zahlungserfassung Onboarding"
 
 #. module: payment
 #: model:ir.model.fields.selection,name:payment.selection__payment_acquirer__payment_flow__s2s
-msgid "Payment from Odoo"
-msgstr "Zahlung aus Odoo"
+msgid "Payment from neoziv"
+msgstr "Zahlung aus neoziv"
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.onboarding_payment_acquirer_step
@@ -1952,8 +1952,8 @@ msgstr "Typ"
 #. openerp-web
 #: code:addons/payment/static/src/xml/payment_processing.xml:0
 #, python-format
-msgid "Unable to contact the Odoo server."
-msgstr "Es kann keine Verbindung zum Odoo-Server hergestellt werden."
+msgid "Unable to contact the neoziv server."
+msgstr "Es kann keine Verbindung zum neoziv-Server hergestellt werden."
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.acquirer_form
@@ -2133,7 +2133,7 @@ msgstr "Ihre Bestellung wird bearbeitet, bitte warten ..."
 #: model_terms:payment.acquirer,auth_msg:payment.payment_acquirer_authorize
 #: model_terms:payment.acquirer,auth_msg:payment.payment_acquirer_buckaroo
 #: model_terms:payment.acquirer,auth_msg:payment.payment_acquirer_ingenico
-#: model_terms:payment.acquirer,auth_msg:payment.payment_acquirer_odoo_by_adyen
+#: model_terms:payment.acquirer,auth_msg:payment.payment_acquirer_neoziv_by_adyen
 #: model_terms:payment.acquirer,auth_msg:payment.payment_acquirer_paypal
 #: model_terms:payment.acquirer,auth_msg:payment.payment_acquirer_payu
 #: model_terms:payment.acquirer,auth_msg:payment.payment_acquirer_payulatam
@@ -2152,7 +2152,7 @@ msgstr "Ihre Zahlung wurde genehmigt."
 #: model_terms:payment.acquirer,cancel_msg:payment.payment_acquirer_authorize
 #: model_terms:payment.acquirer,cancel_msg:payment.payment_acquirer_buckaroo
 #: model_terms:payment.acquirer,cancel_msg:payment.payment_acquirer_ingenico
-#: model_terms:payment.acquirer,cancel_msg:payment.payment_acquirer_odoo_by_adyen
+#: model_terms:payment.acquirer,cancel_msg:payment.payment_acquirer_neoziv_by_adyen
 #: model_terms:payment.acquirer,cancel_msg:payment.payment_acquirer_paypal
 #: model_terms:payment.acquirer,cancel_msg:payment.payment_acquirer_payu
 #: model_terms:payment.acquirer,cancel_msg:payment.payment_acquirer_payulatam
@@ -2178,7 +2178,7 @@ msgstr "Ihre Zahlung wurde empfangen, muss jedoch manuell bestätigt werden."
 #: model_terms:payment.acquirer,pending_msg:payment.payment_acquirer_authorize
 #: model_terms:payment.acquirer,pending_msg:payment.payment_acquirer_buckaroo
 #: model_terms:payment.acquirer,pending_msg:payment.payment_acquirer_ingenico
-#: model_terms:payment.acquirer,pending_msg:payment.payment_acquirer_odoo_by_adyen
+#: model_terms:payment.acquirer,pending_msg:payment.payment_acquirer_neoziv_by_adyen
 #: model_terms:payment.acquirer,pending_msg:payment.payment_acquirer_paypal
 #: model_terms:payment.acquirer,pending_msg:payment.payment_acquirer_payu
 #: model_terms:payment.acquirer,pending_msg:payment.payment_acquirer_payulatam
@@ -2199,7 +2199,7 @@ msgstr ""
 #: model_terms:payment.acquirer,done_msg:payment.payment_acquirer_authorize
 #: model_terms:payment.acquirer,done_msg:payment.payment_acquirer_buckaroo
 #: model_terms:payment.acquirer,done_msg:payment.payment_acquirer_ingenico
-#: model_terms:payment.acquirer,done_msg:payment.payment_acquirer_odoo_by_adyen
+#: model_terms:payment.acquirer,done_msg:payment.payment_acquirer_neoziv_by_adyen
 #: model_terms:payment.acquirer,done_msg:payment.payment_acquirer_paypal
 #: model_terms:payment.acquirer,done_msg:payment.payment_acquirer_payu
 #: model_terms:payment.acquirer,done_msg:payment.payment_acquirer_payulatam

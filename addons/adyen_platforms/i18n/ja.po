@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* adyen_platforms
 # 
@@ -15,12 +15,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 15:42+0000\n"
 "PO-Revision-Date: 2020-11-16 13:49+0000\n"
 "Last-Translator: Noma Yuki, 2020\n"
-"Language-Team: Japanese (https://www.transifex.com/odoo/teams/41243/ja/)\n"
+"Language-Team: Japanese (https://www.transifex.com/neoziv/teams/41243/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1125,7 +1125,7 @@ msgstr "支払いが行われる銀行口座。空白のままにすると、銀
 msgid ""
 "The payment processing services ordered by you by placing this order will be\n"
 "            provided to you by Adyen N.V. (hereafter “Processor”), with which you are\n"
-"            entering into a direct agreement by confirming this order. Odoo S.A.\n"
+"            entering into a direct agreement by confirming this order. neoziv S.A.\n"
 "            (hereafter “We /Us”) will assist and support you in your use of the services to be\n"
 "            provided by the Processor and we will provide you first line assistance with and\n"
 "            enable you to connect to the systems of Processor to be able to use its services.\n"
@@ -1135,7 +1135,7 @@ msgid ""
 msgstr ""
 "この注文によりお客様が注文した支払い処理サービスは、\n"
 "Adyen N.V.（以下「プロセッサー」）から提供されたもので、\n"
-"この注文を確定して直接契約が結ばれます。 Odoo S.A.\n"
+"この注文を確定して直接契約が結ばれます。 neoziv S.A.\n"
 "（以下「当社/当社」）は、お客様によるサービスの使用を支援およびサポートします。\n"
 "プロセッサーによって提供され、私たちはあなたに第一線の支援を提供します\n"
 "プロセッサのシステムに接続して、そのサービスを使用できるようにします。\n"

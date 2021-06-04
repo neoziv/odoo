@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<odoo>
+<neoziv>
     <record id="event_type_view_form_inherit_question" model="ir.ui.view">
         <field name="name">event.type.view.form.inherit.question</field>
         <field name="model">event.type</field>
@@ -81,4 +81,4 @@
         </data>
         </field>
     </record>
-</odoo>
+</neoziv>

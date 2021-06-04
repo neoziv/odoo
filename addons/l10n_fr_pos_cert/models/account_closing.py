@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 from datetime import datetime, timedelta
 
-from odoo import models, api, fields
-from odoo.fields import Datetime as FieldDateTime
-from odoo.tools.translate import _
-from odoo.exceptions import UserError
-from odoo.osv.expression import AND
+from neoziv import models, api, fields
+from neoziv.fields import Datetime as FieldDateTime
+from neoziv.tools.translate import _
+from neoziv.exceptions import UserError
+from neoziv.osv.expression import AND
 
 
 class AccountClosing(models.Model):
@@ -119,7 +119,7 @@ class AccountClosing(models.Model):
         @param {recordset} company: the company for which the closing is done
         @return {dict} the theoretical date from which account move lines are fetched.
             date_stop date to which the move lines are fetched, always now()
-            the dates are in their Odoo Database string representation
+            the dates are in their neoziv Database string representation
         """
         date_stop = datetime.utcnow()
         interval_from = None

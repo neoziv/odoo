@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Notes',
     'version': '1.0',
     'category': 'Productivity/Notes',
     'description': "",
-    'website': 'https://www.odoo.com/page/notes',
+    'website': 'https://www.neoziv.com/page/notes',
     'summary': 'Organize your work with memos',
     'sequence': 260,
     'depends': [

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<odoo>
+<neoziv>
 
     <record id="account_journal_dashboard_kanban_view_inherit_hr_expense" model="ir.ui.view">
         <field name="name">account.journal.dashboard.kanban</field>
@@ -21,4 +21,4 @@
         </field>
     </record>
 
-</odoo>
+</neoziv>

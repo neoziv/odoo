@@ -1,4 +1,4 @@
-odoo.define('website_slides.quiz.finish', function (require) {
+neoziv.define('website_slides.quiz.finish', function (require) {
 'use strict';
 
 var Dialog = require('web.Dialog');

@@ -1,10 +1,10 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-import odoo.tests
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
+import neoziv.tests
 import lxml
 
 
-@odoo.tests.common.tagged('post_install', '-at_install')
-class TestIsMultiLang(odoo.tests.HttpCase):
+@neoziv.tests.common.tagged('post_install', '-at_install')
+class TestIsMultiLang(neoziv.tests.HttpCase):
 
     def test_01_is_multilang_url(self):
         website = self.env['website'].search([], limit=1)

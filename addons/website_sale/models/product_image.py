@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, fields, models, tools, _
-from odoo.exceptions import ValidationError
+from neoziv import api, fields, models, tools, _
+from neoziv.exceptions import ValidationError
 
-from odoo.addons.website.tools import get_video_embed_code
+from neoziv.addons.website.tools import get_video_embed_code
 
 
 class ProductImage(models.Model):

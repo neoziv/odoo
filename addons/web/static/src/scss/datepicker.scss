@@ -47,13 +47,13 @@ div.dropdown-menu.bootstrap-datetimepicker-widget{
     .table-sm {
         > thead {
             color: white;
-            background-color: $o-brand-odoo;
+            background-color: $o-brand-neoziv;
 
             > tr {
                 &:first-child {
                     th:hover {
                         color: white;
-                        background-color: darken($o-brand-odoo, 10%);
+                        background-color: darken($o-brand-neoziv, 10%);
                     }
                 }
 

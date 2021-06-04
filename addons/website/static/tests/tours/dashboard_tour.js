@@ -1,4 +1,4 @@
-odoo.define("website.tour.backend_dashboard", function (require) {
+neoziv.define("website.tour.backend_dashboard", function (require) {
 "use strict";
 
 var tour = require("web_tour.tour");

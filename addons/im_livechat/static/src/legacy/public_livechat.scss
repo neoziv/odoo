@@ -40,7 +40,7 @@ $o-mail-thread-window-zindex: $zindex-modal + 1 !default;
         padding: $o-mail-chatter-gap*0.5 $o-mail-chatter-gap;
         border-radius: 3px 3px 0 0;
         border-bottom: 1px solid gray('300');
-        background-color: $o-brand-odoo;
+        background-color: $o-brand-neoziv;
         padding: 8px;
 
         @include media-breakpoint-down(sm) {
@@ -176,7 +176,7 @@ $o-mail-thread-window-zindex: $zindex-modal + 1 !default;
                 border-top: 1px solid white;
             }
             &:hover {
-                background-color: darken($o-brand-odoo, 10%);
+                background-color: darken($o-brand-neoziv, 10%);
             }
         }
     }
@@ -254,14 +254,14 @@ $o-mail-thread-window-zindex: $zindex-modal + 1 !default;
 
     .o_thread_new_messages_separator {
         margin-bottom: 15px;
-        border-bottom: solid lighten($o-brand-odoo, 15%) 1px;
+        border-bottom: solid lighten($o-brand-neoziv, 15%) 1px;
         text-align: right;
         .o_thread_separator_label {
             position: relative;
             top: 8px;
             padding: 0 10px;
             background: white;
-            color: lighten($o-brand-odoo, 15%);
+            color: lighten($o-brand-neoziv, 15%);
             font-size: smaller;
         }
     }
@@ -383,7 +383,7 @@ $o-mail-thread-window-zindex: $zindex-modal + 1 !default;
                 color: gray;
             }
 
-            [summary~=o_mail_notification] { // name conflicts with channel notifications, but is odoo notification buttons to hide in chatter if present
+            [summary~=o_mail_notification] { // name conflicts with channel notifications, but is neoziv notification buttons to hide in chatter if present
                 display: none;
             }
 

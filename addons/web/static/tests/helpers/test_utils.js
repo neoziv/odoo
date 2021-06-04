@@ -1,4 +1,4 @@
-odoo.define('web.test_utils', async function (require) {
+neoziv.define('web.test_utils', async function (require) {
     "use strict";
 
     /**

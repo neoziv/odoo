@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo import _
-from odoo.http import route, request
-from odoo.osv import expression
-from odoo.addons.mass_mailing.controllers.main import MassMailController
+from neoziv import _
+from neoziv.http import route, request
+from neoziv.osv import expression
+from neoziv.addons.mass_mailing.controllers.main import MassMailController
 
 
 class MassMailController(MassMailController):

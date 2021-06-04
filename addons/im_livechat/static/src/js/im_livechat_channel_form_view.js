@@ -1,4 +1,4 @@
-odoo.define('im_livechat.ImLivechatChannelFormView', function (require) {
+neoziv.define('im_livechat.ImLivechatChannelFormView', function (require) {
 "use strict";
 
 const ImLivechatChannelFormController = require('im_livechat.ImLivechatChannelFormController');

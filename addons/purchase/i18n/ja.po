@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* purchase
 # 
@@ -24,12 +24,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 13:50+0000\n"
 "PO-Revision-Date: 2020-09-07 08:17+0000\n"
 "Last-Translator: Noma Yuki, 2021\n"
-"Language-Team: Japanese (https://www.transifex.com/odoo/teams/41243/ja/)\n"
+"Language-Team: Japanese (https://www.transifex.com/neoziv/teams/41243/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -2869,9 +2869,9 @@ msgid ""
 "Vendors bills can be pre-generated based on purchase\n"
 "                    orders or receipts. This allows you to control bills\n"
 "                    you receive from your vendor according to the draft\n"
-"                    document in Odoo."
+"                    document in neoziv."
 msgstr ""
-"仕入先請求書は、発注書または領収書に基づいて事前に生成できます。これにより、Odooのドラフト文書に従って、ベンダーから受け取る請求書を管理できます。"
+"仕入先請求書は、発注書または領収書に基づいて事前に生成できます。これにより、neozivのドラフト文書に従って、ベンダーから受け取る請求書を管理できます。"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__volume
@@ -2942,21 +2942,21 @@ msgid ""
 "When creating a purchase order, have a look at the vendor's <i>On Time "
 "Delivery</i> rate: the percentage of products shipped on time. If it is too "
 "low, activate the <i>automated reminders</i>. A few days before the due "
-"shipment, Odoo will send the vendor an email to ask confirmation of shipment"
+"shipment, neoziv will send the vendor an email to ask confirmation of shipment"
 " dates and keep you informed in case of any delays. To get the vendor's "
 "performance statistics, click on the OTD rate."
 msgstr ""
-"注文書を作成するときは、ベンダーの<i>納期厳守</i>率(<i>納期</i>どおりに出荷された製品の割合)を確認してください。低すぎる場合は、<i>自動リマインダーを</i>有効<i>にします</i>。出荷予定日の数日前に、Odooはベンダーに電子メールを送信して、出荷日の確認を求め、遅延が発生した場合に通知します。ベンダーのパフォーマンス統計を取得するには、OTDレートをクリックします。"
+"注文書を作成するときは、ベンダーの<i>納期厳守</i>率(<i>納期</i>どおりに出荷された製品の割合)を確認してください。低すぎる場合は、<i>自動リマインダーを</i>有効<i>にします</i>。出荷予定日の数日前に、neozivはベンダーに電子メールを送信して、出荷日の確認を求め、遅延が発生した場合に通知します。ベンダーのパフォーマンス統計を取得するには、OTDレートをクリックします。"
 
 #. module: purchase
 #: model_terms:digest.tip,tip_description:purchase.digest_tip_purchase_1
 msgid ""
-"When sending a purchase order by email, Odoo asks the vendor to acknowledge "
+"When sending a purchase order by email, neoziv asks the vendor to acknowledge "
 "the reception of the order. When the vendor acknowledges the order by "
 "clicking on a button in the email, the information is added on the purchase "
 "order. Use filters to track orders that have not been acknowledged."
 msgstr ""
-"電子メールで注文書を送信する場合、Odooはベンダーに注文の受領を確認するように依頼します。ベンダーが電子メールのボタンをクリックして注文を確認すると、その情報が注文書に追加されます。フィルタを使用して、確認されていない注文を追跡します。"
+"電子メールで注文書を送信する場合、neozivはベンダーに注文の受領を確認するように依頼します。ベンダーが電子メールのボタンをクリックして注文を確認すると、その情報が注文書に追加されます。フィルタを使用して、確認されていない注文を追跡します。"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.mail_notification_confirm

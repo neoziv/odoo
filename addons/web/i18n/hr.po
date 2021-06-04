@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* web
 # 
@@ -19,12 +19,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-25 10:30+0000\n"
 "PO-Revision-Date: 2020-09-07 08:19+0000\n"
 "Last-Translator: Bole <bole@dajmi5.com>, 2021\n"
-"Language-Team: Croatian (https://www.transifex.com/odoo/teams/41243/hr/)\n"
+"Language-Team: Croatian (https://www.transifex.com/neoziv/teams/41243/hr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1998,8 +1998,8 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
-msgid "Get this feature and much more with Odoo Enterprise!"
-msgstr "Omogućite ovo svojstvo i puno više sa Odoo Enterprize!"
+msgid "Get this feature and much more with neoziv Enterprise!"
+msgstr "Omogućite ovo svojstvo i puno više sa neoziv Enterprize!"
 
 #. module: web
 #. openerp-web
@@ -2588,8 +2588,8 @@ msgstr "Višelinijski tekst"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
-msgid "My Odoo.com account"
-msgstr "Moj Odoo.com račun"
+msgid "My neoziv.com account"
+msgstr "Moj neoziv.com račun"
 
 #. module: web
 #. openerp-web
@@ -2783,15 +2783,15 @@ msgstr "Objekt:"
 #: code:addons/web/static/src/js/core/dialog.js:0
 #: model_terms:ir.ui.view,arch_db:web.brand_promotion_message
 #, python-format
-msgid "Odoo"
-msgstr "Odoo"
+msgid "neoziv"
+msgstr "neoziv"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/apps.js:0
 #, python-format
-msgid "Odoo Apps will be available soon"
-msgstr "Odoo Apps će uskoro biti dostupan"
+msgid "neoziv Apps will be available soon"
+msgstr "neoziv Apps će uskoro biti dostupan"
 
 #. module: web
 #. openerp-web
@@ -2800,36 +2800,36 @@ msgstr "Odoo Apps će uskoro biti dostupan"
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Odoo Client Error"
-msgstr "Odoo klijentska greška"
+msgid "neoziv Client Error"
+msgstr "neoziv klijentska greška"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/fields/upgrade_fields.js:0
 #, python-format
-msgid "Odoo Enterprise"
-msgstr "Odoo Enterprise"
+msgid "neoziv Enterprise"
+msgstr "neoziv Enterprise"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Odoo Error"
-msgstr "Odoo greška"
+msgid "neoziv Error"
+msgstr "neoziv greška"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Odoo Session Expired"
-msgstr "Odoo sesija istekla"
+msgid "neoziv Session Expired"
+msgstr "neoziv sesija istekla"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Odoo Warning"
-msgstr "Odoo upozorenje"
+msgid "neoziv Warning"
+msgstr "neoziv upozorenje"
 
 #. module: web
 #. openerp-web
@@ -3180,8 +3180,8 @@ msgstr ""
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Odoo</span>"
-msgstr "Podržano od <span>Odoo</span>"
+msgid "Powered by <span>neoziv</span>"
+msgstr "Podržano od <span>neoziv</span>"
 
 #. module: web
 #. openerp-web
@@ -4637,7 +4637,7 @@ msgstr ""
 #: code:addons/web/static/src/js/chrome/action_manager_report.js:0
 #, python-format
 msgid ""
-"You need to start Odoo with at least two workers to print a pdf version of "
+"You need to start neoziv with at least two workers to print a pdf version of "
 "the reports."
 msgstr ""
 
@@ -4655,7 +4655,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Your Odoo session expired. The current page is about to be refreshed."
+msgid "Your neoziv session expired. The current page is about to be refreshed."
 msgstr ""
 
 #. module: web

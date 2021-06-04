@@ -1,7 +1,7 @@
-odoo.define('web.PivotController', function (require) {
+neoziv.define('web.PivotController', function (require) {
     "use strict";
     /**
-     * Odoo Pivot Table Controller
+     * neoziv Pivot Table Controller
      *
      * This class is the Controller for the pivot table view.  It has to coordinate
      * the actions coming from the search view (through the update method), from
@@ -209,7 +209,7 @@ odoo.define('web.PivotController', function (require) {
         /**
          *
          * @private
-         * @param {OdooEvent} ev
+         * @param {neozivEvent} ev
          */
         _onCloseGroup: function (ev) {
             this.model.closeGroup(ev.data.groupId, ev.data.type);

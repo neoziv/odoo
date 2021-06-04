@@ -1,4 +1,4 @@
-odoo.define('mail/static/src/components/activity/activity.js', function (require) {
+neoziv.define('mail/static/src/components/activity/activity.js', function (require) {
 'use strict';
 
 const components = {

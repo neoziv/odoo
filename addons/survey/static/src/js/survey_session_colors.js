@@ -1,4 +1,4 @@
-odoo.define('survey.session_colors', function (require) {
+neoziv.define('survey.session_colors', function (require) {
 'use strict';
 
 /**

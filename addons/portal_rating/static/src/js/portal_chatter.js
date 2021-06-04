@@ -1,4 +1,4 @@
-odoo.define('rating.portal.chatter', function (require) {
+neoziv.define('rating.portal.chatter', function (require) {
 'use strict';
 
 var core = require('web.core');

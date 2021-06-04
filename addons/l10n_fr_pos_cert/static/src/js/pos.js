@@ -1,4 +1,4 @@
-odoo.define('l10n_fr_pos_cert.pos', function (require) {
+neoziv.define('l10n_fr_pos_cert.pos', function (require) {
 "use strict";
 
 const { Gui } = require('point_of_sale.Gui');

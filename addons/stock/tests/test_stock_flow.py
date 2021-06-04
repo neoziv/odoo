@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 
-from odoo.addons.stock.tests.common import TestStockCommon
-from odoo.tests import Form
-from odoo.tools import mute_logger, float_round
-from odoo.exceptions import UserError
-from odoo import fields
+from neoziv.addons.stock.tests.common import TestStockCommon
+from neoziv.tests import Form
+from neoziv.tools import mute_logger, float_round
+from neoziv.exceptions import UserError
+from neoziv import fields
 
 class TestStockFlow(TestStockCommon):
     def setUp(cls):
@@ -22,7 +22,7 @@ class TestStockFlow(TestStockCommon):
             'name': 'My Company (Chicago)-demo',
             })
 
-    @mute_logger('odoo.addons.base.models.ir_model', 'odoo.models')
+    @mute_logger('neoziv.addons.base.models.ir_model', 'neoziv.models')
     def test_00_picking_create_and_transfer_quantity(self):
         """ Basic stock operation on incoming and outgoing shipment. """
         LotObj = self.env['stock.production.lot']

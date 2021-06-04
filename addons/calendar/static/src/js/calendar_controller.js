@@ -1,4 +1,4 @@
-odoo.define('calendar.CalendarController', function (require) {
+neoziv.define('calendar.CalendarController', function (require) {
     "use strict";
 
     const Controller = require('web.CalendarController');
@@ -29,7 +29,7 @@ odoo.define('calendar.CalendarController', function (require) {
         /**
          * @override
          * @private
-         * @param {OdooEvent} event
+         * @param {neozivEvent} event
          */
         async _onDropRecord(event) {
             const _super = this._super; // reference to this._super is lost after async call
@@ -45,7 +45,7 @@ odoo.define('calendar.CalendarController', function (require) {
         /**
          * @override
          * @private
-         * @param {OdooEvent} event
+         * @param {neozivEvent} event
          */
         async _onUpdateRecord(event) {
             const _super = this._super;  // reference to this._super is lost after async call

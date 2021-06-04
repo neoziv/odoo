@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import datetime
 import logging
@@ -9,11 +9,11 @@ import werkzeug.urls
 
 from ast import literal_eval
 
-from odoo import api, release, SUPERUSER_ID
-from odoo.exceptions import UserError
-from odoo.models import AbstractModel
-from odoo.tools.translate import _
-from odoo.tools import config, misc, ustr
+from neoziv import api, release, SUPERUSER_ID
+from neoziv.exceptions import UserError
+from neoziv.models import AbstractModel
+from neoziv.tools.translate import _
+from neoziv.tools import config, misc, ustr
 
 _logger = logging.getLogger(__name__)
 
@@ -81,7 +81,7 @@ class PublisherWarrantyContract(AbstractModel):
 
     def update_notification(self, cron_mode=True):
         """
-        Send a message to Odoo's publisher warranty server to check the
+        Send a message to neoziv's publisher warranty server to check the
         validity of the contracts, get notifications, etc...
 
         @param cron_mode: If true, catch all exceptions (appropriate for usage in a cron).

@@ -1,4 +1,4 @@
-odoo.define('website.tour_reset_password', function (require) {
+neoziv.define('website.tour_reset_password', function (require) {
 'use strict';
 
 var tour = require('web_tour.tour');

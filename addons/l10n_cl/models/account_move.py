@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-from odoo.exceptions import ValidationError
-from odoo import models, fields, api, _
-from odoo.osv import expression
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
+from neoziv.exceptions import ValidationError
+from neoziv import models, fields, api, _
+from neoziv.osv import expression
 
 SII_VAT = '60805000-0'
 

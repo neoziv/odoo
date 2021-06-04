@@ -1,4 +1,4 @@
-odoo.define('mail/static/src/model/model_errors.js', function (require) {
+neoziv.define('mail/static/src/model/model_errors.js', function (require) {
 'use strict';
 
 class RecordDeletedError extends Error {

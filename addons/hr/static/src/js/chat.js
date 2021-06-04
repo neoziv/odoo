@@ -1,4 +1,4 @@
-odoo.define('hr.employee_chat', function (require) {
+neoziv.define('hr.employee_chat', function (require) {
 'use strict';
     var viewRegistry = require('web.view_registry');
 

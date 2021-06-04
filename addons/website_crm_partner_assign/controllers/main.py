@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import datetime
 import werkzeug.urls
@@ -7,15 +7,15 @@ import werkzeug.urls
 from collections import OrderedDict
 from werkzeug.exceptions import NotFound
 
-from odoo import fields
-from odoo import http
-from odoo.http import request
-from odoo.addons.http_routing.models.ir_http import slug, unslug
-from odoo.addons.website.models.ir_http import sitemap_qs2dom
-from odoo.addons.portal.controllers.portal import CustomerPortal
-from odoo.addons.website_partner.controllers.main import WebsitePartnerPage
+from neoziv import fields
+from neoziv import http
+from neoziv.http import request
+from neoziv.addons.http_routing.models.ir_http import slug, unslug
+from neoziv.addons.website.models.ir_http import sitemap_qs2dom
+from neoziv.addons.portal.controllers.portal import CustomerPortal
+from neoziv.addons.website_partner.controllers.main import WebsitePartnerPage
 
-from odoo.tools.translate import _
+from neoziv.tools.translate import _
 
 
 class WebsiteAccount(CustomerPortal):

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* microsoft_calendar
 # 
@@ -8,12 +8,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 11:24+0000\n"
 "PO-Revision-Date: 2020-09-07 08:14+0000\n"
 "Last-Translator: Lux Sok <sok.lux@gmail.com>, 2020\n"
-"Language-Team: Khmer (https://www.transifex.com/odoo/teams/41243/km/)\n"
+"Language-Team: Khmer (https://www.transifex.com/neoziv/teams/41243/km/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -115,8 +115,8 @@ msgid "Created on"
 msgstr "បង្កើតនៅ"
 
 #. module: microsoft_calendar
-#: model:ir.model.fields.selection,name:microsoft_calendar.selection__microsoft_calendar_account_reset__delete_policy__delete_odoo
-msgid "Delete from Odoo"
+#: model:ir.model.fields.selection,name:microsoft_calendar.selection__microsoft_calendar_account_reset__delete_policy__delete_neoziv
+msgid "Delete from neoziv"
 msgstr ""
 
 #. module: microsoft_calendar
@@ -148,7 +148,7 @@ msgstr ""
 #: code:addons/microsoft_calendar/models/calendar.py:0
 #, python-format
 msgid ""
-"For a correct synchronization between Odoo and Outlook Calendar, all attendees must have an email address. However, some events do not respect this condition. As long as the events are incorrect, the calendars will not be synchronized.\n"
+"For a correct synchronization between neoziv and Outlook Calendar, all attendees must have an email address. However, some events do not respect this condition. As long as the events are incorrect, the calendars will not be synchronized.\n"
 "Either update the events/attendees or archive these events %s:\n"
 "%s"
 msgstr ""

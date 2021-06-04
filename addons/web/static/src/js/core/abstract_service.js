@@ -1,4 +1,4 @@
-odoo.define('web.AbstractService', function (require) {
+neoziv.define('web.AbstractService', function (require) {
 "use strict";
 
 var Class = require('web.Class');
@@ -20,7 +20,7 @@ var AbstractService = Class.extend(Mixins.EventDispatcherMixin, ServicesMixin, {
      * Directly calls the requested service, instead of triggering a
      * 'call_service' event up, which wouldn't work as services have no parent
      *
-     * @param {OdooEvent} ev
+     * @param {neozivEvent} ev
      */
     _trigger_up: function (ev) {
         Mixins.EventDispatcherMixin._trigger_up.apply(this, arguments);

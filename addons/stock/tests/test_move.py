@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo.exceptions import UserError
-from odoo.tests import Form
-from odoo.tests.common import SavepointCase
+from neoziv.exceptions import UserError
+from neoziv.tests import Form
+from neoziv.tests.common import SavepointCase
 
 
 class StockMove(SavepointCase):
@@ -4070,7 +4070,7 @@ class StockMove(SavepointCase):
             ('product_id', '=', self.product_lot.id),
             ('lot_id', '=', lot1.id),
         ])
-        from odoo.fields import Datetime
+        from neoziv.fields import Datetime
         from datetime import timedelta
         initial_in_date_lot1 = Datetime.now() - timedelta(days=5)
         quant_lot1.in_date = initial_in_date_lot1
@@ -4181,7 +4181,7 @@ class StockMove(SavepointCase):
             ('lot_id', '=', lot1.id),
             ('quantity', '!=', 0),
         ])
-        from odoo.fields import Datetime
+        from neoziv.fields import Datetime
         from datetime import timedelta
         initial_in_date_lot1 = Datetime.now() - timedelta(days=5)
         quant_lot1.in_date = initial_in_date_lot1

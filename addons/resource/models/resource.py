@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from collections import defaultdict
 import math
@@ -10,13 +10,13 @@ from functools import partial
 from itertools import chain
 from pytz import timezone, utc
 
-from odoo import api, fields, models, _
-from odoo.addons.base.models.res_partner import _tz_get
-from odoo.exceptions import ValidationError
-from odoo.osv import expression
-from odoo.tools.float_utils import float_round
+from neoziv import api, fields, models, _
+from neoziv.addons.base.models.res_partner import _tz_get
+from neoziv.exceptions import ValidationError
+from neoziv.osv import expression
+from neoziv.tools.float_utils import float_round
 
-from odoo.tools import date_utils, float_utils
+from neoziv.tools import date_utils, float_utils
 from .resource_mixin import timezone_datetime
 
 # Default hour per day value. The one should

@@ -1,4 +1,4 @@
-odoo.define('mail.ActivityModel', function (require) {
+neoziv.define('mail.ActivityModel', function (require) {
 'use strict';
 
 const BasicModel = require('web.BasicModel');

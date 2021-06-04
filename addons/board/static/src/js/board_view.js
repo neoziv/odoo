@@ -1,4 +1,4 @@
-odoo.define('board.BoardView', function (require) {
+neoziv.define('board.BoardView', function (require) {
 "use strict";
 
 var Context = require('web.Context');
@@ -72,7 +72,7 @@ var BoardController = FormController.extend({
 
     /**
      * @private
-     * @param {OdooEvent} event
+     * @param {neozivEvent} event
      */
     _onChangeLayout: function (event) {
         var self = this;
@@ -96,7 +96,7 @@ var BoardController = FormController.extend({
      * do_action (which will open the record in a different breadcrumb).
      *
      * @private
-     * @param {OdooEvent} event
+     * @param {neozivEvent} event
      */
     _onSwitchView: function (event) {
         event.stopPropagation();
@@ -414,7 +414,7 @@ var BoardRenderer = FormRenderer.extend({
      * window action of the sub controller that is switching view
      *
      * @private
-     * @param {OdooEvent} event
+     * @param {neozivEvent} event
      */
     _onSwitchView: function (event) {
         event.data.formViewID = this._boardFormViewIDs[event.target.handle];
@@ -425,7 +425,7 @@ var BoardRenderer = FormRenderer.extend({
      * interfering with the ActionManager.
      *
      * @private
-     * @param {OdooEvent} event
+     * @param {neozivEvent} event
      */
     _onUpdateFilters: function (event) {
         event.stopPropagation();
@@ -453,7 +453,7 @@ return BoardView;
 });
 
 
-odoo.define('board.viewRegistry', function (require) {
+neoziv.define('board.viewRegistry', function (require) {
 "use strict";
 
 var BoardView = require('board.BoardView');

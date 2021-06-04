@@ -1,5 +1,5 @@
-from odoo import models, fields, api, _
-from odoo.exceptions import AccessDenied, ValidationError
+from neoziv import models, fields, api, _
+from neoziv.exceptions import AccessDenied, ValidationError
 
 import logging
 _logger = logging.getLogger(__name__)

@@ -1,4 +1,4 @@
-odoo.define('web.DatePickerOwl', function (require) {
+neoziv.define('web.DatePickerOwl', function (require) {
     "use strict";
 
     const field_utils = require('web.field_utils');

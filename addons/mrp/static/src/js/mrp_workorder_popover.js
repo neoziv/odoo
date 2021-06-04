@@ -1,4 +1,4 @@
-odoo.define('mrp.mrp_workorder_popover', function (require) {
+neoziv.define('mrp.mrp_workorder_popover', function (require) {
 'use strict';
 
 var PopoverWidget = require('stock.popover_widget');

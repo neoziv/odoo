@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<neoziv>
+    <data noupdate="1">
+
+        <record id="payment.payment_acquirer_neoziv_by_adyen" model="payment.acquirer">
+            <field name="name">neoziv Payments by Adyen</field>
+            <field name="image_128" type="base64" file="payment_neoziv_by_adyen/static/src/img/neoziv_icon.png"/>
+            <field name="provider">neoziv_adyen</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="view_template_id" ref="neoziv_by_adyen_form"/>
+        </record>
+
+    </data>
+</neoziv>

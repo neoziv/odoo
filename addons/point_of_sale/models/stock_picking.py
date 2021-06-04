@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo import api,fields, models
-from odoo.exceptions import UserError, ValidationError
-from odoo.tools import float_is_zero, float_compare
+from neoziv import api,fields, models
+from neoziv.exceptions import UserError, ValidationError
+from neoziv.tools import float_is_zero, float_compare
 
 from itertools import groupby
 

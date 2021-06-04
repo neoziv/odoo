@@ -1,4 +1,4 @@
-odoo.define('web.AttachDocument', function (require) {
+neoziv.define('web.AttachDocument', function (require) {
 "use static";
 
 var core = require('web.core');

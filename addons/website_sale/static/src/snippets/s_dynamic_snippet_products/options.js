@@ -1,4 +1,4 @@
-odoo.define('website_sale.s_dynamic_snippet_products_options', function (require) {
+neoziv.define('website_sale.s_dynamic_snippet_products_options', function (require) {
 'use strict';
 
 const options = require('web_editor.snippets.options');

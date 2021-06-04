@@ -1,4 +1,4 @@
-odoo.define('wysiwyg.fonts', function (require) {
+neoziv.define('wysiwyg.fonts', function (require) {
 'use strict';
 
 return {

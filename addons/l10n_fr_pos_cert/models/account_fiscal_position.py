@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-from odoo import _, models
-from odoo.exceptions import UserError
+from neoziv import _, models
+from neoziv.exceptions import UserError
 
 
 class AccountFiscalPosition(models.Model):

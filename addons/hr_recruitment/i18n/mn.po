@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* hr_recruitment
 # 
@@ -19,12 +19,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-29 13:45+0000\n"
 "PO-Revision-Date: 2020-09-07 08:13+0000\n"
 "Last-Translator: Munkhbaatar Gombosuren <muuguu17@gmail.com>, 2020\n"
-"Language-Team: Mongolian (https://www.transifex.com/odoo/teams/41243/mn/)\n"
+"Language-Team: Mongolian (https://www.transifex.com/neoziv/teams/41243/mn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1742,19 +1742,19 @@ msgstr "Уншаагүй зурвасын тоо"
 #. module: hr_recruitment
 #: model_terms:ir.actions.act_window,help:hr_recruitment.action_hr_job_applications
 msgid ""
-"Odoo helps you track applicants in the recruitment\n"
+"neoziv helps you track applicants in the recruitment\n"
 "                process and follow up all operations: meetings, interviews, etc."
 msgstr ""
-"Odoo танд хүний нөөцийн бүрдүүлэлтийн явц дахь горилогчдыг хянаж;\n"
+"neoziv танд хүний нөөцийн бүрдүүлэлтийн явц дахь горилогчдыг хянаж;\n"
 " уулзалт, ярилцлага, г.м. бүх дагалдах ажиллагааг явуулахад туслах болно."
 
 #. module: hr_recruitment
 #: model_terms:ir.actions.act_window,help:hr_recruitment.crm_case_categ0_act_job
 msgid ""
-"Odoo helps you track applicants in the recruitment\n"
+"neoziv helps you track applicants in the recruitment\n"
 "            process and follow up all operations: meetings, interviews, etc."
 msgstr ""
-"Odoo танд хүний нөөцийн бүрдүүлэлтийн явц дахь горилогчдыг хянаж; \n"
+"neoziv танд хүний нөөцийн бүрдүүлэлтийн явц дахь горилогчдыг хянаж; \n"
 "уулзалт, ярилцлага, г.м. бүх дагалдах ажиллагааг явуулахад туслах болно."
 
 #. module: hr_recruitment
@@ -2252,11 +2252,11 @@ msgstr "Горилогч ажиллаж эхлэх боломжтой огноо
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job__alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (neoziv Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"Хуурмаг нэрийн харгалзах модель (Odoo-н баримтын төрөл). Байгаа бичлэг рүү "
+"Хуурмаг нэрийн харгалзах модель (neoziv-н баримтын төрөл). Байгаа бичлэг рүү "
 "хариулаагүй бүх ирж буй имэйл нь энэ моделийн шин бичлэгийг үүсгэнэ (Ж. "
 "Төслийн даалгавар)"
 
@@ -2269,9 +2269,9 @@ msgstr "Ажилд авах зэргийн нэр давхцахгүй байх 
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.neoziv.com>"
 msgstr ""
-"Имэйл алиасын нэр, ж.нь. <jobs@example.odoo.com> хаягийн имэйлийг хүлээн "
+"Имэйл алиасын нэр, ж.нь. <jobs@example.neoziv.com> хаягийн имэйлийг хүлээн "
 "авах бол 'jobs'"
 
 #. module: hr_recruitment

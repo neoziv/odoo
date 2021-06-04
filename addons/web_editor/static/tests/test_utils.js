@@ -1,4 +1,4 @@
-odoo.define('web_editor.test_utils', function (require) {
+neoziv.define('web_editor.test_utils', function (require) {
 "use strict";
 
 var ajax = require('web.ajax');

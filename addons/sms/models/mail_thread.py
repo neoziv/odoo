@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import logging
 
-from odoo import api, models, fields
-from odoo.addons.phone_validation.tools import phone_validation
-from odoo.tools import html2plaintext, plaintext2html
+from neoziv import api, models, fields
+from neoziv.addons.phone_validation.tools import phone_validation
+from neoziv.tools import html2plaintext, plaintext2html
 
 _logger = logging.getLogger(__name__)
 

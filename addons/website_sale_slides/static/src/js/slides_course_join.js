@@ -1,4 +1,4 @@
-odoo.define('website_sale_slides.course.join.widget', function (require) {
+neoziv.define('website_sale_slides.course.join.widget', function (require) {
 "use strict";
 
 var CourseJoinWidget = require('website_slides.course.join.widget').courseJoinWidget;

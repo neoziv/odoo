@@ -1,4 +1,4 @@
-odoo.define('website_event_track_live_quiz.website_event_track_suggestion', function (require) {
+neoziv.define('website_event_track_live_quiz.website_event_track_suggestion', function (require) {
 'use strict';
 
 var WebsiteEventTrackSuggestion = require('website_event_track_live.website_event_track_suggestion');

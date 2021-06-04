@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo import fields, models
-from odoo.tools import html2plaintext
+from neoziv import fields, models
+from neoziv.tools import html2plaintext
 
 
 class SurveyUserInput(models.Model):

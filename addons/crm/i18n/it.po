@@ -1,28 +1,28 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* crm
 # 
 # Translators:
-# Romica Paun <roa@odoo.com>, 2020
+# Romica Paun <roa@neoziv.com>, 2020
 # Martin Trigaux, 2020
 # Lorenzo Battistini <lb@takobi.online>, 2020
 # Luigi Di Naro <gigidn@gmail.com>, 2020
 # SebastianoPistore <SebastianoPistore.info@protonmail.ch>, 2020
 # David Minneci <david@numeko.it>, 2020
-# efaOdoo <efa@odoo.com>, 2020
-# Léonie Bouchat <lbo@odoo.com>, 2020
+# efaneoziv <efa@neoziv.com>, 2020
+# Léonie Bouchat <lbo@neoziv.com>, 2020
 # Paolo Valier, 2020
-# Iacopo Simonelli <lsi@odoo.com>, 2020
+# Iacopo Simonelli <lsi@neoziv.com>, 2020
 # Sergio Zanchetta <primes2h@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:12+0000\n"
 "PO-Revision-Date: 2020-09-07 08:11+0000\n"
 "Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2021\n"
-"Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
+"Language-Team: Italian (https://www.transifex.com/neoziv/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -234,7 +234,7 @@ msgid ""
 "                        <div>\n"
 "                            Hi ${object.partner_id and object.partner_id.name or ''},<br/><br/>\n"
 "                            Welcome to ${object.company_id.name}.\n"
-"                            It's great to meet you! Now that you're on board, you'll discover what ${object.company_id.name} has to offer. My name is ${object.user_id.name} and I'll help you get the most out of Odoo. Could we plan a quick demo soon?<br/>\n"
+"                            It's great to meet you! Now that you're on board, you'll discover what ${object.company_id.name} has to offer. My name is ${object.user_id.name} and I'll help you get the most out of neoziv. Could we plan a quick demo soon?<br/>\n"
 "                            Feel free to reach out at any time!<br/><br/>\n"
 "                            Best,<br/>\n"
 "                            % if object.user_id:\n"
@@ -271,7 +271,7 @@ msgid ""
 "</td></tr>\n"
 "<!-- POWERED BY -->\n"
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
-"    Powered by <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">Odoo</a>\n"
+"    Powered by <a target=\"_blank\" href=\"https://www.neoziv.com?utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">neoziv</a>\n"
 "</td></tr>\n"
 "</table>\n"
 "        "
@@ -306,7 +306,7 @@ msgstr ""
 "                        <div>\n"
 "                            Gentile ${object.partner_id and object.partner_id.name or ''},<br/><br/>\n"
 "                            benvenuto in ${object.company_id.name}.\n"
-"                            È un piacere conoscerLa! Adesso che è con noi, scoprirà cosa può offrirLe ${object.company_id.name}. Io sono ${object.user_id.name} e l'aiuterò a ottenere il massimo da Odoo. È possibile organizzare una dimostrazione veloce a breve?<br/>\n"
+"                            È un piacere conoscerLa! Adesso che è con noi, scoprirà cosa può offrirLe ${object.company_id.name}. Io sono ${object.user_id.name} e l'aiuterò a ottenere il massimo da neoziv. È possibile organizzare una dimostrazione veloce a breve?<br/>\n"
 "                            Può contattarmi in qualsiasi momento!<br/><br/>\n"
 "                            Cordiali saluti,<br/>\n"
 "                            % if object.user_id:\n"
@@ -343,7 +343,7 @@ msgstr ""
 "</td></tr>\n"
 "<!-- FORNITO DA -->\n"
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
-"    Fornito da <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">Odoo</a>\n"
+"    Fornito da <a target=\"_blank\" href=\"https://www.neoziv.com?utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">neoziv</a>\n"
 "</td></tr>\n"
 "</table>\n"
 "        "
@@ -1085,11 +1085,11 @@ msgstr ""
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_4
 msgid ""
 "Did you know you can search a company by name or VAT number to instantly "
-"fill in all its data? Odoo autocompletes everything for you: logo, address, "
+"fill in all its data? neoziv autocompletes everything for you: logo, address, "
 "company size, business information, social media accounts, etc."
 msgstr ""
 "Lo sapevi che è possibile cercare un'azienda a partire dal nome o dalla "
-"partita IVA e compilare istantaneamente i suoi dati? Odoo completa tutto in "
+"partita IVA e compilare istantaneamente i suoi dati? neoziv completa tutto in "
 "modo automatico: logo, indirizzo, dimensione azienda, informazioni "
 "commerciali, account social network ecc..."
 
@@ -1097,11 +1097,11 @@ msgstr ""
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_5
 msgid ""
 "Did you know you can turn a list of opportunities into a map view, using the"
-" top-right map icon? A lot of screens in Odoo can be turned into a map: "
+" top-right map icon? A lot of screens in neoziv can be turned into a map: "
 "tasks, contacts, delivery orders, etc."
 msgstr ""
 "Lo sapevi che è possibile trasformare un elenco di opportunità in una vista "
-"mappa usando l'icona in alto a destra? In Odoo possono essere trasformate in"
+"mappa usando l'icona in alto a destra? In neoziv possono essere trasformate in"
 " mappa molte schermate: lavori, contatti, ordini di consegna ecc..."
 
 #. module: crm
@@ -2250,23 +2250,23 @@ msgstr "Numero di messaggi non letti"
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity
 msgid ""
-"Odoo helps you keep track of your sales pipeline to follow\n"
+"neoziv helps you keep track of your sales pipeline to follow\n"
 "                    up potential sales and better forecast your future revenues."
 msgstr ""
-"Odoo consente di tenere traccia del flusso per seguire le\n"
+"neoziv consente di tenere traccia del flusso per seguire le\n"
 "                    potenziali vendite e migliorare le previsioni delle entrate future."
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_2
 msgid ""
-"Odoo's artificial intelligence engine predicts the success rate of each "
+"neoziv's artificial intelligence engine predicts the success rate of each "
 "opportunity based on your history. You can always update the success rate "
-"manually, but if you let Odoo do the job the score is updated while the "
+"manually, but if you let neoziv do the job the score is updated while the "
 "opportunity moves forward in your sales cycle."
 msgstr ""
-"Il motore di intelligenza artificiale di Odoo predice il tasso di successo "
+"Il motore di intelligenza artificiale di neoziv predice il tasso di successo "
 "di ciascuna opportunità in base allo storico. È sempre possibile aggiornare "
-"il tasso in modo manuale ma, se il compito viene lasciato a Odoo, il "
+"il tasso in modo manuale ma, se il compito viene lasciato a neoziv, il "
 "punteggio viene aggiornato mentre l'opportunità procede nel ciclo di "
 "vendita."
 
@@ -2998,11 +2998,11 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (neoziv Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"Il modello (tipo di documento Odoo) a cui corrisponde questo alias. Le "
+"Il modello (tipo di documento neoziv) a cui corrisponde questo alias. Le "
 "e-mail in arrivo che non rispondono a un record esistente attivano la "
 "creazione di un nuovo record per questo modello (es. lavoro di un progetto)"
 
@@ -3010,10 +3010,10 @@ msgstr ""
 #: model:ir.model.fields,help:crm.field_crm_team__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.neoziv.com>"
 msgstr ""
 "Nome dell’alias e-mail, es. “lavori” per intercettare le e-mail a "
-"<lavori@esempio.odoo.com>"
+"<lavori@esempio.neoziv.com>"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__partner_name
@@ -3148,8 +3148,8 @@ msgstr "Consiglio: converti le e-mail in arrivo in opportunità"
 #. module: crm
 #: model:digest.tip,name:crm.digest_tip_crm_1
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_1
-msgid "Tip: Did you know Odoo has built-in lead mining?"
-msgstr "Consiglio: sapevi che Odoo ha un sistema di estrazione contatti?"
+msgid "Tip: Did you know neoziv has built-in lead mining?"
+msgstr "Consiglio: sapevi che neoziv ha un sistema di estrazione contatti?"
 
 #. module: crm
 #: model:digest.tip,name:crm.digest_tip_crm_4
@@ -3498,8 +3498,8 @@ msgstr "Es. Tariffazione prodotto"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
-msgid "e.g. https://www.odoo.com"
-msgstr "es. https://www.odoo.com"
+msgid "e.g. https://www.neoziv.com"
+msgstr "es. https://www.neoziv.com"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_stage__team_count

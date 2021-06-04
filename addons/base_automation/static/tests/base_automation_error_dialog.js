@@ -1,4 +1,4 @@
-odoo.define('base_automation.BaseAutomatioErrorDialogTests', function (require) {
+neoziv.define('base_automation.BaseAutomatioErrorDialogTests', function (require) {
 'use strict';
 
     const CrashManager = require('web.CrashManager').CrashManager;
@@ -13,7 +13,7 @@ odoo.define('base_automation.BaseAutomatioErrorDialogTests', function (require) 
 
             let baseAutomationName = 'Test base automation error dialog';
             let error = {
-                type: 'Odoo Client Error',
+                type: 'neoziv Client Error',
                 message: 'Message',
                 data: {
                     debug: 'Traceback',
@@ -49,7 +49,7 @@ odoo.define('base_automation.BaseAutomatioErrorDialogTests', function (require) 
             assert.expect(3);
 
             let error = {
-                type: 'Odoo Client Error',
+                type: 'neoziv Client Error',
                 message: 'Message',
                 data: {
                     debug: 'Traceback',

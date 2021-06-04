@@ -1,4 +1,4 @@
-odoo.define('website_livechat/static/src/components/discuss/discuss.js', function (require) {
+neoziv.define('website_livechat/static/src/components/discuss/discuss.js', function (require) {
 'use strict';
 
 const components = {

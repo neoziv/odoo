@@ -1,4 +1,4 @@
-odoo.define('point_of_sale.OrderImportPopup', function(require) {
+neoziv.define('point_of_sale.OrderImportPopup', function(require) {
     'use strict';
 
     const AbstractAwaitablePopup = require('point_of_sale.AbstractAwaitablePopup');

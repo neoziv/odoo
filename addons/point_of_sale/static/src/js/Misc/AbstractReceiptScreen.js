@@ -1,4 +1,4 @@
-odoo.define('point_of_sale.AbstractReceiptScreen', function (require) {
+neoziv.define('point_of_sale.AbstractReceiptScreen', function (require) {
     'use strict';
 
     const { useRef } = owl.hooks;

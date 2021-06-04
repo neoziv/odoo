@@ -1,4 +1,4 @@
-odoo.define('mrp.controllerMixin', function (require) {
+neoziv.define('mrp.controllerMixin', function (require) {
 'use strict';
 
 const { _t, qweb } = require('web.core');
@@ -81,7 +81,7 @@ const MrpDocumentsControllerMixin = Object.assign({}, fileUploadMixin, {
      * Handles custom event to display the document viewer.
      *
      * @private
-     * @param {OdooEvent} ev
+     * @param {neozivEvent} ev
      * @param {integer} ev.data.recordID
      * @param {Array<Object>} ev.data.recordList
      */
@@ -97,7 +97,7 @@ const MrpDocumentsControllerMixin = Object.assign({}, fileUploadMixin, {
      * Specially created to call `_uploadFiles` method from tests.
      *
      * @private
-     * @param {OdooEvent} ev
+     * @param {neozivEvent} ev
      */
     async _onUploadFile(ev) {
         await this._uploadFiles(ev.data.files);

@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 import hashlib
 import hmac
 
 from werkzeug import urls
 
-from odoo import api, fields, models, _
-from odoo.exceptions import ValidationError
-from odoo.tools import ustr, consteq, float_compare
+from neoziv import api, fields, models, _
+from neoziv.exceptions import ValidationError
+from neoziv.tools import ustr, consteq, float_compare
 
 
 class PaymentLinkWizard(models.TransientModel):

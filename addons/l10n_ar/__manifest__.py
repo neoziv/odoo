@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Argentina - Accounting',
     'version': "3.3",
@@ -32,7 +32,7 @@ Demo data for testing:
   * Gritti (Monotributo)
   * Cerro Castor. IVA Liberado in Zona Franca
   * Expresso (Cliente del Exterior)
-  * Odoo (Proveedor del Exterior)
+  * neoziv (Proveedor del Exterior)
 
 Highlights:
 

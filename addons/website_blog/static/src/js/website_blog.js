@@ -1,4 +1,4 @@
-odoo.define('website_blog.website_blog', function (require) {
+neoziv.define('website_blog.website_blog', function (require) {
 'use strict';
 var core = require('web.core');
 

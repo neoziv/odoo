@@ -1,4 +1,4 @@
-odoo.define('website_slides.slides_tour', function (require) {
+neoziv.define('website_slides.slides_tour', function (require) {
 "use strict";
 
 var core = require('web.core');

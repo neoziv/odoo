@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-from odoo import models, api, _
-from odoo.exceptions import UserError
+from neoziv import models, api, _
+from neoziv.exceptions import UserError
 
 class IrActionsReport(models.Model):
     _inherit = 'ir.actions.report'

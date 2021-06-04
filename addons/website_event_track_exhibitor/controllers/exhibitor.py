@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from ast import literal_eval
 from random import randint, sample
 from werkzeug.exceptions import NotFound, Forbidden
 
-from odoo import exceptions, http
-from odoo.addons.website_event_track.controllers.event_track import EventTrackController
-from odoo.http import request
-from odoo.osv import expression
-from odoo.tools import format_duration
+from neoziv import exceptions, http
+from neoziv.addons.website_event_track.controllers.event_track import EventTrackController
+from neoziv.http import request
+from neoziv.osv import expression
+from neoziv.tools import format_duration
 
 
 class ExhibitorController(EventTrackController):

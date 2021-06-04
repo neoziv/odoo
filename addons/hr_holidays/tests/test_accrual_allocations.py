@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 from datetime import datetime, time
 from dateutil.relativedelta import relativedelta
 
-from odoo import fields
+from neoziv import fields
 
-from odoo.tools import mute_logger
+from neoziv.tools import mute_logger
 
-from odoo.addons.hr_holidays.tests.common import TestHrHolidaysCommon
+from neoziv.addons.hr_holidays.tests.common import TestHrHolidaysCommon
 
 
 class TestAccrualAllocations(TestHrHolidaysCommon):

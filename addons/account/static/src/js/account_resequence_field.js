@@ -1,4 +1,4 @@
-odoo.define('account.ShowResequenceRenderer', function (require) {
+neoziv.define('account.ShowResequenceRenderer', function (require) {
 "use strict";
 
 const { Component } = owl;

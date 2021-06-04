@@ -1,20 +1,20 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* payment_paypal
 # 
 # Translators:
 # Martin Trigaux, 2020
 # Yenthe Van Ginneken <yenthespam@gmail.com>, 2020
-# Erwin van der Ploeg <erwin@odooexperts.nl>, 2020
+# Erwin van der Ploeg <erwin@neozivexperts.nl>, 2020
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~13.5\n"
+"Project-Id-Version: neoziv Server saas~13.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-01 07:28+0000\n"
 "PO-Revision-Date: 2020-09-07 08:15+0000\n"
-"Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2020\n"
-"Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
+"Last-Translator: Erwin van der Ploeg <erwin@neozivexperts.nl>, 2020\n"
+"Language-Team: Dutch (https://www.transifex.com/neoziv/teams/41243/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -26,17 +26,17 @@ msgstr ""
 msgid ""
 "<br/><br/>\n"
 "                Thanks,<br/>\n"
-"                <b>The Odoo Team</b>"
+"                <b>The neoziv Team</b>"
 msgstr ""
 "<br/><br/>\n"
 "                Bedankt,<br/>\n"
-"                <b>Het Odoo Team</b>"
+"                <b>Het neoziv Team</b>"
 
 #. module: payment_paypal
 #: code:addons/payment_paypal/models/payment.py:0
 #, python-format
-msgid "Add your Paypal account to Odoo"
-msgstr "Voeg uw Paypal account toe aan Odoo"
+msgid "Add your Paypal account to neoziv"
+msgstr "Voeg uw Paypal account toe aan neoziv"
 
 #. module: payment_paypal
 #: model:ir.model.fields,field_description:payment_paypal.field_payment_acquirer__display_name
@@ -66,13 +66,13 @@ msgid ""
 "                <br/><br/>\n"
 "                You have received a payment through PayPal.<br/>\n"
 "                Kindly follow the instructions given by PayPal to create your account.<br/>\n"
-"                Then, help us complete your Paypal credentials in Odoo.<br/><br/>"
+"                Then, help us complete your Paypal credentials in neoziv.<br/><br/>"
 msgstr ""
 "Hallo,\n"
 "<br/><br/>\n"
 "U heeft een betaling ontvangen via PayPal. <br/>\n"
 "Volg de instructies van PayPal op om uw account aan te maken. <br/>\n"
-"Help ons vervolgens met het invullen van uw Paypal-gegevens in Odoo.<br/><br/>"
+"Help ons vervolgens met het invullen van uw Paypal-gegevens in neoziv.<br/><br/>"
 
 #. module: payment_paypal
 #: model_terms:ir.ui.view,arch_db:payment_paypal.acquirer_form_paypal

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* stock
 # 
@@ -23,12 +23,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 11:23+0000\n"
 "PO-Revision-Date: 2020-09-07 08:19+0000\n"
 "Last-Translator: Yoshi Tashiro <tashiro@roomsfor.hk>, 2021\n"
-"Language-Team: Japanese (https://www.transifex.com/odoo/teams/41243/ja/)\n"
+"Language-Team: Japanese (https://www.transifex.com/neoziv/teams/41243/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1720,9 +1720,9 @@ msgstr "倉庫通過ルートのデフォルト設定"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_orderpoint
 msgid ""
-"Define a minimum stock rule so that Odoo creates automatically requests for "
+"Define a minimum stock rule so that neoziv creates automatically requests for "
 "quotations or draft manufacturing orders to resupply your stock."
-msgstr "最小在庫ルールを定義して、Odooが在庫を補充するための見積依頼または製造オーダーのドラフトを自動的に作成するようにします。"
+msgstr "最小在庫ルールを定義して、neozivが在庫を補充するための見積依頼または製造オーダーのドラフトを自動的に作成するようにします。"
 
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_warehouse_form
@@ -1733,14 +1733,14 @@ msgstr "倉庫を新規定義"
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
 msgid ""
 "Define your locations to reflect your warehouse structure and\n"
-"            organization. Odoo is able to manage physical locations\n"
+"            organization. neoziv is able to manage physical locations\n"
 "            (warehouses, shelves, bin, etc), partner locations (customers,\n"
 "            vendors) and virtual locations which are the counterpart of\n"
 "            the stock operations like the manufacturing orders\n"
 "            consumptions, inventories, etc."
 msgstr ""
 "倉庫の構造と組織を反映するように、ロケーションを定義します。\n"
-" Odooは、製造オーダの消耗品、在庫などの在庫操作の対応する\n"
+" neozivは、製造オーダの消耗品、在庫などの在庫操作の対応する\n"
 "物理的な場所(倉庫、棚、ビンなど)、パートナーの場所(顧客、仕入先)\n"
 "および仮想の場所を管理することができます。"
 
@@ -2164,12 +2164,12 @@ msgstr "空の在庫"
 #. module: stock
 #: model_terms:digest.tip,tip_description:stock.digest_tip_stock_0
 msgid ""
-"Enjoy a quick-paced experience with the Odoo barcode app. It is blazing fast"
+"Enjoy a quick-paced experience with the neoziv barcode app. It is blazing fast"
 " and works even without a stable internet connection. It supports all flows:"
 " inventory adjustments, batch picking, moving lots or pallets, low inventory"
 " checks, etc. Go to the \"Apps\" menu to activate the barcode interface."
 msgstr ""
-"Odooバーコードアプリでペースの速い体験をお楽しみください。それは非常に速く、安定したインターネット接続がなくても機能します。在庫調整、バッチピッキング、ロットまたはパレットの移動、在庫不足チェックなど、すべてのフローをサポートします。'アプリ'メニューに移動して、バーコードインターフェイスをアクティブにします。"
+"neozivバーコードアプリでペースの速い体験をお楽しみください。それは非常に速く、安定したインターネット接続がなくても機能します。在庫調整、バッチピッキング、ロットまたはパレットの移動、在庫不足チェックなど、すべてのフローをサポートします。'アプリ'メニューに移動して、バーコードインターフェイスをアクティブにします。"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_product_product__tracking
@@ -2192,14 +2192,14 @@ msgstr "エラー"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
 msgid ""
-"Every stock operation in Odoo moves the products from one\n"
+"Every stock operation in neoziv moves the products from one\n"
 "            location to another one.  For instance, if you receive products\n"
-"            from a vendor, Odoo will move products from the Vendor\n"
+"            from a vendor, neoziv will move products from the Vendor\n"
 "            location to the Stock location. Each report can be performed on\n"
 "            physical, partner or virtual locations."
 msgstr ""
-"Odooのすべての在庫操作は、製品をあるロケーションから別のロケーションに移動します。\n"
-" たとえば、ベンダーから製品を受け取った場合、Odooは製品をベンダーのロケーションから在庫のロケーションに移動します。\n"
+"neozivのすべての在庫操作は、製品をあるロケーションから別のロケーションに移動します。\n"
+" たとえば、ベンダーから製品を受け取った場合、neozivは製品をベンダーのロケーションから在庫のロケーションに移動します。\n"
 "各レポートは、物理的、パートナーまたは仮想のロケーションにて実行できます。"
 
 #. module: stock
@@ -2768,10 +2768,10 @@ msgstr "ピッキングのロックが解除されている場合は、初期需
 #: model:ir.model.fields,help:stock.field_stock_picking__show_reserved
 #: model:ir.model.fields,help:stock.field_stock_picking_type__show_reserved
 msgid ""
-"If this checkbox is ticked, Odoo will automatically pre-fill the detailed "
+"If this checkbox is ticked, neoziv will automatically pre-fill the detailed "
 "operations with the corresponding products, locations and lot/serial "
 "numbers."
-msgstr "このチェックボックスがチェックされている場合、Odooは対応する製品、場所、ロット/シリアル番号を詳細な操作に自動的に事前入力します。"
+msgstr "このチェックボックスがチェックされている場合、neozivは対応する製品、場所、ロット/シリアル番号を詳細な操作に自動的に事前入力します。"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move__show_operations
@@ -7487,17 +7487,17 @@ msgstr "ピッキングが行われない場合、これにより初期需要を
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_min_qty
 msgid ""
 "When the virtual stock equals to or goes below the Min Quantity specified "
-"for this field, Odoo generates a procurement to bring the forecasted "
+"for this field, neoziv generates a procurement to bring the forecasted "
 "quantity to the Max Quantity."
-msgstr "仮想在庫がこのフィールドに指定された最小数量と等しいかそれを下回ると、Odooは予測数量を最大数量にするための調達を生成します。"
+msgstr "仮想在庫がこのフィールドに指定された最小数量と等しいかそれを下回ると、neozivは予測数量を最大数量にするための調達を生成します。"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_max_qty
 msgid ""
-"When the virtual stock goes below the Min Quantity, Odoo generates a "
+"When the virtual stock goes below the Min Quantity, neoziv generates a "
 "procurement to bring the forecasted quantity to the Quantity specified as "
 "Max Quantity."
-msgstr "仮想在庫が最小数量を下回ると、Odooは、予測数量を最大数量として指定された数量にするための調達を生成します。"
+msgstr "仮想在庫が最小数量を下回ると、neozivは、予測数量を最大数量として指定された数量にするための調達を生成します。"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_rule__propagate_cancel
@@ -7786,9 +7786,9 @@ msgstr "製品ラインを手動で作成しました。続行するには、そ
 #: model_terms:ir.ui.view,arch_db:stock.view_immediate_transfer
 msgid ""
 "You have not recorded <i>done</i> quantities yet, by clicking on "
-"<i>apply</i> Odoo will process all the quantities."
+"<i>apply</i> neoziv will process all the quantities."
 msgstr ""
-"<i>完了した</i>数量をまだ記録し<i>て</i>いません。'<i>適用</i>'をクリックすると、Odooがすべての数量を処理し<i>ます</i>。"
+"<i>完了した</i>数量をまだ記録し<i>て</i>いません。'<i>適用</i>'をクリックすると、neozivがすべての数量を処理し<i>ます</i>。"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_backorder_confirmation

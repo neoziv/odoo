@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from dateutil.relativedelta import relativedelta
 
-from odoo.addons.event.tests.common import TestEventCommon
-from odoo.addons.phone_validation.tools import phone_validation
-from odoo.addons.sms.tests.common import SMSCase
+from neoziv.addons.event.tests.common import TestEventCommon
+from neoziv.addons.phone_validation.tools import phone_validation
+from neoziv.addons.sms.tests.common import SMSCase
 
 
 class TestSMSSchedule(TestEventCommon, SMSCase):

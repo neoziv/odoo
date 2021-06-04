@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 from lxml import objectify
 from werkzeug import urls
 
-from odoo.addons.payment.tests.common import PaymentAcquirerCommon
-from odoo.tests import tagged
+from neoziv.addons.payment.tests.common import PaymentAcquirerCommon
+from neoziv.tests import tagged
 
 
 class PayUlatamCommon(PaymentAcquirerCommon):

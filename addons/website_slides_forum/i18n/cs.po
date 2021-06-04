@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* website_slides_forum
 # 
@@ -11,12 +11,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-29 13:46+0000\n"
 "PO-Revision-Date: 2020-09-07 08:22+0000\n"
 "Last-Translator: Rastislav Brencic <rastislav.brencic@azet.sk>, 2021\n"
-"Language-Team: Czech (https://www.transifex.com/odoo/teams/41243/cs/)\n"
+"Language-Team: Czech (https://www.transifex.com/neoziv/teams/41243/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -378,10 +378,10 @@ msgstr ""
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
 msgid ""
 "The goal of this site is create a relevant knowledge base that would answer "
-"questions related to Odoo."
+"questions related to neoziv."
 msgstr ""
 "Cílem tohoto webu je vytvořit relevantní znalostní základnu, která by "
-"odpovídala na otázky týkající se Odoo."
+"odpovídala na otázky týkající se neoziv."
 
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
@@ -489,9 +489,9 @@ msgstr "každá odpověď je stejně platná: “Jaké je vaše oblíbené _____
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
-msgid "how to configure or customize Odoo to specific business needs,"
+msgid "how to configure or customize neoziv to specific business needs,"
 msgstr ""
-"jak konfigurovat nebo přizpůsobit Odoo specifickým podnikovým potřebám,"
+"jak konfigurovat nebo přizpůsobit neoziv specifickým podnikovým potřebám,"
 
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
@@ -502,8 +502,8 @@ msgstr "jak vyvíjet moduly pro vlastní potřebu,"
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
-msgid "how to install Odoo on a specific infrastructure,"
-msgstr "jak nainstalovat Odoo na konkrétní infrastrukturu,"
+msgid "how to install neoziv on a specific infrastructure,"
+msgstr "jak nainstalovat neoziv na konkrétní infrastrukturu,"
 
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
@@ -515,7 +515,7 @@ msgstr ""
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
-msgid "specific questions about Odoo service offers, etc."
+msgid "specific questions about neoziv service offers, etc."
 msgstr ""
 
 #. module: website_slides_forum
@@ -539,8 +539,8 @@ msgstr "dostáváme otevřenou hypotetickou otázku: „Co kdyby se ______ stalo
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
-msgid "what's the best way to use Odoo for a specific business need,"
-msgstr "jaký je nejlepší způsob použití Odoo pro konkrétní obchodní potřeby,"
+msgid "what's the best way to use neoziv for a specific business need,"
+msgstr "jaký je nejlepší způsob použití neoziv pro konkrétní obchodní potřeby,"
 
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0

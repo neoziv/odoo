@@ -2,8 +2,8 @@
 import logging
 import pprint
 import json
-from odoo import fields, http
-from odoo.http import request
+from neoziv import fields, http
+from neoziv.http import request
 
 _logger = logging.getLogger(__name__)
 
@@ -29,4 +29,4 @@ class PosAdyenController(http.Controller):
             else:
                 payment_method.adyen_latest_response = json.dumps(data)
         else:
-            _logger.error('received a message for a terminal not registered in Odoo: %s', terminal_identifier)
+            _logger.error('received a message for a terminal not registered in neoziv: %s', terminal_identifier)

@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from collections import OrderedDict
 from lxml import etree
-from odoo import tools
+from neoziv import tools
 
-import odoo.tests
+import neoziv.tests
 
 
-@odoo.tests.tagged('-at_install', 'post_install')
-class TestWebsiteSaleComparison(odoo.tests.TransactionCase):
+@neoziv.tests.tagged('-at_install', 'post_install')
+class TestWebsiteSaleComparison(neoziv.tests.TransactionCase):
     def test_01_website_sale_comparison_remove(self):
         """ This tour makes sure the product page still works after the module
         `website_sale_comparison` has been removed.
@@ -66,8 +66,8 @@ class TestWebsiteSaleComparison(odoo.tests.TransactionCase):
         self.assertFalse(Website1.viewref(test_view_key, raise_if_not_found=False))
 
 
-@odoo.tests.tagged('post_install', '-at_install')
-class TestUi(odoo.tests.HttpCase):
+@neoziv.tests.tagged('post_install', '-at_install')
+class TestUi(neoziv.tests.HttpCase):
 
     def setUp(self):
         super(TestUi, self).setUp()

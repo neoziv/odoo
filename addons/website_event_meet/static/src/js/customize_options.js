@@ -1,4 +1,4 @@
-odoo.define('website_event_meet.set_customize_options', function (require) {
+neoziv.define('website_event_meet.set_customize_options', function (require) {
 "use strict";
 
 let EventSpecificOptions = require('website_event.set_customize_options').EventSpecificOptions;

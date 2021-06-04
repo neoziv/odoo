@@ -1,15 +1,15 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import base64
 import io
 
 from PIL import Image
 
-import odoo.tests
+import neoziv.tests
 
 
-@odoo.tests.common.tagged('post_install', '-at_install')
-class TestWebsiteSaleImage(odoo.tests.HttpCase):
+@neoziv.tests.common.tagged('post_install', '-at_install')
+class TestWebsiteSaleImage(neoziv.tests.HttpCase):
 
     # registry_test_mode = False  # uncomment to save the product to test in browser
 

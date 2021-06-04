@@ -1,4 +1,4 @@
-odoo.define('google_drive.gdrive_integration', function (require) {
+neoziv.define('google_drive.gdrive_integration', function (require) {
     "use strict";
 
     const FormView = require('web.FormView');

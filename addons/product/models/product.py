@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import logging
 import re
 
-from odoo import api, fields, models, tools, _
-from odoo.exceptions import UserError, ValidationError
-from odoo.osv import expression
+from neoziv import api, fields, models, tools, _
+from neoziv.exceptions import UserError, ValidationError
+from neoziv.osv import expression
 
 
-from odoo.tools import float_compare
+from neoziv.tools import float_compare
 
 _logger = logging.getLogger(__name__)
 
@@ -396,7 +396,7 @@ class ProductProduct(models.Model):
             self = to_unlink
 
         try:
-            with self.env.cr.savepoint(), tools.mute_logger('odoo.sql_db'):
+            with self.env.cr.savepoint(), tools.mute_logger('neoziv.sql_db'):
                 self.unlink()
         except Exception:
             # We catch all kind of exceptions to be sure that the operation

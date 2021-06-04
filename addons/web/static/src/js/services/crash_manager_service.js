@@ -1,4 +1,4 @@
-odoo.define('crash_manager.service', function (require) {
+neoziv.define('crash_manager.service', function (require) {
 'use strict';
 
 const core = require('web.core');

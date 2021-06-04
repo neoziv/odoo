@@ -1,4 +1,4 @@
-odoo.define('website.s_google_map', function (require) {
+neoziv.define('website.s_google_map', function (require) {
 'use strict';
 
 const publicWidget = require('web.public.widget');

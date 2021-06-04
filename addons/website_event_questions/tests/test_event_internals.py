@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from datetime import datetime, timedelta
 
-from odoo.fields import Datetime as FieldsDatetime
-from odoo.tests.common import users
-from odoo.addons.website.tools import MockRequest
-from odoo.addons.website_event_questions.controllers.main import WebsiteEvent
-from odoo.addons.website_event_questions.tests.common import TestEventQuestionCommon
+from neoziv.fields import Datetime as FieldsDatetime
+from neoziv.tests.common import users
+from neoziv.addons.website.tools import MockRequest
+from neoziv.addons.website_event_questions.controllers.main import WebsiteEvent
+from neoziv.addons.website_event_questions.tests.common import TestEventQuestionCommon
 
 
 class TestEventData(TestEventQuestionCommon):

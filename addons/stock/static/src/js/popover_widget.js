@@ -1,4 +1,4 @@
-odoo.define('stock.popover_widget', function (require) {
+neoziv.define('stock.popover_widget', function (require) {
 'use strict';
 
 var AbstractField = require('web.AbstractField');

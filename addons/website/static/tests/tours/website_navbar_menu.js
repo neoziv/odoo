@@ -1,4 +1,4 @@
-odoo.define("website.tour.website_navbar_menu", function (require) {
+neoziv.define("website.tour.website_navbar_menu", function (require) {
 "use strict";
 
 var tour = require("web_tour.tour");

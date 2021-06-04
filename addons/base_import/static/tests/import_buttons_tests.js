@@ -1,4 +1,4 @@
-odoo.define('web.base_import_tests', function (require) {
+neoziv.define('web.base_import_tests', function (require) {
 "use strict";
 
 const KanbanView = require('web.KanbanView');

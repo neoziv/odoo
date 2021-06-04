@@ -1,5 +1,5 @@
 # coding: utf-8
-from odoo.tests import common, HttpCase, tagged
+from neoziv.tests import common, HttpCase, tagged
 
 
 @tagged('-at_install', 'post_install')

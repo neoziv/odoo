@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-import odoo.addons.web.tests.test_js
-import odoo.tests
+import neoziv.addons.web.tests.test_js
+import neoziv.tests
 
 
-@odoo.tests.tagged("post_install", "-at_install")
-class WebSuite(odoo.tests.HttpCase):
+@neoziv.tests.tagged("post_install", "-at_install")
+class WebSuite(neoziv.tests.HttpCase):
     def setUp(self):
         super().setUp()
         env = self.env(user=self.env.ref('base.user_admin'))

@@ -1,7 +1,7 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo import models, fields, api
-from odoo.osv import expression
+from neoziv import models, fields, api
+from neoziv.osv import expression
 
 
 class L10nLatamIdentificationType(models.Model):

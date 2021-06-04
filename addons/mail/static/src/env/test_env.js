@@ -1,4 +1,4 @@
-odoo.define('mail/static/src/env/test_env.js', function (require) {
+neoziv.define('mail/static/src/env/test_env.js', function (require) {
 'use strict';
 
 const { makeDeferred } = require('mail/static/src/utils/deferred/deferred.js');

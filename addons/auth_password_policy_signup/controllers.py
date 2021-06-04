@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-from odoo.http import request
-from odoo.addons.auth_signup.controllers.main import AuthSignupHome
+from neoziv.http import request
+from neoziv.addons.auth_signup.controllers.main import AuthSignupHome
 
 class AddPolicyData(AuthSignupHome):
     def get_auth_signup_config(self):

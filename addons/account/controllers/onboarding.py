@@ -1,5 +1,5 @@
-from odoo import http
-from odoo.http import request
+from neoziv import http
+from neoziv.http import request
 
 
 class OnboardingController(http.Controller):

@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo import _, api, exceptions, fields, models, modules
-from odoo.addons.base.models.res_users import is_selection_groups
+from neoziv import _, api, exceptions, fields, models, modules
+from neoziv.addons.base.models.res_users import is_selection_groups
 
 
 class Users(models.Model):
@@ -20,11 +20,11 @@ class Users(models.Model):
 
     notification_type = fields.Selection([
         ('email', 'Handle by Emails'),
-        ('inbox', 'Handle in Odoo')],
+        ('inbox', 'Handle in neoziv')],
         'Notification', required=True, default='email',
         help="Policy on how to handle Chatter notifications:\n"
              "- Handle by Emails: notifications are sent to your email address\n"
-             "- Handle in Odoo: notifications appear in your Odoo Inbox")
+             "- Handle in neoziv: notifications appear in your neoziv Inbox")
     # channel-specific: moderation
     is_moderator = fields.Boolean(string='Is moderator', compute='_compute_is_moderator')
     moderation_counter = fields.Integer(string='Moderation count', compute='_compute_moderation_counter')

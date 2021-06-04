@@ -1,4 +1,4 @@
-odoo.define('mail/static/src/models/partner/partner.js', function (require) {
+neoziv.define('mail/static/src/models/partner/partner.js', function (require) {
 'use strict';
 
 const { registerNewModel } = require('mail/static/src/model/model_core.js');
@@ -185,7 +185,7 @@ function factory(dependencies) {
                     partner.id <= 0 ||
                     this.env.messaging.publicPartners.includes(partner)
                 ) {
-                    // ignore archived partners (except OdooBot), temporary
+                    // ignore archived partners (except neozivBot), temporary
                     // partners (livechat guests), public partners (technical)
                     continue;
                 }

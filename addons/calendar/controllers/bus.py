@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*
 
-from odoo.addons.bus.controllers.main import BusController
-from odoo.http import request
+from neoziv.addons.bus.controllers.main import BusController
+from neoziv.http import request
 
 
 class CalendarBusController(BusController):

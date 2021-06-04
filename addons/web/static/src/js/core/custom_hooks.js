@@ -1,4 +1,4 @@
-odoo.define('web.custom_hooks', function () {
+neoziv.define('web.custom_hooks', function () {
     "use strict";
 
     const { Component, hooks } = owl;

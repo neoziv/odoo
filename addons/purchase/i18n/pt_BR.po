@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* purchase
 # 
@@ -13,7 +13,7 @@
 # Adriel Kotviski <kotviski@gmail.com>, 2020
 # falexandresilva <falexandresilva@gmail.com>, 2020
 # Luiz Carareto Alonso <Luiz.cararetoalonso@gmail.com>, 2020
-# Fernanda Marques <fem@odoo.com>, 2020
+# Fernanda Marques <fem@neoziv.com>, 2020
 # renato sabo <renato.sabo@bradootech.com>, 2020
 # Maurício Liell <mauricio@liell.com.br>, 2020
 # André Carvalho <and2carvalho@gmail.com>, 2020
@@ -34,12 +34,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 13:50+0000\n"
 "PO-Revision-Date: 2020-09-07 08:17+0000\n"
 "Last-Translator: Éder Brito <britoederr@gmail.com>, 2021\n"
-"Language-Team: Portuguese (Brazil) (https://www.transifex.com/odoo/teams/41243/pt_BR/)\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/neoziv/teams/41243/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -2962,12 +2962,12 @@ msgid ""
 "Vendors bills can be pre-generated based on purchase\n"
 "                    orders or receipts. This allows you to control bills\n"
 "                    you receive from your vendor according to the draft\n"
-"                    document in Odoo."
+"                    document in neoziv."
 msgstr ""
 "Faturas de fornecedores podem ser previamente geradas com base no pedido\n"
 "de compra ou recibos. Isto permite-lhe controlar contas\n"
 "que recebe de o seu fornecedor de acordo com o documento\n"
-"de rascunho no Odoo."
+"de rascunho no neoziv."
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__volume
@@ -3038,14 +3038,14 @@ msgid ""
 "When creating a purchase order, have a look at the vendor's <i>On Time "
 "Delivery</i> rate: the percentage of products shipped on time. If it is too "
 "low, activate the <i>automated reminders</i>. A few days before the due "
-"shipment, Odoo will send the vendor an email to ask confirmation of shipment"
+"shipment, neoziv will send the vendor an email to ask confirmation of shipment"
 " dates and keep you informed in case of any delays. To get the vendor's "
 "performance statistics, click on the OTD rate."
 msgstr ""
 "Ao criar um pedido de compra, dê uma olhada na taxa de<i>Entrega no "
 "Prazo</i> do fornecedor: a porcentagem de produtos enviados dentro do prazo."
 " Se estiver muito baixo, ative os <i>lembretes automáticos</i>. Poucos dias "
-"antes do prazo de envio, a Odoo enviará ao vendedor um e-mail para solicitar"
+"antes do prazo de envio, a neoziv enviará ao vendedor um e-mail para solicitar"
 " a confirmação das datas de envio para mantê-lo informado em caso de "
 "atrasos. Para obter as estatísticas de desempenho do fornecedor, clique na "
 "taxa OTD."
@@ -3053,12 +3053,12 @@ msgstr ""
 #. module: purchase
 #: model_terms:digest.tip,tip_description:purchase.digest_tip_purchase_1
 msgid ""
-"When sending a purchase order by email, Odoo asks the vendor to acknowledge "
+"When sending a purchase order by email, neoziv asks the vendor to acknowledge "
 "the reception of the order. When the vendor acknowledges the order by "
 "clicking on a button in the email, the information is added on the purchase "
 "order. Use filters to track orders that have not been acknowledged."
 msgstr ""
-"Ao enviar um pedido de compra por e-mail, Odoo pede ao vendedor que confirme"
+"Ao enviar um pedido de compra por e-mail, neoziv pede ao vendedor que confirme"
 " o recebimento do pedido. Quando o vendedor reconhece o pedido clicando em "
 "um botão do e-mail, a informação é adicionada ao pedido de compra. Use "
 "filtros para rastrear pedidos que não foram confirmados."

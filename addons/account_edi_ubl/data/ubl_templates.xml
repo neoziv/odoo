@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<odoo>
+<neoziv>
     <data>
         <!--
         Render a res.partner record to be added to the UBL xml document.
@@ -165,4 +165,4 @@
             </Invoice>
         </template>
     </data>
-</odoo>
+</neoziv>

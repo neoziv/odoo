@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 # Copyright (c) 2015 WT-IO-IT GmbH (https://www.wt-io-it.at)
 #                    Mag. Wolfgang Taferner <wolfgang.taferner@wt-io-it.at>
 
 # List of contributors:
 # Mag. Wolfgang Taferner <wolfgang.taferner@wt-io-it.at>
-# Josse Colpaert <jco@odoo.com>
+# Josse Colpaert <jco@neoziv.com>
 
 {
     "name": "Austria - Accounting",

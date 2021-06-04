@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from dateutil.relativedelta import relativedelta
 
-from odoo import api, fields, models
-from odoo.exceptions import AccessError
-from odoo.tools.translate import _
+from neoziv import api, fields, models
+from neoziv.exceptions import AccessError
+from neoziv.tools.translate import _
 
 
 class MailNotification(models.Model):

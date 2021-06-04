@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* website_forum
 # 
@@ -15,12 +15,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:12+0000\n"
 "PO-Revision-Date: 2020-09-07 08:21+0000\n"
 "Last-Translator: Lilach Gilliam <lilach.gilliam@gmail.com>, 2021\n"
-"Language-Team: Hebrew (https://www.transifex.com/odoo/teams/41243/he/)\n"
+"Language-Team: Hebrew (https://www.transifex.com/neoziv/teams/41243/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -3202,7 +3202,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_forum.faq_karma
 msgid ""
 "The goal of this site is create a relevant knowledge base that would answer "
-"questions related to Odoo."
+"questions related to neoziv."
 msgstr ""
 
 #. module: website_forum
@@ -3806,8 +3806,8 @@ msgstr "כאן"
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "how to configure or customize Odoo to specific business needs,"
-msgstr "כיצד להגדיר או להתאים אישית את Odoo לצרכים עסקיים מסוימים,"
+msgid "how to configure or customize neoziv to specific business needs,"
+msgstr "כיצד להגדיר או להתאים אישית את neoziv לצרכים עסקיים מסוימים,"
 
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
@@ -3818,8 +3818,8 @@ msgstr "כיצד לפתח מודולים לצרכים שלך,"
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "how to install Odoo on a specific infrastructure,"
-msgstr "כיצד להתקין את Odoo בתשתית מסוימת,"
+msgid "how to install neoziv on a specific infrastructure,"
+msgstr "כיצד להתקין את neoziv בתשתית מסוימת,"
 
 #. module: website_forum
 #. openerp-web
@@ -3923,8 +3923,8 @@ msgstr "טופל"
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "specific questions about Odoo service offers, etc."
-msgstr "שאלות ספציפיות לגבי הצעות שירות של Odoo וכו'."
+msgid "specific questions about neoziv service offers, etc."
+msgstr "שאלות ספציפיות לגבי הצעות שירות של neoziv וכו'."
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.forum_index
@@ -3980,8 +3980,8 @@ msgstr "נשאלת שאלה פתוחה והיפותטית: \"מה אם ______ ה
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "what's the best way to use Odoo for a specific business need,"
-msgstr "מה הדרך הטובה ביותר להשתמש ב Odoo לצורך עסקי מסוים,"
+msgid "what's the best way to use neoziv for a specific business need,"
+msgstr "מה הדרך הטובה ביותר להשתמש ב neoziv לצורך עסקי מסוים,"
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.author_box

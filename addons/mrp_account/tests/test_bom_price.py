@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo.exceptions import UserError
-from odoo.tests import common, Form
-from odoo.tools.float_utils import float_round, float_compare
+from neoziv.exceptions import UserError
+from neoziv.tests import common, Form
+from neoziv.tools.float_utils import float_round, float_compare
 
 
 class TestBom(common.TransactionCase):

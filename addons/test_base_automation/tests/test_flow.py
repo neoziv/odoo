@@ -1,11 +1,11 @@
 # # -*- coding: utf-8 -*-
-# # Part of Odoo. See LICENSE file for full copyright and licensing details.
+# # Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from unittest.mock import patch
 
-from odoo.addons.base.tests.common import TransactionCaseWithUserDemo
-from odoo.tests import common, tagged
-from odoo.exceptions import AccessError
+from neoziv.addons.base.tests.common import TransactionCaseWithUserDemo
+from neoziv.tests import common, tagged
+from neoziv.exceptions import AccessError
 
 
 @tagged('post_install', '-at_install')
@@ -215,8 +215,8 @@ record['name'] = record.name + 'X'""",
             send_mail_count += 1
 
         patchers = [
-            patch('odoo.addons.base_automation.models.base_automation.BaseAutomation._get_actions', _patched_get_actions),
-            patch('odoo.addons.mail.models.mail_template.MailTemplate.send_mail', _patched_send_mail),
+            patch('neoziv.addons.base_automation.models.base_automation.BaseAutomation._get_actions', _patched_get_actions),
+            patch('neoziv.addons.mail.models.mail_template.MailTemplate.send_mail', _patched_send_mail),
         ]
 
         patchers[0].start()

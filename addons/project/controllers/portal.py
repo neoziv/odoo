@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from collections import OrderedDict
 from operator import itemgetter
 
-from odoo import http, _
-from odoo.exceptions import AccessError, MissingError
-from odoo.http import request
-from odoo.addons.portal.controllers.portal import CustomerPortal, pager as portal_pager
-from odoo.tools import groupby as groupbyelem
+from neoziv import http, _
+from neoziv.exceptions import AccessError, MissingError
+from neoziv.http import request
+from neoziv.addons.portal.controllers.portal import CustomerPortal, pager as portal_pager
+from neoziv.tools import groupby as groupbyelem
 
-from odoo.osv.expression import OR
+from neoziv.osv.expression import OR
 
 
 class CustomerPortal(CustomerPortal):

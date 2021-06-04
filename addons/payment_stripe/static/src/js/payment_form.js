@@ -1,4 +1,4 @@
-odoo.define('payment_stripe.payment_form', function (require) {
+neoziv.define('payment_stripe.payment_form', function (require) {
 "use strict";
 
 var ajax = require('web.ajax');

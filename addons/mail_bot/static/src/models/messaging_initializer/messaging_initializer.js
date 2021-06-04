@@ -1,4 +1,4 @@
-odoo.define('mail_bot/static/src/models/messaging_initializer/messaging_initializer.js', function (require) {
+neoziv.define('mail_bot/static/src/models/messaging_initializer/messaging_initializer.js', function (require) {
 'use strict';
 
 const { registerInstancePatchModel } = require('mail/static/src/model/model_core.js');
@@ -11,15 +11,15 @@ registerInstancePatchModel('mail.messaging_initializer', 'mail_bot/static/src/mo
     /**
      * @private
      */
-    async _initializeOdooBot() {
+    async _initializeneozivBot() {
         const data = await this.async(() => this.env.services.rpc({
             model: 'mail.channel',
-            method: 'init_odoobot',
+            method: 'init_neozivbot',
         }));
         if (!data) {
             return;
         }
-        this.env.session.odoobot_initialized = true;
+        this.env.session.neozivbot_initialized = true;
     },
 
     /**
@@ -28,8 +28,8 @@ registerInstancePatchModel('mail.messaging_initializer', 'mail_bot/static/src/mo
     async start() {
         await this.async(() => this._super());
 
-        if ('odoobot_initialized' in this.env.session && !this.env.session.odoobot_initialized) {
-            this._initializeOdooBot();
+        if ('neozivbot_initialized' in this.env.session && !this.env.session.neozivbot_initialized) {
+            this._initializeneozivBot();
         }
     },
 });

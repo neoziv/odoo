@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-from odoo.http import request
-from odoo import models
+from neoziv.http import request
+from neoziv import models
 
 
 class IrHttp(models.AbstractModel):

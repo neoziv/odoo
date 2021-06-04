@@ -1,2 +1,2 @@
-debian/odoo.conf /etc/odoo
-README.md /usr/share/doc/odoo
+debian/neoziv.conf /etc/neoziv
+README.md /usr/share/doc/neoziv

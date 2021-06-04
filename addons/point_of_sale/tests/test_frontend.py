@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo import tools
-from odoo.api import Environment
-from odoo.tools import DEFAULT_SERVER_DATE_FORMAT
+from neoziv import tools
+from neoziv.api import Environment
+from neoziv.tools import DEFAULT_SERVER_DATE_FORMAT
 from datetime import date, timedelta
 
-import odoo.tests
+import neoziv.tests
 
 
-class TestPointOfSaleHttpCommon(odoo.tests.HttpCase):
+class TestPointOfSaleHttpCommon(neoziv.tests.HttpCase):
 
     def setUp(self):
         super().setUp()
@@ -471,7 +471,7 @@ class TestPointOfSaleHttpCommon(odoo.tests.HttpCase):
         )
 
 
-@odoo.tests.tagged('post_install', '-at_install')
+@neoziv.tests.tagged('post_install', '-at_install')
 class TestUi(TestPointOfSaleHttpCommon):
     def test_01_pos_basic_order(self):
 

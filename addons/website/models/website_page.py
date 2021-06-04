@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo.addons.http_routing.models.ir_http import slugify
-from odoo import api, fields, models
-from odoo.tools.safe_eval import safe_eval
+from neoziv.addons.http_routing.models.ir_http import slugify
+from neoziv import api, fields, models
+from neoziv.tools.safe_eval import safe_eval
 
 
 class Page(models.Model):

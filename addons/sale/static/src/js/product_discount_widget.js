@@ -1,4 +1,4 @@
-odoo.define('sale.product_discount', function (require) {
+neoziv.define('sale.product_discount', function (require) {
     "use strict";
 
     const BasicFields = require('web.basic_fields');
@@ -19,7 +19,7 @@ odoo.define('sale.product_discount', function (require) {
          * Override changes at a discount.
          *
          * @override
-         * @param {OdooEvent} ev
+         * @param {neozivEvent} ev
          *
          */
         async reset(record, ev) {

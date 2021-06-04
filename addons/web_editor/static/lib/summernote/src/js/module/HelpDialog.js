@@ -1,4 +1,4 @@
-define([], function () { // ODOO: remove error from Odoo define
+define([], function () { // neoziv: remove error from neoziv define
   var HelpDialog = function (handler) {
     /**
      * show help dialog

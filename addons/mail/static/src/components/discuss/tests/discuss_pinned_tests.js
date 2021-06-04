@@ -1,4 +1,4 @@
-odoo.define('mail/static/src/components/discuss/tests/discuss_pinned_tests.js', function (require) {
+neoziv.define('mail/static/src/components/discuss/tests/discuss_pinned_tests.js', function (require) {
 'use strict';
 
 const {

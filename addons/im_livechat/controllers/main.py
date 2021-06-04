@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import base64
 
-from odoo import http,tools, _
-from odoo.http import request
-from odoo.addons.base.models.assetsbundle import AssetsBundle
+from neoziv import http,tools, _
+from neoziv.http import request
+from neoziv.addons.base.models.assetsbundle import AssetsBundle
 
 
 class LivechatController(http.Controller):

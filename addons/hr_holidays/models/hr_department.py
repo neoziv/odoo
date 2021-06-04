@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import datetime
 from dateutil.relativedelta import relativedelta
 
-from odoo import api, fields, models
+from neoziv import api, fields, models
 
 
 class Department(models.Model):

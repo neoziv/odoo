@@ -1,4 +1,4 @@
-odoo.define('web.registry_tests', function (require) {
+neoziv.define('web.registry_tests', function (require) {
 "use strict";
 
 var Registry = require('web.Registry');

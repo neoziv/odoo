@@ -1,21 +1,21 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* stock
 # 
 # Translators:
 # Martin Trigaux, 2020
 # sejun huang <sejun.huang@gmail.com>, 2020
-# Mandy Choy <mnc@odoo.com>, 2021
+# Mandy Choy <mnc@neoziv.com>, 2021
 # 敬雲 林 <chingyun@yuanchih-consult.com>, 2021
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 11:23+0000\n"
 "PO-Revision-Date: 2020-09-07 08:19+0000\n"
 "Last-Translator: 敬雲 林 <chingyun@yuanchih-consult.com>, 2021\n"
-"Language-Team: Chinese (Taiwan) (https://www.transifex.com/odoo/teams/41243/zh_TW/)\n"
+"Language-Team: Chinese (Taiwan) (https://www.transifex.com/neoziv/teams/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1714,9 +1714,9 @@ msgstr "通過此倉庫的預設路線"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_orderpoint
 msgid ""
-"Define a minimum stock rule so that Odoo creates automatically requests for "
+"Define a minimum stock rule so that neoziv creates automatically requests for "
 "quotations or draft manufacturing orders to resupply your stock."
-msgstr "設定一個最小庫存量規則，Odoo會依此自動計算需要採購或者生產的數量。"
+msgstr "設定一個最小庫存量規則，neoziv會依此自動計算需要採購或者生產的數量。"
 
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_warehouse_form
@@ -1727,14 +1727,14 @@ msgstr "定義新倉庫"
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
 msgid ""
 "Define your locations to reflect your warehouse structure and\n"
-"            organization. Odoo is able to manage physical locations\n"
+"            organization. neoziv is able to manage physical locations\n"
 "            (warehouses, shelves, bin, etc), partner locations (customers,\n"
 "            vendors) and virtual locations which are the counterpart of\n"
 "            the stock operations like the manufacturing orders\n"
 "            consumptions, inventories, etc."
 msgstr ""
 "定義您的位置來反映您倉庫的結構\n"
-"和組織。Odoo能管理物理位置\n"
+"和組織。neoziv能管理物理位置\n"
 "（倉庫、貨架、桶位等等），\n"
 "業務夥伴位置（客戶、\n"
 "供應商）和虛擬位置，即是對方的庫存作業，如：生產訂單\n"
@@ -2158,7 +2158,7 @@ msgstr "空庫存"
 #. module: stock
 #: model_terms:digest.tip,tip_description:stock.digest_tip_stock_0
 msgid ""
-"Enjoy a quick-paced experience with the Odoo barcode app. It is blazing fast"
+"Enjoy a quick-paced experience with the neoziv barcode app. It is blazing fast"
 " and works even without a stable internet connection. It supports all flows:"
 " inventory adjustments, batch picking, moving lots or pallets, low inventory"
 " checks, etc. Go to the \"Apps\" menu to activate the barcode interface."
@@ -2185,15 +2185,15 @@ msgstr "錯誤"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
 msgid ""
-"Every stock operation in Odoo moves the products from one\n"
+"Every stock operation in neoziv moves the products from one\n"
 "            location to another one.  For instance, if you receive products\n"
-"            from a vendor, Odoo will move products from the Vendor\n"
+"            from a vendor, neoziv will move products from the Vendor\n"
 "            location to the Stock location. Each report can be performed on\n"
 "            physical, partner or virtual locations."
 msgstr ""
-"Odoo中每一個庫存操作都是將產品從一個\n"
+"neoziv中每一個庫存操作都是將產品從一個\n"
 "位置移至另一位置。例如，若果您從供應商那邊收到產品，\n"
-"Odoo將會把產品從供應商位置調撥到倉庫位置。每個報表可用在\n"
+"neoziv將會把產品從供應商位置調撥到倉庫位置。每個報表可用在\n"
 "物理位置、業務夥伴位置或者虛擬位置進行。"
 
 #. module: stock
@@ -2762,10 +2762,10 @@ msgstr "若果揀貨被解鎖，您可以編輯初始需求（用於揀貨草稿
 #: model:ir.model.fields,help:stock.field_stock_picking__show_reserved
 #: model:ir.model.fields,help:stock.field_stock_picking_type__show_reserved
 msgid ""
-"If this checkbox is ticked, Odoo will automatically pre-fill the detailed "
+"If this checkbox is ticked, neoziv will automatically pre-fill the detailed "
 "operations with the corresponding products, locations and lot/serial "
 "numbers."
-msgstr "若勾選，Odoo 將自動用相應的產品、位置和批次/序號預填充詳細操作。"
+msgstr "若勾選，neoziv 將自動用相應的產品、位置和批次/序號預填充詳細操作。"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move__show_operations
@@ -7471,17 +7471,17 @@ msgstr "當揀貨沒有完成時，這允許改變初始需求。當揀貨完成
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_min_qty
 msgid ""
 "When the virtual stock equals to or goes below the Min Quantity specified "
-"for this field, Odoo generates a procurement to bring the forecasted "
+"for this field, neoziv generates a procurement to bring the forecasted "
 "quantity to the Max Quantity."
-msgstr "當預設數量等於或低於此欄位指定的最小數量時，Odoo 將生成採購，並將預測數量達到最大數量。"
+msgstr "當預設數量等於或低於此欄位指定的最小數量時，neoziv 將生成採購，並將預測數量達到最大數量。"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_max_qty
 msgid ""
-"When the virtual stock goes below the Min Quantity, Odoo generates a "
+"When the virtual stock goes below the Min Quantity, neoziv generates a "
 "procurement to bring the forecasted quantity to the Quantity specified as "
 "Max Quantity."
-msgstr "當虛擬庫存小於最小數量，Odoo生成補貨以便令數量的預測數量達至最大數量。"
+msgstr "當虛擬庫存小於最小數量，neoziv生成補貨以便令數量的預測數量達至最大數量。"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_rule__propagate_cancel
@@ -7768,7 +7768,7 @@ msgstr "您已手動創建產品明細，需要刪除才能繼續。"
 #: model_terms:ir.ui.view,arch_db:stock.view_immediate_transfer
 msgid ""
 "You have not recorded <i>done</i> quantities yet, by clicking on "
-"<i>apply</i> Odoo will process all the quantities."
+"<i>apply</i> neoziv will process all the quantities."
 msgstr ""
 
 #. module: stock

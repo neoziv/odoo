@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from dateutil.relativedelta import relativedelta
 
-from odoo import fields
-from odoo.tests.common import tagged, HttpCase
+from neoziv import fields
+from neoziv.tests.common import tagged, HttpCase
 
 
 @tagged('post_install', '-at_install')

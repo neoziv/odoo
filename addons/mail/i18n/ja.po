@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* mail
 # 
@@ -24,12 +24,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 11:23+0000\n"
 "PO-Revision-Date: 2020-09-07 08:14+0000\n"
 "Last-Translator: Noma Yuki, 2021\n"
-"Language-Team: Japanese (https://www.transifex.com/odoo/teams/41243/ja/)\n"
+"Language-Team: Japanese (https://www.transifex.com/neoziv/teams/41243/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -997,8 +997,8 @@ msgstr "アバター"
 #. openerp-web
 #: code:addons/mail/static/src/components/notification_request/notification_request.xml:0
 #, python-format
-msgid "Avatar of OdooBot"
-msgstr "OdooBotのアバター"
+msgid "Avatar of neozivBot"
+msgstr "neozivBotのアバター"
 
 #. module: mail
 #. openerp-web
@@ -2632,8 +2632,8 @@ msgstr "メール送信"
 
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__res_users__notification_type__inbox
-msgid "Handle in Odoo"
-msgstr "Odoo内にとどめる"
+msgid "Handle in neoziv"
+msgstr "neoziv内にとどめる"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_resend_message__has_cancel
@@ -2887,9 +2887,9 @@ msgstr "関連パートナーがアクティブな場合(存在する場合)ま�
 #. module: mail
 #: model:ir.model.fields,help:mail.field_res_config_settings__alias_domain
 msgid ""
-"If you have setup a catch-all email domain redirected to the Odoo server, "
+"If you have setup a catch-all email domain redirected to the neoziv server, "
 "enter the domain name here."
-msgstr "Odooサーバーにリダイレクトされるキャッチオール電子メールドメインをセットアップした場合は、ここにドメイン名を入力します。"
+msgstr "neozivサーバーにリダイレクトされるキャッチオール電子メールドメインをセットアップした場合は、ここにドメイン名を入力します。"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_resend_cancel_view_form
@@ -4314,26 +4314,26 @@ msgstr "未読メッセージ件数"
 #: model_terms:ir.ui.view,arch_db:mail.mail_notification_light
 #: model_terms:ir.ui.view,arch_db:mail.mail_notification_paynow
 #: model_terms:ir.ui.view,arch_db:mail.message_notification_email
-msgid "Odoo"
-msgstr "Odoo"
+msgid "neoziv"
+msgstr "neoziv"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/components/notification_alert/notification_alert.xml:0
 #, python-format
 msgid ""
-"Odoo Push notifications have been blocked. Go to your browser settings to "
+"neoziv Push notifications have been blocked. Go to your browser settings to "
 "allow them."
-msgstr "Odooプッシュ通知はブロックされています。ブラウザの設定に移動して許可します。"
+msgstr "neozivプッシュ通知はブロックされています。ブラウザの設定に移動して許可します。"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/components/notification_request/notification_request.js:0
 #, python-format
 msgid ""
-"Odoo will not have the permission to send native notifications on this "
+"neoziv will not have the permission to send native notifications on this "
 "device."
-msgstr "Odooには、このデバイスでネイティブ通知を送信する権限がありません。"
+msgstr "neozivには、このデバイスでネイティブ通知を送信する権限がありません。"
 
 #. module: mail
 #. openerp-web
@@ -4762,11 +4762,11 @@ msgstr "お待ちください..."
 msgid ""
 "Policy on how to handle Chatter notifications:\n"
 "- Handle by Emails: notifications are sent to your email address\n"
-"- Handle in Odoo: notifications appear in your Odoo Inbox"
+"- Handle in neoziv: notifications appear in your neoziv Inbox"
 msgstr ""
 "Chatter通知の処理方法に関するポリシー:\n"
 "-電子メールによる処理:通知は電子メールアドレスに送信されます\n"
-"-Odooでの処理:通知はOdoo受信ボックスに表示されます"
+"-neozivでの処理:通知はneoziv受信ボックスに表示されます"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_contact
@@ -5897,11 +5897,11 @@ msgstr "この連絡先を担当する内部ユーザー。"
 #: model:ir.model.fields,help:mail.field_mail_alias_mixin__alias_model_id
 #: model:ir.model.fields,help:mail.field_mail_channel__alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (neoziv Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"このエイリアスに対応した(Odooドキュメント種別)モデル。既存のレコードに返信しない任意の受信メールは、このモデルの新しいレコード(例えば、プロジェクトタスク)の作成を引き起こします"
+"このエイリアスに対応した(neozivドキュメント種別)モデル。既存のレコードに返信しない任意の受信メールは、このモデルの新しいレコード(例えば、プロジェクトタスク)の作成を引き起こします"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_name
@@ -5909,8 +5909,8 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_channel__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
-msgstr "eメールのエイリアス.例えば<jobs@example.odoo.com>のメールを受け取りたい場合'jobs’を選択"
+"<jobs@example.neoziv.com>"
+msgstr "eメールのエイリアス.例えば<jobs@example.neoziv.com>のメールを受け取りたい場合'jobs’を選択"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_user_id
@@ -6006,9 +6006,9 @@ msgstr "このグループは、非メンバーによって表示されます。
 msgid ""
 "This option permanently removes any track of email after it's been sent, "
 "including from the Technical menu in the Settings, in order to preserve "
-"storage space of your Odoo database."
+"storage space of your neoziv database."
 msgstr ""
-"このオプションは、Odooデータベースのストレージスペースを維持するために、[設定]の[テクニカル]メニューを含め、送信後に電子メールのトラックを完全に削除します"
+"このオプションは、neozivデータベースのストレージスペースを維持するために、[設定]の[テクニカル]メニューを含め、送信後に電子メールのトラックを完全に削除します"
 
 #. module: mail
 #. openerp-web
@@ -6465,10 +6465,10 @@ msgstr "このチャネルのユーザー:%(members)s%(dots)sとあなた。"
 msgid ""
 "Using your own email server is required to send/receive emails in Community "
 "and Enterprise versions. Online users already benefit from a ready-to-use "
-"email server (@mycompany.odoo.com)."
+"email server (@mycompany.neoziv.com)."
 msgstr ""
 "コミュニティバージョンとエンタープライズバージョンで電子メールを送受信するには、独自の電子メールサーバーを使用する必要があります。オンラインユーザーは、すぐに使用できる電子メールサーバー(@"
-" mycompany.odoo.com)の恩恵を受けています。"
+" mycompany.neoziv.com)の恩恵を受けています。"
 
 #. module: mail
 #. openerp-web
@@ -6989,8 +6989,8 @@ msgstr "ヶ月"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
-msgid "mycompany.odoo.com"
-msgstr "mycompany.odoo.com"
+msgid "mycompany.neoziv.com"
+msgstr "mycompany.neoziv.com"
 
 #. module: mail
 #. openerp-web

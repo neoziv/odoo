@@ -1,4 +1,4 @@
-odoo.define('bus.BusService', function (require) {
+neoziv.define('bus.BusService', function (require) {
 "use strict";
 
 var CrossTab = require('bus.CrossTab');
@@ -29,7 +29,7 @@ var BusService =  CrossTab.extend(ServicesMixin, {
      * Directly calls the requested service, instead of triggering a
      * 'call_service' event up, which wouldn't work as services have no parent.
      *
-     * @param {OdooEvent} ev
+     * @param {neozivEvent} ev
      */
     _trigger_up: function (ev) {
         if (ev.name === 'call_service') {
@@ -130,7 +130,7 @@ var BusService =  CrossTab.extend(ServicesMixin, {
             _.unescape(title),
             {
                 body: _.unescape(content),
-                icon: "/mail/static/src/img/odoobot_transparent.png"
+                icon: "/mail/static/src/img/neozivbot_transparent.png"
             });
         notification.onclick = function () {
             window.focus();

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* mail
 # 
@@ -21,12 +21,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 11:23+0000\n"
 "PO-Revision-Date: 2020-09-07 08:14+0000\n"
 "Last-Translator: Ивайло Малинов <iv.malinov@gmail.com>, 2021\n"
-"Language-Team: Bulgarian (https://www.transifex.com/odoo/teams/41243/bg/)\n"
+"Language-Team: Bulgarian (https://www.transifex.com/neoziv/teams/41243/bg/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -993,7 +993,7 @@ msgstr "Аватар"
 #. openerp-web
 #: code:addons/mail/static/src/components/notification_request/notification_request.xml:0
 #, python-format
-msgid "Avatar of OdooBot"
+msgid "Avatar of neozivBot"
 msgstr ""
 
 #. module: mail
@@ -2653,7 +2653,7 @@ msgstr ""
 
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__res_users__notification_type__inbox
-msgid "Handle in Odoo"
+msgid "Handle in neoziv"
 msgstr ""
 
 #. module: mail
@@ -2912,11 +2912,11 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,help:mail.field_res_config_settings__alias_domain
 msgid ""
-"If you have setup a catch-all email domain redirected to the Odoo server, "
+"If you have setup a catch-all email domain redirected to the neoziv server, "
 "enter the domain name here."
 msgstr ""
 "Ако сте настроили улавящ всички имейли домейн, пренасочен към сървъра на "
-"Odoo, въведете тук името на домейна."
+"neoziv, въведете тук името на домейна."
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_resend_cancel_view_form
@@ -4364,15 +4364,15 @@ msgstr "Брой непрочетени съобщения"
 #: model_terms:ir.ui.view,arch_db:mail.mail_notification_light
 #: model_terms:ir.ui.view,arch_db:mail.mail_notification_paynow
 #: model_terms:ir.ui.view,arch_db:mail.message_notification_email
-msgid "Odoo"
-msgstr "Odoo"
+msgid "neoziv"
+msgstr "neoziv"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/components/notification_alert/notification_alert.xml:0
 #, python-format
 msgid ""
-"Odoo Push notifications have been blocked. Go to your browser settings to "
+"neoziv Push notifications have been blocked. Go to your browser settings to "
 "allow them."
 msgstr ""
 
@@ -4381,10 +4381,10 @@ msgstr ""
 #: code:addons/mail/static/src/components/notification_request/notification_request.js:0
 #, python-format
 msgid ""
-"Odoo will not have the permission to send native notifications on this "
+"neoziv will not have the permission to send native notifications on this "
 "device."
 msgstr ""
-"Odoo няма да има разрешение да изпраща нативни известия на това устройство."
+"neoziv няма да има разрешение да изпраща нативни известия на това устройство."
 
 #. module: mail
 #. openerp-web
@@ -4826,7 +4826,7 @@ msgstr ""
 msgid ""
 "Policy on how to handle Chatter notifications:\n"
 "- Handle by Emails: notifications are sent to your email address\n"
-"- Handle in Odoo: notifications appear in your Odoo Inbox"
+"- Handle in neoziv: notifications appear in your neoziv Inbox"
 msgstr ""
 
 #. module: mail
@@ -5968,11 +5968,11 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_alias_mixin__alias_model_id
 #: model:ir.model.fields,help:mail.field_mail_channel__alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (neoziv Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"Моделът (Odoo Document Kind), към който съответства този псевдоним. Всеки "
+"Моделът (neoziv Document Kind), към който съответства този псевдоним. Всеки "
 "входящ имейл, който не отговаря на съществуващ запис, ще доведе до "
 "създаването на нов запис на този модел (например задача за проекта)"
 
@@ -5982,10 +5982,10 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_channel__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.neoziv.com>"
 msgstr ""
 "Името на имейла, напр. \"работни места\", ако искате да уловите имейли за "
-"<jobs@example.odoo.com>"
+"<jobs@example.neoziv.com>"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_user_id
@@ -6086,7 +6086,7 @@ msgstr ""
 msgid ""
 "This option permanently removes any track of email after it's been sent, "
 "including from the Technical menu in the Settings, in order to preserve "
-"storage space of your Odoo database."
+"storage space of your neoziv database."
 msgstr ""
 
 #. module: mail
@@ -6541,7 +6541,7 @@ msgstr ""
 msgid ""
 "Using your own email server is required to send/receive emails in Community "
 "and Enterprise versions. Online users already benefit from a ready-to-use "
-"email server (@mycompany.odoo.com)."
+"email server (@mycompany.neoziv.com)."
 msgstr ""
 
 #. module: mail
@@ -7067,8 +7067,8 @@ msgstr "месеци"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
-msgid "mycompany.odoo.com"
-msgstr "mycompany.odoo.com"
+msgid "mycompany.neoziv.com"
+msgstr "mycompany.neoziv.com"
 
 #. module: mail
 #. openerp-web

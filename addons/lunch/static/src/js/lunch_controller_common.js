@@ -1,4 +1,4 @@
-odoo.define('lunch.LunchControllerCommon', function (require) {
+neoziv.define('lunch.LunchControllerCommon', function (require) {
 "use strict";
 
 /**

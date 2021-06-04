@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo import models
+from neoziv import models
 
-from odoo.addons.microsoft_calendar.models.microsoft_sync import microsoft_calendar_token
+from neoziv.addons.microsoft_calendar.models.microsoft_sync import microsoft_calendar_token
 
 
 class Attendee(models.Model):
@@ -12,7 +12,7 @@ class Attendee(models.Model):
 
     def _send_mail_to_attendees(self, template_xmlid, force_send=False, ignore_recurrence=False):
         """ Override the super method
-        If not synced with Microsoft Outlook, let Odoo in charge of sending emails
+        If not synced with Microsoft Outlook, let neoziv in charge of sending emails
         Otherwise, Microsoft Outlook will send them
         """
         with microsoft_calendar_token(self.env.user.sudo()) as token:

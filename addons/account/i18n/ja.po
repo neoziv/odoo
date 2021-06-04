@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* account
 # 
@@ -29,12 +29,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-25 10:15+0000\n"
 "PO-Revision-Date: 2020-09-07 08:09+0000\n"
 "Last-Translator: Yoshi Tashiro (Quartile) <tashiro@roomsfor.hk>, 2021\n"
-"Language-Team: Japanese (https://www.transifex.com/odoo/teams/41243/ja/)\n"
+"Language-Team: Japanese (https://www.transifex.com/neoziv/teams/41243/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -4318,9 +4318,9 @@ msgstr "日付モード"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_financial_year_op__opening_date
 msgid ""
-"Date from which the accounting is managed in Odoo. It is the date of the "
+"Date from which the accounting is managed in neoziv. It is the date of the "
 "opening entry."
-msgstr "会計がOdooで管理された日付。これは、開始エントリの日付です。"
+msgstr "会計がneozivで管理された日付。これは、開始エントリの日付です。"
 
 #. module: account
 #. openerp-web
@@ -7428,37 +7428,37 @@ msgstr "手動"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__inbound_payment_method_ids
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Odoo.\n"
+"Manual: Get paid by cash, check or any other method outside of neoziv.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in neoziv,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
 msgstr ""
-"Manual：Odoo以外の現金、小切手、またはその他の方法で支払いを受けます。\n"
+"Manual：neoziv以外の現金、小切手、またはその他の方法で支払いを受けます。\n"
 "電子：オンラインで購入またはサブスクライブするときに顧客が保存したカード（支払いトークン）でトランザクションを要求することにより、支払い取得者を通じて自動的に支払いを受け取ります。\n"
-"バッチ預金：銀行に提出するバッチ預金を生成することにより、一度に複数の顧客小切手を含包します。Odooで銀行取引明細書をエンコードするときは、トランザクションをバッチデポジットと照合することをお勧めします。設定からこのオプションを有効にします。"
+"バッチ預金：銀行に提出するバッチ預金を生成することにより、一度に複数の顧客小切手を含包します。neozivで銀行取引明細書をエンコードするときは、トランザクションをバッチデポジットと照合することをお勧めします。設定からこのオプションを有効にします。"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment__payment_method_id
 #: model:ir.model.fields,help:account.field_account_payment_register__payment_method_id
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Odoo.\n"
+"Manual: Get paid by cash, check or any other method outside of neoziv.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Check: Pay bill by check and print it from Odoo.\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo, you are suggested to reconcile the transaction with the batch deposit.To enable batch deposit, module account_batch_payment must be installed.\n"
+"Check: Pay bill by check and print it from neoziv.\n"
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in neoziv, you are suggested to reconcile the transaction with the batch deposit.To enable batch deposit, module account_batch_payment must be installed.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. To enable sepa credit transfer, module account_sepa must be installed "
 msgstr ""
-"小切手：小切手で請求書を支払い、Odooから印刷します。\n"
-"バッチ預金：銀行に提出するバッチ預金を生成することにより、一度に複数の顧客小切手を含包します。Odooで銀行取引明細書をエンコードするときは、トランザクションをバッチ預金と照合することをお勧めします。バッチ預金を有効にするには、モジュールaccount_batch_paymentをインストールする必要があります。\n"
+"小切手：小切手で請求書を支払い、neozivから印刷します。\n"
+"バッチ預金：銀行に提出するバッチ預金を生成することにより、一度に複数の顧客小切手を含包します。neozivで銀行取引明細書をエンコードするときは、トランザクションをバッチ預金と照合することをお勧めします。バッチ預金を有効にするには、モジュールaccount_batch_paymentをインストールする必要があります。\n"
 "SEPAクレジット転送：銀行に提出するSEPAクレジット転送ファイルから請求書を支払います。Sepaクレジット転送を有効にするには、モジュールaccount_sepaをインストールする必要があります"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__outbound_payment_method_ids
 msgid ""
-"Manual:Pay bill by cash or any other method outside of Odoo.\n"
-"Check:Pay bill by check and print it from Odoo.\n"
+"Manual:Pay bill by cash or any other method outside of neoziv.\n"
+"Check:Pay bill by check and print it from neoziv.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. Enable this option from the settings."
 msgstr ""
-"手動：Odoo以外の現金またはその他の方法で請求書を支払います。\n"
-"小切手：小切手で請求書を支払い、Odooから印刷します。\n"
+"手動：neoziv以外の現金またはその他の方法で請求書を支払います。\n"
+"小切手：小切手で請求書を支払い、neozivから印刷します。\n"
 "SEPAクレジット転送：銀行に提出するSEPAクレジット転送ファイルから請求書を支払います。設定からこのオプションを有効にします。"
 
 #. module: account
@@ -8103,37 +8103,37 @@ msgid "October"
 msgstr "10月"
 
 #. module: account
-#: model:ir.model.fields.selection,name:account.selection__account_journal__invoice_reference_model__odoo
-msgid "Odoo"
-msgstr "Odoo"
+#: model:ir.model.fields.selection,name:account.selection__account_journal__invoice_reference_model__neoziv
+msgid "neoziv"
+msgstr "neoziv"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_line
 msgid ""
-"Odoo allows you to reconcile a statement line directly with\n"
+"neoziv allows you to reconcile a statement line directly with\n"
 "                the related sale or purchase invoice(s)."
 msgstr ""
-"Odooはあなたと直接文の行を消込することができます\n"
+"neozivはあなたと直接文の行を消込することができます\n"
 "関連の販売または購入インボイス(複数可)。"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_tree
 msgid ""
-"Odoo allows you to reconcile a statement line directly with\n"
+"neoziv allows you to reconcile a statement line directly with\n"
 "                the related sale or purchase invoices."
 msgstr ""
-"Odooで関連する販売または購入の請求書を利用して\n"
+"neozivで関連する販売または購入の請求書を利用して\n"
 "明細行を消込することができます。"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_customer
-msgid "Odoo helps you easily track all activities related to a customer."
+msgid "neoziv helps you easily track all activities related to a customer."
 msgstr "顧客に関係するあらゆる活動を追跡することができます。"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_supplier
-msgid "Odoo helps you easily track all activities related to a supplier."
-msgstr "Odooは、サプライヤーに関連するすべての活動を簡単に追跡するのに役立ちます。"
+msgid "neoziv helps you easily track all activities related to a supplier."
+msgstr "neozivは、サプライヤーに関連するすべての活動を簡単に追跡するのに役立ちます。"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_account_type__internal_group__off_balance
@@ -10363,7 +10363,7 @@ msgid ""
 "\n"
 "Any file extension will be accepted.\n"
 "\n"
-"Only PDF and XML files will be interpreted by Odoo"
+"Only PDF and XML files will be interpreted by neoziv"
 msgstr ""
 "各請求書のために1通の別個の電子メールを送信します。\n"
 "\n"
@@ -10371,7 +10371,7 @@ msgstr ""
 "任意のファイル拡張子は受け入れられます。\n"
 "\n"
 "\n"
-"PDFとXMLファイルのみがOdooによって解釈されます"
+"PDFとXMLファイルのみがneozivによって解釈されます"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.account_send_payment_receipt_by_email_action
@@ -12780,9 +12780,9 @@ msgstr "この動きは、会計日付で掲載されます:%(date)s"
 msgid ""
 "This option permanently removes any track of email after it's been sent, "
 "including from the Technical menu in the Settings, in order to preserve "
-"storage space of your Odoo database."
+"storage space of your neoziv database."
 msgstr ""
-"このオプションは、Odooデータベースのストレージスペースを維持するために、[設定]の[テクニカル]メニューを含め、送信後に電子メールのトラックを完全に削除します"
+"このオプションは、neozivデータベースのストレージスペースを維持するために、[設定]の[テクニカル]メニューを含め、送信後に電子メールのトラックを完全に削除します"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_account_template__chart_template_id
@@ -13630,8 +13630,8 @@ msgstr "通貨表示"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_tour_upload_bill
-msgid "With Odoo, you won't have to records bills manually"
-msgstr "Odooでは仕入先請求書を手入力する必要はありません"
+msgid "With neoziv, you won't have to records bills manually"
+msgstr "neozivでは仕入先請求書を手入力する必要はありません"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_reconcile_model_search
@@ -13674,8 +13674,8 @@ msgstr "仕訳項目が関連取引先と係争状態にあることを示すに
 #: model:ir.model.fields,help:account.field_account_journal__invoice_reference_model
 msgid ""
 "You can choose different models for each type of reference. The default one "
-"is the Odoo reference."
-msgstr "参照の種類ごとに異なるモデルを選択することができます。デフォルトはOdoo参照です。"
+"is the neoziv reference."
+msgstr "参照の種類ごとに異なるモデルを選択することができます。デフォルトはneoziv参照です。"
 
 #. module: account
 #: code:addons/account/models/account_payment_term.py:0

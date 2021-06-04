@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import argparse
 import logging
@@ -23,7 +23,7 @@ from glob import glob
 
 ROOTDIR = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 TSTAMP = time.strftime("%Y%m%d", time.gmtime())
-exec(open(os.path.join(ROOTDIR, 'odoo', 'release.py'), 'rb').read())
+exec(open(os.path.join(ROOTDIR, 'neoziv', 'release.py'), 'rb').read())
 VERSION = version.split('-')[0].replace('saas~', '')
 GPGPASSPHRASE = os.getenv('GPGPASSPHRASE')
 GPGID = os.getenv('GPGID')
@@ -31,20 +31,20 @@ DOCKERVERSION = VERSION.replace('+', '')
 INSTALL_TIMEOUT = 600
 
 DOCKERUSER = """
-RUN mkdir /var/lib/odoo && \
-    groupadd -g %(group_id)s odoo && \
-    useradd -u %(user_id)s -g odoo odoo -d /var/lib/odoo && \
+RUN mkdir /var/lib/neoziv && \
+    groupadd -g %(group_id)s neoziv && \
+    useradd -u %(user_id)s -g neoziv neoziv -d /var/lib/neoziv && \
     mkdir /data && \
-    chown odoo:odoo /var/lib/odoo /data
-USER odoo
+    chown neoziv:neoziv /var/lib/neoziv /data
+USER neoziv
 """ % {'group_id': os.getgid(), 'user_id': os.getuid()}
 
 
-class OdooTestTimeoutError(Exception):
+class neozivTestTimeoutError(Exception):
     pass
 
 
-class OdooTestError(Exception):
+class neozivTestError(Exception):
     pass
 
 
@@ -68,12 +68,12 @@ def _rpc_count_modules(addr='http://127.0.0.1', port=8069, dbname='mycompany'):
         )
         if toinstallmodules:
             logging.error("Package test: FAILED. Not able to install dependencies of base.")
-            raise OdooTestError("Installation of package failed")
+            raise neozivTestError("Installation of package failed")
         else:
             logging.info("Package test: successfuly installed %s modules" % len(modules))
     else:
         logging.error("Package test: FAILED. Not able to install base.")
-        raise OdooTestError("Package test: FAILED. Not able to install base.")
+        raise neozivTestError("Package test: FAILED. Not able to install base.")
 
 
 def publish(args, pub_type, extensions):
@@ -102,7 +102,7 @@ def publish(args, pub_type, extensions):
 
     published = []
     for extension in extensions:
-        release = glob("%s/odoo_*.%s" % (args.build_dir, extension))
+        release = glob("%s/neoziv_*.%s" % (args.build_dir, extension))
         if release:
             published.append(_publish(release[0]))
     return published
@@ -161,13 +161,13 @@ def _prepare_build_dir(args, win32=False, move_addons=True):
     if win32 is False:
         cmd += ['--exclude', 'setup/win32']
 
-    run_cmd(cmd + ['%s/' % args.odoo_dir, args.build_dir])
+    run_cmd(cmd + ['%s/' % args.neoziv_dir, args.build_dir])
     if not move_addons:
         return
     for addon_path in glob(os.path.join(args.build_dir, 'addons/*')):
         if args.blacklist is None or os.path.basename(addon_path) not in args.blacklist:
             try:
-                shutil.move(addon_path, os.path.join(args.build_dir, 'odoo/addons'))
+                shutil.move(addon_path, os.path.join(args.build_dir, 'neoziv/addons'))
             except shutil.Error as e:
                 logging.warning("Warning '%s' while moving addon '%s", e, addon_path)
                 if addon_path.startswith(args.build_dir) and os.path.isdir(addon_path):
@@ -188,7 +188,7 @@ class Docker():
         :param args: argparse parsed arguments
         """
         self.args = args
-        self.tag = 'odoo-%s-%s-nightly-tests' % (DOCKERVERSION, self.arch)
+        self.tag = 'neoziv-%s-%s-nightly-tests' % (DOCKERVERSION, self.arch)
         self.container_name = None
         self.exposed_port = None
         dockerfiles = {
@@ -212,7 +212,7 @@ class Docker():
         run_cmd(["docker", "build", "--rm=True", "-t", self.tag, "."], chdir=docker_dir, timeout=1200).check_returncode()
         shutil.rmtree(docker_dir)
 
-    def run(self, cmd, build_dir, container_name, user='odoo', exposed_port=None, detach=False, timeout=None):
+    def run(self, cmd, build_dir, container_name, user='neoziv', exposed_port=None, detach=False, timeout=None):
         self.container_name = container_name
         docker_cmd = [
             "docker",
@@ -246,12 +246,12 @@ class Docker():
     def stop(self):
         run_cmd(["docker", "stop", self.container_name]).check_returncode()
 
-    def test_odoo(self):
-        logging.info('Starting to test Odoo install test')
+    def test_neoziv(self):
+        logging.info('Starting to test neoziv install test')
         start_time = time.time()
         while self.is_running() and (time.time() - start_time) < INSTALL_TIMEOUT:
             time.sleep(5)
-            if os.path.exists(os.path.join(args.build_dir, 'odoo.pid')):
+            if os.path.exists(os.path.join(args.build_dir, 'neoziv.pid')):
                 try:
                     _rpc_count_modules(port=self.exposed_port)
                 finally:
@@ -259,8 +259,8 @@ class Docker():
                 return
         if self.is_running():
             self.stop()
-            raise OdooTestTimeoutError('Odoo pid file never appeared after %s sec' % INSTALL_TIMEOUT)
-        raise OdooTestError('Error while installing/starting Odoo after %s sec.\nSee testlogs.txt in build dir' % int(time.time() - start_time))
+            raise neozivTestTimeoutError('neoziv pid file never appeared after %s sec' % INSTALL_TIMEOUT)
+        raise neozivTestError('Error while installing/starting neoziv after %s sec.\nSee testlogs.txt in build dir' % int(time.time() - start_time))
 
     def build(self):
         """To be overriden by specific builder"""
@@ -278,9 +278,9 @@ class DockerTgz(Docker):
 
     def build(self):
         logging.info('Start building python tgz package')
-        self.run('python3 setup.py sdist --quiet --formats=gztar,zip', self.args.build_dir, 'odoo-src-build-%s' % TSTAMP)
-        os.rename(glob('%s/dist/odoo-*.tar.gz' % self.args.build_dir)[0], '%s/odoo_%s.%s.tar.gz' % (self.args.build_dir, VERSION, TSTAMP))
-        os.rename(glob('%s/dist/odoo-*.zip' % self.args.build_dir)[0], '%s/odoo_%s.%s.zip' % (self.args.build_dir, VERSION, TSTAMP))
+        self.run('python3 setup.py sdist --quiet --formats=gztar,zip', self.args.build_dir, 'neoziv-src-build-%s' % TSTAMP)
+        os.rename(glob('%s/dist/neoziv-*.tar.gz' % self.args.build_dir)[0], '%s/neoziv_%s.%s.tar.gz' % (self.args.build_dir, VERSION, TSTAMP))
+        os.rename(glob('%s/dist/neoziv-*.zip' % self.args.build_dir)[0], '%s/neoziv_%s.%s.zip' % (self.args.build_dir, VERSION, TSTAMP))
         logging.info('Finished building python tgz package')
 
     def start_test(self):
@@ -289,14 +289,14 @@ class DockerTgz(Docker):
         logging.info('Start testing python tgz package')
         cmds = [
             'service postgresql start',
-            'pip3 install /data/src/odoo_%s.%s.tar.gz' % (VERSION, TSTAMP),
-            'su postgres -s /bin/bash -c "createuser -s odoo"',
+            'pip3 install /data/src/neoziv_%s.%s.tar.gz' % (VERSION, TSTAMP),
+            'su postgres -s /bin/bash -c "createuser -s neoziv"',
             'su postgres -s /bin/bash -c "createdb mycompany"',
-            'su odoo -s /bin/bash -c "odoo -d mycompany -i base --stop-after-init"',
-            'su odoo -s /bin/bash -c "odoo -d mycompany --pidfile=/data/src/odoo.pid"',
+            'su neoziv -s /bin/bash -c "neoziv -d mycompany -i base --stop-after-init"',
+            'su neoziv -s /bin/bash -c "neoziv -d mycompany --pidfile=/data/src/neoziv.pid"',
         ]
-        self.run(' && '.join(cmds), self.args.build_dir, 'odoo-src-test-%s' % TSTAMP, user='root', detach=True, exposed_port=8069, timeout=300)
-        self.test_odoo()
+        self.run(' && '.join(cmds), self.args.build_dir, 'neoziv-src-test-%s' % TSTAMP, user='root', detach=True, exposed_port=8069, timeout=300)
+        self.test_neoziv()
         logging.info('Finished testing tgz package')
 
 
@@ -308,11 +308,11 @@ class DockerDeb(Docker):
     def build(self):
         logging.info('Start building debian package')
         # Append timestamp to version for the .dsc to refer the right .tar.gz
-        cmds = ["sed -i '1s/^.*$/odoo (%s.%s) stable; urgency=low/' debian/changelog" % (VERSION, TSTAMP)]
+        cmds = ["sed -i '1s/^.*$/neoziv (%s.%s) stable; urgency=low/' debian/changelog" % (VERSION, TSTAMP)]
         cmds.append('dpkg-buildpackage -rfakeroot -uc -us -tc')
         # As the packages are built in the parent of the buildir, we move them back to build_dir
-        cmds.append('mv ../odoo_* ./')
-        self.run(' && '.join(cmds), self.args.build_dir, 'odoo-deb-build-%s' % TSTAMP)
+        cmds.append('mv ../neoziv_* ./')
+        self.run(' && '.join(cmds), self.args.build_dir, 'neoziv-deb-build-%s' % TSTAMP)
         logging.info('Finished building debian package')
 
     def start_test(self):
@@ -323,12 +323,12 @@ class DockerDeb(Docker):
             'service postgresql start',
             'su postgres -s /bin/bash -c "createdb mycompany"',
             '/usr/bin/apt-get update -y',
-            '/usr/bin/dpkg -i /data/src/odoo_%s.%s_all.deb ; /usr/bin/apt-get install -f -y' % (VERSION, TSTAMP),
-            'su odoo -s /bin/bash -c "odoo -d mycompany -i base --stop-after-init"',
-            'su odoo -s /bin/bash -c "odoo -d mycompany --pidfile=/data/src/odoo.pid"',
+            '/usr/bin/dpkg -i /data/src/neoziv_%s.%s_all.deb ; /usr/bin/apt-get install -f -y' % (VERSION, TSTAMP),
+            'su neoziv -s /bin/bash -c "neoziv -d mycompany -i base --stop-after-init"',
+            'su neoziv -s /bin/bash -c "neoziv -d mycompany --pidfile=/data/src/neoziv.pid"',
         ]
-        self.run(' && '.join(cmds), self.args.build_dir, 'odoo-deb-test-%s' % TSTAMP, user='root', detach=True, exposed_port=8069, timeout=300)
-        self.test_odoo()
+        self.run(' && '.join(cmds), self.args.build_dir, 'neoziv-deb-test-%s' % TSTAMP, user='root', detach=True, exposed_port=8069, timeout=300)
+        self.test_neoziv()
         logging.info('Finished testing debian package')
 
 
@@ -339,8 +339,8 @@ class DockerRpm(Docker):
 
     def build(self):
         logging.info('Start building fedora rpm package')
-        self.run('python3 setup.py --quiet bdist_rpm', self.args.build_dir, 'odoo-rpm-build-%s' % TSTAMP)
-        os.rename(glob('%s/dist/odoo-*.noarch.rpm' % self.args.build_dir)[0], '%s/odoo_%s.%s.rpm' % (self.args.build_dir, VERSION, TSTAMP))
+        self.run('python3 setup.py --quiet bdist_rpm', self.args.build_dir, 'neoziv-rpm-build-%s' % TSTAMP)
+        os.rename(glob('%s/dist/neoziv-*.noarch.rpm' % self.args.build_dir)[0], '%s/neoziv_%s.%s.rpm' % (self.args.build_dir, VERSION, TSTAMP))
         logging.info('Finished building fedora rpm package')
 
     def start_test(self):
@@ -351,12 +351,12 @@ class DockerRpm(Docker):
             'su postgres -c "/usr/bin/pg_ctl -D /var/lib/postgres/data start"',
             'sleep 5',
             'su postgres -c "createdb mycompany"',
-            'dnf install -d 0 -e 0 /data/src/odoo_%s.%s.rpm -y' % (VERSION, TSTAMP),
-            'su odoo -s /bin/bash -c "odoo -c /etc/odoo/odoo.conf -d mycompany -i base --stop-after-init"',
-            'su odoo -s /bin/bash -c "odoo -c /etc/odoo/odoo.conf -d mycompany --pidfile=/data/src/odoo.pid"',
+            'dnf install -d 0 -e 0 /data/src/neoziv_%s.%s.rpm -y' % (VERSION, TSTAMP),
+            'su neoziv -s /bin/bash -c "neoziv -c /etc/neoziv/neoziv.conf -d mycompany -i base --stop-after-init"',
+            'su neoziv -s /bin/bash -c "neoziv -c /etc/neoziv/neoziv.conf -d mycompany --pidfile=/data/src/neoziv.pid"',
         ]
-        self.run(' && '.join(cmds), args.build_dir, 'odoo-rpm-test-%s' % TSTAMP, user='root', detach=True, exposed_port=8069, timeout=300)
-        self.test_odoo()
+        self.run(' && '.join(cmds), args.build_dir, 'neoziv-rpm-test-%s' % TSTAMP, user='root', detach=True, exposed_port=8069, timeout=300)
+        self.test_neoziv()
         logging.info('Finished testing rpm package')
 
     def gen_rpm_repo(self, args, rpm_filepath):
@@ -369,7 +369,7 @@ class DockerRpm(Docker):
         shutil.copy(rpm_filepath, temp_path)
 
         logging.info('Start creating rpm repo')
-        self.run('createrepo /data/src/', temp_path, 'odoo-rpm-createrepo-%s' % TSTAMP)
+        self.run('createrepo /data/src/', temp_path, 'neoziv-rpm-createrepo-%s' % TSTAMP)
         shutil.copytree(os.path.join(temp_path, "repodata"), os.path.join(args.pub, 'rpm', 'repodata'))
 
         # Remove temp directory
@@ -457,10 +457,10 @@ class KVMWinBuildExe(KVM):
         with open(os.path.join(self.args.build_dir, 'setup/win32/Makefile.servicename'), 'w') as f:
             f.write("SERVICENAME=%s\n" % nt_service_name)
 
-        remote_build_dir = '/cygdrive/c/odoobuild/server/'
+        remote_build_dir = '/cygdrive/c/neozivbuild/server/'
 
         self.ssh("mkdir -p build")
-        logging.info("Syncing Odoo files to virtual machine...")
+        logging.info("Syncing neoziv files to virtual machine...")
         self.rsync(['%s/' % self.args.build_dir, '%s@127.0.0.1:%s' % (self.login, remote_build_dir)])
         self.ssh("cd {}setup/win32;time make allinone;".format(remote_build_dir))
         self.rsync(['%s@127.0.0.1:%ssetup/win32/release/' % (self.login, remote_build_dir), '%s/' % self.args.build_dir])
@@ -470,15 +470,15 @@ class KVMWinBuildExe(KVM):
 class KVMWinTestExe(KVM):
     def run(self):
         logging.info('Start testing Windows package')
-        setup_path = glob("%s/odoo_setup_*.exe" % self.args.build_dir)[0]
+        setup_path = glob("%s/neoziv_setup_*.exe" % self.args.build_dir)[0]
         setupfile = setup_path.split('/')[-1]
-        setupversion = setupfile.split('odoo_setup_')[1].split('.exe')[0]
+        setupversion = setupfile.split('neoziv_setup_')[1].split('.exe')[0]
 
         self.rsync(['%s' % setup_path, '%s@127.0.0.1:' % self.login])
         self.ssh("TEMP=/tmp ./%s /S" % setupfile)
-        self.ssh('PGPASSWORD=openpgpwd /cygdrive/c/"Program Files"/"Odoo %s"/PostgreSQL/bin/createdb.exe -e -U openpg mycompany' % setupversion)
+        self.ssh('PGPASSWORD=openpgpwd /cygdrive/c/"Program Files"/"neoziv %s"/PostgreSQL/bin/createdb.exe -e -U openpg mycompany' % setupversion)
         self.ssh('netsh advfirewall set publicprofile state off')
-        self.ssh('/cygdrive/c/"Program Files"/"Odoo {sv}"/python/python.exe \'c:\\Program Files\\Odoo {sv}\\server\\odoo-bin\' -d mycompany -i base --stop-after-init'.format(sv=setupversion))
+        self.ssh('/cygdrive/c/"Program Files"/"neoziv {sv}"/python/python.exe \'c:\\Program Files\\neoziv {sv}\\server\\neoziv-bin\' -d mycompany -i base --stop-after-init'.format(sv=setupversion))
         _rpc_count_modules(port=18069)
         logging.info('Finished testing Windows package')
 
@@ -505,8 +505,8 @@ def parse_args():
     ap.add_argument("--build-win", action="store_true")
 
     # Windows VM
-    ap.add_argument("--vm-winxp-image", default='/home/odoo/vm/win1036/win10_winpy36.qcow2', help="%(default)s")
-    ap.add_argument("--vm-winxp-ssh-key", default='/home/odoo/vm/win1036/id_rsa', help="%(default)s")
+    ap.add_argument("--vm-winxp-image", default='/home/neoziv/vm/win1036/win10_winpy36.qcow2', help="%(default)s")
+    ap.add_argument("--vm-winxp-ssh-key", default='/home/neoziv/vm/win1036/id_rsa', help="%(default)s")
     ap.add_argument("--vm-winxp-login", default='Naresh', help="Windows login %(default)s")
     ap.add_argument("--vm-winxp-python-version", default='3.7.7', help="Windows Python version installed in the VM (default: %(default)s)")
 
@@ -517,7 +517,7 @@ def parse_args():
 
     parsed_args = ap.parse_args()
     logging.basicConfig(format='%(asctime)s %(levelname)s: %(message)s', datefmt='%Y-%m-%d %I:%M:%S', level=log_levels[parsed_args.logging])
-    parsed_args.odoo_dir = ROOTDIR
+    parsed_args.neoziv_dir = ROOTDIR
     return parsed_args
 
 

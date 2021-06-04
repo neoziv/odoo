@@ -1,4 +1,4 @@
-odoo.define('event.EventConfiguratorFormView', function (require) {
+neoziv.define('event.EventConfiguratorFormView', function (require) {
 "use strict";
 
 var EventConfiguratorFormController = require('event.EventConfiguratorFormController');

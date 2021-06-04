@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* partner_autocomplete
 # 
@@ -8,12 +8,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~13.5\n"
+"Project-Id-Version: neoziv Server saas~13.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-01 07:29+0000\n"
 "PO-Revision-Date: 2020-09-07 08:15+0000\n"
 "Last-Translator: Lux Sok <sok.lux@gmail.com>, 2020\n"
-"Language-Team: Khmer (https://www.transifex.com/odoo/teams/41243/km/)\n"
+"Language-Team: Khmer (https://www.transifex.com/neoziv/teams/41243/km/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -143,8 +143,8 @@ msgstr "ដៃគូធ្វើសមកាលកម្មស្វ័យប្
 #. module: partner_autocomplete
 #: code:addons/partner_autocomplete/models/res_partner.py:0
 #, python-format
-msgid "Partner created by Odoo Partner Autocomplete Service"
-msgstr "ដៃគូត្រូវបានបង្កើតឡើងដោយសេវាកម្មបំពេញស្វ័យប្រវត្តិកម្ម Odoo ដៃគូ។"
+msgid "Partner created by neoziv Partner Autocomplete Service"
+msgstr "ដៃគូត្រូវបានបង្កើតឡើងដោយសេវាកម្មបំពេញស្វ័យប្រវត្តិកម្ម neoziv ដៃគូ។"
 
 #. module: partner_autocomplete
 #. openerp-web

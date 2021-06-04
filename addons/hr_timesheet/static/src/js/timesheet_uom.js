@@ -1,4 +1,4 @@
-odoo.define('hr_timesheet.timesheet_uom', function (require) {
+neoziv.define('hr_timesheet.timesheet_uom', function (require) {
 'use strict';
 
 const basicFields = require('web.basic_fields');

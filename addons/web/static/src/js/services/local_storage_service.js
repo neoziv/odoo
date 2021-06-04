@@ -1,4 +1,4 @@
-odoo.define('web.LocalStorageService', function (require) {
+neoziv.define('web.LocalStorageService', function (require) {
 'use strict';
 
 /**

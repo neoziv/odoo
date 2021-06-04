@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-from odoo import api, exceptions, fields, models, _
-from odoo.exceptions import UserError, ValidationError
+from neoziv import api, exceptions, fields, models, _
+from neoziv.exceptions import UserError, ValidationError
 
 from dateutil.relativedelta import relativedelta
 

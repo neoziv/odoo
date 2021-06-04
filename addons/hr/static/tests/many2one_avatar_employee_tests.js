@@ -1,4 +1,4 @@
-odoo.define('hr.Many2OneAvatarEmployeeTests', function (require) {
+neoziv.define('hr.Many2OneAvatarEmployeeTests', function (require) {
 "use strict";
 
 const {

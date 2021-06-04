@@ -1,4 +1,4 @@
-odoo.define('web.SessionStorageService', function (require) {
+neoziv.define('web.SessionStorageService', function (require) {
 'use strict';
 
 /**

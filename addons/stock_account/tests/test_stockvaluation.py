@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from datetime import timedelta
 
-from odoo.exceptions import UserError
-from odoo.fields import Datetime
-from odoo.tests.common import Form, SavepointCase
+from neoziv.exceptions import UserError
+from neoziv.fields import Datetime
+from neoziv.tests.common import Form, SavepointCase
 
 
 def _create_accounting_data(env):

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 # Copyright (c) 2005-2006 Axelor SARL. (http://www.axelor.com)
 
@@ -8,12 +8,12 @@ import logging
 from datetime import datetime, time
 from dateutil.relativedelta import relativedelta
 
-from odoo import api, fields, models
-from odoo.addons.resource.models.resource import HOURS_PER_DAY
-from odoo.exceptions import AccessError, UserError, ValidationError
-from odoo.tools.translate import _
-from odoo.tools.float_utils import float_round
-from odoo.osv import expression
+from neoziv import api, fields, models
+from neoziv.addons.resource.models.resource import HOURS_PER_DAY
+from neoziv.exceptions import AccessError, UserError, ValidationError
+from neoziv.tools.translate import _
+from neoziv.tools.float_utils import float_round
+from neoziv.osv import expression
 
 _logger = logging.getLogger(__name__)
 

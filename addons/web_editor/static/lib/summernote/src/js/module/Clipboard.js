@@ -5,8 +5,8 @@ define([
     'summernote/core/agent',
     'summernote/core/range'
 ], function (list, dom, key, agent, range) {
-    // ODOO override: use 0.8.10 version of this, adapted for the old summernote
-    // version odoo is using
+    // neoziv override: use 0.8.10 version of this, adapted for the old summernote
+    // version neoziv is using
     var Clipboard = function (handler) {
         /**
          * paste by clipboard event
@@ -15,7 +15,7 @@ define([
          */
         var pasteByEvent = function (event) {
             if (["INPUT", "TEXTAREA"].indexOf(event.target.tagName) !== -1) {
-                // ODOO override: from old summernote version
+                // neoziv override: from old summernote version
                 return;
             }
 

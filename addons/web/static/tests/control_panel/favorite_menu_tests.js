@@ -1,4 +1,4 @@
-odoo.define('web.favorite_menu_tests', function (require) {
+neoziv.define('web.favorite_menu_tests', function (require) {
     "use strict";
 
     const FormView = require('web.FormView');

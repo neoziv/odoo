@@ -2,8 +2,8 @@
 import logging
 import time
 
-from odoo import models
-from odoo.http import request
+from neoziv import models
+from neoziv.http import request
 
 _logger = logging.getLogger(__name__)
 

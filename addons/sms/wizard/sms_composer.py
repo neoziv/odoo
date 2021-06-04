@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from ast import literal_eval
 
-from odoo import api, fields, models, _
-from odoo.addons.phone_validation.tools import phone_validation
-from odoo.exceptions import UserError
-from odoo.tools import html2plaintext
+from neoziv import api, fields, models, _
+from neoziv.addons.phone_validation.tools import phone_validation
+from neoziv.exceptions import UserError
+from neoziv.tools import html2plaintext
 
 
 class SendSMS(models.TransientModel):

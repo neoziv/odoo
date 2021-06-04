@@ -1,4 +1,4 @@
-odoo.define('mail/static/src/models/composer/composer.js', function (require) {
+neoziv.define('mail/static/src/models/composer/composer.js', function (require) {
 'use strict';
 
 const emojis = require('mail.emojis');

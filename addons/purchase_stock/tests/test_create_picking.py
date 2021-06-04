@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from datetime import date, datetime, timedelta
 
-from odoo.addons.mail.tests.common import mail_new_test_user
-from odoo.addons.product.tests import common
-from odoo.tests import Form
-from odoo.tools import DEFAULT_SERVER_DATETIME_FORMAT
+from neoziv.addons.mail.tests.common import mail_new_test_user
+from neoziv.addons.product.tests import common
+from neoziv.tests import Form
+from neoziv.tools import DEFAULT_SERVER_DATETIME_FORMAT
 
 
 class TestCreatePicking(common.TestProductCommon):

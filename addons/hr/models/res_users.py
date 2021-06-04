@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, models, fields, _, SUPERUSER_ID
-from odoo.exceptions import AccessError
+from neoziv import api, models, fields, _, SUPERUSER_ID
+from neoziv.exceptions import AccessError
 
 
 class User(models.Model):

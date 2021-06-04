@@ -1,4 +1,4 @@
-odoo.define('mail/static/src/components/notification_popover/notification_popover.js', function (require) {
+neoziv.define('mail/static/src/components/notification_popover/notification_popover.js', function (require) {
 'use strict';
 
 const { Component } = owl;

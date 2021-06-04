@@ -1,4 +1,4 @@
-odoo.define('website_form.form_editor_registry', function (require) {
+neoziv.define('website_form.form_editor_registry', function (require) {
 'use strict';
 
 var Registry = require('web.Registry');
@@ -7,7 +7,7 @@ return new Registry();
 
 });
 
-odoo.define('website_form.send_mail_form', function (require) {
+neoziv.define('website_form.send_mail_form', function (require) {
 'use strict';
 
 var core = require('web.core');

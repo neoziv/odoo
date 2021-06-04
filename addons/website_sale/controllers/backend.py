@@ -4,10 +4,10 @@ import babel.dates
 
 from datetime import datetime, timedelta, time
 
-from odoo import fields, http, _
-from odoo.addons.website.controllers.backend import WebsiteBackend
-from odoo.http import request
-from odoo.tools.misc import get_lang
+from neoziv import fields, http, _
+from neoziv.addons.website.controllers.backend import WebsiteBackend
+from neoziv.http import request
+from neoziv.tools.misc import get_lang
 
 
 class WebsiteSaleBackend(WebsiteBackend):

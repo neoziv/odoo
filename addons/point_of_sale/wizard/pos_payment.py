@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, fields, models, _
-from odoo.tools import float_is_zero
+from neoziv import api, fields, models, _
+from neoziv.tools import float_is_zero
 
 
 class PosMakePayment(models.TransientModel):

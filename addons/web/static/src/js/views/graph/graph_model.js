@@ -1,4 +1,4 @@
-odoo.define('web.GraphModel', function (require) {
+neoziv.define('web.GraphModel', function (require) {
 "use strict";
 
 var core = require('web.core');

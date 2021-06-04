@@ -1,4 +1,4 @@
-odoo.define('partner_autocomplete.tests', function (require) {
+neoziv.define('partner_autocomplete.tests', function (require) {
     "use strict";
 
     var FormView = require('web.FormView');
@@ -37,10 +37,10 @@ odoo.define('partner_autocomplete.tests', function (require) {
     }
 
     var suggestions = [{
-        name: "Odoo",
-        website: "odoo.com",
-        domain: "odoo.com",
-        logo: "odoo.com/logo.png",
+        name: "neoziv",
+        website: "neoziv.com",
+        domain: "neoziv.com",
+        logo: "neoziv.com/logo.png",
         vat: "BE0477472701"
     }];
 
@@ -54,7 +54,7 @@ odoo.define('partner_autocomplete.tests', function (require) {
             _.each(fieldsToPatch, function (fieldToPatch) {
                 testUtils.mock.patch(fieldToPatch, {
                     _getBase64Image: function (url) {
-                        return Promise.resolve(url === "odoo.com/logo.png" ? "odoobase64" : "");
+                        return Promise.resolve(url === "neoziv.com/logo.png" ? "neozivbase64" : "");
                     },
                     _isOnline: function () {
                         return true;
@@ -69,7 +69,7 @@ odoo.define('partner_autocomplete.tests', function (require) {
                     _enrichCompany: function (company) {
                         return Promise.resolve(enrichData);
                     },
-                    _getOdooSuggestions: function (value, isVAT) {
+                    _getneozivSuggestions: function (value, isVAT) {
                         var results = _.filter(suggestions, function (suggestion) {
                             value = value ? value.toLowerCase() : '';
                             if (isVAT) return (suggestion.vat.toLowerCase().indexOf(value) >= 0);
@@ -78,7 +78,7 @@ odoo.define('partner_autocomplete.tests', function (require) {
                         return Promise.resolve(results);
                     },
                     _getClearbitSuggestions: function (value) {
-                        return this._getOdooSuggestions(value);
+                        return this._getneozivSuggestions(value);
                     },
                     do_notify: function (title, message, sticky, className) {
                         return this.displayNotification({
@@ -101,8 +101,8 @@ odoo.define('partner_autocomplete.tests', function (require) {
                 country_id: 20,
                 state_id: false,
                 partner_gid: 1,
-                website: "odoo.com",
-                comment: "Comment on Odoo",
+                website: "neoziv.com",
+                comment: "Comment on neoziv",
                 street: "40 Chaussée de Namur",
                 city: "Ramillies",
                 zip: "1367",
@@ -173,7 +173,7 @@ odoo.define('partner_autocomplete.tests', function (require) {
             assert.strictEqual($input.length, 1, "there should be an <input/> for the Partner field");
 
             // Change input val and assert nothing happens
-            testUtils.fields.editInput($input, "odoo")
+            testUtils.fields.editInput($input, "neoziv")
             var $dropdown = form.$(".o_field_partner_autocomplete .dropdown-menu:visible");
             assert.strictEqual($dropdown.length, 0, "there should not be an opened dropdown");
 
@@ -208,8 +208,8 @@ odoo.define('partner_autocomplete.tests', function (require) {
                 '</form>',
             mockRPC: function (route) {
                 if (route === "/web/static/src/img/placeholder.png"
-                    || route === "odoo.com/logo.png"
-                    || route === "data:image/png;base64,odoobase64") { // land here as it is not valid base64 content
+                    || route === "neoziv.com/logo.png"
+                    || route === "data:image/png;base64,neozivbase64") { // land here as it is not valid base64 content
                     return Promise.resolve();
                 }
                 return this._super.apply(this, arguments);
@@ -224,7 +224,7 @@ odoo.define('partner_autocomplete.tests', function (require) {
             assert.strictEqual($input.length, 1, "there should be an <input/> for the field");
 
             // Change input val and assert changes
-            await testUtils.fields.editInput($input, "odoo");
+            await testUtils.fields.editInput($input, "neoziv");
             await testUtils.nextTick();
             var $dropdown = form.$(".o_field_partner_autocomplete .dropdown-menu:visible");
             assert.strictEqual($dropdown.length, 1, "there should be an opened dropdown");
@@ -232,8 +232,8 @@ odoo.define('partner_autocomplete.tests', function (require) {
 
             await testUtils.dom.click($dropdown.find("a").first());
             $input = form.$(".o_field_partner_autocomplete > input");
-            assert.strictEqual($input.val(), "Odoo", "Input value should have been updated to \"Odoo\"");
-            assert.strictEqual(form.$("input.o_field_widget").val(), "odoo.com", "website value should have been updated to \"odoo.com\"");
+            assert.strictEqual($input.val(), "neoziv", "Input value should have been updated to \"neoziv\"");
+            assert.strictEqual(form.$("input.o_field_widget").val(), "neoziv.com", "website value should have been updated to \"neoziv.com\"");
 
             _compareResultFields(assert, form, fields, createData);
 
@@ -243,10 +243,10 @@ odoo.define('partner_autocomplete.tests', function (require) {
             assert.strictEqual($dropdown.length, 0, "there should be no opened dropdown when no result");
 
             // Try autocomplete again
-            await testUtils.fields.editInput($input, "odoo");
+            await testUtils.fields.editInput($input, "neoziv");
             await testUtils.nextTick();
             $dropdown = form.$(".o_field_partner_autocomplete .dropdown-menu:visible");
-            assert.strictEqual($dropdown.length, 1, "there should be an opened dropdown when typing odoo letters again");
+            assert.strictEqual($dropdown.length, 1, "there should be an opened dropdown when typing neoziv letters again");
 
             // Test if dropdown closes on focusout
             $input.trigger("focusout");
@@ -281,8 +281,8 @@ odoo.define('partner_autocomplete.tests', function (require) {
                 '</form>',
             mockRPC: function (route) {
                 if (route === "/web/static/src/img/placeholder.png"
-                    || route === "odoo.com/logo.png"
-                    || route === "data:image/png;base64,odoobase64") { // land here as it is not valid base64 content
+                    || route === "neoziv.com/logo.png"
+                    || route === "data:image/png;base64,neozivbase64") { // land here as it is not valid base64 content
                     return Promise.resolve();
                 }
                 return this._super.apply(this, arguments);
@@ -313,7 +313,7 @@ odoo.define('partner_autocomplete.tests', function (require) {
             await testUtils.dom.click($dropdown.find("a").first());
 
             $input = form.$(".o_field_partner_autocomplete > input");
-            assert.strictEqual($input.val(), "Odoo", "Input value should have been updated to \"Odoo\"");
+            assert.strictEqual($input.val(), "neoziv", "Input value should have been updated to \"neoziv\"");
 
             _compareResultFields(assert, form, fields, createData);
             await testUtils.nextTick();
@@ -327,7 +327,7 @@ odoo.define('partner_autocomplete.tests', function (require) {
             await testUtils.dom.click($dropdown.find("a").first());
 
             $input = form.$(".o_field_partner_autocomplete > input");
-            assert.strictEqual($input.val(), "Odoo", "Input value should have been updated to \"Odoo\"");
+            assert.strictEqual($input.val(), "neoziv", "Input value should have been updated to \"neoziv\"");
 
             _compareResultFields(assert, form, fields, createData);
 
@@ -360,7 +360,7 @@ odoo.define('partner_autocomplete.tests', function (require) {
             var $input = form.$('.o_field_many2one[name="parent_id"] input:visible');
             assert.strictEqual($input.length, 1, "there should be an <input/> for the Many2one");
 
-            await testUtils.fields.editInput($input, 'odoo');
+            await testUtils.fields.editInput($input, 'neoziv');
 
             concurrency.delay(0).then(function () {
                 var $dropdown = $input.autocomplete('widget');

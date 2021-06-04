@@ -1,4 +1,4 @@
-odoo.define('website.s_chart', function (require) {
+neoziv.define('website.s_chart', function (require) {
 'use strict';
 
 const publicWidget = require('web.public.widget');

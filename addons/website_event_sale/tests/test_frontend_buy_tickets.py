@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-import odoo.tests
+import neoziv.tests
 
 from datetime import timedelta
 
-from odoo.addons.base.tests.common import HttpCaseWithUserDemo
-from odoo.fields import Datetime
+from neoziv.addons.base.tests.common import HttpCaseWithUserDemo
+from neoziv.fields import Datetime
 
 
-@odoo.tests.common.tagged('post_install', '-at_install')
+@neoziv.tests.common.tagged('post_install', '-at_install')
 class TestUi(HttpCaseWithUserDemo):
 
     def setUp(self):

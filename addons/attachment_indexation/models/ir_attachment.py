@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 import io
 import logging
 import xml.dom.minidom
 import zipfile
 
-from odoo import api, models
+from neoziv import api, models
 
 _logger = logging.getLogger(__name__)
 

@@ -1,4 +1,4 @@
-odoo.define('web.singleton_list_tests', function (require) {
+neoziv.define('web.singleton_list_tests', function (require) {
 "use strict";
 
 var SingletonListView = require('stock.SingletonListView');

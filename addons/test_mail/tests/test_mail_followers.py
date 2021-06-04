@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from psycopg2 import IntegrityError
 
-from odoo.addons.test_mail.tests.common import TestMailCommon
-from odoo.tests import tagged
-from odoo.tests import users
-from odoo.tools.misc import mute_logger
+from neoziv.addons.test_mail.tests.common import TestMailCommon
+from neoziv.tests import tagged
+from neoziv.tests import users
+from neoziv.tools.misc import mute_logger
 
 
 @tagged('mail_followers')
@@ -135,7 +135,7 @@ class BaseFollowersTest(TestMailCommon):
         """Test that a follower cannot suffer from dissociative identity disorder.
            It cannot be both a partner and a channel.
         """
-        with self.assertRaises(IntegrityError), mute_logger('odoo.sql_db'):
+        with self.assertRaises(IntegrityError), mute_logger('neoziv.sql_db'):
             self.env['mail.followers'].create({
                 'res_model': self.test_record._name,
                 'res_id': self.test_record.id,

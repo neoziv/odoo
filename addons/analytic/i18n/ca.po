@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* analytic
 # 
 # Translators:
 # Martin Trigaux, 2020
-# RGB Consulting <odoo@rgbconsulting.com>, 2020
+# RGB Consulting <neoziv@rgbconsulting.com>, 2020
 # Quim - eccit <quim@eccit.com>, 2020
 # Sandra Franch <sandra.franch@upc.edu>, 2020
 # Manel Fernandez Ramirez <manelfera@outlook.com>, 2020
@@ -14,12 +14,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~12.5\n"
+"Project-Id-Version: neoziv Server saas~12.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-09 12:17+0000\n"
 "PO-Revision-Date: 2020-09-07 08:10+0000\n"
 "Last-Translator: Josep Anton Belchi, 2021\n"
-"Language-Team: Catalan (https://www.transifex.com/odoo/teams/41243/ca/)\n"
+"Language-Team: Catalan (https://www.transifex.com/neoziv/teams/41243/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -360,11 +360,11 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action_entries
 msgid ""
-"In Odoo, sales orders and projects are implemented using\n"
+"In neoziv, sales orders and projects are implemented using\n"
 "                analytic accounts. You can track costs and revenues to analyse\n"
 "                your margins easily."
 msgstr ""
-"En Odoo, les comandes de venda i els projectes s'implementaran utilitzant "
+"En neoziv, les comandes de venda i els projectes s'implementaran utilitzant "
 "comptes analítiques. Pot realitzar seguiment dels costos i ingressos per "
 "analitzar els seus marges fàcilment."
 

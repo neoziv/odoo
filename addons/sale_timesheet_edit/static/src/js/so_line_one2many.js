@@ -1,4 +1,4 @@
-odoo.define('sale_timesheet_edit.so_line_many2one', function (require) {
+neoziv.define('sale_timesheet_edit.so_line_many2one', function (require) {
 "use strict";
 
 const fieldRegistry = require('web.field_registry');

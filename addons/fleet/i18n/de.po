@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* fleet
 # 
@@ -6,7 +6,7 @@
 # Andreas Stauder <andreas.stauder@brain-tec.ch>, 2020
 # Ermin Trevisan <trevi@twanda.com>, 2020
 # f91684c3ff9ec3e650d5c8461e534581_686eae3 <449b96d9f63071f94d89e129677b83de_366193>, 2020
-# Leon Grill <leg@odoo.com>, 2020
+# Leon Grill <leg@neoziv.com>, 2020
 # UteHaus, 2020
 # Max-Milan Stoyanov, 2020
 # Florian Pose <fp@igh.de>, 2020
@@ -17,12 +17,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-29 13:45+0000\n"
 "PO-Revision-Date: 2020-09-07 08:12+0000\n"
 "Last-Translator: Bettina Pfeifer <bettina@dygytally.de>, 2021\n"
-"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Language-Team: German (https://www.transifex.com/neoziv/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1207,11 +1207,11 @@ msgstr "Marke"
 #: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_log_contract_action
 msgid ""
 "Manage all your contracts (leasing, insurances, etc.) with\n"
-"            their related services, costs. Odoo will automatically warn\n"
+"            their related services, costs. neoziv will automatically warn\n"
 "            you when some contracts have to be renewed."
 msgstr ""
 "Verwalten Sie Ihre Verträge (Leasing, Versicherungen, etc.) mit\n"
-" den damit verbundenen Dienstleistungen, Kosten. Odoo warnt Sie automatisch, wenn einige Verträge verlängert werden müssen."
+" den damit verbundenen Dienstleistungen, Kosten. neoziv warnt Sie automatisch, wenn einige Verträge verlängert werden müssen."
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_11
@@ -1483,10 +1483,10 @@ msgstr ""
 #. module: fleet
 #: model_terms:ir.actions.act_window,help:fleet.fleet_costs_reporting_action
 msgid ""
-"Odoo helps you managing the costs for your different vehicles\n"
+"neoziv helps you managing the costs for your different vehicles\n"
 "          Costs are generally created from services and contract and appears here."
 msgstr ""
-"Odoo hilft Ihnen die Kosten Ihrer verschiedenen Fahrzeuge zu überwachen.\n"
+"neoziv hilft Ihnen die Kosten Ihrer verschiedenen Fahrzeuge zu überwachen.\n"
 "Kosten werden im Allgemeinen durch Dienstleistungen und Verträge verursacht und erscheinen hier."
 
 #. module: fleet
@@ -1867,10 +1867,10 @@ msgstr "Bedingungen und Konditionen"
 #. module: fleet
 #: model_terms:ir.actions.act_window,help:fleet.fleet_costs_reporting_action
 msgid ""
-"Thanks to the different filters, Odoo can only print the effective\n"
+"Thanks to the different filters, neoziv can only print the effective\n"
 "          costs, sort them by type and by vehicle."
 msgstr ""
-"Dank der verschiedenen Filter kann Odoo die effektiven Kosten\n"
+"Dank der verschiedenen Filter kann neoziv die effektiven Kosten\n"
 "selektiv drucken und diese nach Art und Fahrzeug sortieren."
 
 #. module: fleet

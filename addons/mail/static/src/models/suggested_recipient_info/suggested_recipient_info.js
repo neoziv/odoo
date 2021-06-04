@@ -1,4 +1,4 @@
-odoo.define('mail/static/src/models/suggested_recipient_info/suggested_recipient_info.js', function (require) {
+neoziv.define('mail/static/src/models/suggested_recipient_info/suggested_recipient_info.js', function (require) {
 'use strict';
 
 const { registerNewModel } = require('mail/static/src/model/model_core.js');

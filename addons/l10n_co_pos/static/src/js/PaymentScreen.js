@@ -1,4 +1,4 @@
-odoo.define('l10n_co_pos.PaymentScreen', function(require) {
+neoziv.define('l10n_co_pos.PaymentScreen', function(require) {
     'use strict';
 
     const PaymentScreen = require('point_of_sale.PaymentScreen');

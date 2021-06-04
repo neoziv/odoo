@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo import fields
+from neoziv import fields
 from datetime import datetime
-from odoo.tools import DEFAULT_SERVER_DATETIME_FORMAT
-from odoo.addons.purchase_requisition.tests.common import TestPurchaseRequisitionCommon
+from neoziv.tools import DEFAULT_SERVER_DATETIME_FORMAT
+from neoziv.addons.purchase_requisition.tests.common import TestPurchaseRequisitionCommon
 
 
 class TestPurchaseRequisitionStock(TestPurchaseRequisitionCommon):

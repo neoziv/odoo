@@ -1,4 +1,4 @@
-odoo.define('mail/static/src/components/notification_request/notification_request.js', function (require) {
+neoziv.define('mail/static/src/components/notification_request/notification_request.js', function (require) {
 'use strict';
 
 const components = {
@@ -58,7 +58,7 @@ class NotificationRequest extends Component {
         if (value !== 'granted') {
             this.env.services['bus_service'].sendNotification(
                 this.env._t("Permission denied"),
-                this.env._t("Odoo will not have the permission to send native notifications on this device.")
+                this.env._t("neoziv will not have the permission to send native notifications on this device.")
             );
         }
     }

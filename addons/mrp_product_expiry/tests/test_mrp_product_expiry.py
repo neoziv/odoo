@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from datetime import datetime, timedelta
-from odoo.addons.stock.tests.common import TestStockCommon
-from odoo.tests.common import Form
-from odoo.exceptions import UserError
+from neoziv.addons.stock.tests.common import TestStockCommon
+from neoziv.tests.common import Form
+from neoziv.exceptions import UserError
 
 
 class TestStockProductionLot(TestStockCommon):

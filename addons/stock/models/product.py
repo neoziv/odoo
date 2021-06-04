@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import operator as py_operator
 from ast import literal_eval
 from collections import defaultdict
 
-from odoo import _, api, fields, models, SUPERUSER_ID
-from odoo.exceptions import UserError
-from odoo.osv import expression
-from odoo.tools import pycompat,float_is_zero
-from odoo.tools.float_utils import float_round
+from neoziv import _, api, fields, models, SUPERUSER_ID
+from neoziv.exceptions import UserError
+from neoziv.osv import expression
+from neoziv.tools import pycompat,float_is_zero
+from neoziv.tools.float_utils import float_round
 
 OPERATORS = {
     '<': py_operator.lt,

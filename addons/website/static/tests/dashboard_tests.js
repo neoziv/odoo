@@ -1,4 +1,4 @@
-odoo.define('website/static/tests/dashboard_tests', function (require) {
+neoziv.define('website/static/tests/dashboard_tests', function (require) {
 "use strict";
 
 const ControlPanel = require('web.ControlPanel');

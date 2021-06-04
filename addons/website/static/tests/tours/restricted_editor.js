@@ -1,4 +1,4 @@
-odoo.define("website.tour.restricted_editor", function (require) {
+neoziv.define("website.tour.restricted_editor", function (require) {
 "use strict";
 
 var tour = require("web_tour.tour");

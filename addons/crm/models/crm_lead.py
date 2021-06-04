@@ -1,17 +1,17 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import logging
 import threading
 from datetime import date, datetime, timedelta
 from psycopg2 import sql
 
-from odoo import api, fields, models, tools, SUPERUSER_ID
-from odoo.osv import expression
-from odoo.tools.translate import _
-from odoo.tools import email_re, email_split
-from odoo.exceptions import UserError, AccessError
-from odoo.addons.phone_validation.tools import phone_validation
+from neoziv import api, fields, models, tools, SUPERUSER_ID
+from neoziv.osv import expression
+from neoziv.tools.translate import _
+from neoziv.tools import email_re, email_split
+from neoziv.exceptions import UserError, AccessError
+from neoziv.addons.phone_validation.tools import phone_validation
 from collections import OrderedDict, defaultdict
 
 from . import crm_stage
@@ -68,7 +68,7 @@ PARTNER_ADDRESS_FIELDS_TO_SYNC = [
 
 # Those values have been determined based on benchmark to minimise
 # computation time, number of transaction and transaction time.
-PLS_COMPUTE_BATCH_STEP = 50000  # odoo.models.PREFETCH_MAX = 1000 but larger cluster can speed up global computation
+PLS_COMPUTE_BATCH_STEP = 50000  # neoziv.models.PREFETCH_MAX = 1000 but larger cluster can speed up global computation
 PLS_UPDATE_BATCH_STEP = 5000
 
 

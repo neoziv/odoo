@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, models, tools, _
-from odoo.addons.website.models import ir_http
-from odoo.exceptions import UserError
-from odoo.http import request
+from neoziv import api, models, tools, _
+from neoziv.addons.website.models import ir_http
+from neoziv.exceptions import UserError
+from neoziv.http import request
 
 
 class Lang(models.Model):

@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo import _
-from odoo.exceptions import UserError
+from neoziv import _
+from neoziv.exceptions import UserError
 
 import logging
 

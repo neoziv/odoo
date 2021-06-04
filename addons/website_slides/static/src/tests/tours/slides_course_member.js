@@ -1,4 +1,4 @@
-odoo.define('website_slides.tour.slide.course.member', function (require) {
+neoziv.define('website_slides.tour.slide.course.member', function (require) {
 'use strict';
 
 var tour = require('web_tour.tour');

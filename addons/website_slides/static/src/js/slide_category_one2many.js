@@ -1,4 +1,4 @@
-odoo.define('survey.slide_category_one2many', function (require){
+neoziv.define('survey.slide_category_one2many', function (require){
 "use strict";
 
 var Context = require('web.Context');

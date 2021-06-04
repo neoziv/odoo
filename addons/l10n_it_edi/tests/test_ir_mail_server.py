@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import datetime
 import logging
 from collections import namedtuple
 from unittest.mock import patch
 
-from odoo import tools
-from odoo.addons.account_edi.tests.common import AccountEdiTestCommon
-from odoo.addons.l10n_it_edi.tools.remove_signature import remove_signature
+from neoziv import tools
+from neoziv.addons.account_edi.tests.common import AccountEdiTestCommon
+from neoziv.addons.l10n_it_edi.tools.remove_signature import remove_signature
 
 _logger = logging.getLogger(__name__)
 

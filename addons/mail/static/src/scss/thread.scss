@@ -102,7 +102,7 @@
                 color: gray;
             }
 
-            [summary~=o_mail_notification] { // name conflicts with channel notifications, but is odoo notification buttons to hide in chatter if present
+            [summary~=o_mail_notification] { // name conflicts with channel notifications, but is neoziv notification buttons to hide in chatter if present
                 display: none;
             }
 

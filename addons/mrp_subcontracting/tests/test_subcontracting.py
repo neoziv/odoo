@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo.tests import Form
-from odoo.tests.common import TransactionCase
-from odoo.addons.mrp_subcontracting.tests.common import TestMrpSubcontractingCommon
+from neoziv.tests import Form
+from neoziv.tests.common import TransactionCase
+from neoziv.addons.mrp_subcontracting.tests.common import TestMrpSubcontractingCommon
 
-from odoo.tests import tagged
+from neoziv.tests import tagged
 
 @tagged('post_install', '-at_install')
 class TestSubcontractingBasic(TransactionCase):

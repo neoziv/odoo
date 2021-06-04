@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-import odoo.tests
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
+import neoziv.tests
 
 
-@odoo.tests.tagged('-at_install', 'post_install')
-class TestUi(odoo.tests.HttpCase):
+@neoziv.tests.tagged('-at_install', 'post_install')
+class TestUi(neoziv.tests.HttpCase):
     def test_01_wishlist_tour(self):
 
         self.env['product.template'].search([]).write({'website_published': False})

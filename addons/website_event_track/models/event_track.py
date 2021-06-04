@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from datetime import timedelta
 from pytz import utc
 from random import randint
 
-from odoo import api, fields, models
-from odoo.addons.http_routing.models.ir_http import slug
-from odoo.osv import expression
-from odoo.tools.mail import is_html_empty
-from odoo.tools.translate import _, html_translate
+from neoziv import api, fields, models
+from neoziv.addons.http_routing.models.ir_http import slug
+from neoziv.osv import expression
+from neoziv.tools.mail import is_html_empty
+from neoziv.tools.translate import _, html_translate
 
 
 class Track(models.Model):

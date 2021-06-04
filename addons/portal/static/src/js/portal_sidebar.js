@@ -1,4 +1,4 @@
-odoo.define('portal.PortalSidebar', function (require) {
+neoziv.define('portal.PortalSidebar', function (require) {
 'use strict';
 
 var core = require('web.core');

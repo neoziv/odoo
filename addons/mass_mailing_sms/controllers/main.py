@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import werkzeug
 
-from odoo import http, _
-from odoo.addons.phone_validation.tools import phone_validation
-from odoo.http import request
+from neoziv import http, _
+from neoziv.addons.phone_validation.tools import phone_validation
+from neoziv.http import request
 
 
 class MailingSMSController(http.Controller):

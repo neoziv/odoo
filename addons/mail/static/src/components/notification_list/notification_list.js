@@ -1,4 +1,4 @@
-odoo.define('mail/static/src/components/notification_list/notification_list.js', function (require) {
+neoziv.define('mail/static/src/components/notification_list/notification_list.js', function (require) {
 'use strict';
 
 const components = {
@@ -141,8 +141,8 @@ class NotificationList extends Component {
         // native notification request
         if (props.filter === 'all' && this.env.messaging.isNotificationPermissionDefault()) {
             notifications.unshift({
-                type: 'odoobotRequest',
-                uniqueId: 'odoobotRequest',
+                type: 'neozivbotRequest',
+                uniqueId: 'neozivbotRequest',
             });
         }
         return {

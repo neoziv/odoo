@@ -1,44 +1,44 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* project
 # 
 # Translators:
 # Shark McGnark <peculiarcheese@gmail.com>, 2020
-# Fernanda Marques <fem@odoo.com>, 2020
-# Florian <fll@odoo.com>, 2020
+# Fernanda Marques <fem@neoziv.com>, 2020
+# Florian <fll@neoziv.com>, 2020
 # 6534c450c77b2549e41c52e2051f5839, 2020
 # Florian Hatat, 2020
 # Jérôme Tanché <jerome.tanche@ouest-dsi.fr>, 2020
-# Laura Piraux <lap@odoo.com>, 2020
+# Laura Piraux <lap@neoziv.com>, 2020
 # Xavier Belmere <Info@cartmeleon.com>, 2020
 # Aurélien Pillevesse <aurelienpillevesse@hotmail.fr>, 2020
-# Eloïse Stilmant <est@odoo.com>, 2020
-# Léonie Bouchat <lbo@odoo.com>, 2020
-# Nathan Grognet <ngr@odoo.com>, 2020
+# Eloïse Stilmant <est@neoziv.com>, 2020
+# Léonie Bouchat <lbo@neoziv.com>, 2020
+# Nathan Grognet <ngr@neoziv.com>, 2020
 # Olivier ANDRE <frsw194@gmail.com>, 2020
-# gdp Odoo <gdp@odoo.com>, 2020
-# Celia Tydgat <cty@odoo.com>, 2020
+# gdp neoziv <gdp@neoziv.com>, 2020
+# Celia Tydgat <cty@neoziv.com>, 2020
 # Gilles Mangin <gilles.mangin@phidias.fr>, 2020
-# Priscilla (prs) Odoo <prs@odoo.com>, 2020
+# Priscilla (prs) neoziv <prs@neoziv.com>, 2020
 # Martin Trigaux, 2020
 # Frédéric LIETART <stuff@tifred.fr>, 2020
-# Clo <clo@odoo.com>, 2020
+# Clo <clo@neoziv.com>, 2020
 # Arnaud Willem <contact@arnaud-willem.eu>, 2020
-# Cécile Collart <cco@odoo.com>, 2020
+# Cécile Collart <cco@neoziv.com>, 2020
 # khalid chamakh <elbissat@gmail.com>, 2021
 # Sébastien BÜHL <buhlsebastien@gmail.com>, 2021
-# Cécile Perrez <cpe@odoo.com>, 2021
+# Cécile Perrez <cpe@neoziv.com>, 2021
 # Luc N, 2021
-# Alexandra Jubert <aju@odoo.com>, 2021
+# Alexandra Jubert <aju@neoziv.com>, 2021
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 11:23+0000\n"
 "PO-Revision-Date: 2020-09-07 08:17+0000\n"
-"Last-Translator: Alexandra Jubert <aju@odoo.com>, 2021\n"
-"Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"Last-Translator: Alexandra Jubert <aju@neoziv.com>, 2021\n"
+"Language-Team: French (https://www.transifex.com/neoziv/teams/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1236,11 +1236,11 @@ msgstr "Évaluations client sur la tâche"
 #: code:addons/project/static/src/js/project_task_kanban_examples.js:0
 #, python-format
 msgid ""
-"Customers propose feedbacks by email; Odoo creates tasks automatically, and "
+"Customers propose feedbacks by email; neoziv creates tasks automatically, and "
 "you can communicate on the task directly. Your managers decide which "
 "feedback is accepted %s and which feedback is moved to the %s column. %s"
 msgstr ""
-"Les clients envoient des retours par email; Odoo crée des tâches "
+"Les clients envoient des retours par email; neoziv crée des tâches "
 "automatiquement, et vous pouvez communiquer avec vos clients directement sur"
 " la tâche. Vos managers décident lesquels sont acceptés %s et lesquels sont "
 "bougés dans la colonne %s. %s"
@@ -3710,11 +3710,11 @@ msgstr "Tests"
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (neoziv Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"Le modèle (sorte de document Odoo) auquel correspond cet alias. Tout les "
+"Le modèle (sorte de document neoziv) auquel correspond cet alias. Tout les "
 "e-mail entrant ne correspondant pas à un enregistrement existant entraînera "
 "la création d'un nouvel enregistrement de ce modèle (Ex. : une tâche d'un "
 "projet)"
@@ -3723,10 +3723,10 @@ msgstr ""
 #: model:ir.model.fields,help:project.field_project_project__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.neoziv.com>"
 msgstr ""
 "Le nom de l'alias de messagerie, par exemple 'carrieres' pour relever les "
-"e-mails de <carrieres@example.odoo.com>"
+"e-mails de <carrieres@example.neoziv.com>"
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_user_id

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* project
 # 
@@ -18,12 +18,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 11:23+0000\n"
 "PO-Revision-Date: 2020-09-07 08:17+0000\n"
 "Last-Translator: trendspotter, 2021\n"
-"Language-Team: Czech (https://www.transifex.com/odoo/teams/41243/cs/)\n"
+"Language-Team: Czech (https://www.transifex.com/neoziv/teams/41243/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1140,11 +1140,11 @@ msgstr "Hodnocení zákazníků na úkolu"
 #: code:addons/project/static/src/js/project_task_kanban_examples.js:0
 #, python-format
 msgid ""
-"Customers propose feedbacks by email; Odoo creates tasks automatically, and "
+"Customers propose feedbacks by email; neoziv creates tasks automatically, and "
 "you can communicate on the task directly. Your managers decide which "
 "feedback is accepted %s and which feedback is moved to the %s column. %s"
 msgstr ""
-"Zákazníci navrhují zpětnou vazbu e-mailem; Odoo vytváří úkoly automaticky a "
+"Zákazníci navrhují zpětnou vazbu e-mailem; neoziv vytváří úkoly automaticky a "
 "můžete o úkolu přímo komunikovat. Vaši manažeři rozhodnou, která zpětná "
 "vazba je přijata %s a která zpětná vazba je přesunuta do %s sloupec. %s"
 
@@ -3582,11 +3582,11 @@ msgstr "Testy"
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (neoziv Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"Model (Odoo Document Kind), ke kterému odpovídá tento alias. Jakýkoli "
+"Model (neoziv Document Kind), ke kterému odpovídá tento alias. Jakýkoli "
 "příchozí e-mail, který neodpovídá stávajícímu záznamu, způsobí vytvoření "
 "nového záznamu tohoto modelu (například projektové úlohy)"
 
@@ -3594,10 +3594,10 @@ msgstr ""
 #: model:ir.model.fields,help:project.field_project_project__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.neoziv.com>"
 msgstr ""
 "Název aliasu e-mailu, např. 'jobs', pokud chcete zachytit e-maily pro "
-"<jobs@example.odoo.com>"
+"<jobs@example.neoziv.com>"
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_user_id

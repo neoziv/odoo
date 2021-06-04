@@ -1,8 +1,8 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 import base64
 
-from odoo.tests.common import SavepointCase
-from odoo.modules.module import get_module_resource
+from neoziv.tests.common import SavepointCase
+from neoziv.modules.module import get_module_resource
 
 
 class TestProductConfiguratorCommon(SavepointCase):

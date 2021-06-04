@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* base_setup
 # 
@@ -18,12 +18,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:12+0000\n"
 "PO-Revision-Date: 2020-09-07 08:11+0000\n"
 "Last-Translator: Nadir Gazioglu <nadirgazioglu@gmail.com>, 2021\n"
-"Language-Team: Turkish (https://www.transifex.com/odoo/teams/41243/tr/)\n"
+"Language-Team: Turkish (https://www.transifex.com/neoziv/teams/41243/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -394,8 +394,8 @@ msgstr "Harici Eposta Sunucuları"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Extract and analyze Odoo data from Google Spreadsheet"
-msgstr "Google Spreadsheet'den Odoo verilerini analiz et"
+msgid "Extract and analyze neoziv data from Google Spreadsheet"
+msgstr "Google Spreadsheet'den neoziv verilerini analiz et"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -592,15 +592,15 @@ msgstr "OAuth Kimlik Doğrulaması"
 #. openerp-web
 #: code:addons/base_setup/static/src/xml/res_config_edition.xml:0
 #, python-format
-msgid "Odoo"
-msgstr "Odoo"
+msgid "neoziv"
+msgstr "neoziv"
 
 #. module: base_setup
 #. openerp-web
 #: code:addons/base_setup/static/src/xml/res_config_edition.xml:0
 #, python-format
-msgid "Odoo S.A."
-msgstr "Odoo S.A."
+msgid "neoziv S.A."
+msgstr "neoziv S.A."
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -721,8 +721,8 @@ msgstr "Harici kimlik doğrulama sağlayıcıları (OAuth) kullanın"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Use external pads in Odoo Notes"
-msgstr "Odoo Notes'ta harici pad'ler kullanın"
+msgid "Use external pads in neoziv Notes"
+msgstr "neoziv Notes'ta harici pad'ler kullanın"
 
 #. module: base_setup
 #. openerp-web
@@ -736,11 +736,11 @@ msgstr "Kullanıcılar"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
-"When populating your address book, Odoo provides a list of matching "
+"When populating your address book, neoziv provides a list of matching "
 "companies. When selecting one item, the company data and logo are auto-"
 "filled."
 msgstr ""
-"Adres defterini doldururken, Odoo eşleşen şirketlerin bir listesini sunar. "
+"Adres defterini doldururken, neoziv eşleşen şirketlerin bir listesini sunar. "
 "Bir öğe seçildiğinde, şirket verileri ve logosu otomatik olarak doldurulur."
 
 #. module: base_setup

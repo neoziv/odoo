@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from itertools import chain
 
-from odoo import api, fields, models, tools, _
-from odoo.exceptions import UserError, ValidationError
-from odoo.tools import float_repr
-from odoo.tools.misc import get_lang
+from neoziv import api, fields, models, tools, _
+from neoziv.exceptions import UserError, ValidationError
+from neoziv.tools import float_repr
+from neoziv.tools.misc import get_lang
 
 
 class Pricelist(models.Model):

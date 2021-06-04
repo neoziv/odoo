@@ -1,4 +1,4 @@
-odoo.define('crm.tour_crm_rainbowman', function (require) {
+neoziv.define('crm.tour_crm_rainbowman', function (require) {
     "use strict";
 
     var tour = require('web_tour.tour');

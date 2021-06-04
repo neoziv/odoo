@@ -1,11 +1,11 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* portal
 # 
 # Translators:
 # Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2020
 # Antonio Trueba, 2020
-# Mariana Santos Romo <msn@odoo.com>, 2020
+# Mariana Santos Romo <msn@neoziv.com>, 2020
 # Martin Trigaux, 2020
 # Pedro M. Baeza <pedro.baeza@gmail.com>, 2021
 # José Cabrera Lozano <jose.cabrera@edukative.es>, 2021
@@ -13,12 +13,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-29 13:46+0000\n"
 "PO-Revision-Date: 2020-09-07 08:16+0000\n"
 "Last-Translator: Rick Hunter <rick.hunter.ec@gmail.com>, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"Language-Team: Spanish (https://www.transifex.com/neoziv/teams/41243/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -166,7 +166,7 @@ msgid ""
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
-"        Powered by <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=portalinvite\" style=\"color: #875A7B;\">Odoo</a>\n"
+"        Powered by <a target=\"_blank\" href=\"https://www.neoziv.com?utm_source=db&amp;utm_medium=portalinvite\" style=\"color: #875A7B;\">neoziv</a>\n"
 "      </td></tr>\n"
 "    </table>\n"
 "</td></tr>\n"
@@ -249,7 +249,7 @@ msgstr ""
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
-"        Desarrollado por <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=portalinvite\" style=\"color: #875A7B;\">Odoo</a>\n"
+"        Desarrollado por <a target=\"_blank\" href=\"https://www.neoziv.com?utm_source=db&amp;utm_medium=portalinvite\" style=\"color: #875A7B;\">neoziv</a>\n"
 "      </td></tr>\n"
 "    </table>\n"
 "</td></tr>\n"
@@ -686,8 +686,8 @@ msgstr "Nota"
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_record_sidebar
-msgid "Odoo Logo"
-msgstr "Logo de Odoo"
+msgid "neoziv Logo"
+msgstr "Logo de neoziv"
 
 #. module: portal
 #. openerp-web
@@ -1145,8 +1145,8 @@ msgstr ""
 
 #. module: portal
 #: model:mail.template,subject:portal.mail_template_data_portal_welcome
-msgid "Your Odoo account at ${object.user_id.company_id.name}"
-msgstr "Su cuenta de Odoo en ${object.user_id.company_id.name}."
+msgid "Your neoziv account at ${object.user_id.company_id.name}"
+msgstr "Su cuenta de neoziv en ${object.user_id.company_id.name}."
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_contact
@@ -1188,8 +1188,8 @@ msgstr "registrado"
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_record_sidebar
-msgid "odoo"
-msgstr "odoo"
+msgid "neoziv"
+msgstr "neoziv"
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security

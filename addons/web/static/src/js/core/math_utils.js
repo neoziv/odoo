@@ -1,4 +1,4 @@
-odoo.define('web.mathUtils', function () {
+neoziv.define('web.mathUtils', function () {
 "use strict";
 
 /**

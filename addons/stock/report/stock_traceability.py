@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, models, _
-from odoo.tools import config
-from odoo.tools import format_datetime
+from neoziv import api, models, _
+from neoziv.tools import config
+from neoziv.tools import format_datetime
 
 
 rec = 0

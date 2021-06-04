@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo.fields import Datetime, Date
-from odoo.addons.hr_contract.tests.common import TestContractCommon
+from neoziv.fields import Datetime, Date
+from neoziv.addons.hr_contract.tests.common import TestContractCommon
 
 
 class TestContractCalendars(TestContractCommon):

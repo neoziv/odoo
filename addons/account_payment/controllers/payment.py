@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from werkzeug.urls import url_encode
 
-from odoo import http, _
-from odoo.addons.portal.controllers.portal import _build_url_w_params
-from odoo.addons.payment.controllers.portal import PaymentProcessing
-from odoo.http import request, route
+from neoziv import http, _
+from neoziv.addons.portal.controllers.portal import _build_url_w_params
+from neoziv.addons.payment.controllers.portal import PaymentProcessing
+from neoziv.http import request, route
 
 
 class PaymentPortal(http.Controller):

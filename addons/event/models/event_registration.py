@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from dateutil.relativedelta import relativedelta
 
-from odoo import _, api, fields, models
-from odoo.tools import format_datetime
-from odoo.exceptions import AccessError, ValidationError
+from neoziv import _, api, fields, models
+from neoziv.tools import format_datetime
+from neoziv.exceptions import AccessError, ValidationError
 
 
 class EventRegistration(models.Model):

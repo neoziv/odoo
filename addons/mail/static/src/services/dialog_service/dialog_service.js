@@ -1,4 +1,4 @@
-odoo.define('mail/static/src/services/dialog_service/dialog_service.js', function (require) {
+neoziv.define('mail/static/src/services/dialog_service/dialog_service.js', function (require) {
 'use strict';
 
 const components = {

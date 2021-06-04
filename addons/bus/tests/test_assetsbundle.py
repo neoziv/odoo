@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-import odoo.tests
-from odoo.osv import expression
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
+import neoziv.tests
+from neoziv.osv import expression
 
 
-@odoo.tests.tagged('post_install', '-at_install', 'assets_bundle')
-class BusWebTests(odoo.tests.HttpCase):
+@neoziv.tests.tagged('post_install', '-at_install', 'assets_bundle')
+class BusWebTests(neoziv.tests.HttpCase):
 
     def test_bundle_sends_bus(self):
         """

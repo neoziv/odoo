@@ -1,4 +1,4 @@
-odoo.define('website_blog.contentshare', function (require) {
+neoziv.define('website_blog.contentshare', function (require) {
 'use strict';
 
 const dom = require('web.dom');

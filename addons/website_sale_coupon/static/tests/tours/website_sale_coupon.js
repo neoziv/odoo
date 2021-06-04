@@ -1,4 +1,4 @@
-odoo.define('website_sale_coupon.test', function (require) {
+neoziv.define('website_sale_coupon.test', function (require) {
 'use strict';
 
 require("website_sale.tour");

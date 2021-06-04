@@ -1,4 +1,4 @@
-odoo.define('mail.utils', function (require) {
+neoziv.define('mail.utils', function (require) {
 "use strict";
 
 var core = require('web.core');

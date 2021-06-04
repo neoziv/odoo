@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from odoo.addons.account.tests.common import AccountTestInvoicingCommon
+from neoziv.addons.account.tests.common import AccountTestInvoicingCommon
 
 
 class PaymentAcquirerCommon(AccountTestInvoicingCommon):

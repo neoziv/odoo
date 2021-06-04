@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo.addons.mrp.tests.common import TestMrpCommon
-from odoo.tests import Form
-from odoo.tests.common import SavepointCase
+from neoziv.addons.mrp.tests.common import TestMrpCommon
+from neoziv.tests import Form
+from neoziv.tests.common import SavepointCase
 
 
 class TestMrpProductionBackorder(TestMrpCommon):

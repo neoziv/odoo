@@ -1,4 +1,4 @@
-odoo.define('website_slides.tour.tools', function (require) {
+neoziv.define('website_slides.tour.tools', function (require) {
 'use strict';
 
 /*

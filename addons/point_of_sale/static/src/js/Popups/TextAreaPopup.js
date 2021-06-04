@@ -1,4 +1,4 @@
-odoo.define('point_of_sale.TextAreaPopup', function(require) {
+neoziv.define('point_of_sale.TextAreaPopup', function(require) {
     'use strict';
 
     const { useState, useRef } = owl.hooks;

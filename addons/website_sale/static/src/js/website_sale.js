@@ -1,4 +1,4 @@
-odoo.define('website_sale.cart', function (require) {
+neoziv.define('website_sale.cart', function (require) {
 'use strict';
 
 var publicWidget = require('web.public.widget');
@@ -104,7 +104,7 @@ publicWidget.registry.websiteSaleCartLink = publicWidget.Widget.extend({
 });
 });
 
-odoo.define('website_sale.website_sale_category', function (require) {
+neoziv.define('website_sale.website_sale_category', function (require) {
 'use strict';
 
 var publicWidget = require('web.public.widget');
@@ -142,7 +142,7 @@ publicWidget.registry.websiteSaleCategory = publicWidget.Widget.extend({
 });
 });
 
-odoo.define('website_sale.website_sale', function (require) {
+neoziv.define('website_sale.website_sale', function (require) {
 'use strict';
 
 var core = require('web.core');
@@ -151,7 +151,7 @@ var publicWidget = require('web.public.widget');
 var VariantMixin = require('sale.VariantMixin');
 var wSaleUtils = require('website_sale.utils');
 const wUtils = require('website.utils');
-require("web.zoomodoo");
+require("web.zoomneoziv");
 
 
 publicWidget.registry.WebsiteSale = publicWidget.Widget.extend(VariantMixin, {
@@ -421,7 +421,7 @@ publicWidget.registry.WebsiteSale = publicWidget.Widget.extend(VariantMixin, {
             _.each($('.ecom-zoomable img[data-zoom]'), function (el) {
                 onImageLoaded(el, function () {
                     var $img = $(el);
-                    $img.zoomOdoo({event: autoZoom ? 'mouseenter' : 'click', attach: attach});
+                    $img.zoomneoziv({event: autoZoom ? 'mouseenter' : 'click', attach: attach});
                     $img.attr('data-zoom', 1);
                 });
             });

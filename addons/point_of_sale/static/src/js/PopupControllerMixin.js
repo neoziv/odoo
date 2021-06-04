@@ -1,4 +1,4 @@
-odoo.define('point_of_sale.PopupControllerMixin', function(require) {
+neoziv.define('point_of_sale.PopupControllerMixin', function(require) {
     'use strict';
 
     const { useState } = owl;

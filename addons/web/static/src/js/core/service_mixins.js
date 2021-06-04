@@ -1,4 +1,4 @@
-odoo.define('web.ServiceProviderMixin', function (require) {
+neoziv.define('web.ServiceProviderMixin', function (require) {
 "use strict";
 
 var core = require('web.core');
@@ -79,7 +79,7 @@ var ServiceProviderMixin = {
      * the target so that it can call back the caller.
      *
      * @private
-     * @param  {OdooEvent} event
+     * @param  {neozivEvent} event
      */
     _call_service: function (event) {
         var args = event.data.args || [];
@@ -97,7 +97,7 @@ return ServiceProviderMixin;
 
 });
 
-odoo.define('web.ServicesMixin', function (require) {
+neoziv.define('web.ServicesMixin', function (require) {
 "use strict";
 
 var rpc = require('web.rpc');

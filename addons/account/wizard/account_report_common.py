@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-from odoo import api, fields, models, _
-from odoo.tools.misc import get_lang
+from neoziv import api, fields, models, _
+from neoziv.tools.misc import get_lang
 
 
 class AccountCommonReport(models.TransientModel):

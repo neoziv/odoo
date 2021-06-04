@@ -1,4 +1,4 @@
-odoo.define('mass_mailing.website_integration', function (require) {
+neoziv.define('mass_mailing.website_integration', function (require) {
 "use strict";
 
 var config = require('web.config');
@@ -29,7 +29,7 @@ publicWidget.registry.subscribe = publicWidget.Widget.extend({
      */
     init: function () {
         this._super(...arguments);
-        const ReCaptchaService = odoo.__DEBUG__.services['google_recaptcha.ReCaptchaV3'];
+        const ReCaptchaService = neoziv.__DEBUG__.services['google_recaptcha.ReCaptchaV3'];
         this._recaptcha = ReCaptchaService && new ReCaptchaService.ReCaptcha() || null;
     },
     /**

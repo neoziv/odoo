@@ -1,4 +1,4 @@
-odoo.define('mrp.MrpDocumentsKanbanController', function (require) {
+neoziv.define('mrp.MrpDocumentsKanbanController', function (require) {
 "use strict";
 
 /**

@@ -1,4 +1,4 @@
-odoo.define('point_of_sale.tour.PaymentScreen', function (require) {
+neoziv.define('point_of_sale.tour.PaymentScreen', function (require) {
     'use strict';
 
     const { ProductScreen } = require('point_of_sale.tour.ProductScreenTourMethods');

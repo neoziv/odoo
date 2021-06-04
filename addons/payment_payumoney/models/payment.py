@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import hashlib
 
 from werkzeug import urls
 
-from odoo import api, fields, models, _
-from odoo.addons.payment.models.payment_acquirer import ValidationError
-from odoo.tools.float_utils import float_compare
+from neoziv import api, fields, models, _
+from neoziv.addons.payment.models.payment_acquirer import ValidationError
+from neoziv.tools.float_utils import float_compare
 
 import logging
 
@@ -33,8 +33,8 @@ class PaymentAcquirerPayumoney(models.Model):
     def _payumoney_generate_sign(self, inout, values):
         """ Generate the shasign for incoming or outgoing communications.
         :param self: the self browse record. It should have a shakey in shakey out
-        :param string inout: 'in' (odoo contacting payumoney) or 'out' (payumoney
-                             contacting odoo).
+        :param string inout: 'in' (neoziv contacting payumoney) or 'out' (payumoney
+                             contacting neoziv).
         :param dict values: transaction values
 
         :return string: shasign

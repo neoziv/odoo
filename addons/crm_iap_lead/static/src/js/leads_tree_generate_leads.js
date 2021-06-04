@@ -1,4 +1,4 @@
-odoo.define('crm.leads.tree', function (require) {
+neoziv.define('crm.leads.tree', function (require) {
 "use strict";
     var ListController = require('web.ListController');
     var ListView = require('web.ListView');

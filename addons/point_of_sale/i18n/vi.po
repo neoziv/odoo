@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* point_of_sale
 # 
@@ -8,7 +8,7 @@
 # fanha99 <fanha99@hotmail.com>, 2020
 # Martin Trigaux, 2020
 # Dao Nguyen <trucdao.uel@gmail.com>, 2020
-# Phuc Tran Thanh <phuctran.odoo@gmail.com>, 2020
+# Phuc Tran Thanh <phuctran.neoziv@gmail.com>, 2020
 # Trinh Tran Thi Phuong <trinhttp@trobz.com>, 2020
 # Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2021
 # Duy BQ <duybq86@gmail.com>, 2021
@@ -17,12 +17,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-26 09:03+0000\n"
 "PO-Revision-Date: 2020-09-07 08:16+0000\n"
 "Last-Translator: Trần Hà <tranthuha13590@gmail.com>, 2021\n"
-"Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
+"Language-Team: Vietnamese (https://www.transifex.com/neoziv/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -2110,8 +2110,8 @@ msgstr "ID"
 #. openerp-web
 #: code:addons/point_of_sale/static/src/js/Popups/ErrorTracebackPopup.js:0
 #, python-format
-msgid "IMPORTANT: Bug Report From Odoo Point Of Sale"
-msgstr "QUAN TRỌNG: Báo cáo lỗi từ điểm bán lẻ (PoS) trong Odoo"
+msgid "IMPORTANT: Bug Report From neoziv Point Of Sale"
+msgstr "QUAN TRỌNG: Báo cáo lỗi từ điểm bán lẻ (PoS) trong neoziv"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__proxy_ip
@@ -2834,7 +2834,7 @@ msgstr "Số tin chưa đọc"
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.customer_facing_display_html
 #: model_terms:pos.config,customer_facing_display_html:point_of_sale.pos_config_main
-msgid "Odoo Logo"
+msgid "neoziv Logo"
 msgstr "Logo hệ thống"
 
 #. module: point_of_sale
@@ -5170,7 +5170,7 @@ msgstr "Sản phẩm này được sử dụng như một dẫn chiếu trên bi
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_line_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by neoziv but you can change it to "
 "customize the reference numbers of your orders lines."
 msgstr ""
 "Thứ tự này được tạo tự động bởi Hệ thống nhưng bạn có thể thay đổi nó để tùy"
@@ -5179,7 +5179,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by neoziv but you can change it to "
 "customize the reference numbers of your orders."
 msgstr ""
 "Thứ tự này được tạo tự động bởi Hệ thống nhưng bạn có thể thay đổi nó để tùy"

@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo.addons.microsoft_calendar.utils.microsoft_calendar import MicrosoftCalendarService, MicrosoftEvent
-from odoo.exceptions import ValidationError
+from neoziv.addons.microsoft_calendar.utils.microsoft_calendar import MicrosoftCalendarService, MicrosoftEvent
+from neoziv.exceptions import ValidationError
 import pytz
 from datetime import datetime, date
-from odoo.tests.common import SavepointCase
+from neoziv.tests.common import SavepointCase
 from dateutil.relativedelta import relativedelta
 
 
-class TestSyncMicrosoft2Odoo(SavepointCase):
+class TestSyncMicrosoft2neoziv(SavepointCase):
 
     @property
     def now(self):
@@ -25,13 +25,13 @@ class TestSyncMicrosoft2Odoo(SavepointCase):
             {'@odata.type': '#microsoft.graph.event', '@odata.etag': 'W/"DwAAABYAAABlLa4RUBXJToExnebpwea2AAALKrjF"', 'seriesMasterId': 'AQ8PojGtrADQATM3ZmYAZS0yY2MAMC00MDg1LTAwAi0wMAoARgAAA0By7X03vaNKv1GnWYTbFYAHAGUtrhFQFclOgTGd5unB5rYAAAIBDQAAAGUtrhFQFclOgTGd5unB5rYAAAALLLTEAAAA', 'type': 'occurrence', 'id': 'AQ8PojGtrADQATM3ZmYAZS0yY2MAMC00MDg1LTAwAi0wMAoBUQAICADX8IdBHsAARgAAAkBy7X03vaNKv1GnWYTbFYAHAGUtrhFQFclOgTGd5unB5rYAAAIBDQAAAGUtrhFQFclOgTGd5unB5rYAAAALLLTEAAAAEA==', 'start': {'dateTime': '2020-05-05T14:30:00.0000000', 'timeZone': 'UTC'}, 'end': {'dateTime': '2020-05-05T16:00:00.0000000', 'timeZone': 'UTC'}}
         ]
 
-        self.env['calendar.event']._sync_microsoft2odoo(MicrosoftEvent(values))
+        self.env['calendar.event']._sync_microsoft2neoziv(MicrosoftEvent(values))
 
         self.datetime_future = pytz.utc.localize(datetime.now() + relativedelta(days=1)).isoformat()
 
     def sync(self, events):
 
-        self.env['calendar.event']._sync_microsoft2odoo(events)
+        self.env['calendar.event']._sync_microsoft2neoziv(events)
 
     def test_new_microsoft_recurrence(self):
 
@@ -56,7 +56,7 @@ class TestSyncMicrosoft2Odoo(SavepointCase):
             {'@odata.type': '#microsoft.graph.event', '@odata.etag': 'W/"DwAAABYAAABlLa4RUBXJToExnebpwea2AAAMhpkp"', 'seriesMasterId': 'AQ8PojGtrADQATM3ZmYAZS0yY2MAMC00MDg1LTAwAi0wMAoARgAAA0By7X03vaNKv1GnWYTbFYAHAGUtrhFQFclOgTGd5unB5rYAAAIBDQAAAGUtrhFQFclOgTGd5unB5rYAAAALLLTEAAAA', 'type': 'occurrence', 'id': 'AQ8PojGtrADQATM3ZmYAZS0yY2MAMC00MDg1LTAwAi0wMAoBUQAICADX8IdBHsAARgAAAkBy7X03vaNKv1GnWYTbFYAHAGUtrhFQFclOgTGd5unB5rYAAAIBDQAAAGUtrhFQFclOgTGd5unB5rYAAAALLLTEAAAAEA==', 'start': {'dateTime': '2020-05-05T14:30:00.0000000', 'timeZone': 'UTC'}, 'end': {'dateTime': '2020-05-05T16:00:00.0000000', 'timeZone': 'UTC'}}
         ]
 
-        self.env['calendar.event']._sync_microsoft2odoo(MicrosoftEvent(values))
+        self.env['calendar.event']._sync_microsoft2neoziv(MicrosoftEvent(values))
 
         recurrence = self.env['calendar.recurrence'].search([('microsoft_id', '=', self.recurrence_id)])
         events = self.env['calendar.event'].search([('recurrence_id', '=', recurrence.id)], order='start asc')
@@ -73,7 +73,7 @@ class TestSyncMicrosoft2Odoo(SavepointCase):
             {'@odata.type': '#microsoft.graph.event', '@odata.etag': 'W/"DwAAABYAAABlLa4RUBXJToExnebpwea2AAAMhpkp"', 'seriesMasterId': 'AQ8PojGtrADQATM3ZmYAZS0yY2MAMC00MDg1LTAwAi0wMAoARgAAA0By7X03vaNKv1GnWYTbFYAHAGUtrhFQFclOgTGd5unB5rYAAAIBDQAAAGUtrhFQFclOgTGd5unB5rYAAAALLLTEAAAA', 'type': 'occurrence', 'id': 'AQ8PojGtrADQATM3ZmYAZS0yY2MAMC00MDg1LTAwAi0wMAoBUQAICADX8IdBHsAARgAAAkBy7X03vaNKv1GnWYTbFYAHAGUtrhFQFclOgTGd5unB5rYAAAIBDQAAAGUtrhFQFclOgTGd5unB5rYAAAALLLTEAAAAEA==', 'start': {'dateTime': '2020-05-05T14:30:00.0000000', 'timeZone': 'UTC'}, 'end': {'dateTime': '2020-05-05T16:00:00.0000000', 'timeZone': 'UTC'}}
         ]
 
-        self.env['calendar.event']._sync_microsoft2odoo(MicrosoftEvent(values))
+        self.env['calendar.event']._sync_microsoft2neoziv(MicrosoftEvent(values))
 
         recurrence = self.env['calendar.recurrence'].search([('microsoft_id', '=', self.recurrence_id)])
         events = self.env['calendar.event'].search([('recurrence_id', '=', recurrence.id)], order='start asc')
@@ -90,7 +90,7 @@ class TestSyncMicrosoft2Odoo(SavepointCase):
             {'@odata.type': '#microsoft.graph.event', '@odata.etag': 'W/"DwAAABYAAABlLa4RUBXJToExnebpwea2AAAMhpkp"', 'seriesMasterId': 'AQ8PojGtrADQATM3ZmYAZS0yY2MAMC00MDg1LTAwAi0wMAoARgAAA0By7X03vaNKv1GnWYTbFYAHAGUtrhFQFclOgTGd5unB5rYAAAIBDQAAAGUtrhFQFclOgTGd5unB5rYAAAALLLTEAAAA', 'type': 'occurrence', 'id': 'AQ8PojGtrADQATM3ZmYAZS0yY2MAMC00MDg1LTAwAi0wMAoBUQAICADX8IdBHsAARgAAAkBy7X03vaNKv1GnWYTbFYAHAGUtrhFQFclOgTGd5unB5rYAAAIBDQAAAGUtrhFQFclOgTGd5unB5rYAAAALLLTEAAAAEA==', 'start': {'dateTime': '2020-05-05T14:30:00.0000000', 'timeZone': 'UTC'}, 'end': {'dateTime': '2020-05-05T16:00:00.0000000', 'timeZone': 'UTC'}}
         ]
 
-        self.env['calendar.event']._sync_microsoft2odoo(MicrosoftEvent(values))
+        self.env['calendar.event']._sync_microsoft2neoziv(MicrosoftEvent(values))
 
         recurrence = self.env['calendar.recurrence'].search([('microsoft_id', '=', self.recurrence_id)])
         events = self.env['calendar.event'].search([('recurrence_id', '=', recurrence.id)], order='start asc')
@@ -107,7 +107,7 @@ class TestSyncMicrosoft2Odoo(SavepointCase):
             {'@odata.type': '#microsoft.graph.event', '@odata.etag': 'W/"DwAAABYAAABlLa4RUBXJToExnebpwea2AAAMhpk8"', 'seriesMasterId': 'AQ8PojGtrADQATM3ZmYAZS0yY2MAMC00MDg1LTAwAi0wMAoARgAAA0By7X03vaNKv1GnWYTbFYAHAGUtrhFQFclOgTGd5unB5rYAAAIBDQAAAGUtrhFQFclOgTGd5unB5rYAAAALLLTEAAAA', 'type': 'occurrence', 'id': 'AQ8PojGtrADQATM3ZmYAZS0yY2MAMC00MDg1LTAwAi0wMAoBUQAICADX8IdBHsAARgAAAkBy7X03vaNKv1GnWYTbFYAHAGUtrhFQFclOgTGd5unB5rYAAAIBDQAAAGUtrhFQFclOgTGd5unB5rYAAAALLLTEAAAAEA==', 'start': {'dateTime': '2020-05-05T14:30:00.0000000', 'timeZone': 'UTC'}, 'end': {'dateTime': '2020-05-05T16:00:00.0000000', 'timeZone': 'UTC'}}
         ]
 
-        self.env['calendar.event']._sync_microsoft2odoo(MicrosoftEvent(values))
+        self.env['calendar.event']._sync_microsoft2neoziv(MicrosoftEvent(values))
 
         recurrence = self.env['calendar.recurrence'].search([('microsoft_id', '=', self.recurrence_id)])
         events = self.env['calendar.event'].search([('recurrence_id', '=', recurrence.id)], order='start asc')
@@ -133,7 +133,7 @@ class TestSyncMicrosoft2Odoo(SavepointCase):
             {'@odata.type': '#microsoft.graph.event', '@odata.etag': 'W/"DwAAABYAAABlLa4RUBXJToExnebpwea2AAAMj8Gf"', 'seriesMasterId': 'AQ8PojGtrADQATM3ZmYAZS0yY2MAMC00MDg1LTAwAi0wMAoARgAAA0By7X03vaNKv1GnWYTbFYAHAGUtrhFQFclOgTGd5unB5rYAAAIBDQAAAGUtrhFQFclOgTGd5unB5rYAAAALLLTEAAAA', 'type': 'occurrence', 'id': 'AQ8PojGtrADQATM3ZmYAZS0yY2MAMC00MDg1LTAwAi0wMAoBUQAICADX8IdBHsAARgAAAkBy7X03vaNKv1GnWYTbFYAHAGUtrhFQFclOgTGd5unB5rYAAAIBDQAAAGUtrhFQFclOgTGd5unB5rYAAAALLLTEAAAAEA==', 'start': {'dateTime': '2020-05-05T14:30:00.0000000', 'timeZone': 'UTC'}, 'end': {'dateTime': '2020-05-05T16:00:00.0000000', 'timeZone': 'UTC'}}
         ]
 
-        self.env['calendar.event']._sync_microsoft2odoo(MicrosoftEvent(values))
+        self.env['calendar.event']._sync_microsoft2neoziv(MicrosoftEvent(values))
 
         recurrence = self.env['calendar.recurrence'].search([('microsoft_id', '=', self.recurrence_id)])
         events = self.env['calendar.event'].search([('recurrence_id', '=', recurrence.id)], order='start asc')
@@ -151,7 +151,7 @@ class TestSyncMicrosoft2Odoo(SavepointCase):
             {'@odata.type': '#microsoft.graph.event', '@odata.etag': 'W/"DwAAABYAAABlLa4RUBXJToExnebpwea2AAAMj8Gm"', 'seriesMasterId': 'AQ8PojGtrADQATM3ZmYAZS0yY2MAMC00MDg1LTAwAi0wMAoARgAAA0By7X03vaNKv1GnWYTbFYAHAGUtrhFQFclOgTGd5unB5rYAAAIBDQAAAGUtrhFQFclOgTGd5unB5rYAAAALLLTEAAAA', 'type': 'occurrence', 'id': 'AQ8PojGtrADQATM3ZmYAZS0yY2MAMC00MDg1LTAwAi0wMAoBUQAICADX774WtQAAAEYAAAJAcu19N72jSr9Rp1mE2xWABwBlLa4RUBXJToExnebpwea2AAACAQ0AAABlLa4RUBXJToExnebpwea2AAAACyy0xAAAABA=', 'start': {'dateTime': '2020-05-04T14:30:00.0000000', 'timeZone': 'UTC'}, 'end': {'dateTime': '2020-05-04T16:00:00.0000000', 'timeZone': 'UTC'}}
         ]
 
-        self.env['calendar.event']._sync_microsoft2odoo(MicrosoftEvent(values))
+        self.env['calendar.event']._sync_microsoft2neoziv(MicrosoftEvent(values))
 
         events = self.env['calendar.event'].search([('recurrence_id', '=', recurrence.id)], order='start asc')
         self.assertEqual(len(events), 1, "It should have created 1 events")
@@ -165,7 +165,7 @@ class TestSyncMicrosoft2Odoo(SavepointCase):
             {'@odata.type': '#microsoft.graph.event', '@odata.etag': 'W/"DwAAABYAAABlLa4RUBXJToExnebpwea2AAAMj8Gq"', 'seriesMasterId': 'AQ8PojGtrADQATM3ZmYAZS0yY2MAMC00MDg1LTAwAi0wMAoARgAAA0By7X03vaNKv1GnWYTbFYAHAGUtrhFQFclOgTGd5unB5rYAAAIBDQAAAGUtrhFQFclOgTGd5unB5rYAAAALLLTEAAAA', 'type': 'occurrence', 'id': 'AQ8PojGtrADQATM3ZmYAZS0yY2MAMC00MDg1LTAwAi0wMAoBUQAICADX8IdBHsAARgAAAkBy7X03vaNKv1GnWYTbFYAHAGUtrhFQFclOgTGd5unB5rYAAAIBDQAAAGUtrhFQFclOgTGd5unB5rYAAAALLLTEAAAAEA==', 'start': {'dateTime': '2020-05-05T14:30:00.0000000', 'timeZone': 'UTC'}, 'end': {'dateTime': '2020-05-05T16:30:00.0000000', 'timeZone': 'UTC'}}
         ]
 
-        self.env['calendar.event']._sync_microsoft2odoo(MicrosoftEvent(values))
+        self.env['calendar.event']._sync_microsoft2neoziv(MicrosoftEvent(values))
 
         events = self.env['calendar.event'].search([('recurrence_id', '=', recurrence.id)], order='start asc')
         self.assertEqual(len(events), 3, "It should have created 3 events")
@@ -188,7 +188,7 @@ class TestSyncMicrosoft2Odoo(SavepointCase):
             {'@odata.type': '#microsoft.graph.event', '@odata.etag': 'W/"DwAAABYAAABlLa4RUBXJToExnebpwea2AAAMj8OT"', 'seriesMasterId': 'AQ8PojGtrADQATM3ZmYAZS0yY2MAMC00MDg1LTAwAi0wMAoARgAAA0By7X03vaNKv1GnWYTbFYAHAGUtrhFQFclOgTGd5unB5rYAAAIBDQAAAGUtrhFQFclOgTGd5unB5rYAAAAMkgQrAAAA', 'type': 'occurrence', 'id': 'AQ8PojGtrADQATM3ZmYAZS0yY2MAMC00MDg1LTAwAi0wMAoBUQAICADX8VBriIAARgAAAkBy7X03vaNKv1GnWYTbFYAHAGUtrhFQFclOgTGd5unB5rYAAAIBDQAAAGUtrhFQFclOgTGd5unB5rYAAAAMkgQrAAAAEA==', 'start': {'dateTime': '2020-05-06T14:30:00.0000000', 'timeZone': 'UTC'}, 'end': {'dateTime': '2020-05-06T17:00:00.0000000', 'timeZone': 'UTC'}}
         ]
 
-        self.env['calendar.event']._sync_microsoft2odoo(MicrosoftEvent(values))
+        self.env['calendar.event']._sync_microsoft2neoziv(MicrosoftEvent(values))
         recurrence_1 = self.env['calendar.recurrence'].search([('microsoft_id', '=', self.recurrence_id)])
         recurrence_2 = self.env['calendar.recurrence'].search([('microsoft_id', '=', 'AQ8PojGtrADQATM3ZmYAZS0yY2MAMC00MDg1LTAwAi0wMAoARgAAA0By7X03vaNKv1GnWYTbFYAHAGUtrhFQFclOgTGd5unB5rYAAAIBDQAAAGUtrhFQFclOgTGd5unB5rYAAAAMkgQrAAAA')])
 
@@ -216,7 +216,7 @@ class TestSyncMicrosoft2Odoo(SavepointCase):
         event_ids = self.env['calendar.event'].search([('recurrence_id', '=', recurrence_id.id)], order='start asc').ids
         values = [{'@odata.type': '#microsoft.graph.event', 'id': 'AQ8PojGtrADQATM3ZmYAZS0yY2MAMC00MDg1LTAwAi0wMAoARgAAA0By7X03vaNKv1GnWYTbFYAHAGUtrhFQFclOgTGd5unB5rYAAAIBDQAAAGUtrhFQFclOgTGd5unB5rYAAAALLLTEAAAA', '@removed': {'reason': 'deleted'}}]
 
-        self.env['calendar.event']._sync_microsoft2odoo(MicrosoftEvent(values))
+        self.env['calendar.event']._sync_microsoft2neoziv(MicrosoftEvent(values))
 
         recurrence = self.env['calendar.recurrence'].search([('microsoft_id', '=', self.recurrence_id)])
         events = self.env['calendar.event'].browse(event_ids).exists()
@@ -238,4 +238,4 @@ class TestSyncMicrosoft2Odoo(SavepointCase):
             'partner_ids': [(4, partner.id)],
         })
         with self.assertRaises(ValidationError):
-            event._sync_odoo2microsoft(MicrosoftCal)
+            event._sync_neoziv2microsoft(MicrosoftCal)

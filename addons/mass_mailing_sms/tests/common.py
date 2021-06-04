@@ -3,9 +3,9 @@
 import re
 import werkzeug
 
-from odoo import tools
-from odoo.addons.mass_mailing.tests.common import MassMailCommon
-from odoo.addons.sms.tests.common import SMSCase, SMSCommon
+from neoziv import tools
+from neoziv.addons.mass_mailing.tests.common import MassMailCommon
+from neoziv.addons.sms.tests.common import SMSCase, SMSCommon
 
 
 class MassSMSCase(SMSCase):

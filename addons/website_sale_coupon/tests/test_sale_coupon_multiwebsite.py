@@ -1,9 +1,9 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo.addons.sale_coupon.tests.test_program_numbers import TestSaleCouponProgramNumbers
-from odoo.addons.website.tools import MockRequest
-from odoo.exceptions import UserError
-from odoo.tests import tagged
+from neoziv.addons.sale_coupon.tests.test_program_numbers import TestSaleCouponProgramNumbers
+from neoziv.addons.website.tools import MockRequest
+from neoziv.exceptions import UserError
+from neoziv.tests import tagged
 
 
 @tagged('-at_install', 'post_install')

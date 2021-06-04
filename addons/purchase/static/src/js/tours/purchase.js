@@ -1,4 +1,4 @@
-odoo.define('purchase.purchase_steps', function (require) {
+neoziv.define('purchase.purchase_steps', function (require) {
 "use strict";
 
 var core = require('web.core');
@@ -20,7 +20,7 @@ return PurchaseAdditionalTourSteps;
 
 });
 
-odoo.define('purchase.tour', function(require) {
+neoziv.define('purchase.tour', function(require) {
 "use strict";
 
 var core = require('web.core');

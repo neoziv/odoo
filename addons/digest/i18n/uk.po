@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* digest
 # 
@@ -9,12 +9,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-29 13:45+0000\n"
 "PO-Revision-Date: 2020-09-07 08:11+0000\n"
 "Last-Translator: Alina Lisnenko <alinasemeniuk1@gmail.com>, 2021\n"
-"Language-Team: Ukrainian (https://www.transifex.com/odoo/teams/41243/uk/)\n"
+"Language-Team: Ukrainian (https://www.transifex.com/neoziv/teams/41243/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -28,8 +28,8 @@ msgstr "<span class=\"button\" id=\"button_open_report\">Відкрити зві
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_mail_main
-msgid "<span class=\"odoo_link_text\">Odoo</span>"
-msgstr "<span class=\"odoo_link_text\">Odoo</span>"
+msgid "<span class=\"neoziv_link_text\">neoziv</span>"
+msgstr "<span class=\"neoziv_link_text\">neoziv</span>"
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_mail_main
@@ -321,8 +321,8 @@ msgstr "Наступна дата відправлення"
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_section_mobile
-msgid "Odoo Mobile"
-msgstr "Мобільна версія Odoo"
+msgid "neoziv Mobile"
+msgstr "Мобільна версія neoziv"
 
 #. module: digest
 #: model:ir.model.fields,field_description:digest.field_digest_digest__periodicity
@@ -364,8 +364,8 @@ msgstr "Одержувачі"
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_section_mobile
-msgid "Run your business from anywhere with <b>Odoo Mobile</b>."
-msgstr "Запускайте ваш бізнес будь-де з <b>Мобільною версією Odoo</b>."
+msgid "Run your business from anywhere with <b>neoziv Mobile</b>."
+msgstr "Запускайте ваш бізнес будь-де з <b>Мобільною версією neoziv</b>."
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_digest_view_form
@@ -415,8 +415,8 @@ msgstr "Опис поради"
 
 #. module: digest
 #: model_terms:digest.tip,tip_description:digest.digest_tip_digest_2
-msgid "Tip: A calculator in Odoo"
-msgstr "Примітка: Калькулятор в Odoo"
+msgid "Tip: A calculator in neoziv"
+msgstr "Примітка: Калькулятор в neoziv"
 
 #. module: digest
 #: model_terms:digest.tip,tip_description:digest.digest_tip_digest_1
@@ -440,8 +440,8 @@ msgstr "Порада: Пришвидшіть ваш робочий процес 
 
 #. module: digest
 #: model:digest.tip,name:digest.digest_tip_digest_2
-msgid "Tip: A calculator in Odoo"
-msgstr "Примітка: Калькулятор в Odoo"
+msgid "Tip: A calculator in neoziv"
+msgstr "Примітка: Калькулятор в neoziv"
 
 #. module: digest
 #: model:digest.tip,name:digest.digest_tip_digest_1
@@ -467,10 +467,10 @@ msgstr "Порада: Пришвидшіть ваш робочий процес 
 #: model_terms:digest.tip,tip_description:digest.digest_tip_digest_3
 msgid ""
 "Type \"@\" to notify someone in a message, or \"#\" to link to a channel. "
-"Try to notify @OdooBot to test the feature."
+"Try to notify @neozivBot to test the feature."
 msgstr ""
 "Введіть \"@\", щоби сповістити когось у повідомленні, або \"#\", щоби додати"
-" до каналу. Спробуйте сповістити @OdooBot для тестування функції."
+" до каналу. Спробуйте сповістити @neozivBot для тестування функції."
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_digest_view_form
@@ -548,13 +548,13 @@ msgstr "Ви успішно скасували підписку"
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_digest_view_form
-msgid "You may want to add new computed fields with Odoo Studio:"
-msgstr "Ви можете додати нові обчислені поля зі Студії Odoo:"
+msgid "You may want to add new computed fields with neoziv Studio:"
+msgstr "Ви можете додати нові обчислені поля зі Студії neoziv:"
 
 #. module: digest
 #: model:digest.digest,name:digest.digest_digest_default
-msgid "Your Odoo Periodic Digest"
-msgstr "Ваш періодичний дайджест Odoo"
+msgid "Your neoziv Periodic Digest"
+msgstr "Ваш періодичний дайджест neoziv"
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_digest_view_form

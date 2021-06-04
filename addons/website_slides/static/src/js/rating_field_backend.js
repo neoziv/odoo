@@ -1,4 +1,4 @@
-odoo.define('website_slides.ratingField', function (require) {
+neoziv.define('website_slides.ratingField', function (require) {
 "use strict";
 
 var basicFields = require('web.basic_fields');

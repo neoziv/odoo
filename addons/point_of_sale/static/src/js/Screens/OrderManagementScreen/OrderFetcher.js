@@ -1,4 +1,4 @@
-odoo.define('point_of_sale.OrderFetcher', function (require) {
+neoziv.define('point_of_sale.OrderFetcher', function (require) {
     'use strict';
 
     const { EventBus } = owl.core;

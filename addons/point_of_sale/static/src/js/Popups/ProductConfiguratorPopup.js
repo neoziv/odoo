@@ -1,4 +1,4 @@
-odoo.define('point_of_sale.ProductConfiguratorPopup', function(require) {
+neoziv.define('point_of_sale.ProductConfiguratorPopup', function(require) {
     'use strict';
 
     const { useState, useSubEnv } = owl.hooks;

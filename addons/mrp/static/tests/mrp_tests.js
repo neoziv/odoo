@@ -1,4 +1,4 @@
-odoo.define('mrp.tests', function (require) {
+neoziv.define('mrp.tests', function (require) {
 "use strict";
 
 var FormView = require('web.FormView');

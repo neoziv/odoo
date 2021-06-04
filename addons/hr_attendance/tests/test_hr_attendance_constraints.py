@@ -2,7 +2,7 @@
 
 import time
 
-from odoo.tests.common import TransactionCase
+from neoziv.tests.common import TransactionCase
 
 
 class TestHrAttendance(TransactionCase):

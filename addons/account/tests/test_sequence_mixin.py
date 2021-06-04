@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-from odoo.addons.account.tests.common import AccountTestInvoicingCommon
-from odoo.tests import tagged
-from odoo.tests.common import Form
-from odoo import fields, api, SUPERUSER_ID
-from odoo.exceptions import ValidationError
-from odoo.tools import mute_logger
+from neoziv.addons.account.tests.common import AccountTestInvoicingCommon
+from neoziv.tests import tagged
+from neoziv.tests.common import Form
+from neoziv import fields, api, SUPERUSER_ID
+from neoziv.exceptions import ValidationError
+from neoziv.tools import mute_logger
 
 from dateutil.relativedelta import relativedelta
 from functools import reduce
@@ -374,7 +374,7 @@ class TestSequenceMixin(AccountTestInvoicingCommon):
             env1.cr.commit()
 
             move = env2['account.move'].browse(moves[2].id)
-            with self.assertRaises(psycopg2.OperationalError), env2.cr.savepoint(), mute_logger('odoo.sql_db'):
+            with self.assertRaises(psycopg2.OperationalError), env2.cr.savepoint(), mute_logger('neoziv.sql_db'):
                 move.action_post()
 
             self.assertEqual(moves.mapped('name'), ['CT/2016/01/0001', 'CT/2016/01/0002', '/'])

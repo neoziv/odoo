@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import pytz
 
 from datetime import datetime
 from unittest.mock import patch
 
-from odoo import fields
+from neoziv import fields
 
-from odoo.addons.lunch.tests.common import TestsCommon
+from neoziv.addons.lunch.tests.common import TestsCommon
 
 
 class TestSupplier(TestsCommon):

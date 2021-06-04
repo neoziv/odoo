@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-from odoo import api, models, fields, _
-from odoo.exceptions import UserError
+from neoziv import api, models, fields, _
+from neoziv.exceptions import UserError
 
 class ResPartnerBank(models.Model):
     _inherit = 'res.partner.bank'

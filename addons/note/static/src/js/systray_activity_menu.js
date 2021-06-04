@@ -1,4 +1,4 @@
-odoo.define('note.systray.ActivityMenu', function (require) {
+neoziv.define('note.systray.ActivityMenu', function (require) {
 "use strict";
 
 var ActivityMenu = require('mail.systray.ActivityMenu');

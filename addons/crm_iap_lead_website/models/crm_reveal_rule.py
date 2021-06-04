@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import datetime
 import itertools
@@ -7,15 +7,15 @@ import logging
 import re
 from dateutil.relativedelta import relativedelta
 
-import odoo
-from odoo import api, fields, models, tools, _
-from odoo.addons.iap.tools import iap_tools
-from odoo.addons.crm.models import crm_stage
-from odoo.exceptions import ValidationError
+import neoziv
+from neoziv import api, fields, models, tools, _
+from neoziv.addons.iap.tools import iap_tools
+from neoziv.addons.crm.models import crm_stage
+from neoziv.exceptions import ValidationError
 
 _logger = logging.getLogger(__name__)
 
-DEFAULT_ENDPOINT = 'https://iap-services.odoo.com'
+DEFAULT_ENDPOINT = 'https://iap-services.neoziv.com'
 DEFAULT_REVEAL_BATCH_LIMIT = 25
 DEFAULT_REVEAL_MONTH_VALID = 6
 
@@ -36,7 +36,7 @@ class CRMRevealRule(models.Model):
                                    'Rules with a lower sequence number will be processed first.')
 
     # Company Criteria Filter
-    industry_tag_ids = fields.Many2many('crm.iap.lead.industry', string='Industries', help='Leave empty to always match. Odoo will not create lead if no match')
+    industry_tag_ids = fields.Many2many('crm.iap.lead.industry', string='Industries', help='Leave empty to always match. neoziv will not create lead if no match')
     filter_on_size = fields.Boolean(string="Filter on Size", default=True, help="Filter companies based on their size.")
     company_size_min = fields.Integer(string='Company Size', default=0)
     company_size_max = fields.Integer(default=1000)
@@ -76,7 +76,7 @@ class CRMRevealRule(models.Model):
 
     @api.model
     def _assert_geoip(self):
-        if not odoo._geoip_resolver:
+        if not neoziv._geoip_resolver:
             message = _('Lead Generation requires a GeoIP resolver which could not be found on your system. Please consult https://pypi.org/project/GeoIP/.')
             self.env['bus.bus'].sendone(
                 (self._cr.dbname, 'res.partner', self.env.user.partner_id.id),
@@ -361,7 +361,7 @@ class CRMRevealRule(models.Model):
 
         template_values = result['reveal_data']
         template_values.update({
-            'flavor_text': _("Opportunity created by Odoo Lead Generation"),
+            'flavor_text': _("Opportunity created by neoziv Lead Generation"),
             'people_data': result.get('people_data'),
         })
         lead.message_post_with_view(
@@ -372,7 +372,7 @@ class CRMRevealRule(models.Model):
 
         return lead
 
-    # Methods responsible for format response data in to valid odoo lead data
+    # Methods responsible for format response data in to valid neoziv lead data
     def _lead_vals_from_response(self, result):
         self.ensure_one()
         company_data = result['reveal_data']

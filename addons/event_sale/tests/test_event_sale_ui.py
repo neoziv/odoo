@@ -1,9 +1,9 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from datetime import timedelta
 
-from odoo.fields import Datetime
-from odoo.tests import HttpCase, tagged
+from neoziv.fields import Datetime
+from neoziv.tests import HttpCase, tagged
 
 
 @tagged('post_install', '-at_install')

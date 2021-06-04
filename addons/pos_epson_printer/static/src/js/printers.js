@@ -1,5 +1,5 @@
 
-odoo.define('pos_epson_printer.Printer', function (require) {
+neoziv.define('pos_epson_printer.Printer', function (require) {
 "use strict";
 
 const { Gui } = require('point_of_sale.Gui');

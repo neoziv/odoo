@@ -1,4 +1,4 @@
-odoo.define('hr_gamification.hr_gamification', function(require) {
+neoziv.define('hr_gamification.hr_gamification', function(require) {
 "use strict";
 
 var KanbanRecord = require('web.KanbanRecord');

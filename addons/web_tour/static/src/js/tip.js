@@ -1,4 +1,4 @@
-odoo.define('web_tour.Tip', function (require) {
+neoziv.define('web_tour.Tip', function (require) {
 "use strict";
 
 var config = require('web.config');

@@ -1,4 +1,4 @@
-odoo.define('pos_restaurant.notes', function (require) {
+neoziv.define('pos_restaurant.notes', function (require) {
 "use strict";
 
 var models = require('point_of_sale.models');

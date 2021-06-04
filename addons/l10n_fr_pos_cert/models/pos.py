@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 from datetime import datetime, timedelta
 from hashlib import sha256
 from json import dumps
 
-from odoo import models, api, fields
-from odoo.fields import Datetime
-from odoo.tools.translate import _, _lt
-from odoo.exceptions import UserError
+from neoziv import models, api, fields
+from neoziv.fields import Datetime
+from neoziv.tools.translate import _, _lt
+from neoziv.exceptions import UserError
 
 
 class pos_config(models.Model):

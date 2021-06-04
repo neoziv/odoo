@@ -1,4 +1,4 @@
-odoo.define('google_recaptcha.ReCaptchaV3', function (require) {
+neoziv.define('google_recaptcha.ReCaptchaV3', function (require) {
 "use strict";
 
 const ajax = require('web.ajax');
@@ -12,7 +12,7 @@ const ReCaptcha = Class.extend({
      * @override
      */
     init: function () {
-        this._publicKey = odoo.reCaptchaPublicKey;
+        this._publicKey = neoziv.reCaptchaPublicKey;
     },
     /**
      * Loads the recaptcha libraries.

@@ -1,4 +1,4 @@
-odoo.define('crm.form_rainbowman_tests', function (require) {
+neoziv.define('crm.form_rainbowman_tests', function (require) {
     "use strict";
 
     var CrmFormView = require('crm.crm_form').CrmFormView;

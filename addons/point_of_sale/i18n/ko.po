@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* point_of_sale
 # 
@@ -9,18 +9,18 @@
 # Martin Trigaux, 2020
 # SeongHyeon Cho <jaymz9634@gmail.com>, 2020
 # Link Up링크업 <linkup.way@gmail.com>, 2020
-# Mark Lee <odoos@soti.33mail.com>, 2020
+# Mark Lee <neozivs@soti.33mail.com>, 2020
 # Linkup <link-up@naver.com>, 2021
 # JH CHOI <hwangtog@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-26 09:03+0000\n"
 "PO-Revision-Date: 2020-09-07 08:16+0000\n"
 "Last-Translator: JH CHOI <hwangtog@gmail.com>, 2021\n"
-"Language-Team: Korean (https://www.transifex.com/odoo/teams/41243/ko/)\n"
+"Language-Team: Korean (https://www.transifex.com/neoziv/teams/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -2066,8 +2066,8 @@ msgstr "ID"
 #. openerp-web
 #: code:addons/point_of_sale/static/src/js/Popups/ErrorTracebackPopup.js:0
 #, python-format
-msgid "IMPORTANT: Bug Report From Odoo Point Of Sale"
-msgstr "중요 : Odoo POS의 버그 보고서"
+msgid "IMPORTANT: Bug Report From neoziv Point Of Sale"
+msgstr "중요 : neoziv POS의 버그 보고서"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__proxy_ip
@@ -2779,8 +2779,8 @@ msgstr "읽지 않은 메시지 수"
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.customer_facing_display_html
 #: model_terms:pos.config,customer_facing_display_html:point_of_sale.pos_config_main
-msgid "Odoo Logo"
-msgstr "Odoo 로고"
+msgid "neoziv Logo"
+msgstr "neoziv 로고"
 
 #. module: point_of_sale
 #. openerp-web
@@ -5065,16 +5065,16 @@ msgstr "이 상품은 고객 영수증에 대한 참조로 사용됩니다."
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_line_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by neoziv but you can change it to "
 "customize the reference numbers of your orders lines."
-msgstr "이 순서는 Odoo에 의해 자동으로 생성되지만 주문 내역의 참조 번호를 사용자 정의하도록 변경할 수 있습니다."
+msgstr "이 순서는 neoziv에 의해 자동으로 생성되지만 주문 내역의 참조 번호를 사용자 정의하도록 변경할 수 있습니다."
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by neoziv but you can change it to "
 "customize the reference numbers of your orders."
-msgstr "이 순서는 Odoo에 의해 자동으로 생성되나, 주문의 참조 번호를 사용자 정의로 변경할 수 있습니다."
+msgstr "이 순서는 neoziv에 의해 자동으로 생성되나, 주문의 참조 번호를 사용자 정의로 변경할 수 있습니다."
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/models/pos_session.py:0

@@ -1,4 +1,4 @@
-odoo.define('portal.composer', function (require) {
+neoziv.define('portal.composer', function (require) {
 'use strict';
 
 var ajax = require('web.ajax');
@@ -32,7 +32,7 @@ var PortalComposer = publicWidget.Widget.extend({
         this.options = _.defaults(options || {}, {
             'allow_composer': true,
             'display_composer': false,
-            'csrf_token': odoo.csrf_token,
+            'csrf_token': neoziv.csrf_token,
             'token': false,
             'res_model': false,
             'res_id': false,

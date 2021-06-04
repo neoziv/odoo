@@ -1,4 +1,4 @@
-odoo.define('im_livechat/static/src/models/partner/partner.js', function (require) {
+neoziv.define('im_livechat/static/src/models/partner/partner.js', function (require) {
 'use strict';
 
 const {

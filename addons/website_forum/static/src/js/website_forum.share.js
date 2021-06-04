@@ -1,4 +1,4 @@
-odoo.define('website_forum.share', function (require) {
+neoziv.define('website_forum.share', function (require) {
 'use strict';
 
 var core = require('web.core');

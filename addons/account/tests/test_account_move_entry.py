@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-from odoo.addons.account.tests.common import AccountTestInvoicingCommon
-from odoo.tests import tagged, new_test_user
-from odoo.tests.common import Form
-from odoo import fields, api, SUPERUSER_ID
-from odoo.exceptions import ValidationError, UserError, RedirectWarning
-from odoo.tools import mute_logger
+from neoziv.addons.account.tests.common import AccountTestInvoicingCommon
+from neoziv.tests import tagged, new_test_user
+from neoziv.tests.common import Form
+from neoziv import fields, api, SUPERUSER_ID
+from neoziv.exceptions import ValidationError, UserError, RedirectWarning
+from neoziv.tools import mute_logger
 
 from dateutil.relativedelta import relativedelta
 from functools import reduce

@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import logging
 
-from odoo import api, models, modules, _
+from neoziv import api, models, modules, _
 
 _logger = logging.getLogger(__name__)
 

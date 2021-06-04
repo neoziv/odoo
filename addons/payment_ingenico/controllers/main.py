@@ -4,10 +4,10 @@ import pprint
 import werkzeug
 from werkzeug.urls import url_unquote_plus
 
-from odoo import http
-from odoo.http import request
-from odoo.addons.payment.models.payment_acquirer import ValidationError
-from odoo.addons.payment.controllers.portal import PaymentProcessing
+from neoziv import http
+from neoziv.http import request
+from neoziv.addons.payment.models.payment_acquirer import ValidationError
+from neoziv.addons.payment.controllers.portal import PaymentProcessing
 
 _logger = logging.getLogger(__name__)
 

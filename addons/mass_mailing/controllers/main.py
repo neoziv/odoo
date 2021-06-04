@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 import base64
 
 import werkzeug
 
-from odoo import _, exceptions, http, tools
-from odoo.http import request
-from odoo.tools import consteq
+from neoziv import _, exceptions, http, tools
+from neoziv.http import request
+from neoziv.tools import consteq
 from werkzeug.exceptions import BadRequest
 
 

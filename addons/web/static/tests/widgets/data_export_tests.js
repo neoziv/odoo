@@ -1,4 +1,4 @@
-odoo.define('web.data_export_tests', function (require) {
+neoziv.define('web.data_export_tests', function (require) {
 "use strict";
 
 const data = require('web.data');

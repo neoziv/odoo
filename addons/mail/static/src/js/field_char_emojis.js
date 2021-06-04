@@ -1,4 +1,4 @@
-odoo.define('mail.field_char_emojis', function (require) {
+neoziv.define('mail.field_char_emojis', function (require) {
 "use strict";
 
 var basicFields = require('web.basic_fields');

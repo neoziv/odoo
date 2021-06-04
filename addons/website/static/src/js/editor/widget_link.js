@@ -1,4 +1,4 @@
-odoo.define('website.editor.link', function (require) {
+neoziv.define('website.editor.link', function (require) {
 'use strict';
 
 var weWidgets = require('wysiwyg.widgets');

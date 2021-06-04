@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, exceptions, fields, models, _
-from odoo.addons.phone_validation.tools import phone_validation
+from neoziv import api, exceptions, fields, models, _
+from neoziv.addons.phone_validation.tools import phone_validation
 
 
 class MassSMSTest(models.TransientModel):

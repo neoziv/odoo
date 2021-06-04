@@ -1,4 +1,4 @@
-odoo.define('/web/static/src/js/libs/fullcalendar.js', function () {
+neoziv.define('/web/static/src/js/libs/fullcalendar.js', function () {
     "use strict";
 
     function createYearCalendarView(FullCalendar) {

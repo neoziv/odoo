@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* stock
 # 
@@ -12,12 +12,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 11:23+0000\n"
 "PO-Revision-Date: 2020-09-07 08:19+0000\n"
 "Last-Translator: Foldi Robert <foldirobert@nexterp.ro>, 2021\n"
-"Language-Team: Romanian (https://www.transifex.com/odoo/teams/41243/ro/)\n"
+"Language-Team: Romanian (https://www.transifex.com/neoziv/teams/41243/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1801,10 +1801,10 @@ msgstr "Rute implicite prin depozit"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_orderpoint
 msgid ""
-"Define a minimum stock rule so that Odoo creates automatically requests for "
+"Define a minimum stock rule so that neoziv creates automatically requests for "
 "quotations or draft manufacturing orders to resupply your stock."
 msgstr ""
-"Definiți o regulă minimă de stoc, astfel încât Odoo să creeze automat cereri"
+"Definiți o regulă minimă de stoc, astfel încât neoziv să creeze automat cereri"
 " de ofertă sau comenzi de fabricație pentru a vă reaproviziona stocul."
 
 #. module: stock
@@ -1816,14 +1816,14 @@ msgstr "Definiți un nou depozit"
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
 msgid ""
 "Define your locations to reflect your warehouse structure and\n"
-"            organization. Odoo is able to manage physical locations\n"
+"            organization. neoziv is able to manage physical locations\n"
 "            (warehouses, shelves, bin, etc), partner locations (customers,\n"
 "            vendors) and virtual locations which are the counterpart of\n"
 "            the stock operations like the manufacturing orders\n"
 "            consumptions, inventories, etc."
 msgstr ""
 "Definiți locațiile pentru a reflecta structura și organizația depozitului. "
-"Odoo este capabil să gestioneze locațiile fizice (depozite, rafturi, bin "
+"neoziv este capabil să gestioneze locațiile fizice (depozite, rafturi, bin "
 "etc.), locații partenere (clienți, furnizori) și locații virtuale care sunt "
 "contrapartida operațiunilor de stoc cum ar fi consumul de comenzi de "
 "producție, stocurile etc."
@@ -2257,12 +2257,12 @@ msgstr "Inventar gol"
 #. module: stock
 #: model_terms:digest.tip,tip_description:stock.digest_tip_stock_0
 msgid ""
-"Enjoy a quick-paced experience with the Odoo barcode app. It is blazing fast"
+"Enjoy a quick-paced experience with the neoziv barcode app. It is blazing fast"
 " and works even without a stable internet connection. It supports all flows:"
 " inventory adjustments, batch picking, moving lots or pallets, low inventory"
 " checks, etc. Go to the \"Apps\" menu to activate the barcode interface."
 msgstr ""
-"Bucurați-vă imediat de aplicația cod de bare Odoo. Pornește rapid și "
+"Bucurați-vă imediat de aplicația cod de bare neoziv. Pornește rapid și "
 "funcționează chiar și fără o conexiune stabilă la internet. Acceptă toate "
 "fluxurile: ajustări de inventar, preluarea loturilor, mutarea loturilor sau "
 "paletelor, verificări de inventar reduse etc. Accesați meniul „Aplicații” "
@@ -2290,14 +2290,14 @@ msgstr "Eroare"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
 msgid ""
-"Every stock operation in Odoo moves the products from one\n"
+"Every stock operation in neoziv moves the products from one\n"
 "            location to another one.  For instance, if you receive products\n"
-"            from a vendor, Odoo will move products from the Vendor\n"
+"            from a vendor, neoziv will move products from the Vendor\n"
 "            location to the Stock location. Each report can be performed on\n"
 "            physical, partner or virtual locations."
 msgstr ""
-"Fiecare operațiune de stocare din Odoo mută produsele de la o locație la "
-"alta. De exemplu, dacă primiți produse de la un furnizor, Odoo va muta "
+"Fiecare operațiune de stocare din neoziv mută produsele de la o locație la "
+"alta. De exemplu, dacă primiți produse de la un furnizor, neoziv va muta "
 "produsele din locația furnizorului în locația Stoc. Fiecare raport poate fi "
 "efectuat pe locații fizice, partenere sau virtuale."
 
@@ -2883,11 +2883,11 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_picking__show_reserved
 #: model:ir.model.fields,help:stock.field_stock_picking_type__show_reserved
 msgid ""
-"If this checkbox is ticked, Odoo will automatically pre-fill the detailed "
+"If this checkbox is ticked, neoziv will automatically pre-fill the detailed "
 "operations with the corresponding products, locations and lot/serial "
 "numbers."
 msgstr ""
-"Dacă această casetă de selectare este bifată, Odoo va completa automat "
+"Dacă această casetă de selectare este bifată, neoziv va completa automat "
 "operațiunile detaliate cu produsele, locațiile și numerele de lot / serie "
 "corespunzătoare."
 
@@ -7792,21 +7792,21 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_min_qty
 msgid ""
 "When the virtual stock equals to or goes below the Min Quantity specified "
-"for this field, Odoo generates a procurement to bring the forecasted "
+"for this field, neoziv generates a procurement to bring the forecasted "
 "quantity to the Max Quantity."
 msgstr ""
 "În cazul în care stocul prognozat scade sub cantitate minimă specificată în "
-"acest câmp, Odoo generează o aprovizionare pentru a aduce cantitatea "
+"acest câmp, neoziv generează o aprovizionare pentru a aduce cantitatea "
 "prognozată la cantitatea Max."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_max_qty
 msgid ""
-"When the virtual stock goes below the Min Quantity, Odoo generates a "
+"When the virtual stock goes below the Min Quantity, neoziv generates a "
 "procurement to bring the forecasted quantity to the Quantity specified as "
 "Max Quantity."
 msgstr ""
-"În cazul în care stocul prognozat scade sub cantitate minimă,  Odoo "
+"În cazul în care stocul prognozat scade sub cantitate minimă,  neoziv "
 "generează o aprovizionare pentru a aduce cantitatea prognozată la cantitatea"
 " specificată ca maximă."
 
@@ -8145,10 +8145,10 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock.view_immediate_transfer
 msgid ""
 "You have not recorded <i>done</i> quantities yet, by clicking on "
-"<i>apply</i> Odoo will process all the quantities."
+"<i>apply</i> neoziv will process all the quantities."
 msgstr ""
 "Nu ați introdus cantitățile <i>efectuate</i>, făcând clic pe <i>Aplică</i> "
-"Odoo va procesa toate cantitățile."
+"neoziv va procesa toate cantitățile."
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_backorder_confirmation

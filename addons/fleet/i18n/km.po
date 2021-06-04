@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* fleet
 # 
@@ -10,12 +10,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-29 13:45+0000\n"
 "PO-Revision-Date: 2020-09-07 08:12+0000\n"
 "Last-Translator: Lux Sok <sok.lux@gmail.com>, 2020\n"
-"Language-Team: Khmer (https://www.transifex.com/odoo/teams/41243/km/)\n"
+"Language-Team: Khmer (https://www.transifex.com/neoziv/teams/41243/km/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1196,7 +1196,7 @@ msgstr "ការបង្កើត"
 #: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_log_contract_action
 msgid ""
 "Manage all your contracts (leasing, insurances, etc.) with\n"
-"            their related services, costs. Odoo will automatically warn\n"
+"            their related services, costs. neoziv will automatically warn\n"
 "            you when some contracts have to be renewed."
 msgstr ""
 "គ្រប់គ្រងរាល់កិច្ចសន្យារបស់អ្នក (ភតិសន្យាការធានារ៉ាប់រង។ ល។ ) ជាមួយ។\n"
@@ -1473,7 +1473,7 @@ msgstr ""
 #. module: fleet
 #: model_terms:ir.actions.act_window,help:fleet.fleet_costs_reporting_action
 msgid ""
-"Odoo helps you managing the costs for your different vehicles\n"
+"neoziv helps you managing the costs for your different vehicles\n"
 "          Costs are generally created from services and contract and appears here."
 msgstr ""
 "អូអូជួយអ្នកគ្រប់គ្រងថ្លៃដើមសម្រាប់យានយន្តផ្សេងៗគ្នារបស់អ្នក។\n"
@@ -1859,10 +1859,10 @@ msgstr "ល័ក្ខខ័ណ្ឌ"
 #. module: fleet
 #: model_terms:ir.actions.act_window,help:fleet.fleet_costs_reporting_action
 msgid ""
-"Thanks to the different filters, Odoo can only print the effective\n"
+"Thanks to the different filters, neoziv can only print the effective\n"
 "          costs, sort them by type and by vehicle."
 msgstr ""
-"សូមអរគុណដល់តម្រងផ្សេងៗគ្នា Odoo អាចបោះពុម្ពបានតែប្រសិទ្ធភាព។\n"
+"សូមអរគុណដល់តម្រងផ្សេងៗគ្នា neoziv អាចបោះពុម្ពបានតែប្រសិទ្ធភាព។\n"
 "          ការចំណាយ, តម្រៀបពួកវាតាមប្រភេទនិងតាមយានយន្ត។"
 
 #. module: fleet

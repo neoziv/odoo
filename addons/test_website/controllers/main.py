@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import json
 import werkzeug
 
-from odoo import http
-from odoo.http import request
-from odoo.addons.portal.controllers.web import Home
-from odoo.exceptions import UserError, ValidationError, AccessError, MissingError, AccessDenied
+from neoziv import http
+from neoziv.http import request
+from neoziv.addons.portal.controllers.web import Home
+from neoziv.exceptions import UserError, ValidationError, AccessError, MissingError, AccessDenied
 
 
 class WebsiteTest(Home):

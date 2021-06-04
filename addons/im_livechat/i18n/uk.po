@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* im_livechat
 # 
@@ -9,12 +9,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 15:41+0000\n"
 "PO-Revision-Date: 2020-09-07 08:13+0000\n"
 "Last-Translator: Alina Lisnenko <alinasemeniuk1@gmail.com>, 2021\n"
-"Language-Team: Ukrainian (https://www.transifex.com/odoo/teams/41243/uk/)\n"
+"Language-Team: Ukrainian (https://www.transifex.com/neoziv/teams/41243/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -596,11 +596,11 @@ msgstr "Поясніть свою примітку"
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid ""
-"For websites built with the Odoo CMS, go to Website &gt; Configuration &gt; "
+"For websites built with the neoziv CMS, go to Website &gt; Configuration &gt; "
 "Settings and select the Website Live Chat Channel you want to add to your "
 "website."
 msgstr ""
-"Для веб-сайтів, створених на Odoo CMS, перейдіть у Веб-сайт &gt; "
+"Для веб-сайтів, створених на neoziv CMS, перейдіть у Веб-сайт &gt; "
 "Налаштування &gt; Налаштування та оберіть Канал живого чату веб-сайту, який "
 "ви хочете додати до вашого веб-сайту."
 
@@ -1028,8 +1028,8 @@ msgstr "Ок"
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.livechat_email_template
-msgid "Odoo"
-msgstr "Odoo"
+msgid "neoziv"
+msgstr "neoziv"
 
 #. module: im_livechat
 #. openerp-web
@@ -1097,10 +1097,10 @@ msgstr ""
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid ""
-"Operators that do not show any activity In Odoo for more than 30 minutes "
+"Operators that do not show any activity In neoziv for more than 30 minutes "
 "will be considered as disconnected."
 msgstr ""
-"Оператори, які не показують ніякої активності в Odoo протягом більше ніж 30 "
+"Оператори, які не показують ніякої активності в neoziv протягом більше ніж 30 "
 "хвилин вважатимуться відключеними."
 
 #. module: im_livechat

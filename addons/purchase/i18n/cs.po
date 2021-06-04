@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* purchase
 # 
@@ -17,12 +17,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 13:50+0000\n"
 "PO-Revision-Date: 2020-09-07 08:17+0000\n"
 "Last-Translator: trendspotter, 2021\n"
-"Language-Team: Czech (https://www.transifex.com/odoo/teams/41243/cs/)\n"
+"Language-Team: Czech (https://www.transifex.com/neoziv/teams/41243/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -2936,12 +2936,12 @@ msgid ""
 "Vendors bills can be pre-generated based on purchase\n"
 "                    orders or receipts. This allows you to control bills\n"
 "                    you receive from your vendor according to the draft\n"
-"                    document in Odoo."
+"                    document in neoziv."
 msgstr ""
 "Přijaté faktury lze předem vygenerovat na základě nákupu\n"
 "objednávky nebo potvrzení. To vám umožní kontrolovat účty\n"
 "obdržíte od svého dodavatele podle konceptu\n"
-"dokument v Odoo."
+"dokument v neoziv."
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__volume
@@ -3012,26 +3012,26 @@ msgid ""
 "When creating a purchase order, have a look at the vendor's <i>On Time "
 "Delivery</i> rate: the percentage of products shipped on time. If it is too "
 "low, activate the <i>automated reminders</i>. A few days before the due "
-"shipment, Odoo will send the vendor an email to ask confirmation of shipment"
+"shipment, neoziv will send the vendor an email to ask confirmation of shipment"
 " dates and keep you informed in case of any delays. To get the vendor's "
 "performance statistics, click on the OTD rate."
 msgstr ""
 "Při vytváření nákupní objednávky se podívejte na hodnocení <i>včasného "
 "dodání dodavatele</i>: procento produktů dodaných včas. Pokud je příliš "
 "nízká, aktivujte <i>automatické upomínky</i>. Několik dní před termínem "
-"odeslání Odoo zašle dodavateli e-mail s žádostí o potvrzení termínů odeslání"
+"odeslání neoziv zašle dodavateli e-mail s žádostí o potvrzení termínů odeslání"
 " a bude vás informovat v případě zpoždění. Chcete-li získat statistiku "
 "výkonnosti dodavatele, klikněte na ukazatel OTD."
 
 #. module: purchase
 #: model_terms:digest.tip,tip_description:purchase.digest_tip_purchase_1
 msgid ""
-"When sending a purchase order by email, Odoo asks the vendor to acknowledge "
+"When sending a purchase order by email, neoziv asks the vendor to acknowledge "
 "the reception of the order. When the vendor acknowledges the order by "
 "clicking on a button in the email, the information is added on the purchase "
 "order. Use filters to track orders that have not been acknowledged."
 msgstr ""
-"Při odesílání nákupní objednávky e-mailem Odoo požádá prodejce, aby potvrdil"
+"Při odesílání nákupní objednávky e-mailem neoziv požádá prodejce, aby potvrdil"
 " přijetí objednávky. Když prodejce potvrdí objednávku kliknutím na tlačítko "
 "v e-mailu, informace se přidá k objednávce. Pomocí filtrů můžete sledovat "
 "objednávky, které nebyly potvrzeny."

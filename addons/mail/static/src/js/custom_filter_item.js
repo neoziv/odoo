@@ -1,4 +1,4 @@
-odoo.define('mail.CustomFilterItem', function (require) {
+neoziv.define('mail.CustomFilterItem', function (require) {
     "use strict";
 
     const CustomFilterItem = require('web.CustomFilterItem');

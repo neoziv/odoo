@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, fields, models
-from odoo.http import request
+from neoziv import api, fields, models
+from neoziv.http import request
 
 
 class UtmMixin(models.AbstractModel):
@@ -55,7 +55,7 @@ class UtmMixin(models.AbstractModel):
         # methods of utm.mixin, but will ignore overridden method on crm.lead
         return [
             # ("URL_PARAMETER", "FIELD_NAME_MIXIN", "NAME_IN_COOKIES")
-            ('utm_campaign', 'campaign_id', 'odoo_utm_campaign'),
-            ('utm_source', 'source_id', 'odoo_utm_source'),
-            ('utm_medium', 'medium_id', 'odoo_utm_medium'),
+            ('utm_campaign', 'campaign_id', 'neoziv_utm_campaign'),
+            ('utm_source', 'source_id', 'neoziv_utm_source'),
+            ('utm_medium', 'medium_id', 'neoziv_utm_medium'),
         ]

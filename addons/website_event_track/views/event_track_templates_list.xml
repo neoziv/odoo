@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<odoo>
+<neoziv>
 
 <template id="tracks_session" name="Event Tracks">
     <t t-call="website_event.layout">
@@ -412,4 +412,4 @@
         t-esc="tag.name"/>
 </template>
 
-</odoo>
+</neoziv>

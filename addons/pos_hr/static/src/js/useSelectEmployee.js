@@ -1,4 +1,4 @@
-odoo.define('pos_hr.useSelectEmployee', function (require) {
+neoziv.define('pos_hr.useSelectEmployee', function (require) {
     'use strict';
 
     const { Component } = owl;

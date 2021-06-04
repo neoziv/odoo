@@ -1,4 +1,4 @@
-odoo.define('account.reconciliation_field_tests', function (require) {
+neoziv.define('account.reconciliation_field_tests', function (require) {
 "use strict";
 
 var FormView = require('web.FormView');

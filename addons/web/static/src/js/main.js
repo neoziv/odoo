@@ -1,4 +1,4 @@
-odoo.define('web.web_client', function (require) {
+neoziv.define('web.web_client', function (require) {
     "use strict";
 
     const AbstractService = require('web.AbstractService');

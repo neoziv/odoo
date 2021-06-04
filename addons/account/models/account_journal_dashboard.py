@@ -2,11 +2,11 @@ import json
 from datetime import datetime, timedelta
 
 from babel.dates import format_datetime, format_date
-from odoo import models, api, _, fields
-from odoo.osv import expression
-from odoo.release import version
-from odoo.tools import DEFAULT_SERVER_DATE_FORMAT as DF
-from odoo.tools.misc import formatLang, format_date as odoo_format_date, get_lang
+from neoziv import models, api, _, fields
+from neoziv.osv import expression
+from neoziv.release import version
+from neoziv.tools import DEFAULT_SERVER_DATE_FORMAT as DF
+from neoziv.tools.misc import formatLang, format_date as neoziv_format_date, get_lang
 import random
 
 import ast
@@ -58,7 +58,7 @@ class account_journal(models.Model):
                     'status': activity.get('status'),
                     'name': (activity.get('summary') or activity.get('act_type_name')),
                     'activity_category': activity.get('activity_category'),
-                    'date': odoo_format_date(self.env, activity.get('date_deadline'))
+                    'date': neoziv_format_date(self.env, activity.get('date_deadline'))
                 }
                 if activity.get('activity_category') == 'tax_report' and activity.get('res_model') == 'account.move':
                     act['name'] = activity.get('ref')

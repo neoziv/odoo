@@ -1,4 +1,4 @@
-odoo.define('mail/static/src/js/core/translation.js', function (require) {
+neoziv.define('mail/static/src/js/core/translation.js', function (require) {
 'use strict';
 
 const { TranslationDataBase } = require('web.translation');

@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import json
 import pytz
 
-from odoo import http
-from odoo.addons.http_routing.models.ir_http import url_for
-from odoo.http import request
-from odoo.modules.module import get_module_resource
-from odoo.tools import ustr
-from odoo.tools.translate import _
+from neoziv import http
+from neoziv.addons.http_routing.models.ir_http import url_for
+from neoziv.http import request
+from neoziv.modules.module import get_module_resource
+from neoziv.tools import ustr
+from neoziv.tools.translate import _
 
 
 class TrackManifest(http.Controller):
@@ -54,7 +54,7 @@ class TrackManifest(http.Controller):
         if request.website.cdn_activated:
             cdn_url = request.website.cdn_url.replace('"','%22').replace('\x5c','%5C')
             js_cdn_url = '"%s"' % cdn_url
-        body = body.replace('__ODOO_CDN_URL__', js_cdn_url)
+        body = body.replace('__neoziv_CDN_URL__', js_cdn_url)
         response = request.make_response(body, [
             ('Content-Type', 'text/javascript'),
             ('Service-Worker-Allowed', url_for('/event')),

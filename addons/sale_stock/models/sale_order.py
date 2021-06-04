@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import json
 import logging
 from datetime import datetime, timedelta
 from collections import defaultdict
 
-from odoo import api, fields, models, _
-from odoo.tools import DEFAULT_SERVER_DATETIME_FORMAT, float_compare, float_round
-from odoo.tools.float_utils import float_repr
-from odoo.tools.misc import format_date
-from odoo.exceptions import UserError
+from neoziv import api, fields, models, _
+from neoziv.tools import DEFAULT_SERVER_DATETIME_FORMAT, float_compare, float_round
+from neoziv.tools.float_utils import float_repr
+from neoziv.tools.misc import format_date
+from neoziv.exceptions import UserError
 
 
 _logger = logging.getLogger(__name__)

@@ -1,4 +1,4 @@
-odoo.define('website_sale.video_field_preview', function (require) {
+neoziv.define('website_sale.video_field_preview', function (require) {
 "use strict";
 
 

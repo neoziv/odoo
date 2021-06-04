@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 from datetime import timedelta
 
-from odoo import api, fields, models, tools
-from odoo.addons.rating.models.rating import RATING_LIMIT_SATISFIED, RATING_LIMIT_OK, RATING_LIMIT_MIN
-from odoo.osv import expression
+from neoziv import api, fields, models, tools
+from neoziv.addons.rating.models.rating import RATING_LIMIT_SATISFIED, RATING_LIMIT_OK, RATING_LIMIT_MIN
+from neoziv.osv import expression
 
 
 class RatingParentMixin(models.AbstractModel):

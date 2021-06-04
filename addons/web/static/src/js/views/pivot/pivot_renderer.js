@@ -1,4 +1,4 @@
-odoo.define('web.PivotRenderer', function (require) {
+neoziv.define('web.PivotRenderer', function (require) {
     "use strict";
 
     const OwlAbstractRenderer = require('web.AbstractRendererOwl');

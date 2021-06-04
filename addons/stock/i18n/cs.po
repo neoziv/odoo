@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* stock
 # 
@@ -7,7 +7,7 @@
 # Jakub Lohnisky <jakub@lepremier.cz>, 2020
 # Jan Horzinka <jan.horzinka@centrum.cz>, 2020
 # Jakub Snášel <jakub@potisk-tricek.cz>, 2020
-# Pauline Thiry <pth@odoo.com>, 2020
+# Pauline Thiry <pth@neoziv.com>, 2020
 # Martin Trigaux, 2020
 # Jaroslav Helemik Nemec <nemec@helemik.cz>, 2020
 # Ladislav Tomm <tomm@helemik.cz>, 2020
@@ -19,12 +19,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 11:23+0000\n"
 "PO-Revision-Date: 2020-09-07 08:19+0000\n"
 "Last-Translator: trendspotter, 2021\n"
-"Language-Team: Czech (https://www.transifex.com/odoo/teams/41243/cs/)\n"
+"Language-Team: Czech (https://www.transifex.com/neoziv/teams/41243/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1755,10 +1755,10 @@ msgstr "Předvolené trasy skrz sklad"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_orderpoint
 msgid ""
-"Define a minimum stock rule so that Odoo creates automatically requests for "
+"Define a minimum stock rule so that neoziv creates automatically requests for "
 "quotations or draft manufacturing orders to resupply your stock."
 msgstr ""
-"Definovat pravidlo minimálních zásob tak, aby Odoo automaticky vytvářel "
+"Definovat pravidlo minimálních zásob tak, aby neoziv automaticky vytvářel "
 "požadavky na nabídky nebo návrhy výrobních zakázek, aby znovu zásobil váš "
 "sklad."
 
@@ -1771,13 +1771,13 @@ msgstr "Definovat nový sklad"
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
 msgid ""
 "Define your locations to reflect your warehouse structure and\n"
-"            organization. Odoo is able to manage physical locations\n"
+"            organization. neoziv is able to manage physical locations\n"
 "            (warehouses, shelves, bin, etc), partner locations (customers,\n"
 "            vendors) and virtual locations which are the counterpart of\n"
 "            the stock operations like the manufacturing orders\n"
 "            consumptions, inventories, etc."
 msgstr ""
-"Definujte umístění tak, aby odrážely strukturu a organizaci skladu. Odoo je "
+"Definujte umístění tak, aby odrážely strukturu a organizaci skladu. neoziv je "
 "schopen spravovat fyzická místa (sklady, police, přihrádky atd.), Partnerská"
 " místa (zákazníci, prodejci) a virtuální místa, která jsou protějškem "
 "skladových operací, jako jsou spotřeby výrobních objednávek, zásoby atd."
@@ -2211,12 +2211,12 @@ msgstr ""
 #. module: stock
 #: model_terms:digest.tip,tip_description:stock.digest_tip_stock_0
 msgid ""
-"Enjoy a quick-paced experience with the Odoo barcode app. It is blazing fast"
+"Enjoy a quick-paced experience with the neoziv barcode app. It is blazing fast"
 " and works even without a stable internet connection. It supports all flows:"
 " inventory adjustments, batch picking, moving lots or pallets, low inventory"
 " checks, etc. Go to the \"Apps\" menu to activate the barcode interface."
 msgstr ""
-"Vychutnejte si rychlý zážitek s aplikací čárových kódů Odoo. Je bleskurychlá"
+"Vychutnejte si rychlý zážitek s aplikací čárových kódů neoziv. Je bleskurychlá"
 " a funguje i bez stabilního připojení k internetu. Podporuje všechny toky: "
 "úpravy zásob, vychystávání dávek, přesuny šarží nebo palet, kontroly nízkých"
 " zásob atd. Přejděte do nabídky \"Aplikace\" a aktivujte rozhraní čárového "
@@ -2243,14 +2243,14 @@ msgstr "Chyba"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
 msgid ""
-"Every stock operation in Odoo moves the products from one\n"
+"Every stock operation in neoziv moves the products from one\n"
 "            location to another one.  For instance, if you receive products\n"
-"            from a vendor, Odoo will move products from the Vendor\n"
+"            from a vendor, neoziv will move products from the Vendor\n"
 "            location to the Stock location. Each report can be performed on\n"
 "            physical, partner or virtual locations."
 msgstr ""
-"Každá skladová operace v Odoo přesouvá produkty z jednoho místa na druhé. "
-"Pokud například obdržíte produkty od dodavatele, Odoo bude přesouvat "
+"Každá skladová operace v neoziv přesouvá produkty z jednoho místa na druhé. "
+"Pokud například obdržíte produkty od dodavatele, neoziv bude přesouvat "
 "produkty z místa dodavatele do místa skladu. Každá sestava může být "
 "prováděna na fyzických, partnerských nebo virtuálních místech."
 
@@ -2830,11 +2830,11 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_picking__show_reserved
 #: model:ir.model.fields,help:stock.field_stock_picking_type__show_reserved
 msgid ""
-"If this checkbox is ticked, Odoo will automatically pre-fill the detailed "
+"If this checkbox is ticked, neoziv will automatically pre-fill the detailed "
 "operations with the corresponding products, locations and lot/serial "
 "numbers."
 msgstr ""
-"If this checkbox is ticked, Odoo will automatically pre-fill the detailed "
+"If this checkbox is ticked, neoziv will automatically pre-fill the detailed "
 "operations with the corresponding products, locations and lot/serial "
 "numbers."
 
@@ -7631,21 +7631,21 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_min_qty
 msgid ""
 "When the virtual stock equals to or goes below the Min Quantity specified "
-"for this field, Odoo generates a procurement to bring the forecasted "
+"for this field, neoziv generates a procurement to bring the forecasted "
 "quantity to the Max Quantity."
 msgstr ""
 "Když se virtuální zásoba rovná nebo klesne pod minimální množství určené pro"
-" toto pole, Odoo vygeneruje zakázku s cílem přivést předpokládané množství "
+" toto pole, neoziv vygeneruje zakázku s cílem přivést předpokládané množství "
 "na maximální množství."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_max_qty
 msgid ""
-"When the virtual stock goes below the Min Quantity, Odoo generates a "
+"When the virtual stock goes below the Min Quantity, neoziv generates a "
 "procurement to bring the forecasted quantity to the Quantity specified as "
 "Max Quantity."
 msgstr ""
-"Když virtuální zásoba klesne pod Min Množství, Odoo vygeneruje zakázku, "
+"Když virtuální zásoba klesne pod Min Množství, neoziv vygeneruje zakázku, "
 "která uvede předpokládané množství na Množství určené jako Max Množství."
 
 #. module: stock
@@ -7953,7 +7953,7 @@ msgstr "Ručně jste vytvořili produktové trasy, pokračujte prosím odstraně
 #: model_terms:ir.ui.view,arch_db:stock.view_immediate_transfer
 msgid ""
 "You have not recorded <i>done</i> quantities yet, by clicking on "
-"<i>apply</i> Odoo will process all the quantities."
+"<i>apply</i> neoziv will process all the quantities."
 msgstr ""
 
 #. module: stock

@@ -1,4 +1,4 @@
-odoo.define('snailmail/static/src/components/notification_group/notification_group.js', function (require) {
+neoziv.define('snailmail/static/src/components/notification_group/notification_group.js', function (require) {
 'use strict';
 
 const components = {

@@ -1,4 +1,4 @@
-odoo.define('web.AbstractAction', function (require) {
+neoziv.define('web.AbstractAction', function (require) {
 "use strict";
 
 /**

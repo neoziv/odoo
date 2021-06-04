@@ -1,20 +1,20 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # * stock
 # 
 # Translators:
 # Djordje Marjanovic <djordje_m@yahoo.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@neoziv.com>, 2017
 # Nemanja Dragovic <nemanjadragovic94@gmail.com>, 2017
 # Ljubisa Jovev <ljubisa.jovev@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: neoziv Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-16 08:08+0000\n"
 "PO-Revision-Date: 2017-11-16 08:08+0000\n"
 "Last-Translator: Ljubisa Jovev <ljubisa.jovev@gmail.com>, 2017\n"
-"Language-Team: Serbian (Latin) (https://www.transifex.com/odoo/teams/41243/sr%40latin/)\n"
+"Language-Team: Serbian (Latin) (https://www.transifex.com/neoziv/teams/41243/sr%40latin/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -92,7 +92,7 @@ msgstr ", ako je računovodstvo ili nabavke instalirano"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.inventory_planner
-msgid "- The Odoo Team"
+msgid "- The neoziv Team"
 msgstr ""
 
 #. module: stock
@@ -106,62 +106,62 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
 "<span class=\"label label-default text-center "
-"odoo_purple\">'Available'</span>"
+"neoziv_purple\">'Available'</span>"
 msgstr ""
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"<span class=\"label label-default text-center odoo_purple\">Click on <span "
+"<span class=\"label label-default text-center neoziv_purple\">Click on <span "
 "class=\"fa fa-truck\"/> Delivery</span>"
 msgstr ""
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"<span class=\"label label-default text-center odoo_purple\">Click on <span "
+"<span class=\"label label-default text-center neoziv_purple\">Click on <span "
 "class=\"fa fa-truck\"/> Shipment</span>"
 msgstr ""
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"<span class=\"label label-default text-center odoo_purple\">Confirm "
+"<span class=\"label label-default text-center neoziv_purple\">Confirm "
 "Order</span>"
 msgstr ""
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"<span class=\"label label-default text-center odoo_purple\">Confirm "
+"<span class=\"label label-default text-center neoziv_purple\">Confirm "
 "Sale</span>"
 msgstr ""
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"<span class=\"label label-default text-center odoo_purple\">Find Incoming "
+"<span class=\"label label-default text-center neoziv_purple\">Find Incoming "
 "Shipments</span>"
 msgstr ""
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"<span class=\"label label-default text-center odoo_purple\">Process the "
+"<span class=\"label label-default text-center neoziv_purple\">Process the "
 "products</span>"
 msgstr ""
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"<span class=\"label label-default text-center odoo_purple\">Validate the "
+"<span class=\"label label-default text-center neoziv_purple\">Validate the "
 "Delivery</span>"
 msgstr ""
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"<span class=\"label label-default text-center odoo_purple\">Validate the "
+"<span class=\"label label-default text-center neoziv_purple\">Validate the "
 "Receipt Order</span>"
 msgstr ""
 
@@ -385,7 +385,7 @@ msgstr ""
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.inventory_planner
-msgid "<strong>Enjoy your Inventory management with Odoo!</strong>"
+msgid "<strong>Enjoy your Inventory management with neoziv!</strong>"
 msgstr ""
 
 #. module: stock
@@ -971,13 +971,13 @@ msgstr "Po jedinstvenom serijskom broju"
 #, python-format
 msgid ""
 "By changing this quantity here, you accept the new quantity as complete: "
-"Odoo will not automatically generate a back order."
+"neoziv will not automatically generate a back order."
 msgstr ""
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"By default, Odoo measures products by 'units', which are generic and "
+"By default, neoziv measures products by 'units', which are generic and "
 "represent just about anything"
 msgstr ""
 
@@ -1781,7 +1781,7 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
 msgid ""
 "Define your locations to reflect your warehouse structure and\n"
-"            organization. Odoo is able to manage physical locations\n"
+"            organization. neoziv is able to manage physical locations\n"
 "            (warehouses, shelves, bin, etc), partner locations (customers,\n"
 "            vendors) and virtual locations which are the counterpart of\n"
 "            the stock operations like the manufacturing orders\n"
@@ -2113,9 +2113,9 @@ msgstr "Evropski kupci"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
 msgid ""
-"Every stock operation in Odoo moves the products from one\n"
+"Every stock operation in neoziv moves the products from one\n"
 "            location to another one.  For instance, if you receive products\n"
-"            from a vendor, Odoo will move products from the Vendor\n"
+"            from a vendor, neoziv will move products from the Vendor\n"
 "            location to the Stock location. Each report can be performed on\n"
 "            physical, partner or virtual locations."
 msgstr ""
@@ -2206,7 +2206,7 @@ msgstr ""
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"For the Odoo Team,<br/>\n"
+"For the neoziv Team,<br/>\n"
 "                            Fabien Pinckaers, Founder"
 msgstr ""
 
@@ -2560,7 +2560,7 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type_show_reserved
 msgid ""
-"If this checkbox is ticked, Odoo will show which products are reserved "
+"If this checkbox is ticked, neoziv will show which products are reserved "
 "(lot/serial number, source location, source package)."
 msgstr ""
 
@@ -2612,7 +2612,7 @@ msgstr ""
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"If you configured automatic procurement, Odoo automatically generates\n"
+"If you configured automatic procurement, neoziv automatically generates\n"
 "                        Procurements Orders. You usually don't need to worry about them, but\n"
 "                        sometimes the system can remain blocked without generating a\n"
 "                        corresponding document, usually due to a configuration problem."
@@ -2670,8 +2670,8 @@ msgstr ""
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"In Odoo, <strong>Reordering Rules</strong> are used to replenish your products.\n"
-"                        Odoo will automatically propose a procurement to buy new products if you are\n"
+"In neoziv, <strong>Reordering Rules</strong> are used to replenish your products.\n"
+"                        neoziv will automatically propose a procurement to buy new products if you are\n"
 "                        running out of stock."
 msgstr ""
 
@@ -3044,7 +3044,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
 "It is also possible to import your initial inventory from an Excel or CSV file.\n"
-"                        If you want to do that, contact your Odoo project manager."
+"                        If you want to do that, contact your neoziv project manager."
 msgstr ""
 
 #. module: stock
@@ -3269,7 +3269,7 @@ msgstr ""
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"Like with the sales flow, Odoo inventory management is\n"
+"Like with the sales flow, neoziv inventory management is\n"
 "                        fully integrated with the purchase app."
 msgstr ""
 
@@ -3605,7 +3605,7 @@ msgstr "Ostalo"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_picking_tree
 msgid ""
-"Most operations are prepared automatically by Odoo according\n"
+"Most operations are prepared automatically by neoziv according\n"
 "                to your preconfigured logistics rules, but you can also record\n"
 "                manual stock movements."
 msgstr ""
@@ -3854,19 +3854,19 @@ msgstr "OK"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"Odoo handles <strong>advanced push/pull routes configuration</strong>, for "
+"neoziv handles <strong>advanced push/pull routes configuration</strong>, for "
 "example:"
 msgstr ""
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.inventory_planner
-msgid "Odoo has preconfigured <strong>one Warehouse</strong> for you."
+msgid "neoziv has preconfigured <strong>one Warehouse</strong> for you."
 msgstr ""
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"Odoo inventory management is fully integrated with sales and\n"
+"neoziv inventory management is fully integrated with sales and\n"
 "                        invoicing process. Everything is automated from the initial\n"
 "                        quotation to the delivery and the final invoice."
 msgstr ""
@@ -3874,14 +3874,14 @@ msgstr ""
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"Odoo is able to run advanced traceability by using Product Lots and Serial\n"
+"neoziv is able to run advanced traceability by using Product Lots and Serial\n"
 "                        Numbers, usually identified by bar codes stuck on the products."
 msgstr ""
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"Of course, feel free to add your own. Please note that Odoo is able to "
+"Of course, feel free to add your own. Please note that neoziv is able to "
 "convert units within the same category, for example, liters to gallons in "
 "the volume category"
 msgstr ""
@@ -6164,7 +6164,7 @@ msgstr ""
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"This guide helps getting started with Odoo Inventory.\n"
+"This guide helps getting started with neoziv Inventory.\n"
 "                        Once you are done, you will benefit from:"
 msgstr ""
 
@@ -6829,7 +6829,7 @@ msgstr "Upozorenja"
 #: model_terms:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
 "We handle the whole import process\n"
-"                                        for you: simply send your Odoo project\n"
+"                                        for you: simply send your neoziv project\n"
 "                                        manager a CSV file containing all your\n"
 "                                        data."
 msgstr ""
@@ -6838,14 +6838,14 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
 "We handle the whole import process\n"
-"                                        for you: simply send your Odoo project\n"
+"                                        for you: simply send your neoziv project\n"
 "                                        manager a CSV file containing all your\n"
 "                                        products."
 msgstr ""
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.inventory_planner
-msgid "We hope this guide helped you implement Odoo Inventory."
+msgid "We hope this guide helped you implement neoziv Inventory."
 msgstr ""
 
 #. module: stock
@@ -6919,14 +6919,14 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint_product_min_qty
 msgid ""
 "When the virtual stock goes below the Min Quantity specified for this field,"
-" Odoo generates a procurement to bring the forecasted quantity to the Max "
+" neoziv generates a procurement to bring the forecasted quantity to the Max "
 "Quantity."
 msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint_product_max_qty
 msgid ""
-"When the virtual stock goes below the Min Quantity, Odoo generates a "
+"When the virtual stock goes below the Min Quantity, neoziv generates a "
 "procurement to bring the forecasted quantity to the Quantity specified as "
 "Max Quantity."
 msgstr ""
@@ -6934,7 +6934,7 @@ msgstr ""
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_procurement_compute_wizard
 msgid ""
-"When you run the schedulers, Odoo tries to reserve the available stock to fulfill the existing pickings\n"
+"When you run the schedulers, neoziv tries to reserve the available stock to fulfill the existing pickings\n"
 "                and verify if some reordering rules should be triggered."
 msgstr ""
 
@@ -6990,10 +6990,10 @@ msgstr ""
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_orderpoint_form
 msgid ""
-"You can define your minimum stock rules, so that Odoo will automatically "
+"You can define your minimum stock rules, so that neoziv will automatically "
 "create draft manufacturing orders or request for quotations according to the"
 " stock level. Once the virtual stock of a product (= stock on hand minus all"
-" confirmed orders and reservations) is below the minimum quantity, Odoo will"
+" confirmed orders and reservations) is below the minimum quantity, neoziv will"
 " generate a procurement request to increase the stock up to the maximum "
 "quantity."
 msgstr ""
@@ -7198,7 +7198,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock.view_immediate_transfer
 msgid ""
 "You haven't entered <i>done</i> quantities, by clicking on <i>apply</i>\n"
-"                        Odoo will process all the <i>reserved</i> quantities."
+"                        neoziv will process all the <i>reserved</i> quantities."
 msgstr ""
 
 #. module: stock
@@ -7336,20 +7336,20 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
 "either by manually updating the Done quantity on the product lines, or let "
-"Odoo do it automatically while validating"
+"neoziv do it automatically while validating"
 msgstr ""
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
 "either by manually updating the Done quantity on the product lines, or scan "
-"them with the Odoo Barcode app, or let Odoo do it automatically while "
+"them with the neoziv Barcode app, or let neoziv do it automatically while "
 "validating"
 msgstr ""
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.inventory_planner
-msgid "feedback@mail.odoo.com"
+msgid "feedback@mail.neoziv.com"
 msgstr ""
 
 #. module: stock

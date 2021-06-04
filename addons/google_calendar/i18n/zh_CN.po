@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* google_calendar
 # 
@@ -14,12 +14,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0+e\n"
+"Project-Id-Version: neoziv Server 14.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 11:24+0000\n"
 "PO-Revision-Date: 2020-09-07 08:12+0000\n"
 "Last-Translator: liAnGjiA <liangjia@qq.com>, 2021\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/neoziv/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -135,9 +135,9 @@ msgid "Created on"
 msgstr "创建时间"
 
 #. module: google_calendar
-#: model:ir.model.fields.selection,name:google_calendar.selection__google_calendar_account_reset__delete_policy__delete_odoo
-msgid "Delete from Odoo"
-msgstr "‎从 Odoo 中删除‎"
+#: model:ir.model.fields.selection,name:google_calendar.selection__google_calendar_account_reset__delete_policy__delete_neoziv
+msgid "Delete from neoziv"
+msgstr "‎从 neoziv 中删除‎"
 
 #. module: google_calendar
 #: model:ir.model.fields.selection,name:google_calendar.selection__google_calendar_account_reset__delete_policy__delete_both
@@ -220,8 +220,8 @@ msgstr "如果启用字段设为false，它将允许你隐藏提醒信息而不�
 #: model:ir.model.fields,help:google_calendar.field_res_users__google_calendar_cal_id
 msgid ""
 "Last Calendar ID who has been synchronized. If it is changed, we remove all "
-"links between GoogleID and Odoo Google Internal ID"
-msgstr "最后一次同步的日历ID。如果它发生改变， 将清除全部在 GoogleID 和 Odoo Google Internal ID之间的连接"
+"links between GoogleID and neoziv Google Internal ID"
+msgstr "最后一次同步的日历ID。如果它发生改变， 将清除全部在 GoogleID 和 neoziv Google Internal ID之间的连接"
 
 #. module: google_calendar
 #: model:ir.model.fields,field_description:google_calendar.field_calendar_event____last_update
@@ -380,4 +380,4 @@ msgstr "用户"
 #: code:addons/google_calendar/static/src/js/google_calendar.js:0
 #, python-format
 msgid "You will be redirected to Google to authorize access to your calendar!"
-msgstr "您将跳转到Google并授权Odoo访问您的日历"
+msgstr "您将跳转到Google并授权neoziv访问您的日历"

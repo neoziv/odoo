@@ -1,4 +1,4 @@
-odoo.define('web.SwitchCompanyMenu_tests', function (require) {
+neoziv.define('web.SwitchCompanyMenu_tests', function (require) {
 "use strict";
 
 var SwitchCompanyMenu = require('web.SwitchCompanyMenu');

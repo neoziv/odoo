@@ -1,4 +1,4 @@
-odoo.define('account.hierarchy.selection', function (require) {
+neoziv.define('account.hierarchy.selection', function (require) {
 "use strict";
 
     var core = require('web.core');

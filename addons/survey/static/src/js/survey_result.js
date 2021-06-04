@@ -1,4 +1,4 @@
-odoo.define('survey.result', function (require) {
+neoziv.define('survey.result', function (require) {
 'use strict';
 
 var _t = require('web.core')._t;

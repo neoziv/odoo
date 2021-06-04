@@ -1,4 +1,4 @@
-odoo.define('payment.processing', function (require) {
+neoziv.define('payment.processing', function (require) {
     'use strict';
 
     var publicWidget = require('web.public.widget');

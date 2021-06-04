@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from odoo.addons.account_edi.tests.common import AccountEdiTestCommon
+from neoziv.addons.account_edi.tests.common import AccountEdiTestCommon
 
 
 class TestUBL(AccountEdiTestCommon):

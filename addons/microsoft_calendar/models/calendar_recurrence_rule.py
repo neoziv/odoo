@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import re
 
-from odoo import api, fields, models
+from neoziv import api, fields, models
 from dateutil.relativedelta import relativedelta
 
-from odoo.addons.microsoft_calendar.utils.microsoft_calendar import MicrosoftCalendarService
+from neoziv.addons.microsoft_calendar.utils.microsoft_calendar import MicrosoftCalendarService
 
 
 class RecurrenceRule(models.Model):
@@ -80,7 +80,7 @@ class RecurrenceRule(models.Model):
         self.unlink()
 
     @api.model
-    def _microsoft_to_odoo_values(self, microsoft_recurrence, default_reminders=(), default_values={}):
+    def _microsoft_to_neoziv_values(self, microsoft_recurrence, default_reminders=(), default_values={}):
         recurrence = microsoft_recurrence.get_recurrence()
 
         return {

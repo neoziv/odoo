@@ -1,4 +1,4 @@
-odoo.define('web.test_env', async function (require) {
+neoziv.define('web.test_env', async function (require) {
     "use strict";
 
     const Bus = require('web.Bus');
@@ -80,7 +80,7 @@ odoo.define('web.test_env', async function (require) {
     /**
      * Before each test, we want owl.Component.env to be a fresh test environment.
      */
-    QUnit.on('OdooBeforeTestHook', function () {
+    QUnit.on('neozivBeforeTestHook', function () {
         owl.Component.env = makeTestEnvironment();
     });
 

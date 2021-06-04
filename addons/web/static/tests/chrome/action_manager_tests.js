@@ -1,4 +1,4 @@
-odoo.define('web.action_manager_tests', function (require) {
+neoziv.define('web.action_manager_tests', function (require) {
 "use strict";
 
 var ActionManager = require('web.ActionManager');

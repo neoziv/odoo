@@ -1,4 +1,4 @@
-odoo.define('web.PivotView', function (require) {
+neoziv.define('web.PivotView', function (require) {
     "use strict";
 
     /**

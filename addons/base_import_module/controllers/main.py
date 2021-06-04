@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 import functools
 
-from odoo import _
-from odoo.exceptions import AccessError
-from odoo.http import Controller, route, request, Response
+from neoziv import _
+from neoziv.exceptions import AccessError
+from neoziv.http import Controller, route, request, Response
 
 def webservice(f):
     @functools.wraps(f)

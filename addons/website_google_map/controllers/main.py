@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 import json
 
-from odoo import http
-from odoo.http import request
-from odoo.tools import html_escape as escape
+from neoziv import http
+from neoziv.http import request
+from neoziv.tools import html_escape as escape
 
 
 class GoogleMap(http.Controller):
@@ -18,7 +18,7 @@ class GoogleMap(http.Controller):
     - ``partner_ids``: a comma-separated list of ids (partners to be shown)
     - ``partner_url``: the base-url to display the partner
         (eg: if ``partner_url`` is ``/partners/``, when the user will click on
-        a partner on the map, it will be redirected to <myodoo>.com/partners/<id>)
+        a partner on the map, it will be redirected to <myneoziv>.com/partners/<id>)
 
     In order to resize the map, simply resize the ``iframe`` with CSS
     directives ``width`` and ``height``.

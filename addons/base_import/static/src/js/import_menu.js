@@ -1,4 +1,4 @@
-odoo.define('base_import.ImportMenu', function (require) {
+neoziv.define('base_import.ImportMenu', function (require) {
     "use strict";
 
     const DropdownMenuItem = require('web.DropdownMenuItem');

@@ -1,4 +1,4 @@
-odoo.define('web.list_tests', function (require) {
+neoziv.define('web.list_tests', function (require) {
 "use strict";
 
 var AbstractFieldOwl = require('web.AbstractFieldOwl');
@@ -3994,8 +3994,8 @@ QUnit.module('Views', {
     QUnit.test('display a tooltip on a field', async function (assert) {
         assert.expect(4);
 
-        var initialDebugMode = odoo.debug;
-        odoo.debug = false;
+        var initialDebugMode = neoziv.debug;
+        neoziv.debug = false;
 
         var list = await createView({
             View: ListView,
@@ -4014,7 +4014,7 @@ QUnit.module('Views', {
         list.$('th[data-name=foo]').trigger($.Event('mouseenter'));
         assert.strictEqual($('.tooltip .oe_tooltip_string').length, 0, "should not have rendered a tooltip");
 
-        odoo.debug = true;
+        neoziv.debug = true;
         // it is necessary to rerender the list so tooltips can be properly created
         await list.reload();
         list.$('th[data-name=foo]').tooltip('show', false);
@@ -4029,7 +4029,7 @@ QUnit.module('Views', {
         assert.strictEqual($('.oe_tooltip_technical>li[data-item="widget"]')[0].lastChild.wholeText.trim(),
             'Button (toggle_button)', "widget description should be correct");
 
-        odoo.debug = initialDebugMode;
+        neoziv.debug = initialDebugMode;
         list.destroy();
     });
 

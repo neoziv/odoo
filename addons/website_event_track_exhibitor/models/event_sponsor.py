@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from datetime import datetime
 from pytz import timezone, utc
 
-from odoo import api, fields, models
-from odoo.addons.http_routing.models.ir_http import slug
-from odoo.addons.resource.models.resource import float_to_time
-from odoo.tools import is_html_empty
-from odoo.tools.translate import html_translate
+from neoziv import api, fields, models
+from neoziv.addons.http_routing.models.ir_http import slug
+from neoziv.addons.resource.models.resource import float_to_time
+from neoziv.tools import is_html_empty
+from neoziv.tools.translate import html_translate
 
 
 class EventSponsor(models.Model):
@@ -53,7 +53,7 @@ class EventSponsor(models.Model):
         for sponsor in self:
             if sponsor.is_exhibitor and not sponsor.room_name:
                 if sponsor.name:
-                    room_name = "odoo-exhibitor-%s" % sponsor.name
+                    room_name = "neoziv-exhibitor-%s" % sponsor.name
                 else:
                     room_name = self.env['chat.room']._default_name(objname='exhibitor')
                 sponsor.room_name = self._jitsi_sanitize_name(room_name)
@@ -121,7 +121,7 @@ class EventSponsor(models.Model):
         for values in values_list:
             if values.get('is_exhibitor') and not values.get('room_name'):
                 exhibitor_name = values['name'] if values.get('name') else self.env['res.partner'].browse(values['partner_id']).name
-                name = 'odoo-exhibitor-%s' % exhibitor_name or 'sponsor'
+                name = 'neoziv-exhibitor-%s' % exhibitor_name or 'sponsor'
                 values['room_name'] = name
         return super(EventSponsor, self).create(values_list)
 
@@ -131,7 +131,7 @@ class EventSponsor(models.Model):
             toupdate = self.filtered(lambda exhibitor: not exhibitor.chat_room_id)
             # go into sequential update in order to create a custom room name for each sponsor
             for exhibitor in toupdate:
-                values['room_name'] = 'odoo-exhibitor-%s' % exhibitor.name
+                values['room_name'] = 'neoziv-exhibitor-%s' % exhibitor.name
                 super(EventSponsor, exhibitor).write(values)
         return super(EventSponsor, self - toupdate).write(values)
 

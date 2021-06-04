@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-from odoo import models, api
-from odoo.tools.translate import _
-from odoo.exceptions import UserError
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
+from neoziv import models, api
+from neoziv.tools.translate import _
+from neoziv.exceptions import UserError
 
 
 class AccountBankStatement(models.Model):

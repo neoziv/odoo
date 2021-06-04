@@ -1,4 +1,4 @@
-odoo.define('hr_timesheet.timesheet_factor', function (require) {
+neoziv.define('hr_timesheet.timesheet_factor', function (require) {
 'use strict';
 
 const timesheetUomFields = require('hr_timesheet.timesheet_uom');

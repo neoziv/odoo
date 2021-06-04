@@ -1,4 +1,4 @@
-odoo.define('calendar.CalendarRenderer', function (require) {
+neoziv.define('calendar.CalendarRenderer', function (require) {
 "use strict";
 
 const CalendarRenderer = require('web.CalendarRenderer');

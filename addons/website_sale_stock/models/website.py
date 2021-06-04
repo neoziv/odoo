@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from odoo import api, fields, models
+from neoziv import api, fields, models
 
 
 class Website(models.Model):

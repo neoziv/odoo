@@ -1,4 +1,4 @@
-odoo.define('mail/static/src/components/discuss_sidebar_item/discuss_sidebar_item.js', function (require) {
+neoziv.define('mail/static/src/components/discuss_sidebar_item/discuss_sidebar_item.js', function (require) {
 'use strict';
 
 const components = {

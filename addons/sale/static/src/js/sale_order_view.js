@@ -1,4 +1,4 @@
-odoo.define('sale.SaleOrderView', function (require) {
+neoziv.define('sale.SaleOrderView', function (require) {
     "use strict";
 
     const FormController = require('web.FormController');

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* website_mass_mailing
 # 
@@ -6,17 +6,17 @@
 # Piotr Szlązak <szlazakpiotr@gmail.com>, 2020
 # Marcin Młynarczyk <mlynarczyk@gmail.com>, 2020
 # Andrzej Donczew <a.donczew@hadron.eu.com>, 2020
-# Paweł Wodyński <pw@myodoo.pl>, 2020
+# Paweł Wodyński <pw@myneoziv.pl>, 2020
 # Martin Trigaux, 2020
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-25 10:23+0000\n"
 "PO-Revision-Date: 2020-09-07 08:22+0000\n"
 "Last-Translator: Martin Trigaux, 2020\n"
-"Language-Team: Polish (https://www.transifex.com/odoo/teams/41243/pl/)\n"
+"Language-Team: Polish (https://www.transifex.com/neoziv/teams/41243/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"

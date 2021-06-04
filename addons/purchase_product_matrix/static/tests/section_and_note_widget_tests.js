@@ -1,4 +1,4 @@
-odoo.define('purchase_product_matrix.section_and_note_widget_tests', function (require) {
+neoziv.define('purchase_product_matrix.section_and_note_widget_tests', function (require) {
 "use strict";
 
 var FormView = require('web.FormView');

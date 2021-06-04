@@ -1,4 +1,4 @@
-odoo.define('mail/static/src/components/attachment_viewer/attachment_viewer.js', function (require) {
+neoziv.define('mail/static/src/components/attachment_viewer/attachment_viewer.js', function (require) {
 'use strict';
 
 const useRefs = require('mail/static/src/component_hooks/use_refs/use_refs.js');

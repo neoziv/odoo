@@ -1,4 +1,4 @@
-odoo.define('point_of_sale.ProxyStatus', function(require) {
+neoziv.define('point_of_sale.ProxyStatus', function(require) {
     'use strict';
 
     const { useState } = owl;

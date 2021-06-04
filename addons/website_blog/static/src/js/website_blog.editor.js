@@ -1,4 +1,4 @@
-odoo.define('website_blog.new_blog_post', function (require) {
+neoziv.define('website_blog.new_blog_post', function (require) {
 'use strict';
 
 var core = require('web.core');
@@ -58,7 +58,7 @@ WebsiteNewMenu.include({
 
 //==============================================================================
 
-odoo.define('website_blog.editor', function (require) {
+neoziv.define('website_blog.editor', function (require) {
 'use strict';
 
 require('web.dom_ready');
@@ -143,7 +143,7 @@ WysiwygMultizone.include({
 
     /**
      * @private
-     * @param {OdooEvent} ev
+     * @param {neozivEvent} ev
      */
     _onSetBlogPostUpdatedTags: function (ev) {
         this.blogTagsPerBlogPost[ev.data.blogPostID] = ev.data.tags;

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-from odoo.addons.mail.tests.common import mail_new_test_user
-from odoo.addons.product.tests import common
+from neoziv.addons.mail.tests.common import mail_new_test_user
+from neoziv.addons.product.tests import common
 
 
 class TestStockCommon(common.TestProductCommon):

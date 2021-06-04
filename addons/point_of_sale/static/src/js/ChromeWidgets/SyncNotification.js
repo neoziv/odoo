@@ -1,4 +1,4 @@
-odoo.define('point_of_sale.SyncNotification', function(require) {
+neoziv.define('point_of_sale.SyncNotification', function(require) {
     'use strict';
 
     const { useState } = owl;

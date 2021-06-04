@@ -1,4 +1,4 @@
-odoo.define('survey.session_tour_tools', function (require) {
+neoziv.define('survey.session_tour_tools', function (require) {
 'use strict';
 
 var tour = require('web_tour.tour');

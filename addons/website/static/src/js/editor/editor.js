@@ -1,4 +1,4 @@
-odoo.define('website.editor', function (require) {
+neoziv.define('website.editor', function (require) {
 'use strict';
 
 var weWidgets = require('web_editor.widget');

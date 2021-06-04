@@ -1,4 +1,4 @@
-odoo.define('web.test_utils_form', function (require) {
+neoziv.define('web.test_utils_form', function (require) {
 "use strict";
 
 /**

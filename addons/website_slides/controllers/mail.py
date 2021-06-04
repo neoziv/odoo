@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import werkzeug
 
 from werkzeug.exceptions import NotFound, Forbidden
 
-from odoo import http
-from odoo.http import request
-from odoo.addons.portal.controllers.mail import _check_special_access, PortalChatter
-from odoo.tools import plaintext2html, html2plaintext
+from neoziv import http
+from neoziv.http import request
+from neoziv.addons.portal.controllers.mail import _check_special_access, PortalChatter
+from neoziv.tools import plaintext2html, html2plaintext
 
 
 class SlidesPortalChatter(PortalChatter):

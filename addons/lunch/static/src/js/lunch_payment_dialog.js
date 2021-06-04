@@ -1,4 +1,4 @@
-odoo.define('lunch.LunchPaymentDialog', function (require) {
+neoziv.define('lunch.LunchPaymentDialog', function (require) {
 "use strict";
 
 var Dialog = require('web.Dialog');

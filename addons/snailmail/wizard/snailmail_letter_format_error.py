@@ -1,5 +1,5 @@
 
-from odoo import api, fields, models
+from neoziv import api, fields, models
 
 class SnailmailLetterFormatError(models.TransientModel):
     _name = 'snailmail.letter.format.error'

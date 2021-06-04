@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from uuid import uuid4
 import requests
 import json
 import logging
 
-from odoo import api, _
-from odoo.tools import exception_to_unicode
-from odoo.addons.google_calendar.utils.google_event import GoogleEvent
-from odoo.addons.google_account.models.google_service import TIMEOUT
+from neoziv import api, _
+from neoziv.tools import exception_to_unicode
+from neoziv.addons.google_calendar.utils.google_event import GoogleEvent
+from neoziv.addons.google_account.models.google_service import TIMEOUT
 
 
 _logger = logging.getLogger(__name__)
@@ -97,7 +97,7 @@ class GoogleCalendarService():
         readonly = '.readonly' if RO else ''
         return 'https://www.googleapis.com/auth/calendar%s' % (readonly)
 
-    def _google_authentication_url(self, from_url='http://www.odoo.com'):
+    def _google_authentication_url(self, from_url='http://www.neoziv.com'):
         return self.google_service._get_authorize_uri(from_url, service='calendar', scope=self._get_calendar_scope())
 
     def _can_authorize_google(self, user):

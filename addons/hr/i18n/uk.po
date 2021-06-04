@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* hr
 # 
@@ -9,12 +9,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-17 10:35+0000\n"
 "PO-Revision-Date: 2020-09-07 08:12+0000\n"
 "Last-Translator: Alina Lisnenko <alinasemeniuk1@gmail.com>, 2021\n"
-"Language-Team: Ukrainian (https://www.transifex.com/odoo/teams/41243/uk/)\n"
+"Language-Team: Ukrainian (https://www.transifex.com/neoziv/teams/41243/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1800,22 +1800,22 @@ msgstr "Кількість непрочитаних повідомлень"
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.hr_department_tree_action
 msgid ""
-"Odoo's department structure is used to manage all documents\n"
+"neoziv's department structure is used to manage all documents\n"
 "                    related to employees by departments: expenses, timesheets,\n"
 "                    leaves, recruitments, etc."
 msgstr ""
-"Структура відділу Odoo використовується для управління всіма документами\n"
+"Структура відділу neoziv використовується для управління всіма документами\n"
 "                 пов'язаними з працівниками відділів: витрати, табелі,\n"
 "                 відпустки, рекрутинг та ін."
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.hr_department_kanban_action
 msgid ""
-"Odoo's department structure is used to manage all documents\n"
+"neoziv's department structure is used to manage all documents\n"
 "                related to employees by departments: expenses, timesheets,\n"
 "                time off, recruitments, etc."
 msgstr ""
-"Структура відділу Odoo використовується для управління всіма документами\n"
+"Структура відділу neoziv використовується для управління всіма документами\n"
 "                 пов'язаними з працівниками відділів: витрати, табелі,\n"
 "                 відпустки, рекрутинг та ін."
 
@@ -2611,22 +2611,22 @@ msgstr "Вдівець/вдова"
 #: model_terms:ir.actions.act_window,help:hr.act_employee_from_department
 #: model_terms:ir.actions.act_window,help:hr.hr_employee_public_action
 msgid ""
-"With just a quick glance on the Odoo employee screen, you\n"
+"With just a quick glance on the neoziv employee screen, you\n"
 "                can easily find all the information you need for each person;\n"
 "                contact data, job position, availability, etc."
 msgstr ""
-"Зі швидким переглядом працівника на Odoo, ви\n"
+"Зі швидким переглядом працівника на neoziv, ви\n"
 "можете легко знайти всю необхідну інформації по кожній людині;\n"
 "контактні дані, робоче місце, присутність і т. д."
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.open_view_employee_list_my
 msgid ""
-"With just a quick glance on the Odoo employee screen, you\n"
+"With just a quick glance on the neoziv employee screen, you\n"
 "               can easily find all the information you need for each person;\n"
 "               contact data, job position, availability, etc."
 msgstr ""
-"Швидким поглядом на вікно працівника Odoo, ви\n"
+"Швидким поглядом на вікно працівника neoziv, ви\n"
 "               можете легко знайти інформацію, яка вам необхідна по кожній особі;\n"
 "               контактні дані, посада, присутність тощо."
 

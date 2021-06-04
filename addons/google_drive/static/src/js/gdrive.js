@@ -1,4 +1,4 @@
-odoo.define('google_drive.ActionMenus', function (require) {
+neoziv.define('google_drive.ActionMenus', function (require) {
     "use strict";
 
     const ActionMenus = require('web.ActionMenus');

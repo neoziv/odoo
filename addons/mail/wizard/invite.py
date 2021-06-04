@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from lxml import etree
 from lxml.html import builder as html
 
-from odoo import _, api, fields, models
-from odoo.exceptions import UserError
+from neoziv import _, api, fields, models
+from neoziv.exceptions import UserError
 
 
 class Invite(models.TransientModel):

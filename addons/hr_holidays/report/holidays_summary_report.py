@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import calendar
 
 from datetime import timedelta
 from dateutil.relativedelta import relativedelta
-from odoo import api, fields, models, _
-from odoo.exceptions import UserError
+from neoziv import api, fields, models, _
+from neoziv.exceptions import UserError
 
 
 class HrHolidaySummaryReport(models.AbstractModel):

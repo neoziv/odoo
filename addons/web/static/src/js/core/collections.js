@@ -1,4 +1,4 @@
-odoo.define("web.collections", function (require) {
+neoziv.define("web.collections", function (require) {
     "use strict";
 
     var Class = require("web.Class");

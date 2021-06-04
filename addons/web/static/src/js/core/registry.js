@@ -1,4 +1,4 @@
-odoo.define("web.Registry", function (require) {
+neoziv.define("web.Registry", function (require) {
     "use strict";
 
     const { sortBy } = require("web.utils");

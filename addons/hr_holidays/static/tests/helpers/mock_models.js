@@ -1,4 +1,4 @@
-odoo.define('hr_holidays/static/tests/helpers/mock_models.js', function (require) {
+neoziv.define('hr_holidays/static/tests/helpers/mock_models.js', function (require) {
 'use strict';
 
 const MockModels = require('mail/static/tests/helpers/mock_models.js');

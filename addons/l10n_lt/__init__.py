@@ -1,4 +1,4 @@
-from odoo import api, SUPERUSER_ID
+from neoziv import api, SUPERUSER_ID
 
 
 def load_translations(cr, registry):

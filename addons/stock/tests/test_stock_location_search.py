@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from odoo.tests import common
+from neoziv.tests import common
 
 
 class TestStockLocationSearch(common.TransactionCase):

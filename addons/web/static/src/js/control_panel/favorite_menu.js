@@ -1,4 +1,4 @@
-odoo.define('web.FavoriteMenu', function (require) {
+neoziv.define('web.FavoriteMenu', function (require) {
     "use strict";
 
     const Dialog = require('web.OwlDialog');

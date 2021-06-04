@@ -1494,12 +1494,12 @@ body.editor_enable.editor_has_snippets {
 // DROPZONES
 @keyframes dropZoneInsert {
     to {
-        background-color: rgba($o-brand-odoo, 0.3);
+        background-color: rgba($o-brand-neoziv, 0.3);
     }
 }
 
 .oe_drop_zone {
-    background-color: rgba($o-brand-odoo, 0.15);
+    background-color: rgba($o-brand-neoziv, 0.15);
     animation: dropZoneInsert 1s linear 0s infinite alternate;
 
     &.oe_insert {

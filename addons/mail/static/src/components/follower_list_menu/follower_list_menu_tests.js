@@ -1,4 +1,4 @@
-odoo.define('mail/static/src/components/follower_list_menu/follower_list_menu_tests.js', function (require) {
+neoziv.define('mail/static/src/components/follower_list_menu/follower_list_menu_tests.js', function (require) {
 'use strict';
 
 const components = {

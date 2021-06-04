@@ -1,4 +1,4 @@
-odoo.define('account.tour', function(require) {
+neoziv.define('account.tour', function(require) {
 "use strict";
 
 var core = require('web.core');

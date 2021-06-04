@@ -1,18 +1,18 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
 from freezegun import freeze_time
 
-from odoo.addons.event.tests.common import TestEventCommon
-from odoo.addons.mail.tests.common import MockEmail
-from odoo.tools import formataddr, mute_logger
+from neoziv.addons.event.tests.common import TestEventCommon
+from neoziv.addons.mail.tests.common import MockEmail
+from neoziv.tools import formataddr, mute_logger
 
 
 class TestMailSchedule(TestEventCommon, MockEmail):
 
-    @mute_logger('odoo.addons.base.models.ir_model', 'odoo.models')
+    @mute_logger('neoziv.addons.base.models.ir_model', 'neoziv.models')
     def test_event_mail_schedule(self):
         """ Test mail scheduling for events """
         event_cron_id = self.env.ref('event.event_mail_scheduler')

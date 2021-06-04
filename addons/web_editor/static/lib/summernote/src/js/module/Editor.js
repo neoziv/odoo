@@ -28,10 +28,10 @@ define([
     var typing = new Typing();
     var bullet = new Bullet();
 
-    this.style = style;   // ODOO: allow access for override
-    this.table = table;   // ODOO: allow access for override
-    this.typing = typing; // ODOO: allow access for override
-    this.bullet = bullet; // ODOO: allow access for override
+    this.style = style;   // neoziv: allow access for override
+    this.table = table;   // neoziv: allow access for override
+    this.typing = typing; // neoziv: allow access for override
+    this.bullet = bullet; // neoziv: allow access for override
 
     /**
      * @method createRange
@@ -55,13 +55,13 @@ define([
      * @param {Boolean} [thenCollapse=false]
      */
     this.saveRange = function ($editable, thenCollapse) {
-      // ODOO: scroll to top when click on input in editable m (start_modification
+      // neoziv: scroll to top when click on input in editable m (start_modification
       // this.focus($editable);
       var r = range.create();
       if (!r || ($editable[0] !== r.sc && !$.contains($editable[0], r.sc))) {
         $editable.focus();
       }
-      // ODOO: end_modication)
+      // neoziv: end_modication)
       $editable.data('range', range.create());
       if (thenCollapse) {
         range.create().collapse().select();
@@ -631,7 +631,7 @@ define([
       }
 
       var anchors = [];
-      // ODOO: adding this branch to modify existing anchor if it fully contains the range
+      // neoziv: adding this branch to modify existing anchor if it fully contains the range
       var ancestor_anchor = dom.ancestor(rng.sc, pred);
       if (ancestor_anchor && ancestor_anchor === dom.ancestor(rng.ec, pred)) {
           anchors.push($(ancestor_anchor).html(linkText).get(0));
@@ -651,8 +651,8 @@ define([
         if (!linkInfo.isButton) {
           $(anchor).attr('href', linkUrl);
         }
-        $(anchor).attr('class', linkInfo.className || null); // ODOO: addition
-        $(anchor).css(linkInfo.style || {}); // ODOO: addition
+        $(anchor).attr('class', linkInfo.className || null); // neoziv: addition
+        $(anchor).css(linkInfo.style || {}); // neoziv: addition
         if (isNewWindow) {
           $(anchor).attr('target', '_blank');
         } else {
@@ -687,7 +687,7 @@ define([
      * @return {String} [return.url=""]
      */
     this.getLinkInfo = function ($editable) {
-      // ODOO MODIFICATION START
+      // neoziv MODIFICATION START
       var selection;
       var currentSelection = null;
       if (document.getSelection) {
@@ -696,17 +696,17 @@ define([
           currentSelection = selection.getRangeAt(0);
         }
       }
-      // ODOO MODIFICATION END
+      // neoziv MODIFICATION END
 
       this.focus($editable);
 
-      // ODOO MODIFICATION START
+      // neoziv MODIFICATION START
       if (currentSelection && document.getSelection) {
         selection = document.getSelection();
         selection.removeAllRanges();
         selection.addRange(currentSelection);
       }
-      // ODOO MODIFICATION END
+      // neoziv MODIFICATION END
 
       var rng = range.create().expand(dom.isAnchor);
 

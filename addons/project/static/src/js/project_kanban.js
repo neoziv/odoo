@@ -1,4 +1,4 @@
-odoo.define('project.project_kanban', function (require) {
+neoziv.define('project.project_kanban', function (require) {
 'use strict';
 
 var KanbanController = require('web.KanbanController');

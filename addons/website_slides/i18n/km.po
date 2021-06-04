@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # * website_slides
 # 
@@ -8,12 +8,12 @@
 # Samkhann Seang <seangsamkhann@gmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 12.0\n"
+"Project-Id-Version: neoziv Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-08 06:49+0000\n"
 "PO-Revision-Date: 2018-10-08 06:49+0000\n"
 "Last-Translator: Samkhann Seang <seangsamkhann@gmail.com>, 2018\n"
-"Language-Team: Khmer (https://www.transifex.com/odoo/teams/41243/km/)\n"
+"Language-Team: Khmer (https://www.transifex.com/neoziv/teams/41243/km/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -348,7 +348,7 @@ msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_5
-msgid "Awesome Timesheet by Odoo"
+msgid "Awesome Timesheet by neoziv"
 msgstr "ថែមស៊ីត ល្អមែនទែនដោយ អូឌូ"
 
 #. module: website_slides
@@ -552,7 +552,7 @@ msgstr "បោះបង់"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_6
-msgid "Discover how easy marketing your business can be with Odoo"
+msgid "Discover how easy marketing your business can be with neoziv"
 msgstr ""
 
 #. module: website_slides
@@ -560,14 +560,14 @@ msgstr ""
 msgid ""
 "Discover how you can integrate MRP, PLM, Quality and Maintenance in a single application to maximize the efficiency of your manufacturing operations.\n"
 "\n"
-"Read more about the features at: https://www.odoo.com/page/manufacturing-features\n"
+"Read more about the features at: https://www.neoziv.com/page/manufacturing-features\n"
 "\n"
-"Discover Odoo MRP: https://www.odoo.com/page/manufacturing"
+"Discover neoziv MRP: https://www.neoziv.com/page/manufacturing"
 msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_1
-msgid "Discover the CRM sales people love https://www.odoo.com/page/crm"
+msgid "Discover the CRM sales people love https://www.neoziv.com/page/crm"
 msgstr ""
 
 #. module: website_slides
@@ -575,11 +575,11 @@ msgstr ""
 msgid ""
 "Discover the all-in-one business management software solution that fits any business size and use case.\n"
 "\n"
-"Learn more at https://odoo.com"
+"Learn more at https://neoziv.com"
 msgstr ""
 "រុករកដំណោះស្រាយគ្រប់គ្រងអាជីវកម្មដែលមានគ្រប់កម្មវិធីទាំងអស់ដែលសមនឹងទំហំពាណិជ្ជកម្មនិងការប្រើប្រាស់ណាមួយ។\n"
 "\n"
-"សិក្សាបន្ថែមនៅ https://odoo.com"
+"សិក្សាបន្ថែមនៅ https://neoziv.com"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__dislikes
@@ -630,7 +630,7 @@ msgstr "ទាញយក"
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_5
 msgid ""
-"Download Awesome Timesheet by Odoo and discover how easy time tracking and employee management can be!\n"
+"Download Awesome Timesheet by neoziv and discover how easy time tracking and employee management can be!\n"
 "\n"
 "Chrome: http://bit.ly/2613LcY\n"
 "iOS: http://bit.ly/1ZUZsZD"
@@ -896,7 +896,7 @@ msgstr "ចេញផ្សាយចុងក្រោយ"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_8
-msgid "Learn more at https://www.odoo.com/page/sales"
+msgid "Learn more at https://www.neoziv.com/page/sales"
 msgstr ""
 
 #. module: website_slides
@@ -1068,43 +1068,43 @@ msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_2
-msgid "Odoo All-in-One Software Demonstration"
+msgid "neoziv All-in-One Software Demonstration"
 msgstr "ដេម៉ូអូឌូ កម្មវិធីទាំងអស់នៅក្នុងតែមួយ"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_1
-msgid "Odoo CRM"
+msgid "neoziv CRM"
 msgstr ""
 
 #. module: website_slides
 #: model:slide.category,name:website_slides.category_2
 #: model:slide.tag,name:website_slides.tag5
-msgid "Odoo Days"
+msgid "neoziv Days"
 msgstr "ទិវាថ្ងៃអូឌូ"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_7
-msgid "Odoo Inventory"
+msgid "neoziv Inventory"
 msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_0
-msgid "Odoo MRP"
+msgid "neoziv MRP"
 msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_6
-msgid "Odoo Marketing"
+msgid "neoziv Marketing"
 msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_8
-msgid "Odoo Sales"
+msgid "neoziv Sales"
 msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_3
-msgid "Odoo Sign Demonstration"
+msgid "neoziv Sign Demonstration"
 msgstr "ដេម៉ូអូឌូសាញ"
 
 #. module: website_slides
@@ -1417,12 +1417,12 @@ msgstr "សូមអភ័យទោស មិនមានអ្វីផ្គ�
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_3
 msgid ""
-"Stop doing manual printing and scanning. Move to electronic signature with Odoo Sign!\n"
+"Stop doing manual printing and scanning. Move to electronic signature with neoziv Sign!\n"
 "\n"
-"Discover more at https://www.odoo.com/page/sign"
+"Discover more at https://www.neoziv.com/page/sign"
 msgstr ""
 "ឈប់ធ្វើការបោះពុម្ពនិងស្កេនដោយដៃ។ ផ្លាស់ទៅហត្ថលេខាអេឡិចត្រូនិកជាមួយអូឌូ! \n"
-"ស្វែងយល់បន្ថែមនៅ https://www.odoo.com/page/sign"
+"ស្វែងយល់បន្ថែមនៅ https://www.neoziv.com/page/sign"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_tag_form
@@ -1646,7 +1646,7 @@ msgstr "កំពុងរង់ចាំការផ្ទៀងផ្ទាត
 msgid ""
 "Warehouse management software for the 21st century.\n"
 "\n"
-"Discover Odoo Inventory: https://www.odoo.com/page/warehouse"
+"Discover neoziv Inventory: https://www.neoziv.com/page/warehouse"
 msgstr ""
 
 #. module: website_slides

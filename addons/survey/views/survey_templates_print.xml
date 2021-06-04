@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<odoo>
+<neoziv>
 <data>
     <!-- Survey: printable page view (all pages) -->
     <template id="survey_page_print" name="Survey: print page">
@@ -53,4 +53,4 @@
         </t>
     </template>
 </data>
-</odoo>
+</neoziv>

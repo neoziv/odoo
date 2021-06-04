@@ -1,12 +1,12 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* point_of_sale
 # 
 # Translators:
-# Jon Perez <jop@odoo.com>, 2020
+# Jon Perez <jop@neoziv.com>, 2020
 # Christopher Ormaza <chris.ormaza@gmail.com>, 2020
 # Luis M. Ontalba <luis.martinez@tecnativa.com>, 2020
-# Cristopher Cravioto <ccr@odoo.com>, 2020
+# Cristopher Cravioto <ccr@neoziv.com>, 2020
 # Jorge Luis Alfonso <jlalfonso21@gmail.com>, 2020
 # Jesús Alan Ramos Rodríguez <alan.ramos@jarsa.com.mx>, 2021
 # Martin Trigaux, 2021
@@ -15,12 +15,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-26 09:03+0000\n"
 "PO-Revision-Date: 2020-09-07 08:16+0000\n"
 "Last-Translator: José Cabrera Lozano <jose.cabrera@edukative.es>, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"Language-Team: Spanish (https://www.transifex.com/neoziv/teams/41243/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -2110,8 +2110,8 @@ msgstr "ID"
 #. openerp-web
 #: code:addons/point_of_sale/static/src/js/Popups/ErrorTracebackPopup.js:0
 #, python-format
-msgid "IMPORTANT: Bug Report From Odoo Point Of Sale"
-msgstr "IMPORTANTE: Reporte de Error del Punto de Venta de Odoo"
+msgid "IMPORTANT: Bug Report From neoziv Point Of Sale"
+msgstr "IMPORTANTE: Reporte de Error del Punto de Venta de neoziv"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__proxy_ip
@@ -2833,8 +2833,8 @@ msgstr "Número de mensajes no leidos"
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.customer_facing_display_html
 #: model_terms:pos.config,customer_facing_display_html:point_of_sale.pos_config_main
-msgid "Odoo Logo"
-msgstr "Logo de Odoo"
+msgid "neoziv Logo"
+msgstr "Logo de neoziv"
 
 #. module: point_of_sale
 #. openerp-web
@@ -5179,19 +5179,19 @@ msgstr "Este producto se utiliza como referencia en los recibos del cliente."
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_line_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by neoziv but you can change it to "
 "customize the reference numbers of your orders lines."
 msgstr ""
-"Odoo crea esta secuencia de manera automática pero puede cambiarla para "
+"neoziv crea esta secuencia de manera automática pero puede cambiarla para "
 "personalizar los números de referencia de sus líneas de pedido."
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by neoziv but you can change it to "
 "customize the reference numbers of your orders."
 msgstr ""
-"La secuencia es creada automáticamente por Odoo, pero puede cambiarla para "
+"La secuencia es creada automáticamente por neoziv, pero puede cambiarla para "
 "personalizar los números de referencia de sus pedidos."
 
 #. module: point_of_sale

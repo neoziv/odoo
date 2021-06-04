@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from datetime import datetime as dt
 from datetime import timedelta as td
 
-from odoo import SUPERUSER_ID
-from odoo.tests import Form
-from odoo.tests.common import SavepointCase
+from neoziv import SUPERUSER_ID
+from neoziv.tests import Form
+from neoziv.tests.common import SavepointCase
 
 
 class TestReorderingRule(SavepointCase):

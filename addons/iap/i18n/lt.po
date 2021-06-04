@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* iap
 # 
@@ -9,12 +9,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~12.5\n"
+"Project-Id-Version: neoziv Server saas~12.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-26 08:16+0000\n"
 "PO-Revision-Date: 2019-08-26 09:11+0000\n"
 "Last-Translator: Linas Versada <linaskrisiukenas@gmail.com>, 2019\n"
-"Language-Team: Lithuanian (https://www.transifex.com/odoo/teams/41243/lt/)\n"
+"Language-Team: Lithuanian (https://www.transifex.com/neoziv/teams/41243/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -42,8 +42,8 @@ msgstr ""
 #. openerp-web
 #: code:addons/iap/static/src/js/crash_manager.js:0
 #, python-format
-msgid "Buy credits at Odoo"
-msgstr "Pirkti kreditus per \"Odoo\""
+msgid "Buy credits at neoziv"
+msgstr "Pirkti kreditus per \"neoziv\""
 
 #. module: iap
 #. openerp-web
@@ -136,7 +136,7 @@ msgstr "Paskutinį kartą atnaujinta"
 
 #. module: iap
 #: model_terms:ir.ui.view,arch_db:iap.res_config_settings_view_form
-msgid "Odoo IAP"
+msgid "neoziv IAP"
 msgstr ""
 
 #. module: iap
@@ -153,8 +153,8 @@ msgstr "Paslaugos pavadinimas"
 #. openerp-web
 #: code:addons/iap/static/src/js/crash_manager.js:0
 #, python-format
-msgid "Start a Trial at Odoo"
-msgstr "Pradėti \"Odoo\" bandymą"
+msgid "Start a Trial at neoziv"
+msgstr "Pradėti \"neoziv\" bandymą"
 
 #. module: iap
 #: code:addons/iap/models/iap.py:0

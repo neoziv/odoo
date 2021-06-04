@@ -1,4 +1,4 @@
-odoo.define('website.content.menu', function (require) {
+neoziv.define('website.content.menu', function (require) {
 'use strict';
 
 const config = require('web.config');
@@ -47,9 +47,9 @@ const BaseAnimatedHeader = animations.Animation.extend({
         });
 
         // We can rely on transitionend which is well supported but not on
-        // transitionstart, so we listen to a custom odoo event.
+        // transitionstart, so we listen to a custom neoziv event.
         this._transitionCount = 0;
-        this.$el.on('odoo-transitionstart.BaseAnimatedHeader', () => this._adaptToHeaderChangeLoop(1));
+        this.$el.on('neoziv-transitionstart.BaseAnimatedHeader', () => this._adaptToHeaderChangeLoop(1));
         this.$el.on('transitionend.BaseAnimatedHeader', () => this._adaptToHeaderChangeLoop(-1));
 
         return this._super(...arguments);
@@ -175,7 +175,7 @@ const BaseAnimatedHeader = animations.Animation.extend({
         const headerIsScrolled = (scroll > this.scrolledPoint);
         if (this.headerIsScrolled !== headerIsScrolled) {
             this.el.classList.toggle('o_header_is_scrolled', headerIsScrolled);
-            this.$el.trigger('odoo-transitionstart');
+            this.$el.trigger('neoziv-transitionstart');
             this.headerIsScrolled = headerIsScrolled;
         }
 
@@ -311,7 +311,7 @@ const BaseDisappearingHeader = publicWidget.registry.FixedHeader.extend({
      * @private
      */
     _hideHeader: function () {
-        this.$el.trigger('odoo-transitionstart');
+        this.$el.trigger('neoziv-transitionstart');
     },
     /**
      * @override
@@ -323,7 +323,7 @@ const BaseDisappearingHeader = publicWidget.registry.FixedHeader.extend({
      * @private
      */
     _showHeader: function () {
-        this.$el.trigger('odoo-transitionstart');
+        this.$el.trigger('neoziv-transitionstart');
     },
 
     //--------------------------------------------------------------------------

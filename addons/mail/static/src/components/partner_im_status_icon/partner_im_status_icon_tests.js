@@ -1,4 +1,4 @@
-odoo.define('mail/static/src/components/partner_im_status_icon/partner_im_status_icon_tests.js', function (require) {
+neoziv.define('mail/static/src/components/partner_im_status_icon/partner_im_status_icon_tests.js', function (require) {
 'use strict';
 
 const components = {

@@ -1,4 +1,4 @@
-odoo.define('web.DropdownMenuItem', function (require) {
+neoziv.define('web.DropdownMenuItem', function (require) {
     "use strict";
 
     const { useListener } = require('web.custom_hooks');

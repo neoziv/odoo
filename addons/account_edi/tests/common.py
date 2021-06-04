@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-from odoo.modules.module import get_module_resource
-from odoo.addons.account.tests.common import AccountTestInvoicingCommon
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
+from neoziv.modules.module import get_module_resource
+from neoziv.addons.account.tests.common import AccountTestInvoicingCommon
 
 from contextlib import contextmanager
 from unittest.mock import patch

@@ -1,4 +1,4 @@
-odoo.define('mrp.document_kanban_tests', function (require) {
+neoziv.define('mrp.document_kanban_tests', function (require) {
 "use strict";
 
 const MrpDocumentsKanbanView = require('mrp.MrpDocumentsKanbanView');

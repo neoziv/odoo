@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<odoo>
+<neoziv>
 
     <template id="partner_info" name="Argentinean partner">
 
@@ -60,4 +60,4 @@
         </label>
     </template>
 
-</odoo>
+</neoziv>

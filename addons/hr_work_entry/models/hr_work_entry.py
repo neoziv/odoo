@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from contextlib import contextmanager
 from dateutil.relativedelta import relativedelta
 from psycopg2 import OperationalError
 
-from odoo import api, fields, models
+from neoziv import api, fields, models
 
 
 class HrWorkEntry(models.Model):

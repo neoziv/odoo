@@ -1,4 +1,4 @@
-odoo.define('pos_restaurant.SplitOrderline', function(require) {
+neoziv.define('pos_restaurant.SplitOrderline', function(require) {
     'use strict';
 
     const { useListener } = require('web.custom_hooks');

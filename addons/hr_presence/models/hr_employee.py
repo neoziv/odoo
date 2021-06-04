@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import logging
 
 from ast import literal_eval
-from odoo import fields, models, _, api
-from odoo.exceptions import UserError
-from odoo.fields import Datetime
+from neoziv import fields, models, _, api
+from neoziv.exceptions import UserError
+from neoziv.fields import Datetime
 
 _logger = logging.getLogger(__name__)
 

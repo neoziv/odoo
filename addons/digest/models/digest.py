@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import logging
 import pytz
@@ -8,10 +8,10 @@ from datetime import datetime, date
 from dateutil.relativedelta import relativedelta
 from werkzeug.urls import url_join
 
-from odoo import api, fields, models, tools, _
-from odoo.addons.base.models.ir_mail_server import MailDeliveryException
-from odoo.exceptions import AccessError
-from odoo.tools.float_utils import float_round
+from neoziv import api, fields, models, tools, _
+from neoziv.addons.base.models.ir_mail_server import MailDeliveryException
+from neoziv.exceptions import AccessError
+from neoziv.tools.float_utils import float_round
 
 _logger = logging.getLogger(__name__)
 

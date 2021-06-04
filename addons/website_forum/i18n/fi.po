@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* website_forum
 # 
@@ -29,12 +29,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:12+0000\n"
 "PO-Revision-Date: 2020-09-07 08:21+0000\n"
 "Last-Translator: Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2021\n"
-"Language-Team: Finnish (https://www.transifex.com/odoo/teams/41243/fi/)\n"
+"Language-Team: Finnish (https://www.transifex.com/neoziv/teams/41243/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -3161,7 +3161,7 @@ msgstr "Kiitos viestistäsi!"
 #: model_terms:ir.ui.view,arch_db:website_forum.faq_karma
 msgid ""
 "The goal of this site is create a relevant knowledge base that would answer "
-"questions related to Odoo."
+"questions related to neoziv."
 msgstr ""
 
 #. module: website_forum
@@ -3754,9 +3754,9 @@ msgstr "tänne"
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "how to configure or customize Odoo to specific business needs,"
+msgid "how to configure or customize neoziv to specific business needs,"
 msgstr ""
-"kuink konfiguroida tai räätälöidä Odoo tiettyä liiketoiminnan tarvetta "
+"kuink konfiguroida tai räätälöidä neoziv tiettyä liiketoiminnan tarvetta "
 "vastaavaksi,"
 
 #. module: website_forum
@@ -3768,8 +3768,8 @@ msgstr "kuinka kehittää moduuleita omaan tarpeeseen,"
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "how to install Odoo on a specific infrastructure,"
-msgstr "kuinka asentaa Odoo tietylle alustalle,"
+msgid "how to install neoziv on a specific infrastructure,"
+msgstr "kuinka asentaa neoziv tietylle alustalle,"
 
 #. module: website_forum
 #. openerp-web
@@ -3872,8 +3872,8 @@ msgstr ""
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "specific questions about Odoo service offers, etc."
-msgstr "kysymykset Odoon palveluista tms."
+msgid "specific questions about neoziv service offers, etc."
+msgstr "kysymykset neozivn palveluista tms."
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.forum_index
@@ -3929,8 +3929,8 @@ msgstr ""
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "what's the best way to use Odoo for a specific business need,"
-msgstr "mikä on paras tapa käyttää Odoota tiettyyn liiketoimintatarpeeseen,"
+msgid "what's the best way to use neoziv for a specific business need,"
+msgstr "mikä on paras tapa käyttää neozivta tiettyyn liiketoimintatarpeeseen,"
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.author_box

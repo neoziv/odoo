@@ -1,17 +1,17 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import werkzeug
 import werkzeug.utils
 import werkzeug.exceptions
 
-from odoo import _
-from odoo import http
-from odoo.exceptions import AccessError
-from odoo.http import request
-from odoo.osv import expression
+from neoziv import _
+from neoziv import http
+from neoziv.exceptions import AccessError
+from neoziv.http import request
+from neoziv.osv import expression
 
-from odoo.addons.website_slides.controllers.main import WebsiteSlides
+from neoziv.addons.website_slides.controllers.main import WebsiteSlides
 
 
 class WebsiteSlidesSurvey(WebsiteSlides):

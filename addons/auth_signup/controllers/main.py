@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 import logging
 import werkzeug
 
-from odoo import http, _
-from odoo.addons.auth_signup.models.res_users import SignupError
-from odoo.addons.web.controllers.main import ensure_db, Home
-from odoo.addons.base_setup.controllers.main import BaseSetup
-from odoo.exceptions import UserError
-from odoo.http import request
+from neoziv import http, _
+from neoziv.addons.auth_signup.models.res_users import SignupError
+from neoziv.addons.web.controllers.main import ensure_db, Home
+from neoziv.addons.base_setup.controllers.main import BaseSetup
+from neoziv.exceptions import UserError
+from neoziv.http import request
 
 _logger = logging.getLogger(__name__)
 

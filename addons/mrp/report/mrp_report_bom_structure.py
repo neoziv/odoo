@@ -2,8 +2,8 @@
 
 import json
 
-from odoo import api, models, _
-from odoo.tools import float_round
+from neoziv import api, models, _
+from neoziv.tools import float_round
 
 class ReportBomStructure(models.AbstractModel):
     _name = 'report.mrp.report_bom_structure'

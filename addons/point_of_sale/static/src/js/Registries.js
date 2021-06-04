@@ -1,4 +1,4 @@
-odoo.define('point_of_sale.Registries', function(require) {
+neoziv.define('point_of_sale.Registries', function(require) {
     'use strict';
 
     /**

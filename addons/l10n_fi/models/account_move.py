@@ -1,7 +1,7 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 import re
-from odoo import api, models, _
-from odoo.exceptions import UserError
+from neoziv import api, models, _
+from neoziv.exceptions import UserError
 import logging
 
 log = logging.getLogger(__name__)

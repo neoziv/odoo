@@ -1,4 +1,4 @@
-odoo.define('web_editor.wysiwyg.iframe', function (require) {
+neoziv.define('web_editor.wysiwyg.iframe', function (require) {
 'use strict';
 
 var Wysiwyg = require('web_editor.wysiwyg');

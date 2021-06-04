@@ -1,4 +1,4 @@
-odoo.define('web.kanban_tests', function (require) {
+neoziv.define('web.kanban_tests', function (require) {
 "use strict";
 
 var AbstractField = require('web.AbstractField');
@@ -1514,7 +1514,7 @@ QUnit.module('Views', {
         // will NOT close the quick create.
         // This can happen when the user clicks out of the input because of a race condition between
         // the focusout of the m2o and the global 'click' handler of the quick create.
-        // Check odoo/odoo#61981 for more details.
+        // Check neoziv/neoziv#61981 for more details.
         const $body = kanban.$el.closest('body');
         assert.hasClass($body, 'modal-open',
             "modal should be opening after m2o focusout");
@@ -1754,7 +1754,7 @@ QUnit.module('Views', {
                         message: {
                             code: 200,
                             data: {},
-                            message: "Odoo server error",
+                            message: "neoziv server error",
                         },
                         event: $.Event()
                     });
@@ -1819,7 +1819,7 @@ QUnit.module('Views', {
                         message: {
                             code: 200,
                             data: {},
-                            message: "Odoo server error",
+                            message: "neoziv server error",
                         },
                         event: $.Event()
                     });
@@ -1869,7 +1869,7 @@ QUnit.module('Views', {
                         message: {
                             code: 200,
                             data: {},
-                            message: "Odoo server error",
+                            message: "neoziv server error",
                         },
                         event: $.Event()
                     });
@@ -1928,7 +1928,7 @@ QUnit.module('Views', {
                         message: {
                             code: 200,
                             data: {},
-                            message: "Odoo server error",
+                            message: "neoziv server error",
                         },
                         event: $.Event()
                     });

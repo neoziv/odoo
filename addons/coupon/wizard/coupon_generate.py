@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
-from odoo import _, api, fields, models
+from neoziv import _, api, fields, models
 
 import ast
-from odoo.osv import expression
+from neoziv.osv import expression
 
 
 class CouponGenerate(models.TransientModel):

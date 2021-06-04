@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* purchase
 # 
@@ -21,7 +21,7 @@
 # guohuadeng <guohuadeng@hotmail.com>, 2020
 # 敬雲 林 <chingyun@yuanchih-consult.com>, 2020
 # ChinaMaker <liuct@chinamaker.net>, 2020
-# Felix Yuen <fyu@odoo.com>, 2020
+# Felix Yuen <fyu@neoziv.com>, 2020
 # wangting <39181819@qq.com>, 2020
 # inspur qiuguodong <qiuguodong@inspur.com>, 2020
 # Jeanphy <hzh0292@qq.com>, 2020
@@ -40,12 +40,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 13:50+0000\n"
 "PO-Revision-Date: 2020-09-07 08:17+0000\n"
 "Last-Translator: liAnGjiA <liangjia@qq.com>, 2021\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/neoziv/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -2879,7 +2879,7 @@ msgid ""
 "Vendors bills can be pre-generated based on purchase\n"
 "                    orders or receipts. This allows you to control bills\n"
 "                    you receive from your vendor according to the draft\n"
-"                    document in Odoo."
+"                    document in neoziv."
 msgstr ""
 "供应商发票能根据销售订单或者收货单预先生成\n"
 "这能帮助你用系统生成的草稿发票和你从供应商那边得到的发票进行比对"
@@ -2953,22 +2953,22 @@ msgid ""
 "When creating a purchase order, have a look at the vendor's <i>On Time "
 "Delivery</i> rate: the percentage of products shipped on time. If it is too "
 "low, activate the <i>automated reminders</i>. A few days before the due "
-"shipment, Odoo will send the vendor an email to ask confirmation of shipment"
+"shipment, neoziv will send the vendor an email to ask confirmation of shipment"
 " dates and keep you informed in case of any delays. To get the vendor's "
 "performance statistics, click on the OTD rate."
 msgstr ""
-"当创建一个采购订单，请查看供应商的<i>准时发货</i>率：已发货的准时百分比。如果很低，启动<i>自动提醒</i>。发货的前几天，Odoo "
+"当创建一个采购订单，请查看供应商的<i>准时发货</i>率：已发货的准时百分比。如果很低，启动<i>自动提醒</i>。发货的前几天，neoziv "
 "会发送一封邮件给供应商确定发货日期并保持你被告知如果有任何推延。 点击 准时发货 去得到供应商的表现数据"
 
 #. module: purchase
 #: model_terms:digest.tip,tip_description:purchase.digest_tip_purchase_1
 msgid ""
-"When sending a purchase order by email, Odoo asks the vendor to acknowledge "
+"When sending a purchase order by email, neoziv asks the vendor to acknowledge "
 "the reception of the order. When the vendor acknowledges the order by "
 "clicking on a button in the email, the information is added on the purchase "
 "order. Use filters to track orders that have not been acknowledged."
 msgstr ""
-"当通过邮件发送采购订单，Odoo 询问你的供应商并告知收货日期， 当供应商通过点击邮件里的链接告知，信息会添加到采购订单，使用过滤器去跟进未告知的"
+"当通过邮件发送采购订单，neoziv 询问你的供应商并告知收货日期， 当供应商通过点击邮件里的链接告知，信息会添加到采购订单，使用过滤器去跟进未告知的"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.mail_notification_confirm

@@ -1,4 +1,4 @@
-odoo.define('pos_restaurant.OrderManagementScreen', function (require) {
+neoziv.define('pos_restaurant.OrderManagementScreen', function (require) {
     'use strict';
 
     const OrderManagementScreen = require('point_of_sale.OrderManagementScreen');

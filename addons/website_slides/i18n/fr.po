@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* website_slides
 # 
@@ -8,55 +8,55 @@
 # Moka Tourisme <hello@mokatourisme.fr>, 2020
 # Xavier Symons <xsy@openerp.com>, 2020
 # Shark McGnark <peculiarcheese@gmail.com>, 2020
-# Jonathan Castillo <jcs@odoo.com>, 2020
-# Julien Goergen <jgo@odoo.com>, 2020
-# Florian <fll@odoo.com>, 2020
+# Jonathan Castillo <jcs@neoziv.com>, 2020
+# Julien Goergen <jgo@neoziv.com>, 2020
+# Florian <fll@neoziv.com>, 2020
 # Frédéric LIETART <stuff@tifred.fr>, 2020
 # e2f <projects@e2f.com>, 2020
-# Richard Mathot <rim@odoo.com>, 2020
+# Richard Mathot <rim@neoziv.com>, 2020
 # Fabien Pinckaers <fp@openerp.com>, 2020
 # Agathe Mollé <molleagathe@gmail.com>, 2020
-# Nicolas Roussey <nro@odoo.com>, 2020
-# user 2 odoo <user2odoo@gmail.com>, 2020
+# Nicolas Roussey <nro@neoziv.com>, 2020
+# user 2 neoziv <user2neoziv@gmail.com>, 2020
 # Aurore Lesage, 2020
 # William Olhasque <william.olhasque@scopea.fr>, 2020
-# Nathan Grognet <ngr@odoo.com>, 2020
-# Celia Tydgat <cty@odoo.com>, 2020
+# Nathan Grognet <ngr@neoziv.com>, 2020
+# Celia Tydgat <cty@neoziv.com>, 2020
 # Gilles Mangin <gilles.mangin@phidias.fr>, 2020
-# Pauline Thiry <pth@odoo.com>, 2020
+# Pauline Thiry <pth@neoziv.com>, 2020
 # Maxime Chambreuil <mchambreuil@ursainfosystems.com>, 2020
 # Olivier Lenoir <olivier.lenoir@free.fr>, 2020
 # Adriana Ierfino <adriana.ierfino@savoirfairelinux.com>, 2020
 # Hamid Darabi, 2020
-# Melanie Bernard <mbe@odoo.com>, 2020
+# Melanie Bernard <mbe@neoziv.com>, 2020
 # Aurélien Pillevesse <aurelienpillevesse@hotmail.fr>, 2020
-# Fred Gilson <fgi@odoo.com>, 2020
-# Laura Piraux <lap@odoo.com>, 2020
-# gdp Odoo <gdp@odoo.com>, 2020
-# Priscilla (prs) Odoo <prs@odoo.com>, 2020
-# Jonathan Quique <jqu@odoo.com>, 2020
-# Clo <clo@odoo.com>, 2020
-# Lucas Deliege <lud@odoo.com>, 2020
+# Fred Gilson <fgi@neoziv.com>, 2020
+# Laura Piraux <lap@neoziv.com>, 2020
+# gdp neoziv <gdp@neoziv.com>, 2020
+# Priscilla (prs) neoziv <prs@neoziv.com>, 2020
+# Jonathan Quique <jqu@neoziv.com>, 2020
+# Clo <clo@neoziv.com>, 2020
+# Lucas Deliege <lud@neoziv.com>, 2020
 # Xavier Belmere <Info@cartmeleon.com>, 2020
-# Eloïse Stilmant <est@odoo.com>, 2020
-# Vallen Delobel <edv@odoo.com>, 2020
+# Eloïse Stilmant <est@neoziv.com>, 2020
+# Vallen Delobel <edv@neoziv.com>, 2020
 # Martin Trigaux, 2020
 # guillaume bauer <guillaume.bauer@syentys.fr>, 2020
 # Arnaud Willem <contact@arnaud-willem.eu>, 2020
-# Cécile Collart <cco@odoo.com>, 2020
-# Benjamin Stienon <tsb@odoo.com>, 2021
+# Cécile Collart <cco@neoziv.com>, 2020
+# Benjamin Stienon <tsb@neoziv.com>, 2021
 # Sébastien BÜHL <buhlsebastien@gmail.com>, 2021
 # William Braeckman <williambraeckman@yahoo.fr>, 2021
-# Alexandra Jubert <aju@odoo.com>, 2021
+# Alexandra Jubert <aju@neoziv.com>, 2021
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-16 13:33+0000\n"
 "PO-Revision-Date: 2020-09-07 08:22+0000\n"
-"Last-Translator: Alexandra Jubert <aju@odoo.com>, 2021\n"
-"Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"Last-Translator: Alexandra Jubert <aju@neoziv.com>, 2021\n"
+"Language-Team: French (https://www.transifex.com/neoziv/teams/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -3647,14 +3647,14 @@ msgstr "Nombre de questions"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.mail_notification_channel_invite
-msgid "Odoo"
-msgstr "Odoo"
+msgid "neoziv"
+msgstr "neoziv"
 
 #. module: website_slides
 #: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_1_4
 #: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_2_1
-msgid "Odoo • Image and Text"
-msgstr "Odoo • Image et Texte"
+msgid "neoziv • Image and Text"
+msgstr "neoziv • Image et Texte"
 
 #. module: website_slides
 #: model:res.groups,name:website_slides.group_website_slides_officer
@@ -5525,23 +5525,23 @@ msgstr "par email"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
-msgid "e.g. How to grow your business with Odoo?"
-msgstr "par ex: Comment développer votre entreprise avec Odoo?"
+msgid "e.g. How to grow your business with neoziv?"
+msgstr "par ex: Comment développer votre entreprise avec neoziv?"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
 msgid ""
-"e.g. In this video, we'll give you the keys on how Odoo can help you to grow"
+"e.g. In this video, we'll give you the keys on how neoziv can help you to grow"
 " your business. At the end, we'll propose you a quiz to test your knowledge."
 msgstr ""
-"par ex:. Dans cette vidéo, nous vous expliquerons comment Odoo peut vous "
+"par ex:. Dans cette vidéo, nous vous expliquerons comment neoziv peut vous "
 "aider à développer votre entreprise. À la fin, nous vous proposerons un quiz"
 " pour tester vos connaissances."
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
-msgid "e.g. https://www.odoo.com"
-msgstr "e.x. https://www.odoo.com"
+msgid "e.g. https://www.neoziv.com"
+msgstr "e.x. https://www.neoziv.com"
 
 #. module: website_slides
 #: model:ir.ui.menu,name:website_slides.website_slides_menu_root

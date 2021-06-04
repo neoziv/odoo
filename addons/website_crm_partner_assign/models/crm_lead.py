@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import random
 
-from odoo import api, fields, models, _
-from odoo.exceptions import AccessDenied, AccessError
-from odoo.tools import html_escape
+from neoziv import api, fields, models, _
+from neoziv.exceptions import AccessDenied, AccessError
+from neoziv.tools import html_escape
 
 
 

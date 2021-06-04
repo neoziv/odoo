@@ -1,4 +1,4 @@
-odoo.define('mail/static/src/components/file_uploader/file_uploader_tests.js', function (require) {
+neoziv.define('mail/static/src/components/file_uploader/file_uploader_tests.js', function (require) {
 "use strict";
 
 const components = {

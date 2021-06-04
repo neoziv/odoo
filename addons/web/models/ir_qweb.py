@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import hashlib
 from collections import OrderedDict
 from werkzeug.urls import url_quote
 
-from odoo import api, models
-from odoo.tools import pycompat
-from odoo.tools import html_escape as escape
+from neoziv import api, models
+from neoziv.tools import pycompat
+from neoziv.tools import html_escape as escape
 
 
 class Image(models.AbstractModel):

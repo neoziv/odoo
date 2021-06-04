@@ -1,17 +1,17 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from collections import OrderedDict
 from dateutil.relativedelta import relativedelta
 from operator import itemgetter
 from datetime import datetime
 
-from odoo import fields, http, _
-from odoo.http import request
-from odoo.tools import date_utils, groupby as groupbyelem
-from odoo.osv.expression import AND, OR
+from neoziv import fields, http, _
+from neoziv.http import request
+from neoziv.tools import date_utils, groupby as groupbyelem
+from neoziv.osv.expression import AND, OR
 
-from odoo.addons.portal.controllers.portal import CustomerPortal, pager as portal_pager
+from neoziv.addons.portal.controllers.portal import CustomerPortal, pager as portal_pager
 
 
 class TimesheetCustomerPortal(CustomerPortal):

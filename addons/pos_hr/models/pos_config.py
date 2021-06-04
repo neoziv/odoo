@@ -2,7 +2,7 @@
 
 from functools import partial
 
-from odoo import models, fields
+from neoziv import models, fields
 
 
 class PosConfig(models.Model):

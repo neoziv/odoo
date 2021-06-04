@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo.addons.survey.controllers.main import Survey
+from neoziv.addons.survey.controllers.main import Survey
 
 
 class Survey(Survey):

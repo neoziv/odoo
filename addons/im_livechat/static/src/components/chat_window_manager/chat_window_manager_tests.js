@@ -1,4 +1,4 @@
-odoo.define('im_livechat/static/src/components/chat_window_manager/chat_window_manager_tests.js', function (require) {
+neoziv.define('im_livechat/static/src/components/chat_window_manager/chat_window_manager_tests.js', function (require) {
 'use strict';
 
 const {

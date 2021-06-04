@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, fields, models, _
-from odoo.exceptions import UserError
-from odoo.tools import float_compare, float_is_zero
+from neoziv import api, fields, models, _
+from neoziv.exceptions import UserError
+from neoziv.tools import float_compare, float_is_zero
 
 
 class AccountMove(models.Model):

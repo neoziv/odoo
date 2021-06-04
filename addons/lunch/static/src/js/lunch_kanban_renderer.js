@@ -1,4 +1,4 @@
-odoo.define('lunch.LunchKanbanRenderer', function (require) {
+neoziv.define('lunch.LunchKanbanRenderer', function (require) {
 "use strict";
 
 /**

@@ -1,4 +1,4 @@
-from odoo import api, fields, models, _
+from neoziv import api, fields, models, _
 
 
 class ResConfigSettings(models.TransientModel):

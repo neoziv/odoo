@@ -1,4 +1,4 @@
-odoo.define('survey.form', function (require) {
+neoziv.define('survey.form', function (require) {
 'use strict';
 
 var field_utils = require('web.field_utils');

@@ -1,4 +1,4 @@
-odoo.define('website.tour.public_user_editor_dep_widget', function (require) {
+neoziv.define('website.tour.public_user_editor_dep_widget', function (require) {
 'use strict';
 
 const publicWidget = require('web.public.widget');
@@ -17,7 +17,7 @@ publicWidget.registry['public_user_editor_test'] = publicWidget.Widget.extend({
 });
 });
 
-odoo.define('website.tour.public_user_editor', function (require) {
+neoziv.define('website.tour.public_user_editor', function (require) {
 'use strict';
 
 const tour = require('web_tour.tour');
@@ -25,7 +25,7 @@ const tour = require('web_tour.tour');
 tour.register('public_user_editor', {
     test: true,
 }, [{
-    trigger: 'odoo-wysiwyg-container:has(> .o_public_user_editor_test_textarea:first-child)',
+    trigger: 'neoziv-wysiwyg-container:has(> .o_public_user_editor_test_textarea:first-child)',
     run: function () {}, // Simple check
 }]);
 });

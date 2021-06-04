@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import logging
 from datetime import timedelta
 
-from odoo import api, fields, models
+from neoziv import api, fields, models
 
 _logger = logging.getLogger(__name__)
 

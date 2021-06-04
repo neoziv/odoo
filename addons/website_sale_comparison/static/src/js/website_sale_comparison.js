@@ -1,4 +1,4 @@
-odoo.define('website_sale_comparison.comparison', function (require) {
+neoziv.define('website_sale_comparison.comparison', function (require) {
 'use strict';
 
 var concurrency = require('web.concurrency');

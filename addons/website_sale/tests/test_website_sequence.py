@@ -1,10 +1,10 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-import odoo.tests
+import neoziv.tests
 
 
-@odoo.tests.common.tagged('post_install', '-at_install')
-class TestWebsiteSequence(odoo.tests.TransactionCase):
+@neoziv.tests.common.tagged('post_install', '-at_install')
+class TestWebsiteSequence(neoziv.tests.TransactionCase):
 
     def setUp(self):
         super(TestWebsiteSequence, self).setUp()

@@ -1,4 +1,4 @@
-odoo.define('test_website.json_auth', function (require) {
+neoziv.define('test_website.json_auth', function (require) {
 'use strict';
 
 var tour = require('web_tour.tour');

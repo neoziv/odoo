@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from odoo import api, fields, models, tools
+from neoziv import api, fields, models, tools
 
 
 class MaintenanceEquipment(models.Model):

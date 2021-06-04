@@ -15,7 +15,7 @@
             h2, h4 {
                 text-transform: uppercase;
                 margin-top: 0;
-                color: $o-brand-odoo;
+                color: $o-brand-neoziv;
             }
 
             h4 { margin: 0 0 0 8px; }
@@ -94,10 +94,10 @@
                         background-color: darken($o-brand-primary, 10%);
                     }
                 &.o_primary {
-                    background-color: $o-brand-odoo;
+                    background-color: $o-brand-neoziv;
                     color: white;
                     &:hover {
-                        background-color: darken($o-brand-odoo, 10%);
+                        background-color: darken($o-brand-neoziv, 10%);
                     }
                 }
                 .o_highlight {

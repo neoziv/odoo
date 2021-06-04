@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import jinja2
 import json
@@ -11,12 +11,12 @@ import threading
 import time
 import urllib3
 
-from odoo import http
-from odoo.addons.hw_drivers.connection_manager import connection_manager
-from odoo.addons.hw_drivers.driver import Driver
-from odoo.addons.hw_drivers.event_manager import event_manager
-from odoo.addons.hw_drivers.main import iot_devices
-from odoo.addons.hw_drivers.tools import helpers
+from neoziv import http
+from neoziv.addons.hw_drivers.connection_manager import connection_manager
+from neoziv.addons.hw_drivers.driver import Driver
+from neoziv.addons.hw_drivers.event_manager import event_manager
+from neoziv.addons.hw_drivers.main import iot_devices
+from neoziv.addons.hw_drivers.tools import helpers
 
 path = os.path.realpath(os.path.join(os.path.dirname(__file__), '../../views'))
 loader = jinja2.FileSystemLoader(path)
@@ -89,12 +89,12 @@ class DisplayDriver(Driver):
 
     def load_url(self):
         url = None
-        if helpers.get_odoo_server_url():
+        if helpers.get_neoziv_server_url():
             # disable certifiacte verification
             urllib3.disable_warnings()
             http = urllib3.PoolManager(cert_reqs='CERT_NONE')
             try:
-                response = http.request('GET', "%s/iot/box/%s/display_url" % (helpers.get_odoo_server_url(), helpers.get_mac_address()))
+                response = http.request('GET', "%s/iot/box/%s/display_url" % (helpers.get_neoziv_server_url(), helpers.get_mac_address()))
                 if response.status == 200:
                     data = json.loads(response.data.decode('utf8'))
                     url = data[self.device_identifier]
@@ -211,7 +211,7 @@ class DisplayController(http.Controller):
             display_identifier = DisplayDriver.get_default_display().device_identifier
 
         return pos_display_template.render({
-            'title': "Odoo -- Point of Sale",
+            'title': "neoziv -- Point of Sale",
             'breadcrumb': 'POS Client display',
             'cust_js': cust_js,
             'display_ifaces': display_ifaces,

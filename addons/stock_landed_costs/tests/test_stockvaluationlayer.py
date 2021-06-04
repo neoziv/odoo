@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 """ Implementation of "INVENTORY VALUATION TESTS (With valuation layers)" spreadsheet. """
 
-from odoo.tests import Form, tagged
-from odoo.addons.stock_landed_costs.tests.common import TestStockLandedCostsCommon
+from neoziv.tests import Form, tagged
+from neoziv.addons.stock_landed_costs.tests.common import TestStockLandedCostsCommon
 
 
 class TestStockValuationLCCommon(TestStockLandedCostsCommon):

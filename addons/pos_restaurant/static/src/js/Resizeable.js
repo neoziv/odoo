@@ -1,4 +1,4 @@
-odoo.define('pos_restaurant.Resizeable', function(require) {
+neoziv.define('pos_restaurant.Resizeable', function(require) {
     'use strict';
 
     const { useExternalListener } = owl.hooks;

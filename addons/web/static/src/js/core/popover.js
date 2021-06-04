@@ -1,4 +1,4 @@
-odoo.define('web.Popover', function (require) {
+neoziv.define('web.Popover', function (require) {
     'use strict';
 
     const patchMixin = require('web.patchMixin');

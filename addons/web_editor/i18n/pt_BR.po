@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* web_editor
 # 
@@ -28,12 +28,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:13+0000\n"
 "PO-Revision-Date: 2020-09-07 08:20+0000\n"
 "Last-Translator: Éder Brito <britoederr@gmail.com>, 2021\n"
-"Language-Team: Portuguese (Brazil) (https://www.transifex.com/odoo/teams/41243/pt_BR/)\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/neoziv/teams/41243/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1507,11 +1507,11 @@ msgstr "Qualidade"
 msgid ""
 "Quality options are unavailable for external images. If you want to change "
 "this image's quality, please first download it from the original source and "
-"upload it in Odoo."
+"upload it in neoziv."
 msgstr ""
 "As opções de qualidade não estão disponíveis para imagens externas. Se "
 "quiser alterar a qualidade desta imagem, primeiro baixe-a da fonte original "
-"e carregue-a no Odoo."
+"e carregue-a no neoziv."
 
 #. module: web_editor
 #. openerp-web
@@ -2100,10 +2100,10 @@ msgstr "Isto reduz a qualidade para melhorar a performance."
 #, python-format
 msgid ""
 "This type of image is not supported for cropping.<br/>If you want to crop "
-"it, please first download it from the original source and upload it in Odoo."
+"it, please first download it from the original source and upload it in neoziv."
 msgstr ""
 "Este tipo de imagem não é compatível com corte.<br/>Se você quiser recortá-"
-"la, primeiro baixe-a da fonte original e carregue-a no Odoo."
+"la, primeiro baixe-a da fonte original e carregue-a no neoziv."
 
 #. module: web_editor
 #. openerp-web
@@ -2457,15 +2457,15 @@ msgstr "exclusão"
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
-msgid "https://www.odoo.com/logo.png"
-msgstr "https://www.odoo.com/logo.png"
+msgid "https://www.neoziv.com/logo.png"
+msgstr "https://www.neoziv.com/logo.png"
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
-msgid "https://www.odoo.com/mydocument"
-msgstr "https://www.odoo.com/mydocument"
+msgid "https://www.neoziv.com/mydocument"
+msgstr "https://www.neoziv.com/mydocument"
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets

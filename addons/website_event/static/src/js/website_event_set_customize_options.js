@@ -1,4 +1,4 @@
-odoo.define('website_event.set_customize_options', function (require) {
+neoziv.define('website_event.set_customize_options', function (require) {
 "use strict";
 
 var CustomizeMenu = require('website.customizeMenu');

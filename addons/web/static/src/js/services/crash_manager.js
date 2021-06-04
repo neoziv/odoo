@@ -1,4 +1,4 @@
-odoo.define('web.ErrorDialogRegistry', function (require) {
+neoziv.define('web.ErrorDialogRegistry', function (require) {
 "use strict";
 
 var Registry = require('web.Registry');
@@ -6,7 +6,7 @@ var Registry = require('web.Registry');
 return new Registry();
 });
 
-odoo.define('web.CrashManager', function (require) {
+neoziv.define('web.CrashManager', function (require) {
 "use strict";
 
 const AbstractService = require('web.AbstractService');
@@ -89,14 +89,14 @@ var CrashManager = AbstractService.extend({
         var self = this;
         active = true;
         this.isConnected = true;
-        this.odooExceptionTitleMap = {
-            'odoo.addons.base.models.ir_mail_server.MailDeliveryException': _lt("MailDeliveryException"),
-            'odoo.exceptions.AccessDenied': _lt("Access Denied"),
-            'odoo.exceptions.AccessError': _lt("Access Error"),
-            'odoo.exceptions.MissingError': _lt("Missing Record"),
-            'odoo.exceptions.UserError': _lt("User Error"),
-            'odoo.exceptions.ValidationError': _lt("Validation Error"),
-            'odoo.exceptions.Warning': _lt("Warning"),
+        this.neozivExceptionTitleMap = {
+            'neoziv.addons.base.models.ir_mail_server.MailDeliveryException': _lt("MailDeliveryException"),
+            'neoziv.exceptions.AccessDenied': _lt("Access Denied"),
+            'neoziv.exceptions.AccessError': _lt("Access Error"),
+            'neoziv.exceptions.MissingError': _lt("Missing Record"),
+            'neoziv.exceptions.UserError': _lt("User Error"),
+            'neoziv.exceptions.ValidationError': _lt("Validation Error"),
+            'neoziv.exceptions.Warning': _lt("Warning"),
         };
 
         this.browserDetection = new BrowserDetection();
@@ -123,7 +123,7 @@ var CrashManager = AbstractService.extend({
                     delete window.onOriginError;
                 } else {
                     self.show_error({
-                        type: _t("Odoo Client Error"),
+                        type: _t("neoziv Client Error"),
                         message: _t("Unknown CORS error"),
                         data: {debug: _t("An unknown CORS error occured. The error probably originates from a JavaScript file served from a different origin. (Opening your browser console might give you a hint on the error.)")},
                     });
@@ -135,7 +135,7 @@ var CrashManager = AbstractService.extend({
                 }
                 var traceback = error ? error.stack : '';
                 self.show_error({
-                    type: _t("Odoo Client Error"),
+                    type: _t("neoziv Client Error"),
                     message: message,
                     data: {debug: file + ':' + line + "\n" + _t('Traceback:') + "\n" + traceback},
                 });
@@ -158,7 +158,7 @@ var CrashManager = AbstractService.extend({
                     traceback = `${_t("Error:")} ${ev.reason.message}\n${ev.reason.stack}`;
                 }
                 self.show_error({
-                    type: _t("Odoo Client Error"),
+                    type: _t("neoziv Client Error"),
                     message: '',
                     data: {debug: _t('Traceback:') + "\n" + traceback},
                 });
@@ -217,12 +217,12 @@ var CrashManager = AbstractService.extend({
             return;
         }
 
-        // Odoo custom exception: UserError, AccessError, ...
-        if (_.has(this.odooExceptionTitleMap, error.data.name)) {
+        // neoziv custom exception: UserError, AccessError, ...
+        if (_.has(this.neozivExceptionTitleMap, error.data.name)) {
             error = _.extend({}, error, {
                 data: _.extend({}, error.data, {
                     message: error.data.arguments[0],
-                    title: this.odooExceptionTitleMap[error.data.name],
+                    title: this.neozivExceptionTitleMap[error.data.name],
                 }),
             });
             this.show_warning(error);
@@ -252,7 +252,7 @@ var CrashManager = AbstractService.extend({
         error.traceback = error.data.debug;
         var dialogClass = error.data.context && ErrorDialogRegistry.get(error.data.context.exception_class) || ErrorDialog;
         var dialog = new dialogClass(this, {
-            title: _.str.capitalize(error.type) || _t("Odoo Error"),
+            title: _.str.capitalize(error.type) || _t("neoziv Error"),
         }, error);
 
 
@@ -294,7 +294,7 @@ var CrashManager = AbstractService.extend({
     },
     show_message: function(exception) {
         return this.show_error({
-            type: _t("Odoo Client Error"),
+            type: _t("neoziv Client Error"),
             message: exception,
             data: {debug: ""}
         });
@@ -352,7 +352,7 @@ var RedirectWarningHandler = Widget.extend(ExceptionHandler, {
         var additional_context = _.extend({}, this.context, error.data.arguments[3]);
 
         new WarningDialog(this, {
-            title: _.str.capitalize(error.type) || _t("Odoo Warning"),
+            title: _.str.capitalize(error.type) || _t("neoziv Warning"),
             buttons: [
                 {text: error.data.arguments[2], classes : "btn-primary", click: function() {
                     self.do_action(
@@ -370,14 +370,14 @@ var RedirectWarningHandler = Widget.extend(ExceptionHandler, {
     }
 });
 
-core.crash_registry.add('odoo.exceptions.RedirectWarning', RedirectWarningHandler);
+core.crash_registry.add('neoziv.exceptions.RedirectWarning', RedirectWarningHandler);
 
 function session_expired(cm) {
     return {
         display: function () {
             const notif = {
-                type: _t("Odoo Session Expired"),
-                message: _t("Your Odoo session expired. The current page is about to be refreshed."),
+                type: _t("neoziv Session Expired"),
+                message: _t("Your neoziv session expired. The current page is about to be refreshed."),
             };
             const options = {
                 buttons: [{
@@ -390,7 +390,7 @@ function session_expired(cm) {
         }
     };
 }
-core.crash_registry.add('odoo.http.SessionExpiredException', session_expired);
+core.crash_registry.add('neoziv.http.SessionExpiredException', session_expired);
 core.crash_registry.add('werkzeug.exceptions.Forbidden', session_expired);
 
 core.crash_registry.add('504', function (cm) {

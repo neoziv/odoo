@@ -1,4 +1,4 @@
-odoo.define('purchase.ToasterButton', function (require) {
+neoziv.define('purchase.ToasterButton', function (require) {
     'use strict';
 
     const widgetRegistry = require('web.widget_registry');

@@ -1,4 +1,4 @@
-odoo.define('im_livechat/static/src/components/composer/composer_tests.js', function (require) {
+neoziv.define('im_livechat/static/src/components/composer/composer_tests.js', function (require) {
 'use strict';
 
 const components = {

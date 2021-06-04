@@ -1,4 +1,4 @@
-odoo.define('website_mail_channel.s_channel', function (require) {
+neoziv.define('website_mail_channel.s_channel', function (require) {
 'use strict';
 
 var publicWidget = require('web.public.widget');

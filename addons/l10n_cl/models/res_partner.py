@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 import stdnum
-from odoo import _, api, fields, models
-from odoo.exceptions import UserError, ValidationError
+from neoziv import _, api, fields, models
+from neoziv.exceptions import UserError, ValidationError
 
 
 class ResPartner(models.Model):

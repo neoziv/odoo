@@ -1,4 +1,4 @@
-odoo.define('website_event_questions.tour_test_tickets_questions', function (require) {
+neoziv.define('website_event_questions.tour_test_tickets_questions', function (require) {
 'use strict';
 
 var tour = require('web_tour.tour');

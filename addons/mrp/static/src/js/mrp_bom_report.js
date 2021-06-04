@@ -1,4 +1,4 @@
-odoo.define('mrp.mrp_bom_report', function (require) {
+neoziv.define('mrp.mrp_bom_report', function (require) {
 'use strict';
 
 var core = require('web.core');

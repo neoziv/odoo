@@ -3,8 +3,8 @@
 import calendar
 from dateutil.relativedelta import relativedelta
 
-from odoo import fields, models, api, _
-from odoo.exceptions import UserError
+from neoziv import fields, models, api, _
+from neoziv.exceptions import UserError
 
 
 class ResCompany(models.Model):

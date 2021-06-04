@@ -1,4 +1,4 @@
-odoo.define('website_slides.course.slides.list', function (require) {
+neoziv.define('website_slides.course.slides.list', function (require) {
 'use strict';
 
 var publicWidget = require('web.public.widget');

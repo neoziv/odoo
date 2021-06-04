@@ -1,4 +1,4 @@
-odoo.define('website.root', function (require) {
+neoziv.define('website.root', function (require) {
 'use strict';
 
 const ajax = require('web.ajax');
@@ -7,7 +7,7 @@ var Dialog = require('web.Dialog');
 const KeyboardNavigationMixin = require('web.KeyboardNavigationMixin');
 const session = require('web.session');
 var publicRootData = require('web.public.root');
-require("web.zoomodoo");
+require("web.zoomneoziv");
 
 var websiteRootRegistry = publicRootData.publicRootRegistry;
 
@@ -55,7 +55,7 @@ var WebsiteRoot = publicRootData.PublicRoot.extend(KeyboardNavigationMixin, {
         }
 
         // Enable magnify on zommable img
-        this.$('.zoomable img[data-zoom]').zoomOdoo();
+        this.$('.zoomable img[data-zoom]').zoomneoziv();
 
         return this._super.apply(this, arguments);
     },
@@ -132,7 +132,7 @@ var WebsiteRoot = publicRootData.PublicRoot.extend(KeyboardNavigationMixin, {
             this._gmapAPILoading = new Promise(async resolve => {
                 const key = await this._getGMapAPIKey(refetch);
 
-                window.odoo_gmap_api_post_load = (async function odoo_gmap_api_post_load() {
+                window.neoziv_gmap_api_post_load = (async function neoziv_gmap_api_post_load() {
                     await this._startWidgets(undefined, {editableMode: editableMode});
                     resolve(key);
                 }).bind(this);
@@ -157,7 +157,7 @@ var WebsiteRoot = publicRootData.PublicRoot.extend(KeyboardNavigationMixin, {
                     this._gmapAPILoading = false;
                     return;
                 }
-                await ajax.loadJS(`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&callback=odoo_gmap_api_post_load&key=${key}`);
+                await ajax.loadJS(`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&callback=neoziv_gmap_api_post_load&key=${key}`);
             });
         }
         return this._gmapAPILoading;
@@ -227,7 +227,7 @@ var WebsiteRoot = publicRootData.PublicRoot.extend(KeyboardNavigationMixin, {
     },
     /**
      * @private
-     * @param {OdooEvent} ev
+     * @param {neozivEvent} ev
      */
     async _onGMapAPIRequest(ev) {
         ev.stopPropagation();
@@ -236,7 +236,7 @@ var WebsiteRoot = publicRootData.PublicRoot.extend(KeyboardNavigationMixin, {
     },
     /**
      * @private
-     * @param {OdooEvent} ev
+     * @param {neozivEvent} ev
      */
     async _onGMapAPIKeyRequest(ev) {
         ev.stopPropagation();
@@ -248,7 +248,7 @@ var WebsiteRoot = publicRootData.PublicRoot.extend(KeyboardNavigationMixin, {
      * Checks information about the page SEO object.
      *
      * @private
-     * @param {OdooEvent} ev
+     * @param {neozivEvent} ev
      */
     _onSeoObjectRequest: function (ev) {
         var res = this._unslugHtmlDataObject('seo-object');

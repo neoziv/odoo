@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import base64
 import io
@@ -7,8 +7,8 @@ import io
 from PyPDF2 import  PdfFileReader, PdfFileWriter
 from reportlab.pdfgen import canvas
 
-from odoo import _
-from odoo.http import request, route, Controller
+from neoziv import _
+from neoziv.http import request, route, Controller
 
 
 

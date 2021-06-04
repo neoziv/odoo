@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo.exceptions import UserError
-from odoo.tests.common import users
-from odoo.addons.website.tools import MockRequest
-from odoo.addons.website_blog.tests.common import TestWebsiteBlogCommon
-from odoo.addons.portal.controllers.mail import PortalChatter
+from neoziv.exceptions import UserError
+from neoziv.tests.common import users
+from neoziv.addons.website.tools import MockRequest
+from neoziv.addons.website_blog.tests.common import TestWebsiteBlogCommon
+from neoziv.addons.portal.controllers.mail import PortalChatter
 
 
 class TestWebsiteBlogFlow(TestWebsiteBlogCommon):

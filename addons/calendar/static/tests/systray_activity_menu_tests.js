@@ -1,4 +1,4 @@
-odoo.define('calendar.systray.ActivityMenuTests', function (require) {
+neoziv.define('calendar.systray.ActivityMenuTests', function (require) {
 "use strict";
 
 const { afterEach, beforeEach, start } = require('mail/static/src/utils/test_utils.js');

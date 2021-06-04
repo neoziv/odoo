@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import werkzeug.urls
 
-from odoo import http
-from odoo.addons.http_routing.models.ir_http import unslug, slug
-from odoo.addons.website.models.ir_http import sitemap_qs2dom
-from odoo.tools.translate import _
-from odoo.http import request
+from neoziv import http
+from neoziv.addons.http_routing.models.ir_http import unslug, slug
+from neoziv.addons.website.models.ir_http import sitemap_qs2dom
+from neoziv.tools.translate import _
+from neoziv.http import request
 
 
 class WebsiteCustomer(http.Controller):

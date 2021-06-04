@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import werkzeug
 
-from odoo.addons.mass_mailing.tests.common import MassMailCommon
-from odoo.tests.common import HttpCase
+from neoziv.addons.mass_mailing.tests.common import MassMailCommon
+from neoziv.tests.common import HttpCase
 
 
 class TestMassMailingControllers(MassMailCommon, HttpCase):

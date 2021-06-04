@@ -1,4 +1,4 @@
-odoo.define('web.FilterMenu', function (require) {
+neoziv.define('web.FilterMenu', function (require) {
     "use strict";
 
     const CustomFilterItem = require('web.CustomFilterItem');

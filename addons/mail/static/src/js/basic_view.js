@@ -1,4 +1,4 @@
-odoo.define('mail.BasicView', function (require) {
+neoziv.define('mail.BasicView', function (require) {
 "use strict";
 
 const BasicView = require('web.BasicView');

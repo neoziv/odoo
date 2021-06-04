@@ -1,4 +1,4 @@
-odoo.define('mail/static/src/components/emojis_popover/emojis_popover.js', function (require) {
+neoziv.define('mail/static/src/components/emojis_popover/emojis_popover.js', function (require) {
 'use strict';
 
 const emojis = require('mail.emojis');

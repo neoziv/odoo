@@ -1,4 +1,4 @@
-odoo.define('mail/static/src/models/device/device.js', function (require) {
+neoziv.define('mail/static/src/models/device/device.js', function (require) {
 'use strict';
 
 const { registerNewModel } = require('mail/static/src/model/model_core.js');

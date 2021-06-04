@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from collections import defaultdict
 from datetime import date, datetime
@@ -7,11 +7,11 @@ from dateutil.relativedelta import relativedelta
 import logging
 import pytz
 
-from odoo import api, exceptions, fields, models, _
-from odoo.osv import expression
+from neoziv import api, exceptions, fields, models, _
+from neoziv.osv import expression
 
-from odoo.tools.misc import clean_context
-from odoo.addons.base.models.ir_model import MODULE_UNINSTALL_FLAG
+from neoziv.tools.misc import clean_context
+from neoziv.addons.base.models.ir_model import MODULE_UNINSTALL_FLAG
 
 _logger = logging.getLogger(__name__)
 

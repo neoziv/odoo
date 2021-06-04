@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<odoo>
+<neoziv>
     <data noupdate="1">
         <record id="email_template_edi_purchase" model="mail.template">
             <field name="name">Purchase Order: Send RFQ</field>
@@ -133,4 +133,4 @@
     </template>
 
     </data>
-</odoo>
+</neoziv>

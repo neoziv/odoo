@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 from datetime import timedelta
 
-from odoo import api, fields, models
-from odoo.http import request
+from neoziv import api, fields, models
+from neoziv.http import request
 
 
 class SaleOrder(models.Model):

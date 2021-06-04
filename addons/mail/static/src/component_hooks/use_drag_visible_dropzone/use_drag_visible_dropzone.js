@@ -1,4 +1,4 @@
-odoo.define('mail/static/src/component_hooks/use_drag_visible_dropzone/use_drag_visible_dropzone.js', function (require) {
+neoziv.define('mail/static/src/component_hooks/use_drag_visible_dropzone/use_drag_visible_dropzone.js', function (require) {
 'use strict';
 
 const { useState, onMounted, onWillUnmount } = owl.hooks;

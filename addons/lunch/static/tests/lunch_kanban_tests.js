@@ -1,4 +1,4 @@
-odoo.define('lunch.lunchKanbanTests', function (require) {
+neoziv.define('lunch.lunchKanbanTests', function (require) {
 "use strict";
 
 const LunchKanbanView = require('lunch.LunchKanbanView');

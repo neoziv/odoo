@@ -1,4 +1,4 @@
-odoo.define('web.GraphRenderer', function (require) {
+neoziv.define('web.GraphRenderer', function (require) {
 "use strict";
 
 /**
@@ -745,7 +745,7 @@ return AbstractRenderer.extend({
      *
      * Note that This method is synchronous, but the actual rendering is done
      * asynchronously.  The reason for that is that Chart.js needs to be in the
-     * DOM to correctly render itself.  So, we trick Odoo by returning
+     * DOM to correctly render itself.  So, we trick neoziv by returning
      * immediately, then we render the chart when the widget is in the DOM.
      *
      * @override

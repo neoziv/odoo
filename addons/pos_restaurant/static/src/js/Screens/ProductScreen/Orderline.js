@@ -1,4 +1,4 @@
-odoo.define('pos_restaurant.Orderline', function(require) {
+neoziv.define('pos_restaurant.Orderline', function(require) {
     'use strict';
 
     const Orderline = require('point_of_sale.Orderline');

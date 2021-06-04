@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from datetime import datetime
 
-from odoo.tests.common import TransactionCase
-from odoo.tools import float_compare, test_reports
+from neoziv.tests.common import TransactionCase
+from neoziv.tools import float_compare, test_reports
 
 
 class TestProductPricelist(TransactionCase):

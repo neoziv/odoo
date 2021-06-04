@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo.addons.website_slides.controllers.main import WebsiteSlides
-from odoo.http import request
+from neoziv.addons.website_slides.controllers.main import WebsiteSlides
+from neoziv.http import request
 
 
 class WebsiteSaleSlides(WebsiteSlides):

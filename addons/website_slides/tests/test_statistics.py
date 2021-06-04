@@ -1,22 +1,22 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import math
 
 from dateutil.relativedelta import relativedelta
 
-from odoo import fields
-from odoo.addons.website_slides.tests import common
-from odoo.exceptions import UserError
-from odoo.tests import tagged
-from odoo.tests.common import users
-from odoo.tools import mute_logger, float_compare
+from neoziv import fields
+from neoziv.addons.website_slides.tests import common
+from neoziv.exceptions import UserError
+from neoziv.tests import tagged
+from neoziv.tests.common import users
+from neoziv.tools import mute_logger, float_compare
 
 
 @tagged('functional')
 class TestChannelStatistics(common.SlidesCase):
 
-    @mute_logger('odoo.models')
+    @mute_logger('neoziv.models')
     def test_channel_new_content(self):
         (self.slide | self.slide_2).write({'date_published': fields.Datetime.now() + relativedelta(days=-6)})
         self.slide_3.write({'date_published': fields.Datetime.now() + relativedelta(days=-8)})
@@ -36,7 +36,7 @@ class TestChannelStatistics(common.SlidesCase):
         channel_asportal.invalidate_cache(['partner_has_new_content'])
         self.assertFalse(channel_asportal.partner_has_new_content)
 
-    @mute_logger('odoo.models')
+    @mute_logger('neoziv.models')
     def test_channel_statistics(self):
         channel_publisher = self.channel.with_user(self.user_officer)
         # slide type computation
@@ -56,7 +56,7 @@ class TestChannelStatistics(common.SlidesCase):
         self.assertEqual(channel_publisher.members_count, 2)
         self.assertEqual(channel_publisher.partner_ids, self.user_officer.partner_id | self.user_emp.partner_id)
 
-    @mute_logger('odoo.models')
+    @mute_logger('neoziv.models')
     def test_channel_user_statistics(self):
         channel_publisher = self.channel.with_user(self.user_officer)
         channel_publisher.write({
@@ -89,7 +89,7 @@ class TestChannelStatistics(common.SlidesCase):
         self.assertEqual(channel_emp.completion, 100)
         self.assertTrue(channel_emp.completed)
 
-    @mute_logger('odoo.models')
+    @mute_logger('neoziv.models')
     def test_channel_user_statistics_complete_check_member(self):
         slides = (self.slide | self.slide_2)
         slides.write({'is_preview': True})
@@ -99,7 +99,7 @@ class TestChannelStatistics(common.SlidesCase):
         with self.assertRaises(UserError):
             slides_emp.action_set_completed()
 
-    @mute_logger('odoo.models')
+    @mute_logger('neoziv.models')
     def test_channel_user_statistics_view_check_member(self):
         slides = (self.slide | self.slide_2)
         slides.write({'is_preview': True})

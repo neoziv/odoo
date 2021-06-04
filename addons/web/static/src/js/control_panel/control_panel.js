@@ -1,4 +1,4 @@
-odoo.define('web.ControlPanel', function (require) {
+neoziv.define('web.ControlPanel', function (require) {
     "use strict";
 
     const ActionMenus = require('web.ActionMenus');

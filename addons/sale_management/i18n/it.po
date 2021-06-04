@@ -1,21 +1,21 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* sale_management
 # 
 # Translators:
 # Paolo Valier, 2020
-# Luigia Cimmino Caserta <lcc@odoo.com>, 2020
-# Léonie Bouchat <lbo@odoo.com>, 2020
+# Luigia Cimmino Caserta <lcc@neoziv.com>, 2020
+# Léonie Bouchat <lbo@neoziv.com>, 2020
 # Sergio Zanchetta <primes2h@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-29 15:48+0000\n"
 "PO-Revision-Date: 2020-09-07 08:18+0000\n"
 "Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2021\n"
-"Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
+"Language-Team: Italian (https://www.transifex.com/neoziv/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -581,8 +581,8 @@ msgstr ""
 #. module: sale_management
 #: model:digest.tip,name:sale_management.digest_tip_sale1_management_0
 #: model_terms:digest.tip,tip_description:sale_management.digest_tip_sale1_management_0
-msgid "Tip: Odoo supports configurable products"
-msgstr "Consiglio: Odoo supporta prodotti configurabili"
+msgid "Tip: neoziv supports configurable products"
+msgstr "Consiglio: neoziv supporta prodotti configurabili"
 
 #. module: sale_management
 #: model:digest.tip,name:sale_management.digest_tip_sale_management_1

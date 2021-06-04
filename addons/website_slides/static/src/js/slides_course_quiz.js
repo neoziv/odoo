@@ -1,4 +1,4 @@
-odoo.define('website_slides.quiz', function (require) {
+neoziv.define('website_slides.quiz', function (require) {
     'use strict';
 
     var publicWidget = require('web.public.widget');
@@ -417,7 +417,7 @@ odoo.define('website_slides.quiz', function (require) {
          * When clicking on an answer, this one should be marked as "checked".
          *
          * @private
-         * @param OdooEvent ev
+         * @param neozivEvent ev
          */
         _onAnswerClick: function (ev) {
             ev.preventDefault();
@@ -430,7 +430,7 @@ odoo.define('website_slides.quiz', function (require) {
          * Triggering a event to switch to next slide
          *
          * @private
-         * @param OdooEvent ev
+         * @param neozivEvent ev
          */
         _onClickNext: function (ev) {
             if (this.slide.hasNext) {

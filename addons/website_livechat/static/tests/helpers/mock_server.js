@@ -1,4 +1,4 @@
-odoo.define('website_livechat/static/tests/helpers/mock_server.js', function (require) {
+neoziv.define('website_livechat/static/tests/helpers/mock_server.js', function (require) {
 'use strict';
 
 require('im_livechat/static/tests/helpers/mock_server.js'); // ensure mail overrides are applied first

@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from collections import OrderedDict
 from itertools import chain
 
-from odoo.addons.hr.tests.common import TestHrCommon
-from odoo.tests import new_test_user, tagged, Form
-from odoo.exceptions import AccessError
+from neoziv.addons.hr.tests.common import TestHrCommon
+from neoziv.tests import new_test_user, tagged, Form
+from neoziv.exceptions import AccessError
 
 @tagged('post_install', '-at_install')
 class TestSelfAccessProfile(TestHrCommon):

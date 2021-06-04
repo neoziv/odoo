@@ -1,4 +1,4 @@
-odoo.define('website_slides/static/src/tests/activity_tests.js', function (require) {
+neoziv.define('website_slides/static/src/tests/activity_tests.js', function (require) {
 'use strict';
 
 const components = {

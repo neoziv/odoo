@@ -1,6 +1,6 @@
-from odoo import api, fields, models, _
-from odoo.tools import formatLang
-from odoo.exceptions import ValidationError
+from neoziv import api, fields, models, _
+from neoziv.tools import formatLang
+from neoziv.exceptions import ValidationError
 
 
 class PosPayment(models.Model):

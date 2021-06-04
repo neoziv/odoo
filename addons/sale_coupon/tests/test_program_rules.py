@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from datetime import datetime, timedelta
 
-from odoo.addons.sale_coupon.tests.common import TestSaleCouponCommon
-from odoo.exceptions import UserError
-from odoo.fields import Date
+from neoziv.addons.sale_coupon.tests.common import TestSaleCouponCommon
+from neoziv.exceptions import UserError
+from neoziv.fields import Date
 
 class TestProgramRules(TestSaleCouponCommon):
     # Test all the validity rules to allow a customer to have a reward.

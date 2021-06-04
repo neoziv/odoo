@@ -1,4 +1,4 @@
-odoo.define('auth_totp_portal.tours', function(require) {
+neoziv.define('auth_totp_portal.tours', function(require) {
 "use strict";
 
 const tour = require('web_tour.tour');

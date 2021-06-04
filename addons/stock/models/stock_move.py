@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import json
 from collections import defaultdict
@@ -11,11 +11,11 @@ from re import split as regex_split
 
 from dateutil import relativedelta
 
-from odoo import SUPERUSER_ID, _, api, fields, models
-from odoo.exceptions import UserError
-from odoo.osv import expression
-from odoo.tools.float_utils import float_compare, float_is_zero, float_repr, float_round
-from odoo.tools.misc import format_date, OrderedSet
+from neoziv import SUPERUSER_ID, _, api, fields, models
+from neoziv.exceptions import UserError
+from neoziv.osv import expression
+from neoziv.tools.float_utils import float_compare, float_is_zero, float_repr, float_round
+from neoziv.tools.misc import format_date, OrderedSet
 
 PROCUREMENT_PRIORITIES = [('0', 'Normal'), ('1', 'Urgent')]
 
@@ -604,8 +604,8 @@ class StockMove(models.Model):
             # Avoids to write the exact same message multiple times.
             if last_message and last_message.subject == msg_subject:
                 continue
-            odoobot_id = self.env['ir.model.data'].xmlid_to_res_id("base.partner_root")
-            doc.message_post(body=msg, author_id=odoobot_id, subject=msg_subject)
+            neozivbot_id = self.env['ir.model.data'].xmlid_to_res_id("base.partner_root")
+            doc.message_post(body=msg, author_id=neozivbot_id, subject=msg_subject)
 
     def action_show_details(self):
         """ Returns an action that will open a form view (in a popup) allowing to work on all the

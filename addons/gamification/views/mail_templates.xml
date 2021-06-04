@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<odoo>
+<neoziv>
     <data>
         <record id="mail_template_data_new_rank_reached" model="mail.template">
             <field name="name">User: New rank reached</field>
@@ -52,4 +52,4 @@
             <field name="auto_delete" eval="True"/>
         </record>
     </data>
-</odoo>
+</neoziv>

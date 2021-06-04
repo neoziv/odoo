@@ -1,10 +1,10 @@
 # -*- coding:utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, models, fields, _
-from odoo.tests.common import Form
-from odoo.exceptions import UserError
-from odoo.tools import float_repr
+from neoziv import api, models, fields, _
+from neoziv.tests.common import Form
+from neoziv.exceptions import UserError
+from neoziv.tools import float_repr
 
 import re
 from datetime import date, datetime
@@ -58,7 +58,7 @@ class AccountEdiFormat(models.Model):
         res = invoice.invoice_generate_xml()
         if len(invoice.commercial_partner_id.l10n_it_pa_index or '') == 6:
             invoice.message_post(
-                body=(_("Invoices for PA are not managed by Odoo, you can download the document and send it on your own."))
+                body=(_("Invoices for PA are not managed by neoziv, you can download the document and send it on your own."))
             )
         else:
             invoice.l10n_it_send_state = 'to_send'

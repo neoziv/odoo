@@ -1,4 +1,4 @@
-odoo.define('web.FieldWrapper', function (require) {
+neoziv.define('web.FieldWrapper', function (require) {
     "use strict";
 
     const { ComponentWrapper } = require('web.OwlCompatibility');

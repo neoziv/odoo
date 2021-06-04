@@ -1,12 +1,12 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* website_forum
 # 
 # Translators:
 # Rodrigo de Almeida Sottomaior Macedo <rmsolucoeseminformatica@protonmail.com>, 2020
 # Diego Bittencourt <diegomb86@gmail.com>, 2020
-# Keli Brugalli <kbr@odoo.com>, 2020
-# Kevin Harrings <kha@odoo.com>, 2020
+# Keli Brugalli <kbr@neoziv.com>, 2020
+# Kevin Harrings <kha@neoziv.com>, 2020
 # PopSolutions Cooperativa Digital <popsolutions.co@gmail.com>, 2020
 # Marcel Savegnago <marcel.savegnago@gmail.com>, 2020
 # 6a438b1c6cbb144d18e3edb0aefa79b6_759187c <0013a3c60aa90eed93f8c653e04a84b7_227761>, 2020
@@ -14,7 +14,7 @@
 # falexandresilva <falexandresilva@gmail.com>, 2020
 # grazziano <gra.negocia@gmail.com>, 2020
 # André Augusto Firmino Cordeiro <a.cordeito@gmail.com>, 2020
-# Cécile Collart <cco@odoo.com>, 2020
+# Cécile Collart <cco@neoziv.com>, 2020
 # Lauro de Lima <lauro@ciclix.com>, 2020
 # Luiz Fernando <lfpsgs@outlook.com>, 2020
 # André Carvalho <and2carvalho@gmail.com>, 2020
@@ -25,18 +25,18 @@
 # Peter Leaf <pablleaf@gmail.com>, 2020
 # Luiz Carlos de Lima <luiz.carlos@akretion.com.br>, 2020
 # Silmar <pinheirosilmar@gmail.com>, 2020
-# Fernanda Marques <fem@odoo.com>, 2020
+# Fernanda Marques <fem@neoziv.com>, 2020
 # Fernando Colus <fcolus1@gmail.com>, 2020
 # Éder Brito <britoederr@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:12+0000\n"
 "PO-Revision-Date: 2020-09-07 08:21+0000\n"
 "Last-Translator: Éder Brito <britoederr@gmail.com>, 2021\n"
-"Language-Team: Portuguese (Brazil) (https://www.transifex.com/odoo/teams/41243/pt_BR/)\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/neoziv/teams/41243/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -3281,10 +3281,10 @@ msgstr "Obrigado por postar!"
 #: model_terms:ir.ui.view,arch_db:website_forum.faq_karma
 msgid ""
 "The goal of this site is create a relevant knowledge base that would answer "
-"questions related to Odoo."
+"questions related to neoziv."
 msgstr ""
 "O objetivo deste site é criar uma base de conhecimento relevante que "
-"responda a perguntas relacionadas ao Odoo."
+"responda a perguntas relacionadas ao neoziv."
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.post_description_full
@@ -3905,9 +3905,9 @@ msgstr "aqui"
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "how to configure or customize Odoo to specific business needs,"
+msgid "how to configure or customize neoziv to specific business needs,"
 msgstr ""
-"como configurar ou personalizar o Odoo para necessidades específicas de "
+"como configurar ou personalizar o neoziv para necessidades específicas de "
 "negócios,"
 
 #. module: website_forum
@@ -3919,8 +3919,8 @@ msgstr "como desenvolver módulos para sua própria necessidade,"
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "how to install Odoo on a specific infrastructure,"
-msgstr "como instalar o Odoo em uma infraestrutura específica,"
+msgid "how to install neoziv on a specific infrastructure,"
+msgstr "como instalar o neoziv em uma infraestrutura específica,"
 
 #. module: website_forum
 #. openerp-web
@@ -4026,7 +4026,7 @@ msgstr "resolvida"
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "specific questions about Odoo service offers, etc."
+msgid "specific questions about neoziv service offers, etc."
 msgstr "perguntas específicas sobre ofertas de serviços Openerp, etc."
 
 #. module: website_forum
@@ -4087,7 +4087,7 @@ msgstr ""
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "what's the best way to use Odoo for a specific business need,"
+msgid "what's the best way to use neoziv for a specific business need,"
 msgstr ""
 "Qual é a melhor maneira de usar Openerp para uma necessidade de negócios "
 "específica,"

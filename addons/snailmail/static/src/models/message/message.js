@@ -1,4 +1,4 @@
-odoo.define('snailmail/static/src/models/message.message.js', function (require) {
+neoziv.define('snailmail/static/src/models/message.message.js', function (require) {
 'use strict';
 
 const { registerInstancePatchModel } = require('mail/static/src/model/model_core.js');

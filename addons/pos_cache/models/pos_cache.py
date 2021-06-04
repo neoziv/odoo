@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 import base64
 import json
 from ast import literal_eval
 
-from odoo import models, fields, api
-from odoo.tools import date_utils
+from neoziv import models, fields, api
+from neoziv.tools import date_utils
 
 
 class pos_cache(models.Model):

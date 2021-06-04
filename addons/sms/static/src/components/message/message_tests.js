@@ -1,4 +1,4 @@
-odoo.define('sms/static/src/components/message/message_tests.js', function (require) {
+neoziv.define('sms/static/src/components/message/message_tests.js', function (require) {
 'use strict';
 
 const components = {

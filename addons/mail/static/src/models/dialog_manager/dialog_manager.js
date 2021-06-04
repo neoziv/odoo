@@ -1,4 +1,4 @@
-odoo.define('mail/static/src/models/dialog_manager/dialog_manager.js', function (require) {
+neoziv.define('mail/static/src/models/dialog_manager/dialog_manager.js', function (require) {
 'use strict';
 
 const { registerNewModel } = require('mail/static/src/model/model_core.js');

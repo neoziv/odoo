@@ -1,4 +1,4 @@
-odoo.define('website_livechat.editor', function (require) {
+neoziv.define('website_livechat.editor', function (require) {
 'use strict';
 
 var core = require('web.core');

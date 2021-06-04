@@ -1,4 +1,4 @@
-odoo.define('sale.dashboard_tests', function (require) {
+neoziv.define('sale.dashboard_tests', function (require) {
 "use strict";
 
 var KanbanView = require('web.KanbanView');

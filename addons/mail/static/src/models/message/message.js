@@ -1,4 +1,4 @@
-odoo.define('mail/static/src/models/message/message.js', function (require) {
+neoziv.define('mail/static/src/models/message/message.js', function (require) {
 'use strict';
 
 const emojis = require('mail.emojis');

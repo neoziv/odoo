@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 import re
 from lxml import etree
 
-from odoo import models, fields, api, _
-from odoo.exceptions import UserError, ValidationError, RedirectWarning
+from neoziv import models, fields, api, _
+from neoziv.exceptions import UserError, ValidationError, RedirectWarning
 
 
 class Project(models.Model):

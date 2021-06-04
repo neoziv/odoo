@@ -1,8 +1,8 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 # -*- coding: utf-8 -*-
 
-from odoo.tests import tagged
-from odoo.tests.common import TransactionCase
+from neoziv.tests import tagged
+from neoziv.tests.common import TransactionCase
 
 
 @tagged('post_install','-at_install')

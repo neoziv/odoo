@@ -1,4 +1,4 @@
-odoo.define('hr_expense.qr_code_action', function (require) {
+neoziv.define('hr_expense.qr_code_action', function (require) {
 "use strict";
 
 const AbstractAction = require('web.AbstractAction');

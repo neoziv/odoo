@@ -1,4 +1,4 @@
-odoo.define('website.s_table_of_content', function (require) {
+neoziv.define('website.s_table_of_content', function (require) {
 'use strict';
 
 const publicWidget = require('web.public.widget');

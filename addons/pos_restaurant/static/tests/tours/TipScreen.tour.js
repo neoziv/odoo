@@ -1,4 +1,4 @@
-odoo.define('pos_restaurant.tour.TipScreen', function (require) {
+neoziv.define('pos_restaurant.tour.TipScreen', function (require) {
     'use strict';
 
     const { ProductScreen } = require('point_of_sale.tour.ProductScreenTourMethods');

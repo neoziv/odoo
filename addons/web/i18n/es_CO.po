@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # * web
 #
@@ -10,17 +10,17 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: neoziv 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:08+0000\n"
 "PO-Revision-Date: 2016-03-23 21:00+0000\n"
 "Last-Translator: Mateo Tibaquirá Palacios <nestormateo@gmail.com>\n"
-"Language-Team: Spanish (Colombia) (http://www.transifex.com/odoo/odoo-9/language/es_CO/)\n"
+"Language-Team: Spanish (Colombia) (http://www.transifex.com/neoziv/neoziv-9/language/es_CO/)\n"
 "Language: es_CO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"#-#-#-#-#  es_CO.po (Odoo 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  es_CO.po (neoziv 9.0)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: web
@@ -230,8 +230,8 @@ msgstr "<span class=\"oe_logo_edit\">Editar Datos de la Companía</span>"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.menu_secondary
-msgid "<span>Odoo</span>"
-msgstr "<span>Odoo</span>"
+msgid "<span>neoziv</span>"
+msgstr "<span>neoziv</span>"
 
 #. module: web
 #. openerp-web
@@ -581,8 +581,8 @@ msgstr "Contexto:"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:116
 #, python-format
-msgid "Copyright © 2004-2015 Odoo S.A."
-msgstr "Copyright © 2004-2015 Odoo S.A."
+msgid "Copyright © 2004-2015 neoziv S.A."
+msgstr "Copyright © 2004-2015 neoziv S.A."
 
 #. module: web
 #. openerp-web
@@ -1092,8 +1092,8 @@ msgstr "GNU Lesser General Public License"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1512
 #, python-format
-msgid "Get this feature and much more with Odoo Enterprise!"
-msgstr "¡Obtenga esta característica y mucho más con Odoo Enterprise!"
+msgid "Get this feature and much more with neoziv Enterprise!"
+msgstr "¡Obtenga esta característica y mucho más con neoziv Enterprise!"
 
 #. module: web
 #. openerp-web
@@ -1416,8 +1416,8 @@ msgstr "Mover Arriba"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:87
 #, python-format
-msgid "My Odoo.com account"
-msgstr "Mi cuenta Odoo.com"
+msgid "My neoziv.com account"
+msgstr "Mi cuenta neoziv.com"
 
 #. module: web
 #. openerp-web
@@ -1587,55 +1587,55 @@ msgstr "Objeto:"
 #: code:addons/web/static/src/js/framework/dialog.js:37
 #: model_terms:ir.ui.view,arch_db:web.layout
 #, python-format
-msgid "Odoo"
-msgstr "Odoo"
+msgid "neoziv"
+msgstr "neoziv"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:101
 #, python-format
-msgid "Odoo (Formerly OpenERP)"
-msgstr "Odoo (anteriormente OpenERP)"
+msgid "neoziv (Formerly OpenERP)"
+msgstr "neoziv (anteriormente OpenERP)"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/apps.js:189
 #, python-format
-msgid "Odoo Apps will be available soon"
-msgstr "Las Aplicaciones Odoo estaran disponibles pronto"
+msgid "neoziv Apps will be available soon"
+msgstr "Las Aplicaciones neoziv estaran disponibles pronto"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_widgets.js:1717
 #, python-format
-msgid "Odoo Enterprise"
-msgstr "Odoo Empresarial"
+msgid "neoziv Enterprise"
+msgstr "neoziv Empresarial"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:117
 #, python-format
-msgid "Odoo S.A."
-msgstr "Odoo S.A."
+msgid "neoziv S.A."
+msgstr "neoziv S.A."
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.qunit_suite
-msgid "Odoo Web Tests"
-msgstr "Pruebas Web Odoo"
+msgid "neoziv Web Tests"
+msgstr "Pruebas Web neoziv"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:117
 #, python-format
-msgid "Odoo is a trademark of"
-msgstr "Odoo es una marca comercial de"
+msgid "neoziv is a trademark of"
+msgstr "neoziv es una marca comercial de"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:119
 #, python-format
-msgid "Odoo.com"
-msgstr "Odoo.com"
+msgid "neoziv.com"
+msgstr "neoziv.com"
 
 #. module: web
 #. openerp-web
@@ -1794,8 +1794,8 @@ msgstr "Soportado por"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Odoo</span>"
-msgstr "Soportado por <span>Odoo</span>"
+msgid "Powered by <span>neoziv</span>"
+msgstr "Soportado por <span>neoziv</span>"
 
 #. module: web
 #. openerp-web
@@ -2277,10 +2277,10 @@ msgstr ""
 #, python-format
 msgid ""
 "Timezone Mismatch : The timezone of your browser doesn't match the selected "
-"one. The time in Odoo is displayed according to your field timezone."
+"one. The time in neoziv is displayed according to your field timezone."
 msgstr ""
 "Discrepancia en Zona Horaria: La zona horaria de su navegador no coincide "
-"con la seleccionada. La hora en Odoo se muestra de acuerdo a su zona "
+"con la seleccionada. La hora en neoziv se muestra de acuerdo a su zona "
 "horaria."
 
 #. module: web
@@ -2631,8 +2631,8 @@ msgstr "Debe seleccionar al menos un registro."
 #. openerp-web
 #: code:addons/web/static/src/js/framework/crash_manager.js:69
 #, python-format
-msgid "Your Odoo session expired. Please refresh the current web page."
-msgstr "Su sesión en Odoo expiró. Por favor, actualice la página web actual."
+msgid "Your neoziv session expired. Please refresh the current web page."
+msgstr "Su sesión en neoziv expiró. Por favor, actualice la página web actual."
 
 #. module: web
 #. openerp-web

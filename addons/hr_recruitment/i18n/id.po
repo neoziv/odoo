@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* hr_recruitment
 # 
@@ -25,12 +25,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-29 13:45+0000\n"
 "PO-Revision-Date: 2020-09-07 08:13+0000\n"
 "Last-Translator: whenweresober <gulmugurzu@yevme.com>, 2021\n"
-"Language-Team: Indonesian (https://www.transifex.com/odoo/teams/41243/id/)\n"
+"Language-Team: Indonesian (https://www.transifex.com/neoziv/teams/41243/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1747,19 +1747,19 @@ msgstr "Jumlah pesan yang belum dibaca"
 #. module: hr_recruitment
 #: model_terms:ir.actions.act_window,help:hr_recruitment.action_hr_job_applications
 msgid ""
-"Odoo helps you track applicants in the recruitment\n"
+"neoziv helps you track applicants in the recruitment\n"
 "                process and follow up all operations: meetings, interviews, etc."
 msgstr ""
-"Odoo membantu anda melacak pelamar dalam proses perekrutan\n"
+"neoziv membantu anda melacak pelamar dalam proses perekrutan\n"
 "                proses dan tindaklanjuti semua operasi: pertemuan, wawancara, dll."
 
 #. module: hr_recruitment
 #: model_terms:ir.actions.act_window,help:hr_recruitment.crm_case_categ0_act_job
 msgid ""
-"Odoo helps you track applicants in the recruitment\n"
+"neoziv helps you track applicants in the recruitment\n"
 "            process and follow up all operations: meetings, interviews, etc."
 msgstr ""
-"Odoo membantu anda melacak pelamar dalam proses perekrutan\n"
+"neoziv membantu anda melacak pelamar dalam proses perekrutan\n"
 "            proses dan tindaklanjuti semua operasi: pertemuan, wawancara, dll."
 
 #. module: hr_recruitment
@@ -2255,11 +2255,11 @@ msgstr "Tanggal di mana pelamar bersedia untuk mulai bekerja"
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job__alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (neoziv Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"Model (Jenis Dokumen Odoo) di mana alias ini dikaitkan. Email masuk yang "
+"Model (Jenis Dokumen neoziv) di mana alias ini dikaitkan. Email masuk yang "
 "tidak menjawab catatan yang sudah ada akan menyebabkan pembuatan rekor baru "
 "model ini (misalnya tugas proyek)"
 
@@ -2272,10 +2272,10 @@ msgstr "Nama Gelar Perekrutan harus unik!"
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.neoziv.com>"
 msgstr ""
 "Nama email alias, misalnya 'pekerjaan' jika Anda ingin menangkap email untuk"
-" <jobs@example.odoo.com>"
+" <jobs@example.neoziv.com>"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job__alias_user_id

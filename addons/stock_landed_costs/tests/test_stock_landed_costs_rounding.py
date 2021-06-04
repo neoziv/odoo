@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo.addons.stock_landed_costs.tests.common import TestStockLandedCostsCommon
-from odoo.tests import tagged
+from neoziv.addons.stock_landed_costs.tests.common import TestStockLandedCostsCommon
+from neoziv.tests import tagged
 
 
 @tagged('post_install', '-at_install')

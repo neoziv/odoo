@@ -1,4 +1,4 @@
-odoo.define('survey.quick.access', function (require) {
+neoziv.define('survey.quick.access', function (require) {
 'use strict';
 
 var publicWidget = require('web.public.widget');

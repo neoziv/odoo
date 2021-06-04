@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from dateutil.relativedelta import relativedelta
-from odoo.fields import Datetime
-from odoo import tests
-from odoo.addons.website_slides.tests.test_ui_wslides import TestUICommon
+from neoziv.fields import Datetime
+from neoziv import tests
+from neoziv.addons.website_slides.tests.test_ui_wslides import TestUICommon
 
 @tests.common.tagged('post_install', '-at_install')
 class TestUi(TestUICommon):
@@ -158,6 +158,6 @@ class TestUi(TestUICommon):
 
         self.browser_js(
             '/slides',
-            'odoo.__DEBUG__.services["web_tour.tour"].run("certification_member")',
-            'odoo.__DEBUG__.services["web_tour.tour"].tours.certification_member.ready',
+            'neoziv.__DEBUG__.services["web_tour.tour"].run("certification_member")',
+            'neoziv.__DEBUG__.services["web_tour.tour"].tours.certification_member.ready',
             login=user_demo.login)

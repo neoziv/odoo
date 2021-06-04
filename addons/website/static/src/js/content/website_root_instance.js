@@ -1,4 +1,4 @@
-odoo.define('root.widget', function (require) {
+neoziv.define('root.widget', function (require) {
 'use strict';
 
 const AbstractService = require('web.AbstractService');

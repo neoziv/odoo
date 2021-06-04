@@ -1,24 +1,24 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* fleet
 # 
 # Translators:
 # Eric Geens <ericgeens@yahoo.com>, 2020
 # Gunther Clauwaert <gclauwae@hotmail.com>, 2020
-# Alice Van Goethem <vga@odoo.com>, 2020
+# Alice Van Goethem <vga@neoziv.com>, 2020
 # Martin Trigaux, 2020
 # Yenthe Van Ginneken <yenthespam@gmail.com>, 2020
-# Odoo Experts Consultants <consultants@odooexperts.nl>, 2020
-# Erwin van der Ploeg (Odoo Experts) <erwin@odooexperts.nl>, 2021
+# neoziv Experts Consultants <consultants@neozivexperts.nl>, 2020
+# Erwin van der Ploeg (neoziv Experts) <erwin@neozivexperts.nl>, 2021
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-29 13:45+0000\n"
 "PO-Revision-Date: 2020-09-07 08:12+0000\n"
-"Last-Translator: Erwin van der Ploeg (Odoo Experts) <erwin@odooexperts.nl>, 2021\n"
-"Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
+"Last-Translator: Erwin van der Ploeg (neoziv Experts) <erwin@neozivexperts.nl>, 2021\n"
+"Language-Team: Dutch (https://www.transifex.com/neoziv/teams/41243/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1202,11 +1202,11 @@ msgstr "Maak"
 #: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_log_contract_action
 msgid ""
 "Manage all your contracts (leasing, insurances, etc.) with\n"
-"            their related services, costs. Odoo will automatically warn\n"
+"            their related services, costs. neoziv will automatically warn\n"
 "            you when some contracts have to be renewed."
 msgstr ""
 "Beheer al uw contracten (leasing, verzekeringen, etc.) met\n"
-"bijbehorende diensten en kosten. Odoo zal u automatisch\n"
+"bijbehorende diensten en kosten. neoziv zal u automatisch\n"
 "waarschuwen wanneer uw contracten vernieuwd moeten worden."
 
 #. module: fleet
@@ -1479,10 +1479,10 @@ msgstr "Kilometertellers"
 #. module: fleet
 #: model_terms:ir.actions.act_window,help:fleet.fleet_costs_reporting_action
 msgid ""
-"Odoo helps you managing the costs for your different vehicles\n"
+"neoziv helps you managing the costs for your different vehicles\n"
 "          Costs are generally created from services and contract and appears here."
 msgstr ""
-"Odoo helpt u bij het beheer van de kosten voor uw verschillende voertuigen.\n"
+"neoziv helpt u bij het beheer van de kosten voor uw verschillende voertuigen.\n"
 "De kosten worden veelal berekend op basis van diensten en contracten en\n"
 "u kan ze hier raadplegen."
 
@@ -1864,7 +1864,7 @@ msgstr "Algemene voorwaarden"
 #. module: fleet
 #: model_terms:ir.actions.act_window,help:fleet.fleet_costs_reporting_action
 msgid ""
-"Thanks to the different filters, Odoo can only print the effective\n"
+"Thanks to the different filters, neoziv can only print the effective\n"
 "          costs, sort them by type and by vehicle."
 msgstr ""
 "Door slim gebruik te maken van filters kan u enkel de effectieve kosten\n"

@@ -4,12 +4,12 @@ from dateutil.relativedelta import relativedelta
 import itertools
 import json
 
-from odoo import fields, _, models
-from odoo.osv import expression
-from odoo.tools import float_round
-from odoo.tools.misc import get_lang
+from neoziv import fields, _, models
+from neoziv.osv import expression
+from neoziv.tools import float_round
+from neoziv.tools.misc import get_lang
 
-from odoo.addons.web.controllers.main import clean_action
+from neoziv.addons.web.controllers.main import clean_action
 from datetime import date
 
 DEFAULT_MONTH_RANGE = 3

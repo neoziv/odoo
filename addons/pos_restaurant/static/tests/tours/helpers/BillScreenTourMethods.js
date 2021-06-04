@@ -1,4 +1,4 @@
-odoo.define('pos_restaurant.tour.BillScreenTourMethods', function (require) {
+neoziv.define('pos_restaurant.tour.BillScreenTourMethods', function (require) {
     'use strict';
 
     const { createTourMethods } = require('point_of_sale.tour.utils');

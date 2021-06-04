@@ -1,4 +1,4 @@
-odoo.define('web_tour.TourStepUtils', function (require) {
+neoziv.define('web_tour.TourStepUtils', function (require) {
 'use strict';
 
 const core = require('web.core');

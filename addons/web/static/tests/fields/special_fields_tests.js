@@ -1,4 +1,4 @@
-odoo.define('web.special_fields_tests', function (require) {
+neoziv.define('web.special_fields_tests', function (require) {
 "use strict";
 
 var FormView = require('web.FormView');

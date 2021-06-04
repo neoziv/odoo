@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo import http
-from odoo.http import request
+from neoziv import http
+from neoziv.http import request
 
-from odoo.addons.portal.controllers.mail import PortalChatter
+from neoziv.addons.portal.controllers.mail import PortalChatter
 
 
 class PortalChatter(PortalChatter):

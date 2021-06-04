@@ -1,4 +1,4 @@
-odoo.define('pos_restaurant.ReceiptScreen', function(require) {
+neoziv.define('pos_restaurant.ReceiptScreen', function(require) {
     'use strict';
 
     const ReceiptScreen = require('point_of_sale.ReceiptScreen');

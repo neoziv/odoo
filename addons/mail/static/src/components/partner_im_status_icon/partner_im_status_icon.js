@@ -1,4 +1,4 @@
-odoo.define('mail/static/src/components/partner_im_status_icon/partner_im_status_icon.js', function (require) {
+neoziv.define('mail/static/src/components/partner_im_status_icon/partner_im_status_icon.js', function (require) {
 'use strict';
 
 const useShouldUpdateBasedOnProps = require('mail/static/src/component_hooks/use_should_update_based_on_props/use_should_update_based_on_props.js');

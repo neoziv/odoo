@@ -1,4 +1,4 @@
-odoo.define('sale_product_configurator.OptionalProductsModal', function (require) {
+neoziv.define('sale_product_configurator.OptionalProductsModal', function (require) {
     "use strict";
 
 var ajax = require('web.ajax');

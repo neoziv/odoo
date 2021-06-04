@@ -1,4 +1,4 @@
-odoo.define('pos_mercury.pos_mercury', function (require) {
+neoziv.define('pos_mercury.pos_mercury', function (require) {
 "use strict";
 
 var pos_model = require('point_of_sale.models');

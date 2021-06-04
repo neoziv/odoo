@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from odoo import models, fields, api
+from neoziv import models, fields, api
 
 from functools import lru_cache
 

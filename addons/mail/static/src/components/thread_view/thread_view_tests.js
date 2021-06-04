@@ -1,4 +1,4 @@
-odoo.define('mail/static/src/components/thread_view/thread_view_tests.js', function (require) {
+neoziv.define('mail/static/src/components/thread_view/thread_view_tests.js', function (require) {
 'use strict';
 
 const components = {
@@ -1132,7 +1132,7 @@ QUnit.test('Post a message containing an email address followed by a mention on 
     this.data['mail.channel'].records.push({ id: 11 });
     this.data['res.partner'].records.push({
         id: 25,
-        email: "testpartner@odoo.com",
+        email: "testpartner@neoziv.com",
         name: "TestPartner",
     });
     await this.start();
@@ -1146,7 +1146,7 @@ QUnit.test('Post a message containing an email address followed by a mention on 
     });
     await this.createThreadViewComponent(threadViewer.threadView, { hasComposer: true });
     document.querySelector('.o_ComposerTextInput_textarea').focus();
-    await afterNextRender(() => document.execCommand('insertText', false, "email@odoo.com\n"));
+    await afterNextRender(() => document.execCommand('insertText', false, "email@neoziv.com\n"));
     await afterNextRender(() => {
         ["@", "T", "e"].forEach((char)=>{
             document.execCommand('insertText', false, char);

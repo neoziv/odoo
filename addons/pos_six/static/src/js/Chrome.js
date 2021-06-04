@@ -1,4 +1,4 @@
-odoo.define('pos_six.chrome', function (require) {
+neoziv.define('pos_six.chrome', function (require) {
     'use strict';
 
     const Chrome = require('point_of_sale.Chrome');

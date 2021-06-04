@@ -1,7 +1,7 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo import fields, models, api, _
-from odoo.exceptions import ValidationError, RedirectWarning
+from neoziv import fields, models, api, _
+from neoziv.exceptions import ValidationError, RedirectWarning
 
 
 class AccountJournal(models.Model):

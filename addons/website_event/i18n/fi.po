@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* website_event
 # 
@@ -17,12 +17,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 15:41+0000\n"
 "PO-Revision-Date: 2020-09-07 08:20+0000\n"
 "Last-Translator: Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2021\n"
-"Language-Team: Finnish (https://www.transifex.com/odoo/teams/41243/fi/)\n"
+"Language-Team: Finnish (https://www.transifex.com/neoziv/teams/41243/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -332,12 +332,12 @@ msgid ""
 "At just 13 years old, John DOE was already starting to develop his first "
 "business applications for customers. After mastering civil engineering, he "
 "founded TinyERP. This was the first phase of OpenERP which would later "
-"became Odoo, the most installed open-source business software worldwide."
+"became neoziv, the most installed open-source business software worldwide."
 msgstr ""
 "Vain 13-vuotias Mattti Meikäläinen alkoi jo kehittää ensimmäisiä "
 "liiketoimintasovelluksiaan asiakkaille. Maa- ja vesirakentamisen maisterin "
 "tutkinnon jälkeen hän perusti TinyERP:n. Tämä oli OpenERP:n ensimmäinen "
-"vaihe, josta myöhemmin tuli Odoo, maailmanlaajuisesti asennetuin avoimen "
+"vaihe, josta myöhemmin tuli neoziv, maailmanlaajuisesti asennetuin avoimen "
 "lähdekoodin yritysohjelmisto."
 
 #. module: website_event

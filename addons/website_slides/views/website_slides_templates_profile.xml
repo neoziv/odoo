@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<odoo><data>
+<neoziv><data>
     <!--Private profile-->
     <template id="private_profile" inherit_id="website_profile.private_profile">
         <xpath expr="//div[@id='private_profile_return_link_container']" position="inside">
@@ -66,4 +66,4 @@
             </div>
         </div>
     </template>
-</data></odoo>
+</data></neoziv>

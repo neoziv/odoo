@@ -1,4 +1,4 @@
-odoo.define('website_slides.course.join.widget', function (require) {
+neoziv.define('website_slides.course.join.widget', function (require) {
 'use strict';
 
 var core = require('web.core');

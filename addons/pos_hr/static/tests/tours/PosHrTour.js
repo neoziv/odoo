@@ -1,4 +1,4 @@
-odoo.define('point_of_sale.tour.PosHr', function (require) {
+neoziv.define('point_of_sale.tour.PosHr', function (require) {
     'use strict';
 
     const { PosHr } = require('pos_hr.tour.PosHrTourMethods');

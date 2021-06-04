@@ -1,4 +1,4 @@
-odoo.define('pos_restaurant.FloorScreen', function (require) {
+neoziv.define('pos_restaurant.FloorScreen', function (require) {
     'use strict';
 
     const { debounce } = owl.utils;

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* base_setup
 # 
@@ -13,12 +13,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:12+0000\n"
 "PO-Revision-Date: 2020-09-07 08:11+0000\n"
 "Last-Translator: karolína schusterová <karolina.schusterova@vdp.sk>, 2021\n"
-"Language-Team: Czech (https://www.transifex.com/odoo/teams/41243/cs/)\n"
+"Language-Team: Czech (https://www.transifex.com/neoziv/teams/41243/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -385,8 +385,8 @@ msgstr "Externí e-mailové servery"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Extract and analyze Odoo data from Google Spreadsheet"
-msgstr "Extrahujte a analyzujte data Odoo z tabulky Google"
+msgid "Extract and analyze neoziv data from Google Spreadsheet"
+msgstr "Extrahujte a analyzujte data neoziv z tabulky Google"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -584,15 +584,15 @@ msgstr "OAuth Ověřování"
 #. openerp-web
 #: code:addons/base_setup/static/src/xml/res_config_edition.xml:0
 #, python-format
-msgid "Odoo"
-msgstr "Odoo"
+msgid "neoziv"
+msgstr "neoziv"
 
 #. module: base_setup
 #. openerp-web
 #: code:addons/base_setup/static/src/xml/res_config_edition.xml:0
 #, python-format
-msgid "Odoo S.A."
-msgstr "Odoo S.A."
+msgid "neoziv S.A."
+msgstr "neoziv S.A."
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -713,8 +713,8 @@ msgstr "Použít externí poskytovatele ověřování (OAuth)"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Use external pads in Odoo Notes"
-msgstr "V Poznámkách Odoo použijte externí textové editory"
+msgid "Use external pads in neoziv Notes"
+msgstr "V Poznámkách neoziv použijte externí textové editory"
 
 #. module: base_setup
 #. openerp-web
@@ -728,11 +728,11 @@ msgstr "Uživatelé"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
-"When populating your address book, Odoo provides a list of matching "
+"When populating your address book, neoziv provides a list of matching "
 "companies. When selecting one item, the company data and logo are auto-"
 "filled."
 msgstr ""
-"Při vyplňování adresáře nabízí Odoo seznam odpovídajících firem. Při výběru "
+"Při vyplňování adresáře nabízí neoziv seznam odpovídajících firem. Při výběru "
 "jedné položky jsou údaje o firmě a logo automaticky vyplněny."
 
 #. module: base_setup

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<odoo>
+<neoziv>
     <data noupdate="1">
         <record id="survey_action_server_clean_test_answers" model="ir.actions.server">
             <field name="name">Survey: Clean test answers</field>
@@ -13,4 +13,4 @@ if records:
             </field>
         </record>
 </data>
-</odoo>
+</neoziv>

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from odoo import models, fields, api, _
+from neoziv import models, fields, api, _
 
 
 class IrActionsReport(models.Model):

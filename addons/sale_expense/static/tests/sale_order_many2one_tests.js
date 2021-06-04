@@ -1,4 +1,4 @@
-odoo.define('sale_expense.field_many_to_one_tests', function (require) {
+neoziv.define('sale_expense.field_many_to_one_tests', function (require) {
 "use strict";
 
 var FormView = require('web.FormView');

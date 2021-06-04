@@ -1,4 +1,4 @@
-odoo.define('lunch.LunchWidget', function (require) {
+neoziv.define('lunch.LunchWidget', function (require) {
 "use strict";
 
 var core = require('web.core');

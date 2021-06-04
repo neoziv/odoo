@@ -1,4 +1,4 @@
-odoo.define('point_of_sale.PosComponent', function (require) {
+neoziv.define('point_of_sale.PosComponent', function (require) {
     'use strict';
 
     const { Component } = owl;

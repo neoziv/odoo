@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo import tests, _
-from odoo.addons.website_livechat.tests.common import TestLivechatCommon
+from neoziv import tests, _
+from neoziv.addons.website_livechat.tests.common import TestLivechatCommon
 
 
 @tests.tagged('post_install', '-at_install')

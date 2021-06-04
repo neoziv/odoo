@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo import exceptions
-from odoo.addons.mass_mailing.tests.common import MassMailCommon
-from odoo.tests.common import Form, users
+from neoziv import exceptions
+from neoziv.addons.mass_mailing.tests.common import MassMailCommon
+from neoziv.tests.common import Form, users
 
 
 class TestMailingListMerge(MassMailCommon):

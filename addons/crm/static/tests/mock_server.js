@@ -1,4 +1,4 @@
-odoo.define('crm.MockServer', function (require) {
+neoziv.define('crm.MockServer', function (require) {
     'use strict';
 
     var MockServer = require('web.MockServer');

@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-from odoo.addons.hr_expense.tests.common import TestExpenseCommon
-from odoo.tests import tagged
-from odoo import fields
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
+from neoziv.addons.hr_expense.tests.common import TestExpenseCommon
+from neoziv.tests import tagged
+from neoziv import fields
 
 
 @tagged('-at_install', 'post_install')

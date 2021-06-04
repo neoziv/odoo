@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import logging
 
-from odoo import http
-from odoo.http import request
-from odoo.tools.translate import _
-from odoo.tools.misc import get_lang
+from neoziv import http
+from neoziv.http import request
+from neoziv.tools.translate import _
+from neoziv.tools.misc import get_lang
 
 _logger = logging.getLogger(__name__)
 

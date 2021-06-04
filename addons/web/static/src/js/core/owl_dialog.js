@@ -1,4 +1,4 @@
-odoo.define('web.OwlDialog', function (require) {
+neoziv.define('web.OwlDialog', function (require) {
     "use strict";
 
     const patchMixin = require('web.patchMixin');
@@ -36,7 +36,7 @@ odoo.define('web.OwlDialog', function (require) {
          * @param {string} [props.stopClicks=true] whether the dialog should stop
          *      the clicks propagation outside of itself.
          * @param {string} [props.subtitle='']
-         * @param {string} [props.title='Odoo']
+         * @param {string} [props.title='neoziv']
          * @param {boolean} [props.technical=true] If set to false, the modal will have
          *      the standard frontend style (use this for non-editor frontend features).
          */
@@ -255,7 +255,7 @@ odoo.define('web.OwlDialog', function (require) {
         size: 'large',
         stopClicks: true,
         technical: true,
-        title: "Odoo",
+        title: "neoziv",
     };
     Dialog.props = {
         backdrop: { validate: b => ['static', true, false].includes(b) },

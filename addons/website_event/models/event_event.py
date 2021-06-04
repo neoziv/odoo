@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import json
 import werkzeug.urls
 
 from pytz import utc
 
-from odoo import api, fields, models, _
-from odoo.addons.http_routing.models.ir_http import slug
-from odoo.osv import expression
+from neoziv import api, fields, models, _
+from neoziv.addons.http_routing.models.ir_http import slug
+from neoziv.osv import expression
 
 GOOGLE_CALENDAR_URL = 'https://www.google.com/calendar/render?'
 

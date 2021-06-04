@@ -1,15 +1,15 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Contact: Odoo <info@odoo.com>
+Upstream-Contact: neoziv <info@neoziv.com>
 
 Files: *
-Copyright: Copyright (C) 2004-2015 Odoo SA. (www.odoo.com)
+Copyright: Copyright (C) 2004-2015 neoziv SA. (www.neoziv.com)
 License: LGPL-3+
 
-Files: odoo/tools/appdirs.py
+Files: neoziv/tools/appdirs.py
 Copyright: 2005-2010 ActiveState Software Inc; 2013 Eddy Petrișor
 License: MIT
 
-Files: odoo/tools/lru.py
+Files: neoziv/tools/lru.py
 Copyright: 2003 Josiah Carlson
 License: PSF
 Comment: Was published by the author without license info on activestate but
@@ -82,7 +82,7 @@ Copyright: 2010-TODAY ClearCorp S.A.
 License: BSD-2
 
 Files: addons/l10n_dk/*
-Copyright: 2018 Odoo House ApS
+Copyright: 2018 neoziv House ApS
 License: LGPL-3+
 
 Files: addons/l10n_do/*
@@ -241,7 +241,7 @@ Files: addons/web/static/lib/benchmarkjs/lodash.js
 Copyright: JS Foundation and other contributors; Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
 License: MIT
 
-Files: addons/web/static/lib/bootstrap/* doc/_extensions/odoo_ext/static/style.css doc/_extensions/odoo_ext/static/bootstrap.js
+Files: addons/web/static/lib/bootstrap/* doc/_extensions/neoziv_ext/static/style.css doc/_extensions/neoziv_ext/static/bootstrap.js
 Copyright: 2011-2019 The Bootstrap Authors; 2011-2019 Twitter, Inc
 License: MIT
 
@@ -414,7 +414,7 @@ Files: addons/web/static/src/js/libs/download.js
 Copyright: 2016 dandavis
 License: MIT
 
-Files: addons/web/static/src/js/libs/zoomodoo.js
+Files: addons/web/static/src/js/libs/zoomneoziv.js
 Copyright: 2013 Matt Hinchliffe
 License: MIT
 
@@ -446,11 +446,11 @@ Files: addons/website_google_map/static/src/lib/markerclusterer.js
 Copyright: 2010 Google Inc
 License: Apache-2.0
 
-Files: doc/_extensions/odoo_ext/pygments_override.py
+Files: doc/_extensions/neoziv_ext/pygments_override.py
 Copyright: The Pygments team
 License: BSD-2
 
-Files: doc/_extensions/odoo_ext/static/bootstrap-3.3.6/*
+Files: doc/_extensions/neoziv_ext/static/bootstrap-3.3.6/*
 Copyright: 2011-2015 Twitter Inc
 License: MIT
 
@@ -462,16 +462,16 @@ Files: doc/_extensions/pyjsparser/*
 Copyright: 2014-2017 Piotr Dabkowski
 License: MIT
 
-Files: odoo/__init__.py
+Files: neoziv/__init__.py
 Copyright: 2010-2012 Daniele Varrazzo
 License: BSD-3
 Comment: This license only applies to the function 'gevent_wait_callback'
 
-Files: odoo/addons/base/tests/test_res_partner_bank.py
+Files: neoziv/addons/base/tests/test_res_partner_bank.py
 Copyright: 2015 ACSONE SA/NV
 License: LGPL-3+
 
-Files: odoo/tools/_vendor/sessions.py
+Files: neoziv/tools/_vendor/sessions.py
 Copyright: 2007 Pallets
 License: BSD-3
 

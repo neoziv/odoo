@@ -1,4 +1,4 @@
-odoo.define('board.AddToGoogleSpreadsheetMenu', function (require) {
+neoziv.define('board.AddToGoogleSpreadsheetMenu', function (require) {
     "use strict";
 
     const Domain = require('web.Domain');

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* web_editor
 # 
@@ -7,7 +7,7 @@
 # Marc Tormo i Bochaca <mtbochaca@gmail.com>, 2020
 # Carles Antoli <carlesantoli@hotmail.com>, 2020
 # Eric Rial <erialmedina@gmail.com>, 2020
-# RGB Consulting <odoo@rgbconsulting.com>, 2020
+# RGB Consulting <neoziv@rgbconsulting.com>, 2020
 # Quim - eccit <quim@eccit.com>, 2020
 # Manel Fernandez Ramirez <manelfera@outlook.com>, 2020
 # Arnau Ros, 2020
@@ -16,12 +16,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:13+0000\n"
 "PO-Revision-Date: 2020-09-07 08:20+0000\n"
 "Last-Translator: jabelchi, 2021\n"
-"Language-Team: Catalan (https://www.transifex.com/odoo/teams/41243/ca/)\n"
+"Language-Team: Catalan (https://www.transifex.com/neoziv/teams/41243/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1475,7 +1475,7 @@ msgstr "Qualitat"
 msgid ""
 "Quality options are unavailable for external images. If you want to change "
 "this image's quality, please first download it from the original source and "
-"upload it in Odoo."
+"upload it in neoziv."
 msgstr ""
 
 #. module: web_editor
@@ -2059,7 +2059,7 @@ msgstr ""
 #, python-format
 msgid ""
 "This type of image is not supported for cropping.<br/>If you want to crop "
-"it, please first download it from the original source and upload it in Odoo."
+"it, please first download it from the original source and upload it in neoziv."
 msgstr ""
 
 #. module: web_editor
@@ -2403,14 +2403,14 @@ msgstr ""
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
-msgid "https://www.odoo.com/logo.png"
+msgid "https://www.neoziv.com/logo.png"
 msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
-msgid "https://www.odoo.com/mydocument"
+msgid "https://www.neoziv.com/mydocument"
 msgstr ""
 
 #. module: web_editor

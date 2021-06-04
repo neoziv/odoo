@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import re
 
-from odoo import models, fields, api, _
-from odoo.exceptions import ValidationError, UserError
-from odoo.tools.float_utils import float_split_str
-from odoo.tools.misc import mod10r
+from neoziv import models, fields, api, _
+from neoziv.exceptions import ValidationError, UserError
+from neoziv.tools.float_utils import float_split_str
+from neoziv.tools.misc import mod10r
 
 
 l10n_ch_ISR_NUMBER_LENGTH = 27

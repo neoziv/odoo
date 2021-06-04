@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo.exceptions import UserError, AccessError
-from odoo.tests import tagged
-from odoo.addons.sale_purchase.tests.common import TestCommonSalePurchaseNoChart
+from neoziv.exceptions import UserError, AccessError
+from neoziv.tests import tagged
+from neoziv.addons.sale_purchase.tests.common import TestCommonSalePurchaseNoChart
 
 
 @tagged('-at_install', 'post_install')

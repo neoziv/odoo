@@ -1,4 +1,4 @@
-odoo.define('website.test.html_editor', function (require) {
+neoziv.define('website.test.html_editor', function (require) {
 'use strict';
 
 var tour = require('web_tour.tour');

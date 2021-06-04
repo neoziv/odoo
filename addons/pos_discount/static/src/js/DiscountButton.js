@@ -1,4 +1,4 @@
-odoo.define('pos_discount.DiscountButton', function(require) {
+neoziv.define('pos_discount.DiscountButton', function(require) {
     'use strict';
 
     const PosComponent = require('point_of_sale.PosComponent');

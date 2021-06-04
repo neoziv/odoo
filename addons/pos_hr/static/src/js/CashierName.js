@@ -1,4 +1,4 @@
-odoo.define('pos_hr.CashierName', function (require) {
+neoziv.define('pos_hr.CashierName', function (require) {
     'use strict';
 
     const CashierName = require('point_of_sale.CashierName');

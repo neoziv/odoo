@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-from odoo.tests import Form, common
-from odoo.exceptions import ValidationError
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
+from neoziv.tests import Form, common
+from neoziv.exceptions import ValidationError
 
 
 CH_ISR_SUBSCRIPTION = "01-162-8"

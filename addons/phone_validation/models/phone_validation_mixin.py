@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo import models
-from odoo.addons.phone_validation.tools import phone_validation
+from neoziv import models
+from neoziv.addons.phone_validation.tools import phone_validation
 
 
 class PhoneValidationMixin(models.AbstractModel):

@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo.addons.website_slides.tests import common as slides_common
-from odoo.tests.common import users
+from neoziv.addons.website_slides.tests import common as slides_common
+from neoziv.tests.common import users
 
 
 class TestSlidesManagement(slides_common.SlidesCase):

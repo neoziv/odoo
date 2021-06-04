@@ -1,4 +1,4 @@
-odoo.define('stock.forecast_widget', function (require) {
+neoziv.define('stock.forecast_widget', function (require) {
 'use strict';
 
 const AbstractField = require('web.AbstractField');

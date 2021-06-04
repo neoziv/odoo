@@ -1,4 +1,4 @@
-odoo.define('web.KanbanColumn', function (require) {
+neoziv.define('web.KanbanColumn', function (require) {
 "use strict";
 
 var config = require('web.config');
@@ -353,7 +353,7 @@ var KanbanColumn = Widget.extend({
     },
     /**
      * @private
-     * @param {OdooEvent} event
+     * @param {neozivEvent} event
      */
     _onQuickCreateAddRecord: function (event) {
         this.trigger_up('quick_create_record', event.data);
@@ -368,14 +368,14 @@ var KanbanColumn = Widget.extend({
     },
     /**
      * @private
-     * @param {OdooEvent} ev
+     * @param {neozivEvent} ev
      */
     _onTweakColumn: function (ev) {
         ev.data.callback(this.$el);
     },
     /**
      * @private
-     * @param {OdooEvent} ev
+     * @param {neozivEvent} ev
      */
     _onTweakColumnRecords: function (ev) {
         _.each(this.records, function (record) {

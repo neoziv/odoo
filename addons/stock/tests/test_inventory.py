@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-from odoo.exceptions import ValidationError
-from odoo.tests.common import Form, SavepointCase
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
+from neoziv.exceptions import ValidationError
+from neoziv.tests.common import Form, SavepointCase
 
 
 class TestInventory(SavepointCase):

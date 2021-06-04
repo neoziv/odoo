@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from datetime import date, timedelta
 
-from odoo.addons.crm.tests.common import TestCrmCommon
-from odoo.tests.common import users
+from neoziv.addons.crm.tests.common import TestCrmCommon
+from neoziv.tests.common import users
 
 
 class TestCrmMailActivity(TestCrmCommon):

@@ -1,10 +1,10 @@
 .ui-autocomplete .ui-menu-item {
     > a.ui-state-active {
-        background-color: $o-brand-odoo;
+        background-color: $o-brand-neoziv;
         color: white;
     }
     &.o_m2o_dropdown_option > a {
-        color: $o-brand-odoo;
+        color: $o-brand-neoziv;
         &.ui-state-active {
             color: white;
         }

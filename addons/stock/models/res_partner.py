@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo import fields, models
-from odoo.addons.base.models.res_partner import WARNING_HELP, WARNING_MESSAGE
+from neoziv import fields, models
+from neoziv.addons.base.models.res_partner import WARNING_HELP, WARNING_MESSAGE
 
 
 class Partner(models.Model):

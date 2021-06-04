@@ -1,5 +1,5 @@
 
-from odoo import _, api, fields, models
+from neoziv import _, api, fields, models
 
 class SnailmailLetterCancel(models.TransientModel):
     _name = 'snailmail.letter.cancel'

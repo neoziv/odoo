@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from odoo import fields, models, exceptions, _
+from neoziv import fields, models, exceptions, _
 
 
 class Rating(models.Model):

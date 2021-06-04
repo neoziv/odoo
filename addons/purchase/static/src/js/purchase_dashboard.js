@@ -1,4 +1,4 @@
-odoo.define('purchase.dashboard', function (require) {
+neoziv.define('purchase.dashboard', function (require) {
 "use strict";
 
 /**
@@ -130,7 +130,7 @@ var PurchaseListDashboardController = ListController.extend({
 
     /**
      * @private
-     * @param {OdooEvent} e
+     * @param {neozivEvent} e
      */
     _onDashboardOpenAction: function (e) {
         return this.do_action(e.data.action_name,
@@ -245,7 +245,7 @@ var PurchaseKanbanDashboardController = KanbanController.extend({
 
     /**
      * @private
-     * @param {OdooEvent} e
+     * @param {neozivEvent} e
      */
     _onDashboardOpenAction: function (e) {
         return this.do_action(e.data.action_name,

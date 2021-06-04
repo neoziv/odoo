@@ -1,4 +1,4 @@
-odoo.define('hr.StandaloneM2OAvatarEmployee', function (require) {
+neoziv.define('hr.StandaloneM2OAvatarEmployee', function (require) {
     'use strict';
 
     const StandaloneFieldManagerMixin = require('web.StandaloneFieldManagerMixin');

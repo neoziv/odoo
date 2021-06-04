@@ -1,18 +1,18 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 import base64
 import datetime
 import hmac
 import json
 import logging
-import odoo
+import neoziv
 import requests
 import werkzeug
 
-import odoo.addons.iap.tools.iap_tools
-from odoo import http, tools
-from odoo.http import request
-from odoo.tools.misc import formatLang
+import neoziv.addons.iap.tools.iap_tools
+from neoziv import http, tools
+from neoziv.http import request
+from neoziv.tools.misc import formatLang
 
 _logger = logging.getLogger(__name__)
 
@@ -41,7 +41,7 @@ class MailClientExtensionController(http.Controller):
     @http.route('/mail_client_extension/auth', type='http', auth="user", methods=['GET'], website=True)
     def auth(self, **values):
         """
-         Once authenticated this route renders the view that shows an app wants to access Odoo.
+         Once authenticated this route renders the view that shows an app wants to access neoziv.
          The user is invited to allow or deny the app. The form posts to `/mail_client_extension/auth/confirm`.
          """
         return request.render('mail_client_extension.app_auth', values)
@@ -49,7 +49,7 @@ class MailClientExtensionController(http.Controller):
     @http.route('/mail_client_extension/auth/confirm', type='http', auth="user", methods=['POST'])
     def auth_confirm(self, scope, friendlyname, redirect, info=None, do=None, **kw):
         """
-        Called by the `app_auth` template. If the user decided to allow the app to access Odoo, a temporary auth code
+        Called by the `app_auth` template. If the user decided to allow the app to access neoziv, a temporary auth code
         is generated and he is redirected to `redirect` with this code in the URL. It should redirect to the app, and
         the app should then exchange this auth code for an access token by calling
         `/mail_client_extension/auth/access_token`.
@@ -77,7 +77,7 @@ class MailClientExtensionController(http.Controller):
         if not auth_message:
             return {"error": "Invalid code"}
         request.uid = auth_message['uid']
-        scope = 'odoo.plugin.' + auth_message.get('scope', '')
+        scope = 'neoziv.plugin.' + auth_message.get('scope', '')
         api_key = request.env['res.users.apikeys']._generate(scope, auth_message['name'])
         return {'access_token': api_key }
 
@@ -85,7 +85,7 @@ class MailClientExtensionController(http.Controller):
         data, auth_code_signature = auth_code.split('.')
         data = base64.b64decode(data)
         auth_code_signature = base64.b64decode(auth_code_signature)
-        signature = odoo.tools.misc.hmac(request.env(su=True), 'mail_client_extension', data).encode()
+        signature = neoziv.tools.misc.hmac(request.env(su=True), 'mail_client_extension', data).encode()
         if not hmac.compare_digest(auth_code_signature, signature):
             return None
 
@@ -106,7 +106,7 @@ class MailClientExtensionController(http.Controller):
             'uid': request.uid,
         }
         auth_message = json.dumps(auth_dict, sort_keys=True).encode()
-        signature = odoo.tools.misc.hmac(request.env(su=True), 'mail_client_extension', auth_message).encode()
+        signature = neoziv.tools.misc.hmac(request.env(su=True), 'mail_client_extension', auth_message).encode()
         auth_code = "%s.%s" % (base64.b64encode(auth_message).decode(), base64.b64encode(signature).decode())
         _logger.info('Auth code created - user %s, scope %s', request.env.user, scope)
         return auth_code
@@ -115,8 +115,8 @@ class MailClientExtensionController(http.Controller):
         enriched_data = {}
         try:
             response = request.env['iap.enrich.api']._request_enrich({domain: domain}) # The key doesn't matter
-        #except odoo.addons.iap.models.iap.InsufficientCreditError as ice:
-        except odoo.addons.iap.tools.iap_tools.InsufficientCreditError:
+        #except neoziv.addons.iap.models.iap.InsufficientCreditError as ice:
+        except neoziv.addons.iap.tools.iap_tools.InsufficientCreditError:
             enriched_data['enrichment_info'] = {'type': 'insufficient_credit', 'info': request.env['iap.account'].get_credits_url('reveal')}
         except Exception as e:
             enriched_data["enrichment_info"] = {'type': 'other', 'info': 'Unknown reason'}

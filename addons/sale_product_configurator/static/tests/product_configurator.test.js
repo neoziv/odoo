@@ -1,4 +1,4 @@
-odoo.define('sale.product.configurator.tests', function (require) {
+neoziv.define('sale.product.configurator.tests', function (require) {
 "use strict";
 
 var FormView = require('web.FormView');

@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo import http
-from odoo.addons.website_sale.controllers.variant import WebsiteSaleVariantController
+from neoziv import http
+from neoziv.addons.website_sale.controllers.variant import WebsiteSaleVariantController
 
 
 class WebsiteSaleStockVariantController(WebsiteSaleVariantController):

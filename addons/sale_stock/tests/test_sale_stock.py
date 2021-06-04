@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 from datetime import datetime, timedelta
 
-from odoo.addons.stock_account.tests.test_anglo_saxon_valuation_reconciliation_common import ValuationReconciliationTestCommon
-from odoo.addons.sale.tests.common import TestSaleCommon
-from odoo.exceptions import UserError
-from odoo.tests import Form, tagged
+from neoziv.addons.stock_account.tests.test_anglo_saxon_valuation_reconciliation_common import ValuationReconciliationTestCommon
+from neoziv.addons.sale.tests.common import TestSaleCommon
+from neoziv.exceptions import UserError
+from neoziv.tests import Form, tagged
 
 
 @tagged('post_install', '-at_install')

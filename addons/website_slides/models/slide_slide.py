@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import base64
 import datetime
@@ -13,12 +13,12 @@ from dateutil.relativedelta import relativedelta
 from PIL import Image
 from werkzeug import urls
 
-from odoo import api, fields, models, _
-from odoo.addons.http_routing.models.ir_http import slug
-from odoo.exceptions import Warning, UserError, AccessError
-from odoo.http import request
-from odoo.addons.http_routing.models.ir_http import url_for
-from odoo.tools import sql
+from neoziv import api, fields, models, _
+from neoziv.addons.http_routing.models.ir_http import slug
+from neoziv.exceptions import Warning, UserError, AccessError
+from neoziv.http import request
+from neoziv.addons.http_routing.models.ir_http import url_for
+from neoziv.tools import sql
 
 
 class SlidePartnerRelation(models.Model):

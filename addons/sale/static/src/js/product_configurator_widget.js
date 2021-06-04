@@ -1,4 +1,4 @@
-odoo.define('sale.product_configurator', function (require) {
+neoziv.define('sale.product_configurator', function (require) {
 var relationalFields = require('web.relational_fields');
 var FieldsRegistry = require('web.field_registry');
 var core = require('web.core');
@@ -108,7 +108,7 @@ var ProductConfiguratorWidget = relationalFields.FieldMany2One.extend({
      * before calling super.
      *
      * @override
-     * @param {OdooEvent} ev
+     * @param {neozivEvent} ev
      * @param {boolean} ev.data.preventProductIdCheck prevent the product configurator widget
      *     from looping forever when it needs to change the 'product_template_id'
      *

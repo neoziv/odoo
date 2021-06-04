@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<odoo>
+<neoziv>
     <data>
 
         <template id="assets" inherit_id="point_of_sale.assets">
@@ -15,4 +15,4 @@
         </template>
 
     </data>
-</odoo>
+</neoziv>

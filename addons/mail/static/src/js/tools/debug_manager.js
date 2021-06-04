@@ -1,4 +1,4 @@
-odoo.define('mail.DebugManager.Backend', function (require) {
+neoziv.define('mail.DebugManager.Backend', function (require) {
 "use strict";
 
 var core = require('web.core');

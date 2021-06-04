@@ -1,28 +1,28 @@
-odoo.define('web.KeyboardNavigationMixin', function (require) {
+neoziv.define('web.KeyboardNavigationMixin', function (require) {
     "use strict";
     var BrowserDetection = require('web.BrowserDetection');
     const core = require('web.core');
 
     /**
-     * list of the key that should not be used as accesskeys. Either because we want to reserve them for a specific behavior in Odoo or
+     * list of the key that should not be used as accesskeys. Either because we want to reserve them for a specific behavior in neoziv or
      * because they will not work in certain browser/OS
      */
     var knownUnusableAccessKeys = [' ',
-        'A', // reserved for Odoo Edit
-        'B', // reserved for Odoo Previous Breadcrumb (Back)
-        'C', // reserved for Odoo Create
-        'H', // reserved for Odoo Home
-        'J', // reserved for Odoo Discard
-        'K', // reserved for Odoo Kanban view
-        'L', // reserved for Odoo List view
-        'N', // reserved for Odoo pager Next
-        'P', // reserved for Odoo pager Previous
-        'S', // reserved for Odoo Save
-        'Q', // reserved for Odoo Search
+        'A', // reserved for neoziv Edit
+        'B', // reserved for neoziv Previous Breadcrumb (Back)
+        'C', // reserved for neoziv Create
+        'H', // reserved for neoziv Home
+        'J', // reserved for neoziv Discard
+        'K', // reserved for neoziv Kanban view
+        'L', // reserved for neoziv List view
+        'N', // reserved for neoziv pager Next
+        'P', // reserved for neoziv pager Previous
+        'S', // reserved for neoziv Save
+        'Q', // reserved for neoziv Search
         'E', // chrome does not support 'E' access key --> go to address bar to search google
         'F', // chrome does not support 'F' access key --> go to menu
         'D', // chrome does not support 'D' access key --> go to address bar
-        '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' // reserved for Odoo menus
+        '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' // reserved for neoziv menus
     ];
 
     var KeyboardNavigationMixin = {
@@ -132,7 +132,7 @@ odoo.define('web.KeyboardNavigationMixin', function (require) {
          * Assign access keys to all buttons inside $el and sets an overlay to show the access key
          * The access keys will be assigned using first the name of the button, letter by letter until we find one available,
          * after that we will assign any available letters.
-         * Not all letters should be used as access keys, some of the should be reserved for standard odoo behavior or browser behavior
+         * Not all letters should be used as access keys, some of the should be reserved for standard neoziv behavior or browser behavior
          *
          * @private
          * @param keyDownEvent {jQueryKeyboardEvent} the keyboard event triggered

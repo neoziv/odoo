@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-import odoo.tests
+import neoziv.tests
 from .common import TestProductConfiguratorCommon
 
 
-@odoo.tests.tagged('post_install', '-at_install')
-class TestUi(odoo.tests.HttpSavepointCase, TestProductConfiguratorCommon):
+@neoziv.tests.tagged('post_install', '-at_install')
+class TestUi(neoziv.tests.HttpSavepointCase, TestProductConfiguratorCommon):
 
     def setUp(self):
         super(TestUi, self).setUp()

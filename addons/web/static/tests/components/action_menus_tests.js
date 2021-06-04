@@ -1,4 +1,4 @@
-odoo.define('web.action_menus_tests', function (require) {
+neoziv.define('web.action_menus_tests', function (require) {
     "use strict";
 
     const ActionMenus = require('web.ActionMenus');

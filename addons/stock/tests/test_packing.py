@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo.tests import Form
-from odoo.tests.common import SavepointCase
-from odoo.tools import float_round
-from odoo.exceptions import UserError
+from neoziv.tests import Form
+from neoziv.tests.common import SavepointCase
+from neoziv.tools import float_round
+from neoziv.exceptions import UserError
 
 
 class TestPackingCommon(SavepointCase):

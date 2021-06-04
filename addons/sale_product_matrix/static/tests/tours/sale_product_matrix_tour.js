@@ -1,4 +1,4 @@
-odoo.define('sale_product_matrix.sale_matrix_tour', function (require) {
+neoziv.define('sale_product_matrix.sale_matrix_tour', function (require) {
 "use strict";
 
 var tour = require('web_tour.tour');

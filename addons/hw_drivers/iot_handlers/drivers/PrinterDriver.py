@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from base64 import b64decode
 from cups import IPPError, IPP_PRINTER_IDLE, IPP_PRINTER_PROCESSING, IPP_PRINTER_STOPPED
@@ -14,14 +14,14 @@ import subprocess
 import tempfile
 from uuid import getnode as get_mac
 
-from odoo import http
-from odoo.addons.hw_drivers.connection_manager import connection_manager
-from odoo.addons.hw_drivers.controllers.proxy import proxy_drivers
-from odoo.addons.hw_drivers.driver import Driver
-from odoo.addons.hw_drivers.event_manager import event_manager
-from odoo.addons.hw_drivers.iot_handlers.interfaces.PrinterInterface import PPDs, conn, cups_lock
-from odoo.addons.hw_drivers.main import iot_devices
-from odoo.addons.hw_drivers.tools import helpers
+from neoziv import http
+from neoziv.addons.hw_drivers.connection_manager import connection_manager
+from neoziv.addons.hw_drivers.controllers.proxy import proxy_drivers
+from neoziv.addons.hw_drivers.driver import Driver
+from neoziv.addons.hw_drivers.event_manager import event_manager
+from neoziv.addons.hw_drivers.iot_handlers.interfaces.PrinterInterface import PPDs, conn, cups_lock
+from neoziv.addons.hw_drivers.main import iot_devices
+from neoziv.addons.hw_drivers.tools import helpers
 
 _logger = logging.getLogger(__name__)
 
@@ -156,7 +156,7 @@ class PrinterDriver(Driver):
             self.send_status()
 
     def send_status(self):
-        """ Sends the current status of the printer to the connected Odoo instance.
+        """ Sends the current status of the printer to the connected neoziv instance.
         """
         self.data = {
             'value': '',

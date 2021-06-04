@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from werkzeug.exceptions import NotFound
 
-from odoo.http import Controller, request, route, content_disposition
+from neoziv.http import Controller, request, route, content_disposition
 
 
 class EventController(Controller):

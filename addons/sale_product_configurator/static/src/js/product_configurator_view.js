@@ -1,4 +1,4 @@
-odoo.define('sale_product_configurator.ProductConfiguratorFormView', function (require) {
+neoziv.define('sale_product_configurator.ProductConfiguratorFormView', function (require) {
 "use strict";
 
 var ProductConfiguratorFormController = require('sale_product_configurator.ProductConfiguratorFormController');

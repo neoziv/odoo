@@ -1,4 +1,4 @@
-odoo.define('im_livechat/static/src/widgets/discuss/discuss.js', function (require) {
+neoziv.define('im_livechat/static/src/widgets/discuss/discuss.js', function (require) {
 'use strict';
 
 const Discuss = require('mail/static/src/widgets/discuss/discuss.js');

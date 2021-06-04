@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* iap
 # 
@@ -6,19 +6,19 @@
 # Martin Trigaux, 2020
 # Xavier Belmere <Info@cartmeleon.com>, 2020
 # Aurélien Pillevesse <aurelienpillevesse@hotmail.fr>, 2020
-# Eloïse Stilmant <est@odoo.com>, 2020
-# Cécile Collart <cco@odoo.com>, 2020
-# Alexandra Jubert <aju@odoo.com>, 2020
+# Eloïse Stilmant <est@neoziv.com>, 2020
+# Cécile Collart <cco@neoziv.com>, 2020
+# Alexandra Jubert <aju@neoziv.com>, 2020
 # Gilles Mangin <gilles.mangin@phidias.fr>, 2020
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~13.3\n"
+"Project-Id-Version: neoziv Server saas~13.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-21 10:46+0000\n"
 "PO-Revision-Date: 2020-09-07 08:13+0000\n"
 "Last-Translator: Gilles Mangin <gilles.mangin@phidias.fr>, 2020\n"
-"Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"Language-Team: French (https://www.transifex.com/neoziv/teams/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -139,8 +139,8 @@ msgstr "Dernière mise à jour le"
 
 #. module: iap
 #: model_terms:ir.ui.view,arch_db:iap.res_config_settings_view_form
-msgid "Odoo IAP"
-msgstr "Odoo IAP"
+msgid "neoziv IAP"
+msgstr "neoziv IAP"
 
 #. module: iap
 #: model:ir.actions.server,name:iap.open_iap_account
@@ -156,8 +156,8 @@ msgstr "Nom du service"
 #. openerp-web
 #: code:addons/iap/static/src/js/crash_manager.js:0
 #, python-format
-msgid "Start a Trial at Odoo"
-msgstr "Démarrer un essai avec Odoo"
+msgid "Start a Trial at neoziv"
+msgstr "Démarrer un essai avec neoziv"
 
 #. module: iap
 #: code:addons/iap/models/iap.py:0

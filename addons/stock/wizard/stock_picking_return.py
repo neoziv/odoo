@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo import _, api, fields, models
-from odoo.exceptions import UserError
-from odoo.tools.float_utils import float_round
+from neoziv import _, api, fields, models
+from neoziv.exceptions import UserError
+from neoziv.tools.float_utils import float_round
 
 
 class ReturnPickingLine(models.TransientModel):

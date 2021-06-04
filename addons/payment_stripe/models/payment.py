@@ -11,13 +11,13 @@ import pprint
 from requests.exceptions import HTTPError
 from werkzeug import urls
 
-from odoo import api, fields, models, _
-from odoo.http import request
-from odoo.tools.float_utils import float_round
-from odoo.tools import consteq
-from odoo.exceptions import ValidationError
+from neoziv import api, fields, models, _
+from neoziv.http import request
+from neoziv.tools.float_utils import float_round
+from neoziv.tools import consteq
+from neoziv.exceptions import ValidationError
 
-from odoo.addons.payment_stripe.controllers.main import StripeController
+from neoziv.addons.payment_stripe.controllers.main import StripeController
 
 _logger = logging.getLogger(__name__)
 
@@ -40,7 +40,7 @@ class PaymentAcquirerStripe(models.Model):
     stripe_webhook_secret = fields.Char(
         string='Stripe Webhook Secret', groups='base.group_user',
         help="If you enable webhooks, this secret is used to verify the electronic "
-             "signature of events sent by Stripe to Odoo. Failing to set this field in Odoo "
+             "signature of events sent by Stripe to neoziv. Failing to set this field in neoziv "
              "will disable the webhook system for this acquirer entirely.")
     stripe_image_url = fields.Char(
         "Checkout Image URL", groups='base.group_user',
@@ -205,7 +205,7 @@ class PaymentAcquirerStripe(models.Model):
         """Process a webhook payload from Stripe.
 
         Post-process a webhook payload to act upon the matching payment.transaction
-        record in Odoo.
+        record in neoziv.
         """
         wh_type = data.get('type')
         if wh_type != 'checkout.session.completed':
@@ -247,7 +247,7 @@ class PaymentAcquirerStripe(models.Model):
         if not consteq(expected_signature, actual_signature):
             _logger.error(
                 'incorrect webhook signature from Stripe, check if the webhook signature '
-                'in Odoo matches to one in the Stripe dashboard')
+                'in neoziv matches to one in the Stripe dashboard')
             raise ValidationError('incorrect webhook signature')
 
         return True
@@ -264,26 +264,26 @@ class PaymentAcquirerStripe(models.Model):
         tx_reference = checkout_object.get('client_reference_id')
         data = {'reference': tx_reference}
         try:
-            odoo_tx = self.env['payment.transaction']._stripe_form_get_tx_from_data(data)
+            neoziv_tx = self.env['payment.transaction']._stripe_form_get_tx_from_data(data)
         except ValidationError as e:
             _logger.info('Received notification for tx %s. Skipped it because of %s', tx_reference, e)
             return False
 
-        PaymentAcquirerStripe._verify_stripe_signature(odoo_tx.acquirer_id)
+        PaymentAcquirerStripe._verify_stripe_signature(neoziv_tx.acquirer_id)
 
-        url = 'payment_intents/%s' % odoo_tx.stripe_payment_intent
-        stripe_tx = odoo_tx.acquirer_id._stripe_request(url)
+        url = 'payment_intents/%s' % neoziv_tx.stripe_payment_intent
+        stripe_tx = neoziv_tx.acquirer_id._stripe_request(url)
 
         if 'error' in stripe_tx:
             error = stripe_tx['error']
             raise ValidationError("Could not fetch Stripe payment intent related to %s because of %s; see %s" % (
-                odoo_tx, error['message'], error['doc_url']))
+                neoziv_tx, error['message'], error['doc_url']))
 
         if stripe_tx.get('charges') and stripe_tx.get('charges').get('total_count'):
             charge = stripe_tx.get('charges').get('data')[0]
             data.update(charge)
 
-        return odoo_tx.form_feedback(data, 'stripe')
+        return neoziv_tx.form_feedback(data, 'stripe')
 
 
 class PaymentTransactionStripe(models.Model):

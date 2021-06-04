@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 import hashlib
 import json
 
-from odoo import api, models
-from odoo.http import request
-from odoo.tools import ustr
+from neoziv import api, models
+from neoziv.http import request
+from neoziv.tools import ustr
 
-from odoo.addons.web.controllers.main import module_boot, HomeStaticTemplateHelpers
+from neoziv.addons.web.controllers.main import module_boot, HomeStaticTemplateHelpers
 
-import odoo
+import neoziv
 
 
 class Http(models.AbstractModel):
@@ -23,7 +23,7 @@ class Http(models.AbstractModel):
 
     def session_info(self):
         user = request.env.user
-        version_info = odoo.service.common.exp_version()
+        version_info = neoziv.service.common.exp_version()
 
         user_context = request.session.get_context() if request.session.uid else {}
         IrConfigSudo = self.env['ir.config_parameter'].sudo()
@@ -78,7 +78,7 @@ class Http(models.AbstractModel):
             'is_frontend': True,
         }
         if request.session.uid:
-            version_info = odoo.service.common.exp_version()
+            version_info = neoziv.service.common.exp_version()
             session_info.update({
                 'server_version': version_info.get('server_version'),
                 'server_version_info': version_info.get('server_version_info')

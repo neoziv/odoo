@@ -1,4 +1,4 @@
-odoo.define('microsoft_calendar.MicrosoftCalendarPopover', function(require) {
+neoziv.define('microsoft_calendar.MicrosoftCalendarPopover', function(require) {
     "use strict";
 
     const CalendarPopover = require('web.CalendarPopover');

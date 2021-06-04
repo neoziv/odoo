@@ -1,4 +1,4 @@
-odoo.define('website_slides.Activity', function (require) {
+neoziv.define('website_slides.Activity', function (require) {
 "use strict";
 
 var field_registry = require('web.field_registry');
@@ -44,7 +44,7 @@ applyInclude(KanbanActivity);
 
 });
 
-odoo.define('website_slides/static/src/components/activity/activity.js', function (require) {
+neoziv.define('website_slides/static/src/components/activity/activity.js', function (require) {
 'use strict';
 
 const components = {

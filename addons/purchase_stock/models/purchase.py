@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-from odoo import api, fields, models, SUPERUSER_ID, _
-from odoo.tools.float_utils import float_compare, float_round
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
+from neoziv import api, fields, models, SUPERUSER_ID, _
+from neoziv.tools.float_utils import float_compare, float_round
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
-from odoo.exceptions import UserError
+from neoziv.exceptions import UserError
 
-from odoo.addons.purchase.models.purchase import PurchaseOrder as Purchase
+from neoziv.addons.purchase.models.purchase import PurchaseOrder as Purchase
 
 
 class PurchaseOrder(models.Model):

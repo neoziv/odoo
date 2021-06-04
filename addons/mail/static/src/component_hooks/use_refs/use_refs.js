@@ -1,4 +1,4 @@
-odoo.define('mail/static/src/component_hooks/use_refs/use_refs.js', function (require) {
+neoziv.define('mail/static/src/component_hooks/use_refs/use_refs.js', function (require) {
 'use strict';
 
 const { Component } = owl;

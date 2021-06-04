@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from lxml import etree
 import re
 
-from odoo import http, tools
-from odoo.addons.base.tests.common import TransactionCaseWithUserDemo
-from odoo.addons.website.tools import MockRequest
-from odoo.modules.module import get_module_resource
-from odoo.tests.common import TransactionCase
+from neoziv import http, tools
+from neoziv.addons.base.tests.common import TransactionCaseWithUserDemo
+from neoziv.addons.website.tools import MockRequest
+from neoziv.modules.module import get_module_resource
+from neoziv.tests.common import TransactionCase
 
 
 class TestQweb(TransactionCaseWithUserDemo):

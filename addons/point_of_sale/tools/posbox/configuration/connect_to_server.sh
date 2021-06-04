@@ -3,7 +3,7 @@
 # Write the server configuration
 function connect () {
 	SERVER="${1}"
-	CURRENT_SERVER_FILE=/home/pi/odoo-remote-server.conf
+	CURRENT_SERVER_FILE=/home/pi/neoziv-remote-server.conf
 	TOKEN_FILE=/home/pi/token
 	TOKEN="${3}"
 	REBOOT="${4}"
@@ -41,7 +41,7 @@ function connect () {
 	sudo mount -o remount,ro /root_bypass_ramdisks
 	if [ "$REBOOT" == 'reboot' ]
 	then
-		sudo service odoo restart
+		sudo service neoziv restart
 	fi
 }
 

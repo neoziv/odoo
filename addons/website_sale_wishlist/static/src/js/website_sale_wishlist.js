@@ -1,4 +1,4 @@
-odoo.define('website_sale_wishlist.wishlist', function (require) {
+neoziv.define('website_sale_wishlist.wishlist', function (require) {
 "use strict";
 
 var publicWidget = require('web.public.widget');

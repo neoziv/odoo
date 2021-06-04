@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo import SUPERUSER_ID
-from odoo.addons.crm.tests import common as crm_common
-from odoo.fields import Datetime
-from odoo.tests.common import tagged, users
-from odoo.tests.common import Form
+from neoziv import SUPERUSER_ID
+from neoziv.addons.crm.tests import common as crm_common
+from neoziv.fields import Datetime
+from neoziv.tests.common import tagged, users
+from neoziv.tests.common import Form
 
 @tagged('lead_manage')
 class TestLeadConvertForm(crm_common.TestLeadConvertCommon):

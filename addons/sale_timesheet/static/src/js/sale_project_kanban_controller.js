@@ -1,4 +1,4 @@
-odoo.define('sale_timesheet.sale_project_kanban_controller', function (require) {
+neoziv.define('sale_timesheet.sale_project_kanban_controller', function (require) {
 "use strict";
 
 var core = require('web.core');

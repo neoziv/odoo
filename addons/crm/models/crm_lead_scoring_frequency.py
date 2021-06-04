@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from odoo import fields, models
+from neoziv import fields, models
 
 
 class LeadScoringFrequency(models.Model):

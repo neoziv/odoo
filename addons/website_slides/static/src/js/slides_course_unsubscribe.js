@@ -1,4 +1,4 @@
-odoo.define('website_slides.unsubscribe_modal', function (require) {
+neoziv.define('website_slides.unsubscribe_modal', function (require) {
 'use strict';
 
 var core = require('web.core');

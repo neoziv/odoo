@@ -1,4 +1,4 @@
-odoo.define('sale.product_configurator_single_custom_attribute_tour', function (require) {
+neoziv.define('sale.product_configurator_single_custom_attribute_tour', function (require) {
 "use strict";
 
 var tour = require('web_tour.tour');

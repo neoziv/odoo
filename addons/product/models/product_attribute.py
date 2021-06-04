@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, fields, models, tools, _
-from odoo.exceptions import UserError, ValidationError
-from odoo.osv import expression
+from neoziv import api, fields, models, tools, _
+from neoziv.exceptions import UserError, ValidationError
+from neoziv.osv import expression
 
 
 class ProductAttribute(models.Model):
@@ -286,7 +286,7 @@ class ProductTemplateAttributeLine(models.Model):
         ptal_to_archive = self.env['product.template.attribute.line']
         for ptal in self:
             try:
-                with self.env.cr.savepoint(), tools.mute_logger('odoo.sql_db'):
+                with self.env.cr.savepoint(), tools.mute_logger('neoziv.sql_db'):
                     super(ProductTemplateAttributeLine, ptal).unlink()
             except Exception:
                 # We catch all kind of exceptions to be sure that the operation
@@ -486,7 +486,7 @@ class ProductTemplateAttributeValue(models.Model):
         ptav_to_archive = self.env['product.template.attribute.value']
         for ptav in self:
             try:
-                with self.env.cr.savepoint(), tools.mute_logger('odoo.sql_db'):
+                with self.env.cr.savepoint(), tools.mute_logger('neoziv.sql_db'):
                     super(ProductTemplateAttributeValue, ptav).unlink()
             except Exception:
                 # We catch all kind of exceptions to be sure that the operation

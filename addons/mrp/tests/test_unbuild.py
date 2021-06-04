@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo.tests import Form
-from odoo.addons.mrp.tests.common import TestMrpCommon
-from odoo.exceptions import UserError
+from neoziv.tests import Form
+from neoziv.addons.mrp.tests.common import TestMrpCommon
+from neoziv.exceptions import UserError
 
 
 class TestUnbuild(TestMrpCommon):

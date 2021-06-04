@@ -1,4 +1,4 @@
-odoo.define('pos_reataurant.tour.synchronized_table_management', function (require) {
+neoziv.define('pos_reataurant.tour.synchronized_table_management', function (require) {
     'use strict';
 
     const { PaymentScreen } = require('point_of_sale.tour.PaymentScreenTourMethods');

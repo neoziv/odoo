@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import json
 
@@ -7,9 +7,9 @@ from babel.dates import format_date
 from datetime import date
 from dateutil.relativedelta import relativedelta
 
-from odoo import api, fields, models, _
-from odoo.exceptions import UserError
-from odoo.release import version
+from neoziv import api, fields, models, _
+from neoziv.exceptions import UserError
+from neoziv.release import version
 
 
 class CrmTeam(models.Model):

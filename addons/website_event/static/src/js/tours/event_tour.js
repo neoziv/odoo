@@ -1,4 +1,4 @@
-odoo.define('website_event.event_steps', function (require) {
+neoziv.define('website_event.event_steps', function (require) {
 "use strict";
 
 var core = require('web.core');

@@ -1,4 +1,4 @@
-odoo.define("web.patchMixin", function () {
+neoziv.define("web.patchMixin", function () {
     "use strict";
 
     /**

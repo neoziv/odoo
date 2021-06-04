@@ -22,7 +22,7 @@ body.o_is_superuser .o_menu_systray {
     position: relative;
     height: $o-navbar-height;
     border-bottom: 1px solid $o-navbar-inverse-link-hover-bg;
-    background-color: $o-brand-odoo;
+    background-color: $o-brand-neoziv;
     color: white;
 
     > a, > button {
@@ -111,12 +111,12 @@ body.o_is_superuser .o_menu_systray {
 
                     > li {
                         > a {
-                            background-color: $o-brand-odoo;
+                            background-color: $o-brand-neoziv;
                             color: white;
                             border-bottom: 1px solid $o-brand-lightsecondary;
 
                             &.dropdown-toggle {
-                                background-color: lighten($o-brand-odoo, 15%);
+                                background-color: lighten($o-brand-neoziv, 15%);
                                 pointer-events: none; // hack to prevent clicking on it because dropdown always opened
                             }
                         }

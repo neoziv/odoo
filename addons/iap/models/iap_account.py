@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import logging
 import uuid
 import werkzeug.urls
 
-from odoo import api, fields, models
-from odoo.addons.iap.tools import iap_tools
+from neoziv import api, fields, models
+from neoziv.addons.iap.tools import iap_tools
 
 _logger = logging.getLogger(__name__)
 
-DEFAULT_ENDPOINT = 'https://iap.odoo.com'
+DEFAULT_ENDPOINT = 'https://iap.neoziv.com'
 
 
 class IapAccount(models.Model):

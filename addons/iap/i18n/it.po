@@ -1,19 +1,19 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* iap
 # 
 # Translators:
-# Léonie Bouchat <lbo@odoo.com>, 2020
+# Léonie Bouchat <lbo@neoziv.com>, 2020
 # Sergio Zanchetta <primes2h@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~13.3\n"
+"Project-Id-Version: neoziv Server saas~13.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-21 10:46+0000\n"
 "PO-Revision-Date: 2020-09-07 08:13+0000\n"
 "Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2021\n"
-"Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
+"Language-Team: Italian (https://www.transifex.com/neoziv/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -134,8 +134,8 @@ msgstr "Ultimo aggiornamento il"
 
 #. module: iap
 #: model_terms:ir.ui.view,arch_db:iap.res_config_settings_view_form
-msgid "Odoo IAP"
-msgstr "Acquisti integrati Odoo"
+msgid "neoziv IAP"
+msgstr "Acquisti integrati neoziv"
 
 #. module: iap
 #: model:ir.actions.server,name:iap.open_iap_account
@@ -151,8 +151,8 @@ msgstr "Nome servizio"
 #. openerp-web
 #: code:addons/iap/static/src/js/crash_manager.js:0
 #, python-format
-msgid "Start a Trial at Odoo"
-msgstr "Inizia una prova con Odoo"
+msgid "Start a Trial at neoziv"
+msgstr "Inizia una prova con neoziv"
 
 #. module: iap
 #: code:addons/iap/models/iap.py:0

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* sale_quotation_builder
 # 
@@ -11,12 +11,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~13.5\n"
+"Project-Id-Version: neoziv Server saas~13.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-01 07:29+0000\n"
 "PO-Revision-Date: 2020-09-07 08:18+0000\n"
 "Last-Translator: Nurbahyt Kh <nurbahyt.kh@gmail.com>, 2020\n"
-"Language-Team: Mongolian (https://www.transifex.com/odoo/teams/41243/mn/)\n"
+"Language-Team: Mongolian (https://www.transifex.com/neoziv/teams/41243/mn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -308,7 +308,7 @@ msgstr "Вэбсайтын тайлбар"
 #. module: sale_quotation_builder
 #: model_terms:sale.order.template,website_description:sale_quotation_builder.sale_order_template_default
 msgid ""
-"You can <strong>set a description per product</strong>. Odoo will\n"
+"You can <strong>set a description per product</strong>. neoziv will\n"
 "                        automatically create a quotation using the descriptions\n"
 "                        of all products in the proposal. The table of content\n"
 "                        on the left is generated automatically using the styles you\n"
@@ -316,6 +316,6 @@ msgid ""
 msgstr ""
 "Та <strong>бараа бүрт тайлбар хийх</strong> боломжтой. \n"
 "Санал болгосон бүх барааны тайлбарыг ашиглан \n"
-"Odoo автоматаар үнийн санал үүсгэнэ. Таны тайлбар \n"
+"neoziv автоматаар үнийн санал үүсгэнэ. Таны тайлбар \n"
 "дотор ашигласан загварын (heading 1, heading 2, ...) \n"
 "дагуу зүүн талд байрлах гарчигийг автоматаар боловсруулна."

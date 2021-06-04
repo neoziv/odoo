@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from freezegun import freeze_time
-from odoo.addons.account_edi.tests.common import AccountEdiTestCommon
-from odoo.tests import tagged
+from neoziv.addons.account_edi.tests.common import AccountEdiTestCommon
+from neoziv.tests import tagged
 
 
 @tagged('post_install', '-at_install')

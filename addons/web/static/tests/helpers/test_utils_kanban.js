@@ -1,4 +1,4 @@
-odoo.define('web.test_utils_kanban', function (require) {
+neoziv.define('web.test_utils_kanban', function (require) {
 "use strict";
 
 /**

@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 from datetime import timedelta
 
-from odoo.addons.stock.tests.common import TestStockCommon
-from odoo.exceptions import UserError
+from neoziv.addons.stock.tests.common import TestStockCommon
+from neoziv.exceptions import UserError
 
-from odoo.tests import Form
-from odoo.tools import float_is_zero, float_compare
+from neoziv.tests import Form
+from neoziv.tools import float_is_zero, float_compare
 
-from odoo.tests.common import Form
+from neoziv.tests.common import Form
 
 class TestPickShip(TestStockCommon):
     def create_pick_ship(self):

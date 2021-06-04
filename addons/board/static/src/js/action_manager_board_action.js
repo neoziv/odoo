@@ -1,4 +1,4 @@
-odoo.define('board.ActionManager', function (require) {
+neoziv.define('board.ActionManager', function (require) {
 "use strict";
 
 /**

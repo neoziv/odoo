@@ -1,5 +1,5 @@
-from odoo import api, fields, models, _
-from odoo.exceptions import UserError
+from neoziv import api, fields, models, _
+from neoziv.exceptions import UserError
 
 
 class PosPaymentMethod(models.Model):

@@ -1,27 +1,27 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* mrp
 # 
 # Translators:
-# Cécile Collart <cco@odoo.com>, 2020
+# Cécile Collart <cco@neoziv.com>, 2020
 # Martin Trigaux, 2020
 # Eric Geens <ericgeens@yahoo.com>, 2020
 # Gunther Clauwaert <gclauwae@hotmail.com>, 2020
-# Antoine Gilard <ang@odoo.com>, 2020
+# Antoine Gilard <ang@neoziv.com>, 2020
 # Yenthe Van Ginneken <yenthespam@gmail.com>, 2020
 # Cas Vissers <casvissers@brahoo.nl>, 2020
 # Melroy van den Berg <webmaster1989@gmail.com>, 2020
-# Odoo Experts Consultants <consultants@odooexperts.nl>, 2020
-# Erwin van der Ploeg <erwin@odooexperts.nl>, 2021
+# neoziv Experts Consultants <consultants@neozivexperts.nl>, 2020
+# Erwin van der Ploeg <erwin@neozivexperts.nl>, 2021
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-29 15:48+0000\n"
 "PO-Revision-Date: 2020-09-07 08:14+0000\n"
-"Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2021\n"
-"Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
+"Last-Translator: Erwin van der Ploeg <erwin@neozivexperts.nl>, 2021\n"
+"Language-Team: Dutch (https://www.transifex.com/neoziv/teams/41243/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -4917,12 +4917,12 @@ msgstr ""
 #. module: mrp
 #: model_terms:digest.tip,tip_description:mrp.digest_tip_mrp_0
 msgid ""
-"With the Odoo work center control panel, your worker can start work orders "
+"With the neoziv work center control panel, your worker can start work orders "
 "in the shop and follow instructions of the worksheet. Quality tests are "
 "perfectly integrated into the process. Workers can trigger feedback loops, "
 "maintenance alerts, scrap products, etc."
 msgstr ""
-"Met het Odoo werkplekcontrolepaneel kan je werknemer werkbonnen in de winkel"
+"Met het neoziv werkplekcontrolepaneel kan je werknemer werkbonnen in de winkel"
 " starten en de instructies van het werkblad volgen. Kwaliteitstesten zijn "
 "perfect geïntegreerd in het proces. Werknemers kunnen feedbackloops, "
 "onderhoudswaarschuwingen, schrootproducten enz. activeren."
@@ -5297,11 +5297,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mrp.view_immediate_production
 msgid ""
 "You have not recorded <i>produced</i> quantities yet, by clicking on "
-"<i>apply</i> Odoo will produce all the finished products and consume all "
+"<i>apply</i> neoziv will produce all the finished products and consume all "
 "components."
 msgstr ""
 "Je hebt nog geen <i>geproduceerde</i> hoeveelheden geregistreerd, door op "
-"<i>toepassen</i> te klikken zal Odoo alle eindproducten produceren en alle "
+"<i>toepassen</i> te klikken zal neoziv alle eindproducten produceren en alle "
 "componenten verbruiken."
 
 #. module: mrp

@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo.addons.website_slides.tests import common
-from odoo.tests import tagged
-from odoo.tests.common import users
-from odoo.tools import mute_logger
+from neoziv.addons.website_slides.tests import common
+from neoziv.tests import tagged
+from neoziv.tests.common import users
+from neoziv.tools import mute_logger
 
 
 @tagged('functional')
@@ -40,7 +40,7 @@ class TestKarmaGain(common.SlidesCase):
             'completion_time': 2.0,
         })
 
-    @mute_logger('odoo.models')
+    @mute_logger('neoziv.models')
     @users('user_emp', 'user_portal', 'user_officer')
     def test_karma_gain(self):
         user = self.env.user
@@ -98,7 +98,7 @@ class TestKarmaGain(common.SlidesCase):
         computed_karma -= self.slide_3.quiz_first_attempt_reward
         self.assertEqual(user.karma, computed_karma)
 
-    @mute_logger('odoo.models')
+    @mute_logger('neoziv.models')
     @users('user_emp', 'user_portal', 'user_officer')
     def test_karma_gain_multiple_course(self):
         user = self.env.user

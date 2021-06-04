@@ -1,4 +1,4 @@
-odoo.define('web.ActionMixin', function (require) {
+neoziv.define('web.ActionMixin', function (require) {
     "use strict";
 
     /**
@@ -37,7 +37,7 @@ odoo.define('web.ActionMixin', function (require) {
         contentTemplate: null,
 
         /**
-         * Events built by and managed by Odoo Framework
+         * Events built by and managed by neoziv Framework
          *
          * It is expected that any Widget Class implementing this mixin
          * will also implement the ParentedMixin which actually manages those

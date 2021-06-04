@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<odoo>
+<neoziv>
     <data>
         <record id="base.user_root" model="res.users">
-            <field name="odoobot_state">disabled</field>
+            <field name="neozivbot_state">disabled</field>
         </record>
     </data>
-</odoo>
+</neoziv>

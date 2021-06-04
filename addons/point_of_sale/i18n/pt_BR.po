@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of neoziv Server.
 # This file contains the translation of the following modules:
 # 	* point_of_sale
 # 
@@ -8,11 +8,11 @@
 # Pablo Valentini <pablondrina@gmail.com>, 2020
 # Hildeberto Abreu Magalhães <hildeberto@gmail.com>, 2020
 # Marcel Savegnago <marcel.savegnago@gmail.com>, 2020
-# Kevin Harrings <kha@odoo.com>, 2020
+# Kevin Harrings <kha@neoziv.com>, 2020
 # Emanuel Martins <emanuel.breno@gmail.com>, 2020
 # Hélio Dias de Brito Teixeira <helio.dbt@gmail.com>, 2020
 # Diego Bittencourt <diegomb86@gmail.com>, 2020
-# Fernanda Marques <fem@odoo.com>, 2020
+# Fernanda Marques <fem@neoziv.com>, 2020
 # Rodrigo de Almeida Sottomaior Macedo <rmsolucoeseminformatica@protonmail.com>, 2020
 # Rafael H L Moretti <rafael.moretti@gmail.com>, 2020
 # Adriel Kotviski <kotviski@gmail.com>, 2020
@@ -39,12 +39,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: neoziv Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-26 09:03+0000\n"
 "PO-Revision-Date: 2020-09-07 08:16+0000\n"
 "Last-Translator: Éder Brito <britoederr@gmail.com>, 2021\n"
-"Language-Team: Portuguese (Brazil) (https://www.transifex.com/odoo/teams/41243/pt_BR/)\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/neoziv/teams/41243/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -2140,8 +2140,8 @@ msgstr "ID"
 #. openerp-web
 #: code:addons/point_of_sale/static/src/js/Popups/ErrorTracebackPopup.js:0
 #, python-format
-msgid "IMPORTANT: Bug Report From Odoo Point Of Sale"
-msgstr "IMPORTANTE: Relatório de Erros do Odoo - Ponto de Venda"
+msgid "IMPORTANT: Bug Report From neoziv Point Of Sale"
+msgstr "IMPORTANTE: Relatório de Erros do neoziv - Ponto de Venda"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__proxy_ip
@@ -2863,8 +2863,8 @@ msgstr "Quantidade de mensagens não lidas"
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.customer_facing_display_html
 #: model_terms:pos.config,customer_facing_display_html:point_of_sale.pos_config_main
-msgid "Odoo Logo"
-msgstr "Logo do Odoo"
+msgid "neoziv Logo"
+msgstr "Logo do neoziv"
 
 #. module: point_of_sale
 #. openerp-web
@@ -5215,19 +5215,19 @@ msgstr "Este produto é usado como referência nos recibos dos clientes."
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_line_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by neoziv but you can change it to "
 "customize the reference numbers of your orders lines."
 msgstr ""
-"Essa sequencia é criada automaticamente pelo Odoo mas vc pode mudar "
+"Essa sequencia é criada automaticamente pelo neoziv mas vc pode mudar "
 "issocustomizando um número de referÊncia para as suas linhas de pedido"
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by neoziv but you can change it to "
 "customize the reference numbers of your orders."
 msgstr ""
-"Esta sequência é criada automaticamente pelo Odoo mas você pode alterá-la "
+"Esta sequência é criada automaticamente pelo neoziv mas você pode alterá-la "
 "para personalizar os números de referência dos seus pedidos."
 
 #. module: point_of_sale

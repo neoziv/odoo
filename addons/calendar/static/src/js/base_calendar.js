@@ -1,4 +1,4 @@
-odoo.define('base_calendar.base_calendar', function (require) {
+neoziv.define('base_calendar.base_calendar', function (require) {
 "use strict";
 
 var BasicModel = require('web.BasicModel');

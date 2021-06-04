@@ -1,7 +1,7 @@
 # coding: utf-8
-from odoo.addons.website_sale.controllers.main import WebsiteSale
-from odoo.addons.website.tools import MockRequest
-from odoo.tests import TransactionCase, tagged
+from neoziv.addons.website_sale.controllers.main import WebsiteSale
+from neoziv.addons.website.tools import MockRequest
+from neoziv.tests import TransactionCase, tagged
 
 @tagged('post_install', '-at_install')
 class WebsiteSaleVisitorTests(TransactionCase):

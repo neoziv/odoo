@@ -1,4 +1,4 @@
-odoo.define('purchase.product_matrix_configurator', function (require) {
+neoziv.define('purchase.product_matrix_configurator', function (require) {
 
 var relationalFields = require('web.relational_fields');
 var FieldsRegistry = require('web.field_registry');

@@ -1,4 +1,4 @@
-odoo.define('mail.Many2OneAvatarUser', function (require) {
+neoziv.define('mail.Many2OneAvatarUser', function (require) {
     "use strict";
 
     // This module defines an extension of the Many2OneAvatar widget, which is

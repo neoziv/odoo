@@ -1,4 +1,4 @@
-odoo.define('website_form_editor.tour', function (require) {
+neoziv.define('website_form_editor.tour', function (require) {
     'use strict';
 
     const rpc = require('web.rpc');

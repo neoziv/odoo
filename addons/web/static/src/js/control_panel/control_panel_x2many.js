@@ -1,4 +1,4 @@
-odoo.define('web.ControlPanelX2Many', function (require) {
+neoziv.define('web.ControlPanelX2Many', function (require) {
 
     const ControlPanel = require('web.ControlPanel');
 

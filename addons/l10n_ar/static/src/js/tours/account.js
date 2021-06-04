@@ -1,4 +1,4 @@
-odoo.define('l10n_ar.account_tour', function(require) {
+neoziv.define('l10n_ar.account_tour', function(require) {
 "use strict";
 
     let tour = require('web_tour.tour');

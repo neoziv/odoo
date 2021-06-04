@@ -1,4 +1,4 @@
-odoo.define('mrp.should_consume', function (require) {
+neoziv.define('mrp.should_consume', function (require) {
 "use strict";
 
 const BasicFields = require('web.basic_fields');

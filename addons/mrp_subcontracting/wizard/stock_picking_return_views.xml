@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<odoo>
+<neoziv>
     <record id="view_stock_return_picking_form_subcontracting" model="ir.ui.view">
         <field name="name">Return lines</field>
         <field name="model">stock.return.picking</field>
@@ -16,4 +16,4 @@
             </xpath>
         </field>
     </record>
-</odoo>
+</neoziv>

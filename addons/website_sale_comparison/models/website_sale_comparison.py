@@ -2,7 +2,7 @@
 
 from collections import OrderedDict
 
-from odoo import fields, models
+from neoziv import fields, models
 
 
 class ProductAttributeCategory(models.Model):

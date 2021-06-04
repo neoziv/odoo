@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
-from odoo import fields, models
-from odoo.osv.expression import AND
+from neoziv import fields, models
+from neoziv.osv.expression import AND
 
 class MrpBom(models.Model):
     _inherit = 'mrp.bom'

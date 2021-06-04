@@ -1,4 +1,4 @@
-odoo.define('web.test_utils_create', function (require) {
+neoziv.define('web.test_utils_create', function (require) {
     "use strict";
 
     /**
@@ -490,7 +490,7 @@ odoo.define('web.test_utils_create', function (require) {
      * to intercept custom or DOM events.
      *
      * @param {boolean} [debug=false] if true, the widget will be appended in
-     *      the DOM. Also, RPCs and uncaught OdooEvent will be logged
+     *      the DOM. Also, RPCs and uncaught neozivEvent will be logged
      * @returns {HTMLElement}
      */
     function prepareTarget(debug = false) {

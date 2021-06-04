@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Italy - Accounting',
@@ -17,7 +17,7 @@ Piano dei conti italiano di un'impresa generica.
 Italian accounting chart and localization.
     """,
     'category': 'Accounting/Localizations/Account Charts',
-    'website': 'http://www.odoo.com/',
+    'website': 'http://www.neoziv.com/',
     'data': [
         'data/l10n_it_chart_data.xml',
         'data/account.account.template.csv',

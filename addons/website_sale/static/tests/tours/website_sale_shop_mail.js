@@ -1,4 +1,4 @@
-odoo.define('website_sale.tour_shop_mail', function (require) {
+neoziv.define('website_sale.tour_shop_mail', function (require) {
 'use strict';
 
 var rpc = require('web.rpc');

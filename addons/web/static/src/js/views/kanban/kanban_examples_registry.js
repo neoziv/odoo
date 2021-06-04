@@ -1,4 +1,4 @@
-odoo.define('web.kanban_examples_registry', function (require) {
+neoziv.define('web.kanban_examples_registry', function (require) {
 "use strict";
 
 /**

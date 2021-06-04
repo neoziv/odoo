@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of neoziv. See LICENSE file for full copyright and licensing details.
 
 import json
 from datetime import date
 from unittest.mock import patch
 
-from odoo import http
-from odoo.tests import common, tagged
-from odoo.addons.web.controllers.main import ExportXlsxWriter
-from odoo.addons.mail.tests.common import mail_new_test_user
+from neoziv import http
+from neoziv.tests import common, tagged
+from neoziv.addons.web.controllers.main import ExportXlsxWriter
+from neoziv.addons.mail.tests.common import mail_new_test_user
 
 
 class XlsxCreatorCase(common.HttpCase):

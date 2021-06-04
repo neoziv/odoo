@@ -1,4 +1,4 @@
-odoo.define('pos_restaurant_adyen.payment', function (require) {
+neoziv.define('pos_restaurant_adyen.payment', function (require) {
     "use strict";
 
     var PaymentAdyen = require('pos_adyen.payment');
